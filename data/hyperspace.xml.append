@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<discord enabled="true">
+	<miniships> <!-- Asset ids for miniships - if a ship does not have a miniship defined here, it will use the "miniship_question" asset which has to be created in your application -->
+		<miniship>miniship_hektar_modular_base</miniship>
+		<miniship>miniship_hektar_modular_2_base</miniship>
+		<miniship>miniship_hektar_modular_3_base</miniship>
+	</miniships>
+	<appId>737088144931029032</appId> <!-- Discord app id -->
+	<icon>logo_50_big</icon> <!-- internal asset id for large icon -->
+</discord>
+
+<FTL>
+
+<version>^1.8.0</version>
+
+
+<mod:findLike type="ships" limit="1">
+
+	<mod-append:ship name="PLAYER_SHIP_HEKTAR_MODULAR" b="true" c="true" secret="false">
+	</mod-append:ship>
+
+	<mod-append:customShip name="PLAYER_SHIP_HEKTAR_MODULAR">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>MODULAR_BASE</hiddenAug>
+		<hiddenAug>MODULAR_BASE_BASE</hiddenAug>
+		<crewLimit>8</crewLimit>
+		<systemLimit>8</systemLimit>
+	</mod-append:customShip>
+
+	<mod-append:customShip name="PLAYER_SHIP_HEKTAR_MODULAR_2">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>MODULAR_BASE</hiddenAug>
+		<hiddenAug>MODULAR_BASE_BASE</hiddenAug>
+		<crewLimit>8</crewLimit>
+		<systemLimit>8</systemLimit>
+	</mod-append:customShip>
+
+	<mod-append:customShip name="PLAYER_SHIP_HEKTAR_MODULAR_3">
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>MODULAR_BASE</hiddenAug>
+		<hiddenAug>MODULAR_BASE_BASE</hiddenAug>
+		<crewLimit>8</crewLimit>
+	</mod-append:customShip>
+	
+</mod:findLike>
+
+<augments>
+	<aug name="MODULAR_BASE"/>
+	<aug name="MODULAR_BASE_BASE"/>
+	<aug name="MODULAR_BIO"/>
+	<aug name="MODULAR_STUN"/>
+	<aug name="MODULAR_PIERCE"/>
+	<aug name="MODULAR_LOCKDOWN"/>
+	<aug name="MODULAR_COOLDOWN"/>
+	<aug name="MODULAR_POWER"/>
+	<aug name="MODULAR_HULL"/>
+	<aug name="MODULAR_FIRE"/>
+	<aug name="MODULAR_ACCURACY"/>
+</augments>
+
+
+<mod:findLike type="scripts">
+    <mod-append:script>data/scripts/change_arti.lua</mod-append:script>
+</mod:findLike>
+
+<mod:findLike type="store">
+    <mod:findLike type="customStore"><mod:selector id="STORE_HEKTAR_VIRTUAL" />
+        <mod-append:category type="DRONES">
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_DRONE_BASE</blueprint>
+                <modifier min="1.2" max="1.2" flat="false"/>
+                <price>-1</price>
+            </item>
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_DRONE_BASE</blueprint>
+                <modifier min="1.2" max="1.2" flat="false"/>
+                <price>-1</price>
+            </item>
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_DRONE_BASE</blueprint>
+                <modifier min="1.2" max="1.2" flat="false"/>
+                <price>-1</price>
+            </item>
+        </mod-append:category>
+    </mod:findLike>
+    <mod:findLike type="customStore"><mod:selector id="STORE_HEKTAR_DEFAULT" />
+        <mod-append:category type="DRONES">
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_DRONE_BASE</blueprint>
+            </item>
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_DRONE_BASE</blueprint>
+            </item>
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_DRONE_BASE</blueprint>
+            </item>
+        </mod-append:category>
+    </mod:findLike>
+    <mod:findLike type="customStore"><mod:selector id="STORE_TONY" />
+        <mod-append:category type="DRONES">
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_DRONE_BASE</blueprint>
+            </item>
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_DRONE_BASE</blueprint>
+            </item>
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_DRONE_BASE</blueprint>
+            </item>
+        </mod-append:category>
+    </mod:findLike>
+    <mod:findLike type="customStore"><mod:selector id="STORE_HEKTAR_DEMO" />
+        <mod-append:category type="DRONES">
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_DRONE_BASE</blueprint>
+            </item>
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_DRONE_BASE</blueprint>
+            </item>
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_DRONE_BASE</blueprint>
+            </item>
+        </mod-append:category>
+    </mod:findLike>
+    <mod:findLike type="customStore"><mod:selector id="STORE_SYLVAN_HEKTAR" />
+        <mod-append:category type="DRONES">
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_DRONE_BASE</blueprint>
+            </item>
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_DRONE_BASE</blueprint>
+            </item>
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_DRONE_BASE</blueprint>
+            </item>
+        </mod-append:category>
+    </mod:findLike>
+</mod:findLike>
+
+</FTL>
