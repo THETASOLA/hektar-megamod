@@ -436,9 +436,8 @@ Bio: +100 crew damage, -2 damage, +2 shield pierce</desc>
         <droneSlots>4</droneSlots>
         <weaponList missiles="1" count="2" />
         <droneList drones="15" count="4">
-            <drone name="COMBAT_1" />
-            <drone name="COMBAT_1" />
-            <drone name="COMBAT_BEAM" />
+          <drone name="MODULAR_DRONE_ION_BASE_COOLDOWN" />
+          <drone name="MODULAR_DRONE_BEAM_HULL_STUN" />
         </droneList>
         <health amount="30" />
         <maxPower amount="7" />

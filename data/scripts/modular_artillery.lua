@@ -67,7 +67,7 @@ hektar.arti.laser = {
     MODULAR_LOCKDOWN = { add = "modular_artillery/modules/lockdown.png", addOn = "modular_artillery/modules/lockdownOn.png", effect = function(weapon) weapon.blueprint.damage.bLockdown = true end },
     MODULAR_COOLDOWN = { add = "modular_artillery/modules/cooldown.png", addOn = "modular_artillery/modules/cooldownOn.png", effect = function(weapon) weapon.blueprint.cooldown = 20 end },
     MODULAR_POWER = {add = "modular_artillery/modules/laser/power.png", effect = function(weapon) weapon.blueprint.damage.iDamage = 2 end },
-    MODULAR_HULL = {add = "modular_artillery/modules/laser/hull.png", effect = function(weapon) weapon.blueprint.damage.breachChance = 10 weapon.blueprint.damage.bHullBuster = 1 end },
+    MODULAR_HULL = {add = "modular_artillery/modules/laser/hull.png", effect = function(weapon) weapon.blueprint.damage.breachChance = 10 weapon.blueprint.damage.bHullBuster = true end },
     MODULAR_FIRE = {add = "modular_artillery/modules/laser/fire.png", effect = function(weapon) weapon.blueprint.damage.fireChance = 10 end },
     MODULAR_ACCURACY = {add = "modular_artillery/modules/laser/accuracy.png", effect = function(weapon) hektar.arti.alwayshit = true end }
 }
@@ -86,7 +86,7 @@ function hektar.arti.laser.resetStats(weapon)
     dmg.iStun = 0
     dmg.bLockdown = false
     dmg.iPersDamage = 2
-    dmg.bHullBuster = 0
+    dmg.bHullBuster = false
     hektar.arti.alwayshit = false
     
 end
@@ -191,82 +191,6 @@ function hektar.arti.applyStats(weapon, ship)
     end
 end
 
---This function could be reduced in size
-function hektar.arti.handleVisual(weapon, ship)
-    local attrib = hektar.arti.getAttribute(ship)
-    local status = hektar.arti.getStatus(ship)
-
-    -- Calculate weapon coodinates (from Vertex, by Chrono)
-    local weaponAnim = weapon.weaponVisual
-    local ship = Hyperspace.Global.GetInstance():GetShipManager(weapon.iShipId).ship
-    local shipGraph = Hyperspace.ShipGraph.GetShipInfo(weapon.iShipId)
-    local slideOffset = weaponAnim:GetSlide()
-    hektar.arti.x = ship.shipImage.x + shipGraph.shipBox.x + weaponAnim.renderPoint.x + slideOffset.x
-    hektar.arti.y = ship.shipImage.y + shipGraph.shipBox.y + weaponAnim.renderPoint.y + slideOffset.y
-    hektar.arti.Attribx = ship.shipImage.x + shipGraph.shipBox.x + weaponAnim.renderPoint.x + slideOffset.x
-    hektar.arti.Attriby = ship.shipImage.y + shipGraph.shipBox.y + weaponAnim.renderPoint.y + slideOffset.y
-
-    if weapon.blueprint.name == "ARTILLERY_MODULAR_LASER" then
-        hektar.arti.x = hektar.arti.x - 35
-        hektar.arti.y = hektar.arti.y
-        hektar.arti.Attribx = hektar.arti.Attribx - 47
-        hektar.arti.Attriby = hektar.arti.Attriby + 15
-
-        if hektar.arti.laser[status] then
-            hektar.arti.layerStatus = Hyperspace.Resources:CreateImagePrimitiveString(hektar.arti.laser[status].add, hektar.arti.x, hektar.arti.y, 0, Graphics.GL_Color(1, 1, 1, 1), hektar.arti.alpha, false)
-            if weaponAnim.anim.currentFrame > 0 and hektar.arti.laser[status].addOn then
-                hektar.arti.layerStatusOn = Hyperspace.Resources:CreateImagePrimitiveString(hektar.arti.laser[status].addOn, hektar.arti.x, hektar.arti.y, 0, Graphics.GL_Color(1, 1, 1, 1), hektar.arti.alpha, false)
-            end
-        else
-            if hektar.arti.layerStatus then Graphics.GL_DestroyPrimitive(hektar.arti.layerStatus) end
-            if hektar.arti.layerStatusOn then Graphics.GL_DestroyPrimitive(hektar.arti.layerStatusOn) end
-            hektar.arti.layerStatus = ""
-            hektar.arti.layerStatusOn = ""
-        end
-
-        if hektar.arti.laser[attrib] then hektar.arti.layerAttrib = Hyperspace.Resources:CreateImagePrimitiveString(hektar.arti.laser[attrib].add, hektar.arti.Attribx, hektar.arti.Attriby, 0, Graphics.GL_Color(1, 1, 1, 1), hektar.arti.alpha, false) else if hektar.arti.layerAttrib then Graphics.GL_DestroyPrimitive(hektar.arti.layerAttrib) end hektar.arti.layerAttrib = "" end
-
-    elseif weapon.blueprint.name == "ARTILLERY_MODULAR_BEAM" then
-        hektar.arti.x = hektar.arti.x - 40
-        hektar.arti.y = hektar.arti.y
-        hektar.arti.Attribx = hektar.arti.Attribx - 34
-        hektar.arti.Attriby = hektar.arti.Attriby + 6
-
-        if hektar.arti.beam[status] then
-            hektar.arti.layerStatus = Hyperspace.Resources:CreateImagePrimitiveString(hektar.arti.beam[status].add, hektar.arti.x, hektar.arti.y, 0, Graphics.GL_Color(1, 1, 1, 1), hektar.arti.alpha, false)
-            if weaponAnim.anim.currentFrame > 0 and hektar.arti.beam[status].addOn then
-                hektar.arti.layerStatusOn = Hyperspace.Resources:CreateImagePrimitiveString(hektar.arti.beam[status].addOn, hektar.arti.x, hektar.arti.y, 0, Graphics.GL_Color(1, 1, 1, 1), hektar.arti.alpha, false)
-            end
-        else
-            if hektar.arti.layerStatus then Graphics.GL_DestroyPrimitive(hektar.arti.layerStatus) end
-            if hektar.arti.layerStatusOn then Graphics.GL_DestroyPrimitive(hektar.arti.layerStatusOn) end
-            hektar.arti.layerStatus = ""
-            hektar.arti.layerStatusOn = ""
-        end
-
-        if hektar.arti.beam[attrib] then hektar.arti.layerAttrib = Hyperspace.Resources:CreateImagePrimitiveString(hektar.arti.beam[attrib].add, hektar.arti.Attribx, hektar.arti.Attriby, 0, Graphics.GL_Color(1, 1, 1, 1), hektar.arti.alpha, false) else if hektar.arti.layerAttrib then Graphics.GL_DestroyPrimitive(hektar.arti.layerAttrib) end hektar.arti.layerAttrib = "" end
-    elseif weapon.blueprint.name == "ARTILLERY_MODULAR_MISSILE" then
-        hektar.arti.x = hektar.arti.x - 36
-        hektar.arti.y = hektar.arti.y
-        hektar.arti.Attribx = hektar.arti.Attribx - 34
-        hektar.arti.Attriby = hektar.arti.Attriby + 9
-
-        if hektar.arti.missile[status] then
-            hektar.arti.layerStatus = Hyperspace.Resources:CreateImagePrimitiveString(hektar.arti.missile[status].add, hektar.arti.x, hektar.arti.y, 0, Graphics.GL_Color(1, 1, 1, 1), hektar.arti.alpha, false)
-            if weaponAnim.anim.currentFrame > 0 and hektar.arti.missile[status].addOn then
-                hektar.arti.layerStatusOn = Hyperspace.Resources:CreateImagePrimitiveString(hektar.arti.missile[status].addOn, hektar.arti.x, hektar.arti.y, 0, Graphics.GL_Color(1, 1, 1, 1), hektar.arti.alpha, false)
-            end
-        else
-            if hektar.arti.layerStatus then Graphics.GL_DestroyPrimitive(hektar.arti.layerStatus) end
-            if hektar.arti.layerStatusOn then Graphics.GL_DestroyPrimitive(hektar.arti.layerStatusOn) end
-            hektar.arti.layerStatus = ""
-            hektar.arti.layerStatusOn = ""
-        end
-
-        if hektar.arti.missile[attrib] then hektar.arti.layerAttrib = Hyperspace.Resources:CreateImagePrimitiveString(hektar.arti.missile[attrib].add, hektar.arti.Attribx, hektar.arti.Attriby, 0, Graphics.GL_Color(1, 1, 1, 1), hektar.arti.alpha, false) else if hektar.arti.layerAttrib then Graphics.GL_DestroyPrimitive(hektar.arti.layerAttrib) end hektar.arti.layerAttrib = "" end
-    end
-end
-
 function hektar.arti.calculateCoordinates(ship, weaponAnim, shipGraph, slideOffset, offsetValues, isAttrib)
     local baseX = ship.shipImage.x + shipGraph.shipBox.x + weaponAnim.renderPoint.x + slideOffset.x
     local baseY = ship.shipImage.y + shipGraph.shipBox.y + weaponAnim.renderPoint.y +  slideOffset.y
@@ -310,16 +234,20 @@ function hektar.arti.handleVisual(weapon, ship)
 
     local offsetValues = {
         ["ARTILLERY_MODULAR_LASER"] = { x = -35, y = 0, attribX = -47, attribY = 15 },
-        ["ARTILLERY_MODULAR_BEAM"] = { x = -40, y = 0, attribX = -34, attribY = 8 },
+        ["ARTILLERY_MODULAR_BEAM"] = { x = -40, y = 0, attribX = -34, attribY = 6 },
         ["ARTILLERY_MODULAR_MISSILE"] = { x = -36, y = 0, attribX = -34, attribY = 9 }
     }
 
     hektar.arti.x, hektar.arti.y = hektar.arti.calculateCoordinates(ship, weaponAnim, shipGraph, slideOffset, offsetValues[weapon.blueprint.name])
     hektar.arti.Attribx, hektar.arti.Attriby = hektar.arti.calculateCoordinates(ship, weaponAnim, shipGraph, slideOffset, offsetValues[weapon.blueprint.name], true)
 
-    hektar.arti.updateLayer(weaponAnim, hektar.arti.laser, status, attrib)
-    hektar.arti.updateLayer(weaponAnim, hektar.arti.beam, status, attrib)
-    hektar.arti.updateLayer(weaponAnim, hektar.arti.missile, status, attrib)
+    if weapon.blueprint.name == "ARTILLERY_MODULAR_LASER" then
+        hektar.arti.updateLayer(weaponAnim, hektar.arti.laser, status, attrib)
+    elseif weapon.blueprint.name == "ARTILLERY_MODULAR_BEAM" then
+        hektar.arti.updateLayer(weaponAnim, hektar.arti.beam, status, attrib)
+    elseif weapon.blueprint.name == "ARTILLERY_MODULAR_MISSILE" then
+        hektar.arti.updateLayer(weaponAnim, hektar.arti.missile, status, attrib)
+    end
 end
 
 script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)

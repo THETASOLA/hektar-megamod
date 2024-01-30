@@ -61,7 +61,7 @@
 
 
 <mod:findLike type="scripts">
-    <mod-append:script>data/scripts/change_arti.lua</mod-append:script>
+    <mod-append:script>data/scripts/modular_artillery.lua</mod-append:script>
 </mod:findLike>
 
 <mod:findLike type="store">
