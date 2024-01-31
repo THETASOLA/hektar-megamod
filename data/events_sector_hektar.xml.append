@@ -1,0 +1,168 @@
+<FTL>
+
+<event name="HEKTAR_FACTORY">
+    <preventQuest/>
+    <text>You arrive at an impressive vista, an enormous factory churning out hektar product.</text>
+    <img back="BACK_EVENT_PHEROMONEFACTORY" planet="NONE"/>
+    <choice hidden="true">
+        <text>Inquire about what they are selling.</text>
+        <event>
+            <text>An Hektar manger greats you. "Greetingsss cussstomer, I am afraid Hektar Industriesss does not allow product to be bought from sssource, please refer to a licensssed Hektar Ssstore(tm) to acquire our productsss".</text>
+            <choice hidden="true">
+                <text>Maybe we could find an arrangment.</text>
+                <event>
+                    <text>"I guessss we could make an exception for the like of you".</text>
+                    <item_modify>
+                        <item type="scrap" min="-10" max="-10"/>
+                    </item_modify>
+                    <choice hidden="true">
+                        <text>Deal.</text>
+                        <event>
+                            <text>"Pleasssure to ssserve".</text>
+                            <weapon name="SHOP_ITEM_HEKTAR_MODULES"/>
+                            <item_modify>
+                                <item type="scrap" min="-10" max="-5"/>
+                            </item_modify>
+                            <choice hidden="true">
+                                <text>Time to go.</text>
+                                <event/>
+                            </choice>
+                        </event>
+                    </choice>
+                    <choice hidden="true">
+                        <text>You can do better.</text>
+                        <event>
+                            <text>"Of courssse, here, ssstraight out of our production linesss".</text>
+                            <choice hidden="true">
+                                <text>Deal.</text>
+                                <event>
+                                    <text>"Pleasssure to ssserve".</text>
+                                    <weapon name="SHOP_ITEM_HEKTAR_BASE"/>
+                                    <item_modify>
+                                        <item type="scrap" min="-60" max="-50"/>
+                                    </item_modify>
+                                    <choice hidden="true">
+                                        <text>Time to go.</text>
+                                        <event/>
+                                    </choice>
+                                </event>
+                            </choice>
+                            <choice hidden="true">
+                                <text>Come on you are Hektar material or not? Give me better.</text>
+                                <event>
+                                    <text>"Uuuh, we do have sssome more ready ssstock on the back".</text>
+                                    <choice hidden="true">
+                                        <text>Deal.</text>
+                                        <event>
+                                            <text>"Pleasssure to ssserve".</text>
+                                            <weapon name="LIST_WEAPONS_MODULAR_HEKTAR"/>
+                                            <item_modify>
+                                                <item type="scrap" min="-100" max="-90"/>
+                                            </item_modify>
+                                            <choice hidden="true">
+                                                <text>Time to go.</text>
+                                                <event/>
+                                            </choice>
+                                        </event>
+                                    </choice>
+                                    <choice hidden="true">
+                                        <text>I am a Multiverse Renegade who've jumped from one universe from another, all that to be served to the most pathetic of product ever created in this Multiverse!.</text>
+                                        <event>
+                                            <text>"FINE, I'm sssick of you, I propose a Cruissser and a complimentary modular weapon, but you gotta pay big buck for it!"</text>
+                                            <choice hidden="true">
+                                                <text>Deal.</text>
+                                                <event>
+                                                    <text>"Here you go, now get out of my sssight."</text>
+                                                    <unlockCustomShip silent="false">PLAYER_SHIP_HEKTAR_MODU</unlockCustomShip>
+                                                    <weapon name="LIST_WEAPONS_MODULAR_HEKTAR"/>
+                                                    <item_modify>
+                                                        <item type="scrap" min="-300" max="-250"/>
+                                                    </item_modify>
+                                                    <choice hidden="true">
+                                                        <text>Time to go.</text>
+                                                        <event/>
+                                                    </choice>
+                                                </event>
+                                            </choice>
+                                            <choice hidden="true">
+                                                <text>(Billy) We're not paying for it.</text>
+                                                <event>
+                                                    <text>"Of courssse director, anything you need!"</text>
+                                                    <unlockCustomShip silent="false">PLAYER_SHIP_HEKTAR_MODU</unlockCustomShip>
+                                                    <reward type="WEAPON">MODULAR</reward>
+                                                    <autoReward level="HIGH">standard</autoReward>
+                                                    <weapon name="LIST_WEAPONS_MODULAR_HEKTAR"/>
+                                                    <choice hidden="true">
+                                                        <text>Time to go.</text>
+                                                        <event/>
+                                                    </choice>
+                                                </event>
+                                            </choice>
+                                            <choice hidden="true">
+                                                <text>I won't pay that</text>
+                                                <event>
+                                                    <text>"Then get out of my sssight!"</text>
+                                                    <choice hidden="true">
+                                                        <text>Time to go.</text>
+                                                        <event/>
+                                                    </choice>
+                                                </event>
+                                            </choice>
+                                        </event>
+                                    </choice>
+                                    <choice hidden="true">
+                                        <text>I won't pay that</text>
+                                        <event>
+                                            <text>"Then get out of my sssight!"</text>
+                                            <choice hidden="true">
+                                                <text>Time to go.</text>
+                                                <event/>
+                                            </choice>
+                                        </event>
+                                    </choice>
+                                </event>
+                            </choice>
+                            <choice hidden="true">
+                                <text>I won't pay that</text>
+                                <event>
+                                    <text>"Then get out of my sssight!"</text>
+                                    <choice hidden="true">
+                                        <text>Time to go.</text>
+                                        <event/>
+                                    </choice>
+                                </event>
+                            </choice>
+                        </event>
+                    </choice>
+                </event>
+            </choice>
+            <choice hidden="true">
+                <text>Leave.</text>
+                <event>
+                    <text>"Hektar Industriesss(tm) wisssh you good luck in your venture".</text>
+                    <choice hidden="true">
+                        <text>Time to go.</text>
+                        <event/>
+                    </choice>
+                </event>
+            </choice>
+        </event>
+    </choice>
+    <choice hidden="true">
+		<text>Ignore the factory.</text>
+            <event>
+                <text>Impressive as it is, it's very unlikely there's anything here that is interesting.</text>
+                <choice hidden="true">
+                    <text>Do something onboard the ship.</text>
+                    <event load="STORAGE_CHECK"/>
+                </choice>
+                <choice hidden="true">
+                    <text>Do nothing.</text>
+                    <event/>
+                </choice>
+            </event>
+	</choice>
+</event>
+    
+
+</FTL>

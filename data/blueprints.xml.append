@@ -164,7 +164,7 @@ Flak Effects: +2 projectiles, +1 power, +10 radius</mod-append:desc>
         <type>LASER</type>
         <flavorType>Artillery</flavorType>
         <title>Modular Laser Artillery</title>
-        <short>M. Laser</short>
+        <short>Mod. Laser</short>
         <desc>[Base cooldown: 25/23/21/19/17] Fires a powerful barrage of 3 lasers that do 1 damage each.
 Affected by modules.
 Power: +1 damage
@@ -213,7 +213,7 @@ Bio: +150 crew damage, -1 damage, +1 shield pierce</desc>
     <weaponBlueprint name="ARTILLERY_MODULAR_MISSILE">
         <type>MISSILES</type>
         <title>Modular Missile Artillery</title>
-        <short>M. Missile</short>
+        <short>Mod. Missile</short>
         <desc>[Base cooldown: 35/32/29] Fires a powerful missiles dealing 2 damage.
 Affected by modules.
 Power: +2 system damage on room and adjacent rooms
@@ -264,7 +264,7 @@ Bio: +200 crew damage, -2 damage</desc>
         <type>BEAM</type>
         <tip>tip_beams</tip>
         <title>Modular Missile Beam</title>
-        <short>M. Beam</short>
+        <short>Mod. Beam</short>
         <desc>[Base cooldown: 26/24/22/20/18] Fires a powerful beam dealing 2 damage.
 Affected by modules.
 Power: +2 damage
@@ -535,7 +535,7 @@ Bio: +100 crew damage, -2 damage, +2 shield pierce</desc>
   <tip>tip_focus</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
 Incompatible with the accuracy and lockdown module.</desc>
-  <short>M. Pinpoint</short>
+  <short>Mod. Pinpoint</short>
   <tooltip>One damage per room beam weapon</tooltip>
   <damage>3</damage>
   <sysDamage>0</sysDamage>
@@ -568,7 +568,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Status - Pierce
 </desc>
-  <short>M. Pinpoint</short>
+  <short>Mod. Pinpoint</short>
   <tooltip>One damage per room beam weapon</tooltip>
   <damage>3</damage>
   <sysDamage>0</sysDamage>
@@ -601,7 +601,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Status - Bio
 </desc>
-  <short>M. Pinpoint</short>
+  <short>Mod. Pinpoint</short>
   <tooltip>One damage per room beam weapon</tooltip>
   <damage>0</damage>
   <sysDamage>3</sysDamage>
@@ -663,7 +663,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Status - Cooldown
 </desc>
-  <short>M. Pinpoint</short>
+  <short>Mod. Pinpoint</short>
   <tooltip>One damage per room beam weapon</tooltip>
   <damage>3</damage>
   <sysDamage>0</sysDamage>
@@ -696,7 +696,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Status - Stun
 </desc>
-  <short>M. Pinpoint</short>
+  <short>Mod. Pinpoint</short>
   <tooltip>One damage per room beam weapon</tooltip>
   <damage>3</damage>
   <sysDamage>0</sysDamage>
@@ -730,7 +730,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
 </desc>
-  <short>M. Pinpoint</short>
+  <short>Mod. Pinpoint</short>
   <tooltip>One damage per room beam weapon</tooltip>
   <damage>3</damage>
   <sysDamage>0</sysDamage>
@@ -763,7 +763,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
 </desc>
-  <short>M. Pinpoint</short>
+  <short>Mod. Pinpoint</short>
   <tooltip>One damage per room beam weapon</tooltip>
   <damage>4</damage>
   <sysDamage>-1</sysDamage>
@@ -797,7 +797,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power
 </desc>
-  <short>M. Pinpoint</short>
+  <short>Mod. Pinpoint</short>
   <tooltip>One damage per room beam weapon</tooltip>
   <damage>5</damage>
   <sysDamage>0</sysDamage>
@@ -831,7 +831,7 @@ Has no incompatible modules.
 Attribute - Fire
 Status - Pierce
 </desc>
-  <short>M. Pinpoint</short>
+  <short>Mod. Pinpoint</short>
   <tooltip>One damage per room beam weapon</tooltip>
   <damage>3</damage>
   <sysDamage>0</sysDamage>
@@ -865,7 +865,7 @@ Has no incompatible modules.
 Attribute - Fire
 Status - Bio
 </desc>
-  <short>M. Pinpoint</short>
+  <short>Mod. Pinpoint</short>
   <tooltip>One damage per room beam weapon</tooltip>
   <damage>0</damage>
   <sysDamage>3</sysDamage>
@@ -928,7 +928,7 @@ Has no incompatible modules.
 Attribute - Fire
 Status - Cooldown
 </desc>
-  <short>M. Pinpoint</short>
+  <short>Mod. Pinpoint</short>
   <tooltip>One damage per room beam weapon</tooltip>
   <damage>3</damage>
   <sysDamage>0</sysDamage>
@@ -962,7 +962,7 @@ Has no incompatible modules.
 Attribute - Fire
 Status - Stun
 </desc>
-  <short>M. Pinpoint</short>
+  <short>Mod. Pinpoint</short>
   <tooltip>One damage per room beam weapon</tooltip>
   <damage>3</damage>
   <sysDamage>0</sysDamage>
@@ -997,7 +997,7 @@ Has no incompatible modules.
 Attribute - Hull
 Status - Pierce
 </desc>
-  <short>M. Pinpoint</short>
+  <short>Mod. Pinpoint</short>
   <tooltip>One damage per room beam weapon</tooltip>
   <damage>4</damage>
   <sysDamage>-1</sysDamage>
@@ -1032,7 +1032,7 @@ Has no incompatible modules.
 Attribute - Hull
 Status - Bio
 </desc>
-  <short>M. Pinpoint</short>
+  <short>Mod. Pinpoint</short>
   <tooltip>One damage per room beam weapon</tooltip>
   <damage>3</damage>
   <sysDamage>0</sysDamage>
@@ -1095,7 +1095,7 @@ Has no incompatible modules.
 Attribute - Hull
 Status - Cooldown
 </desc>
-  <short>M. Pinpoint</short>
+  <short>Mod. Pinpoint</short>
   <tooltip>One damage per room beam weapon</tooltip>
   <damage>4</damage>
   <sysDamage>-1</sysDamage>
@@ -1130,7 +1130,7 @@ Has no incompatible modules.
 Attribute - Hull
 Status - Stun
 </desc>
-  <short>M. Pinpoint</short>
+  <short>Mod. Pinpoint</short>
   <tooltip>One damage per room beam weapon</tooltip>
   <damage>4</damage>
   <sysDamage>-1</sysDamage>
@@ -1166,7 +1166,7 @@ Has no incompatible modules.
 Attribute - Power
 Status - Pierce
 </desc>
-  <short>M. Pinpoint</short>
+  <short>Mod. Pinpoint</short>
   <tooltip>One damage per room beam weapon</tooltip>
   <damage>5</damage>
   <sysDamage>0</sysDamage>
@@ -1200,7 +1200,7 @@ Has no incompatible modules.
 Attribute - Power
 Status - Bio
 </desc>
-  <short>M. Pinpoint</short>
+  <short>Mod. Pinpoint</short>
   <tooltip>One damage per room beam weapon</tooltip>
   <damage>0</damage>
   <sysDamage>5</sysDamage>
@@ -1263,7 +1263,7 @@ Has no incompatible modules.
 Attribute - Power
 Status - Cooldown
 </desc>
-  <short>M. Pinpoint</short>
+  <short>Mod. Pinpoint</short>
   <tooltip>One damage per room beam weapon</tooltip>
   <damage>5</damage>
   <sysDamage>0</sysDamage>
@@ -1297,7 +1297,7 @@ Has no incompatible modules.
 Attribute - Power
 Status - Stun
 </desc>
-  <short>M. Pinpoint</short>
+  <short>Mod. Pinpoint</short>
   <tooltip>One damage per room beam weapon</tooltip>
   <damage>5</damage>
   <sysDamage>0</sysDamage>
@@ -1328,7 +1328,7 @@ Status - Stun
   <tip>tip_flak</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
 Has no incompatibilities.</desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>42</radius>
   <shots>1</shots>
@@ -1378,7 +1378,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Status - Bio
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>42</radius>
   <shots>1</shots>
@@ -1458,7 +1458,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Status - Pierce
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>42</radius>
   <shots>1</shots>
@@ -1508,7 +1508,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Status - Cooldown
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>42</radius>
   <shots>1</shots>
@@ -1558,7 +1558,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Status - Lockdown
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>42</radius>
   <shots>1</shots>
@@ -1609,7 +1609,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Status - Stun
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>42</radius>
   <shots>1</shots>
@@ -1660,7 +1660,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>42</radius>
   <shots>1</shots>
@@ -1710,7 +1710,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>32</radius>
   <shots>1</shots>
@@ -1761,7 +1761,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>42</radius>
   <shots>1</shots>
@@ -1812,7 +1812,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>52</radius>
   <shots>1</shots>
@@ -1863,7 +1863,7 @@ Has no incompatible modules.
 Attribute - Fire
 Status - Bio
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>42</radius>
   <shots>1</shots>
@@ -1944,7 +1944,7 @@ Has no incompatible modules.
 Attribute - Fire
 Status - Pierce
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>42</radius>
   <shots>1</shots>
@@ -1995,7 +1995,7 @@ Has no incompatible modules.
 Attribute - Fire
 Status - Cooldown
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>42</radius>
   <shots>1</shots>
@@ -2046,7 +2046,7 @@ Has no incompatible modules.
 Attribute - Fire
 Status - Lockdown
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>42</radius>
   <shots>1</shots>
@@ -2098,7 +2098,7 @@ Has no incompatible modules.
 Attribute - Fire
 Status - Stun
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>42</radius>
   <shots>1</shots>
@@ -2150,7 +2150,7 @@ Has no incompatible modules.
 Attribute - Accuracy
 Status - Bio
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>32</radius>
   <shots>1</shots>
@@ -2232,7 +2232,7 @@ Has no incompatible modules.
 Attribute - Accuracy
 Status - Pierce
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>32</radius>
   <shots>1</shots>
@@ -2284,7 +2284,7 @@ Has no incompatible modules.
 Attribute - Accuracy
 Status - Cooldown
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>32</radius>
   <shots>1</shots>
@@ -2336,7 +2336,7 @@ Has no incompatible modules.
 Attribute - Accuracy
 Status - Lockdown
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>32</radius>
   <shots>1</shots>
@@ -2389,7 +2389,7 @@ Has no incompatible modules.
 Attribute - Accuracy
 Status - Stun
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>32</radius>
   <shots>1</shots>
@@ -2442,7 +2442,7 @@ Has no incompatible modules.
 Attribute - Hull
 Status - Bio
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>42</radius>
   <shots>1</shots>
@@ -2524,7 +2524,7 @@ Has no incompatible modules.
 Attribute - Hull
 Status - Pierce
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>42</radius>
   <shots>1</shots>
@@ -2576,7 +2576,7 @@ Has no incompatible modules.
 Attribute - Hull
 Status - Cooldown
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>42</radius>
   <shots>1</shots>
@@ -2628,7 +2628,7 @@ Has no incompatible modules.
 Attribute - Hull
 Status - Lockdown
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>42</radius>
   <shots>1</shots>
@@ -2681,7 +2681,7 @@ Has no incompatible modules.
 Attribute - Hull
 Status - Stun
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>42</radius>
   <shots>1</shots>
@@ -2734,7 +2734,7 @@ Has no incompatible modules.
 Attribute - Power
 Status - Bio
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>52</radius>
   <shots>1</shots>
@@ -2815,7 +2815,7 @@ Has no incompatible modules.
 Attribute - Power
 Status - Pierce
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>52</radius>
   <shots>1</shots>
@@ -2866,7 +2866,7 @@ Has no incompatible modules.
 Attribute - Power
 Status - Cooldown
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>52</radius>
   <shots>1</shots>
@@ -2917,7 +2917,7 @@ Has no incompatible modules.
 Attribute - Power
 Status - Lockdown
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>52</radius>
   <shots>1</shots>
@@ -2969,7 +2969,7 @@ Has no incompatible modules.
 Attribute - Power
 Status - Stun
 </desc>
-  <short>M. Flak</short>
+  <short>Mod. Flak</short>
   <drone_targetable>1</drone_targetable>
   <radius>52</radius>
   <shots>1</shots>
@@ -3017,7 +3017,7 @@ Status - Stun
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
 Incompatible with the piercing module.</desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>M. Bomb</short>
+  <short>Mod. Bomb</short>
   <locked>1</locked>
   <damage>0</damage>
   <shots>1</shots>
@@ -3055,7 +3055,7 @@ Has no incompatible modules.
 Status - Bio
 </desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>M. Bomb</short>
+  <short>Mod. Bomb</short>
   <locked>1</locked>
   <damage>0</damage>
   <shots>1</shots>
@@ -3122,7 +3122,7 @@ Has no incompatible modules.
 Status - Cooldown
 </desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>M. Bomb</short>
+  <short>Mod. Bomb</short>
   <locked>1</locked>
   <damage>0</damage>
   <shots>1</shots>
@@ -3160,7 +3160,7 @@ Has no incompatible modules.
 Status - Lockdown
 </desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>M. Bomb</short>
+  <short>Mod. Bomb</short>
   <locked>1</locked>
   <damage>0</damage>
   <shots>1</shots>
@@ -3199,7 +3199,7 @@ Has no incompatible modules.
 Status - Stun
 </desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>M. Bomb</short>
+  <short>Mod. Bomb</short>
   <locked>1</locked>
   <damage>0</damage>
   <shots>1</shots>
@@ -3239,7 +3239,7 @@ Has no incompatible modules.
 Attribute - Fire
 </desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>M. Bomb</short>
+  <short>Mod. Bomb</short>
   <locked>1</locked>
   <damage>0</damage>
   <shots>1</shots>
@@ -3277,7 +3277,7 @@ Has no incompatible modules.
 Attribute - Accuracy
 </desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>M. Bomb</short>
+  <short>Mod. Bomb</short>
   <locked>1</locked>
   <damage>0</damage>
   <shots>1</shots>
@@ -3316,7 +3316,7 @@ Has no incompatible modules.
 Attribute - Hull
 </desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>M. Bomb</short>
+  <short>Mod. Bomb</short>
   <locked>1</locked>
   <damage>1</damage>
   <shots>1</shots>
@@ -3354,7 +3354,7 @@ Has no incompatible modules.
 Attribute - Power
 </desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>M. Bomb</short>
+  <short>Mod. Bomb</short>
   <locked>1</locked>
   <damage>0</damage>
   <shots>1</shots>
@@ -3393,7 +3393,7 @@ Attribute - Fire
 Status - Bio
 </desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>M. Bomb</short>
+  <short>Mod. Bomb</short>
   <locked>1</locked>
   <damage>0</damage>
   <shots>1</shots>
@@ -3461,7 +3461,7 @@ Attribute - Fire
 Status - Cooldown
 </desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>M. Bomb</short>
+  <short>Mod. Bomb</short>
   <locked>1</locked>
   <damage>0</damage>
   <shots>1</shots>
@@ -3500,7 +3500,7 @@ Attribute - Fire
 Status - Lockdown
 </desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>M. Bomb</short>
+  <short>Mod. Bomb</short>
   <locked>1</locked>
   <damage>0</damage>
   <shots>1</shots>
@@ -3540,7 +3540,7 @@ Attribute - Fire
 Status - Stun
 </desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>M. Bomb</short>
+  <short>Mod. Bomb</short>
   <locked>1</locked>
   <damage>0</damage>
   <shots>1</shots>
@@ -3581,7 +3581,7 @@ Attribute - Accuracy
 Status - Bio
 </desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>M. Bomb</short>
+  <short>Mod. Bomb</short>
   <locked>1</locked>
   <damage>0</damage>
   <shots>1</shots>
@@ -3650,7 +3650,7 @@ Attribute - Accuracy
 Status - Cooldown
 </desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>M. Bomb</short>
+  <short>Mod. Bomb</short>
   <locked>1</locked>
   <damage>0</damage>
   <shots>1</shots>
@@ -3690,7 +3690,7 @@ Attribute - Accuracy
 Status - Lockdown
 </desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>M. Bomb</short>
+  <short>Mod. Bomb</short>
   <locked>1</locked>
   <damage>0</damage>
   <shots>1</shots>
@@ -3731,7 +3731,7 @@ Attribute - Accuracy
 Status - Stun
 </desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>M. Bomb</short>
+  <short>Mod. Bomb</short>
   <locked>1</locked>
   <damage>0</damage>
   <shots>1</shots>
@@ -3773,7 +3773,7 @@ Attribute - Hull
 Status - Bio
 </desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>M. Bomb</short>
+  <short>Mod. Bomb</short>
   <locked>1</locked>
   <damage>1</damage>
   <shots>1</shots>
@@ -3841,7 +3841,7 @@ Attribute - Hull
 Status - Cooldown
 </desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>M. Bomb</short>
+  <short>Mod. Bomb</short>
   <locked>1</locked>
   <damage>1</damage>
   <shots>1</shots>
@@ -3880,7 +3880,7 @@ Attribute - Hull
 Status - Lockdown
 </desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>M. Bomb</short>
+  <short>Mod. Bomb</short>
   <locked>1</locked>
   <damage>1</damage>
   <shots>1</shots>
@@ -3920,7 +3920,7 @@ Attribute - Hull
 Status - Stun
 </desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>M. Bomb</short>
+  <short>Mod. Bomb</short>
   <locked>1</locked>
   <damage>1</damage>
   <shots>1</shots>
@@ -3961,7 +3961,7 @@ Attribute - Power
 Status - Bio
 </desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>M. Bomb</short>
+  <short>Mod. Bomb</short>
   <locked>1</locked>
   <damage>0</damage>
   <shots>1</shots>
@@ -4029,7 +4029,7 @@ Attribute - Power
 Status - Cooldown
 </desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>M. Bomb</short>
+  <short>Mod. Bomb</short>
   <locked>1</locked>
   <damage>0</damage>
   <shots>1</shots>
@@ -4068,7 +4068,7 @@ Attribute - Power
 Status - Lockdown
 </desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>M. Bomb</short>
+  <short>Mod. Bomb</short>
   <locked>1</locked>
   <damage>0</damage>
   <shots>1</shots>
@@ -4108,7 +4108,7 @@ Attribute - Power
 Status - Stun
 </desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>M. Bomb</short>
+  <short>Mod. Bomb</short>
   <locked>1</locked>
   <damage>0</damage>
   <shots>1</shots>

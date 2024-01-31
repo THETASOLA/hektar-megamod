@@ -179,6 +179,86 @@
 	<name>MODULAR_DRONE_ION_BASE</name>
 </blueprintList>
 
+<blueprintList name="LIST_WEAPONS_MODULAR_HEKTAR">
+  <name>MODULAR_FOCUS_BASE</name>
+  <name>MODULAR_FOCUS_BASE_PIERCE</name>
+  <name>MODULAR_FOCUS_BASE_BIO</name>
+  <name>MODULAR_FOCUS_BASE_COOLDOWN</name>
+  <name>MODULAR_FOCUS_BASE_STUN</name>
+  <name>MODULAR_FOCUS_FIRE</name>
+  <name>MODULAR_FOCUS_HULL</name>
+  <name>MODULAR_FOCUS_POWER</name>
+  <name>MODULAR_FOCUS_FIRE_PIERCE</name>
+  <name>MODULAR_FOCUS_FIRE_BIO</name>
+  <name>MODULAR_FOCUS_FIRE_COOLDOWN</name>
+  <name>MODULAR_FOCUS_FIRE_STUN</name>
+  <name>MODULAR_FOCUS_HULL_PIERCE</name>
+  <name>MODULAR_FOCUS_HULL_BIO</name>
+  <name>MODULAR_FOCUS_HULL_COOLDOWN</name>
+  <name>MODULAR_FOCUS_HULL_STUN</name>
+  <name>MODULAR_FOCUS_POWER_PIERCE</name>
+  <name>MODULAR_FOCUS_POWER_BIO</name>
+  <name>MODULAR_FOCUS_POWER_COOLDOWN</name>
+  <name>MODULAR_FOCUS_POWER_STUN</name>
+
+  <name>MODULAR_SHOTGUN_BASE</name>
+  <name>MODULAR_SHOTGUN_BASE_BIO</name>
+  <name>MODULAR_SHOTGUN_BASE_PIERCE</name>
+  <name>MODULAR_SHOTGUN_BASE_COOLDOWN</name>
+  <name>MODULAR_SHOTGUN_BASE_LOCKDOWN</name>
+  <name>MODULAR_SHOTGUN_BASE_STUN</name>
+  <name>MODULAR_SHOTGUN_FIRE</name>
+  <name>MODULAR_SHOTGUN_ACCURACY</name>
+  <name>MODULAR_SHOTGUN_HULL</name>
+  <name>MODULAR_SHOTGUN_POWER</name>
+  <name>MODULAR_SHOTGUN_FIRE_BIO</name>
+  <name>MODULAR_SHOTGUN_FIRE_PIERCE</name>
+  <name>MODULAR_SHOTGUN_FIRE_COOLDOWN</name>
+  <name>MODULAR_SHOTGUN_FIRE_LOCKDOWN</name>
+  <name>MODULAR_SHOTGUN_FIRE_STUN</name>
+  <name>MODULAR_SHOTGUN_ACCURACY_BIO</name>
+  <name>MODULAR_SHOTGUN_ACCURACY_PIERCE</name>
+  <name>MODULAR_SHOTGUN_ACCURACY_COOLDOWN</name>
+  <name>MODULAR_SHOTGUN_ACCURACY_LOCKDOWN</name>
+  <name>MODULAR_SHOTGUN_ACCURACY_STUN</name>
+  <name>MODULAR_SHOTGUN_HULL_BIO</name>
+  <name>MODULAR_SHOTGUN_HULL_PIERCE</name>
+  <name>MODULAR_SHOTGUN_HULL_COOLDOWN</name>
+  <name>MODULAR_SHOTGUN_HULL_LOCKDOWN</name>
+  <name>MODULAR_SHOTGUN_HULL_STUN</name>
+  <name>MODULAR_SHOTGUN_POWER_BIO</name>
+  <name>MODULAR_SHOTGUN_POWER_PIERCE</name>
+  <name>MODULAR_SHOTGUN_POWER_COOLDOWN</name>
+  <name>MODULAR_SHOTGUN_POWER_LOCKDOWN</name>
+  <name>MODULAR_SHOTGUN_POWER_STUN</name>
+
+  <name>MODULAR_BOMB_BASE</name>
+  <name>MODULAR_BOMB_BASE_BIO</name>
+  <name>MODULAR_BOMB_BASE_COOLDOWN</name>
+  <name>MODULAR_BOMB_BASE_LOCKDOWN</name>
+  <name>MODULAR_BOMB_BASE_STUN</name>
+  <name>MODULAR_BOMB_FIRE</name>
+  <name>MODULAR_BOMB_ACCURACY</name>
+  <name>MODULAR_BOMB_HULL</name>
+  <name>MODULAR_BOMB_POWER</name>
+  <name>MODULAR_BOMB_FIRE_BIO</name>
+  <name>MODULAR_BOMB_FIRE_COOLDOWN</name>
+  <name>MODULAR_BOMB_FIRE_LOCKDOWN</name>
+  <name>MODULAR_BOMB_FIRE_STUN</name>
+  <name>MODULAR_BOMB_ACCURACY_BIO</name>
+  <name>MODULAR_BOMB_ACCURACY_COOLDOWN</name>
+  <name>MODULAR_BOMB_ACCURACY_LOCKDOWN</name>
+  <name>MODULAR_BOMB_ACCURACY_STUN</name>
+  <name>MODULAR_BOMB_HULL_BIO</name>
+  <name>MODULAR_BOMB_HULL_COOLDOWN</name>
+  <name>MODULAR_BOMB_HULL_LOCKDOWN</name>
+  <name>MODULAR_BOMB_HULL_STUN</name>
+  <name>MODULAR_BOMB_POWER_BIO</name>
+  <name>MODULAR_BOMB_POWER_COOLDOWN</name>
+  <name>MODULAR_BOMB_POWER_LOCKDOWN</name>
+  <name>MODULAR_BOMB_POWER_STUN</name>
+</blueprintList>
+
 <blueprintList name="LIST_DRONES_HEKTAR">
   <name>MODULAR_DRONE_LASER_BASE_PIERCE</name>
   <name>MODULAR_DRONE_LASER_BASE_BIO</name>
@@ -374,6 +454,10 @@
 	<mod-append:name>MODULAR_FOCUS_BASE</mod-append:name>
 	<mod-append:name>MODULAR_BOMB_BASE</mod-append:name>
 	<mod-append:name>MODULAR_SHOTGUN_BASE</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="SHOP_ITEM_HEKTAR_MODULES">
+	<mod-append:name>MODULE_COOLDOWN</mod-append:name> <!--I get why MV dev did this, but having it being more available it more fun for the mod-->
 </mod:findName>
 
 <blueprintList name="HEKTAR_MODULAR_FOCUS">
