@@ -8,8 +8,10 @@ local function vter(cvec)
     end
 end
 
-HEKTAR = {}
-local hektar = HEKTAR
+local userdata_table = mods.multiverse.userdata_table
+
+mods.hektar = {}
+local hektar = mods.hektar
 hektar.arti = {laser = {}, beam = {}, missile = {} }
 hektar.arti.laser = hektar.arti.laser or {}
 hektar.arti.beam = hektar.arti.beam or {}
@@ -271,15 +273,14 @@ end)
 -- Projectile Behaviour
 script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA, function(shipManager, projectile)
     local weaponName = nil
-    local results = Defines.Evasion.NONE
     pcall(function() weaponName = Hyperspace.Get_Projectile_Extend(projectile).name end)
     if (weaponName == "ARTILLERY_MODULAR_LASER" or weaponName == "ARTILLERY_MODULAR_MISSILE") and hektar.arti.alwayshit then
         if hektar.arti.alwayshit then
-            results = Defines.Evasion.HIT
+            return Defines.Chain.CONTINUE, Defines.Evasion.HIT
         end
     end
 
-    return Defines.Chain.CONTINUE, results
+    return Defines.Chain.CONTINUE
 end)
 
 -- Missile Behaviour
@@ -366,3 +367,31 @@ end)
 script.on_render_event(Defines.RenderEvents.SHIP_HULL, function() end, function(ship, cloakAlpha)
     hektar.arti.alpha = calcHullAlpha(cloakAlpha)
 end)
+
+mods.hektar.mindcontrol = {}
+
+-- Hektar Elite Mind Control
+script.on_internal_event(Defines.InternalEvents.ACTIVATE_POWER, function(power, ship)
+    if power.crew.blueprint.name ~= "slug_hektar_elite" then return end
+
+    for crew in vter(ship.vCrewList) do
+        if power.powerRoom == crew.iRoomId and power.crew ~= crew and power.crew.iShipId ~= crew.iShipId and crew.bMindControlled == false then
+            crew:SetMindControl(true)
+            mods.hektar.mindcontrol[crew] = (crew.IsTelepathic and 10) or 20
+            power:CancelPower(true)
+            break
+        end
+    end
+end)
+
+
+script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function()
+    if not mods.hektar.mindcontrol then return end
+    for k, _ in pairs(mods.hektar.mindcontrol) do
+        mods.hektar.mindcontrol[k] = math.max(mods.hektar.mindcontrol[k] - Hyperspace.FPS.SpeedFactor/16, 0)
+        if mods.hektar.mindcontrol[k] <= 0 then
+            k:SetMindControl(false)
+            mods.hektar.mindcontrol[k] = nil
+        end
+    end
+  end)

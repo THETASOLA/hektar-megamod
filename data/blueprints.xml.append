@@ -1,86 +1,115 @@
 <FTL>
 
-<mod:findName type="weaponBlueprint" name="MODULE_ACCURACY">
-	<mod-append:desc>Hektar Industries(TM) brand Attribute Accuracy Module. Ensure your weaponry stays on target on the battlefield!
-Incompatible with the Modular Beam/Pinpoint.
-Laser/Ion Effects: +20% accuracy buff
-Missile/Bomb Effects: +100% accuracy buff
-Flak Effects: -10 spread, +10% accuracy buff</mod-append:desc>
-</mod:findName>
+  <mod:findName type="weaponBlueprint" name="MODULE_ACCURACY">
+    <mod-append:desc>Hektar Industries(TM) brand Attribute Accuracy Module. Ensure your weaponry stays on target on the battlefield!
+    Incompatible with the Modular Beam/Pinpoint.
+    - Laser/Ion Effects: +20% accuracy buff
+    - Missile/Bomb Effects: +100% accuracy buff
+    - Flak Effects: -10 spread, +10% accuracy buff</mod-append:desc>
+  </mod:findName>
+  
+  <mod:findName type="weaponBlueprint" name="MODULE_BIO">
+    <mod-append:desc>Hektar Industries(TM) brand Status RAD Module. Turn your modular weapons into the perfect anti-crew weaponry!
+    No incompatibilities. When combined with the Hullbuster Module, will restore hull and system damage, but will not have hull bust properties.
+    - Laser Effects: 0 hull/system dmg, +30 crew damage (+60 for drone), +1 shield pierce
+    - Beam Effects: 0 hull dmg (system dmg is preserved), +60 crew damage (+90 for drone), +1 shield pierce
+    - Pinpoint Effects: 0 hull dmg (system dmg is preserved), +45 crew damage, +2 shield pierce (+1 if coupled with power module)
+    - Missile Effects: 0 hull/system dmg, +90 crew damage
+    - Bomb Effects: +90 crew damage
+    - Ion Effects: +60 crew damage (+90 for drone) (must be a direct hit)
+    - Flak Effects: +30 crew damage
+    Weapons and drones also gain standard Anti-Bio crew debuffs. (66% slowed speed and repairs, 75% increased stun duration)</mod-append:desc>
+  </mod:findName>
+  
+  <mod:findName type="weaponBlueprint" name="MODULE_COOLDOWN">
+    <mod-append:desc>Hektar Industries(TM) brand Status Cooldown Module. Turn your modular weapons into power efficient fast firing assault weaponry!
+    No incompatibilities.
+    - Effects for all weapons: Reduces cooldown by 25%
+    - Effects for all drones: Increase speed by 50%</mod-append:desc>
+  </mod:findName>
+  
+  <mod:findName type="weaponBlueprint" name="MODULE_LOCKDOWN">
+    <mod-append:desc>Hektar Industries(TM) brand Status Lockdown Module. Turn your modular weapons into the next generation of tech and cause chaos on the enemy ship with patented lockdown tech!
+    Incompatible with the Modular Beam/Pinpoint.
+    - Effects for all weapons: Applies lockdown on impact</mod-append:desc>
+  </mod:findName>
+  
+  <mod:findName type="weaponBlueprint" name="MODULE_PIERCE">
+    <mod-append:desc>Hektar Industries(TM) brand Status Pierce Module. Never deal with enemy fortifications ever again!
+    Incompatible with the Modular Missile/Bomb.
+    - Laser/Beam/Pinpoint/Flak Effects: +1 shield pierce, +30% breach chance
+    - Ion Effects: +3 (+10 for drone) shield pierce (affects shield as it passes through)</mod-append:desc>
+  </mod:findName>
+  
+  <mod:findName type="weaponBlueprint" name="MODULE_STUN">
+    <mod-append:desc>Hektar Industries(TM) brand Status Neural Module. Turn your modular weapons into crew disrupting neural weaponry!
+    No incompatibilities.
+    - Laser/Flak Effects: Projectiles apply 12 seconds of stun (projectiles do not stack the duration)
+    - Beam Effects: Beam applies 18 seconds of stun
+    - Pinpoint Effects: Pinpoint applies 22 seconds of stun
+    - Missile Effects: Missile applies 14 seconds of stun
+    - Bomb Effects: 0 system dmg [Power Module gives back 2 system dmg], +6 ion, applies 20 seconds of stun
+    - Ion Effects: Ion applies stun equal to ion duration +2s (25s for drone)</mod-append:desc>
+  </mod:findName>
+  
+  <mod:findName type="weaponBlueprint" name="MODULE_FIRE">
+    <mod-append:desc>Hektar Industries(TM) brand Attribute Firestarter Module. Create devastating infernos with your modular weaponry!
+    No incompatibilities.
+    - Laser Effects: +30% fire chance
+    - Beam/Flak Effects: +40% fire chance
+    - Missile/Bomb/Pinpoint Effects: +100% fire chance
+    - Ion Effects: +100% fire chance (50% for drone)</mod-append:desc>
+  </mod:findName>
+  
+  <mod:findName type="weaponBlueprint" name="MODULE_HULL">
+    <mod-append:desc>Hektar Industries(TM) brand Attribute Hullbust Module. Decimate the enemy's hull with heavy hitting modular weaponry!
+    No incompatibilities. When combined with the RAD module, will return to default hull damage but will not have hull bust properties.
+    - Laser/Beam/Missile/Flak Effects: x2 damage on systemless rooms, +10% breach chance. [Breach stacks with Pierce Module breach chance]
+    - Pinpoint Effects: x2 damage on systemless rooms, +100% breach chance, +1 damage, -1 system damage
+    - Missile Effects: Increases cooldown by 2s
+    - Bomb Effects: +1 damage, +100% breach chance
+    - Ion Effects: Ion becomes Energy; hull damage equals ion damage (but no system/crew damage), +10% fire chance</mod-append:desc>
+  </mod:findName>
+  
+  <mod:findName type="weaponBlueprint" name="MODULE_POWER">
+    <mod-append:desc>Hektar Industries(TM) brand Attribute Power Module. Get more bang for your buck with your modular weaponry!
+    No incompatibilities.
+    - Laser Effects: +2 projectiles, +1 power cost, +4s cooldown (for drone: +1 damage, +1 power cost)
+    - Beam Effects: +60 beam length, doubled beam speed, +30% breach chance, +1 power cost [Breach stacks with Pierce Module breach chance]
+    - Pinpoint Effects: +2 damage, +1 power cost
+    - Missile Effects: +1 damage, +1 power cost
+    - Bomb Effects: +2 system damage, +1 power cost
+    - Ion Effects: +1 ion damage, +1 power cost
+    - Flak Effects: +2 projectiles, +1 power, +10 radius</mod-append:desc>
+  </mod:findName>
 
-<mod:findName type="weaponBlueprint" name="MODULE_BIO">
-	<mod-append:desc>Hektar Industries(TM) brand Status RAD Module. Turn your modular weapons into the perfect anti-crew weaponry!
-No incompatibilities. When combined with the Hullbuster Module, will restore hull and system damage, but will not have hull bust properties.
-Laser Effects: 0 hull/system dmg, +30 crew damage (+60 for drone), +1 shield pierce
-Beam Effects: 0 hull dmg (system dmg is preserved), +60 crew damage (+90 for drone), +1 shield pierce
-Pinpoint Effects: 0 hull dmg (system dmg is preserved), +45 crew damage, +2 shield pierce (+1 if coupled with power module)
-Missile Effects: 0 hull/system dmg, +90 crew damage
-Ion Effects: +60 crew damage (+90 for drone) (must be a direct hit)
-Bomb Effects: +90 crew damage
-Flak Effects: +30 crew damage
-Weapons also gain standard Anti-Bio crew debuffs. (66% slowed speed and repairs, 75% increased stun duration)</mod-append:desc>
-</mod:findName>
-
-<mod:findName type="weaponBlueprint" name="MODULE_COOLDOWN">
-	<mod-append:desc>Hektar Industries(TM) brand Status Cooldown Module. Turn your modular weapons into power efficient fast firing assault weaponry!
-No incompatibilities.
-Effects for all weapons: Reduces cooldown by 25%
-Effects for all drones: Increase speed by 50%</mod-append:desc>
-</mod:findName>
-
-<mod:findName type="weaponBlueprint" name="MODULE_LOCKDOWN">
-	<mod-append:desc>Hektar Industries(TM) brand Status Lockdown Module. Turn your modular weapons into the next generation of tech and cause chaos on the enemy ship with patented lockdown tech!
-Incompatible with the Modular Beam/Pinpoint.
-Effects for all weapons: Applies lockdown on impact</mod-append:desc>
-</mod:findName>
-
-<mod:findName type="weaponBlueprint" name="MODULE_PIERCE">
-	<mod-append:desc>Hektar Industries(TM) brand Status Pierce Module. Never deal with enemy fortifications ever again!
-Incompatible with the Modular Missile/Bomb.
-Laser/Beam/Pinpoint/Flak Effects: +1 shield pierce, +30% breach chance
-Ion Effects: +3 (+10 for drone) shield pierce (affects shield as it passes through)</mod-append:desc>
-</mod:findName>
-
-<mod:findName type="weaponBlueprint" name="MODULE_STUN">
-	<mod-append:desc>Hektar Industries(TM) brand Status Neural Module. Turn your modular weapons into crew disrupting neural weaponry!
-No incompatibilities.
-Laser/Flak Effects: Projectiles apply 12 seconds of stun (projectiles do not stack the duration)
-Beam Effects: Beam applies 18 seconds of stun
-Missile Effects: Missile applies 14 seconds of stun
-Ion Effects: Ion applies stun equal to ion duration +2s (25s for drone)
-Pinpoint Effects: Pinpoint applies 22 seconds of stun
-Bomb Effects: 0 system dmg [Power gives back 2 system dmg], +6 ion, applies 20 seconds of stun</mod-append:desc>
-</mod:findName>
-
-<mod:findName type="weaponBlueprint" name="MODULE_FIRE">
-	<mod-append:desc>Hektar Industries(TM) brand Attribute Firestarter Module. Create devastating infernos with your modular weaponry!
-No incompatibilities.
-Laser Effects: +30% fire chance
-Beam/Flak Effects: +40% fire chance
-Missile/Bomb Effects: +100% fire chance
-Ion/Pinpoint Effects: +100% fire chance (50% for drone)</mod-append:desc>
-</mod:findName>
-
-<mod:findName type="weaponBlueprint" name="MODULE_HULL">
-	<mod-append:desc>Hektar Industries(TM) brand Attribute Hullbust Module. Decimate the enemy's hull with heavy hitting modular weaponry!
-No incompatibilities. When combined with the RAD module, will return to default hull damage but will not have hull bust properties.
-Laser/Beam/Missile/Flak Effects: x2 damage on systemless rooms, +10% breach chance. [Breach stacks with Pierce Module breach chance]
-Missile Effects: Increases cooldown by 2s.
-Pinpoint Effects: x2 damage on systemless rooms, +100% breach chance, +1 damage, -1 system damage.
-Bomb Effects: +1 damage, +100% breach chance.
-Ion Effects: Ion becomes Energy; hull damage equals ion damage (but no system/crew damage), +10% fire chance</mod-append:desc>
-</mod:findName>
-
-<mod:findName type="weaponBlueprint" name="MODULE_POWER">
-	<mod-append:desc>Hektar Industries(TM) brand Attribute Power Module. Get more bang for your buck with your modular weaponry!
-Laser Effects: +2 projectiles, +1 power cost, +4s cooldown (for drone: +1 damage, +1 power cost)
-Beam Effects: +60 beam length, doubled beam speed, +30% breach chance, +1 power cost [Breach stacks with Pierce Module breach chance]
-Missile Effects: +1 damage, +1 power cost
-Ion Effects: +1 ion damage, +1 power cost
-Bomb Effects: +2 system damage, +1 power cost
-Pinpoint Effects: +2 damage, +1 power cost
-Flak Effects: +2 projectiles, +1 power, +10 radius</mod-append:desc>
-</mod:findName>
+    <crewBlueprint name="slug_hektar_elite">
+      <desc>A soulless overpaid manager working for the Hektar corporation.
+      
+      Inherited Slug stats: telepathic powers, mind control immunity</desc>
+      <title>Hektar Manager</title>
+      <short>Manager</short>
+      <cost>110</cost>
+      <bp>2</bp>
+      <rarity>0</rarity>
+      <powerList>
+        <power>Active Ability: Convince an enemy crew to work for them, control lasts 10 second until the enemy realize that they were lied to</power>
+        <power>Manage crew in the same room, granting them x2.1 repair speed and combat damage</power>
+        <power>Won't stop managing, reducing the movement speed of friendly crew to 0.85x</power>
+      </powerList>
+      <colorList>
+        <layer>
+          <color r="227" g="172" b="39" a="0.1"/>
+          <color r="227" g="172" b="39" a="0.7"/>
+          <color r="255" g="230" b="175" a="0.8" />
+          <color r="120" g="240" b="60" a="0.6" />
+          <color r="255" g="241" b="0" a="1" />
+          <color r="255" g="170" b="0" a="1" />
+          <color r="0" g="0" b="0" a="0" />
+          <color r="140" g="140" b="200" a="0.5" />
+        </layer>
+      </colorList>
+    </crewBlueprint>
 
     <augBlueprint name="MODULAR_BASE">
         <title>No Attribute</title>
@@ -441,7 +470,7 @@ Bio: +100 crew damage, -2 damage, +2 shield pierce</desc>
         </droneList>
         <health amount="30" />
         <maxPower amount="7" />
-        <crewCount amount="1" class="slug_hektar" />
+        <crewCount amount="1" class="slug_hektar_elite" />
         <crewCount amount="1" class="slug_hektar" />
         <crewCount amount="1" class="lizard" />
         <aug name="MODULAR_STORE" />
@@ -517,7 +546,7 @@ Bio: +100 crew damage, -2 damage, +2 shield pierce</desc>
         <droneList drones="0" count="3" />
         <health amount="30" />
         <maxPower amount="7" />
-        <crewCount amount="1" class="slug_hektar" />
+        <crewCount amount="1" class="slug_hektar_elite" />
         <crewCount amount="1" class="lizard" />
         <crewCount amount="1" class="lizard" />
         <crewCount amount="1" class="lizard" />
@@ -7425,7 +7454,31 @@ Status - Stun
     </statBoosts>
     <sysDamage>1</sysDamage>
   </weaponBlueprint>
-  
+  <!-- Tri-Tach rules!
+     ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+     ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+     ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+     ,,,,,,,,,,,,,,,,,,,,,(@@/.,,@,,,@,,.(@@*,,,,,,,,,,,,,,,,,,,,
+     ,,,,,,,,,,,,,,,,,@(,,,,,,,%@@,,,@@*,,,,,,,#@,,,,,,,,,,,,,,,,
+     ,,,,,,,,,,,,,,@.,,,,,,,,,@@@@,,,@@@@,,,,,,,,,.@,,,,,,,,,,,,,
+     ,,,,,,,,,,,#&,,,,,,,,,,*@@@@@,,,@@@@@,,,,,,,,,,,@,,,,,,,,,,,
+     ,,,,,,,,,,@,,,,,,,,,,,@@@@@@@,,,@@@@@@@,,,,,,,,,,,@,,,,,,,,,
+     ,,,,,,,,%/,,,,,,,,,,,@@@@@@@@,,,@@@@@@@@,,,,,,,,,,,#/,,,,,,,
+     ,,,,,,,%*,,,,,,,,,,@@@@@@@.,,,,,,,.@@@@@@&,,,,,,,,,,#*,,,,,,
+     ,,,,,,.@,,,,,,,,,,@@@@@.,,,,&@@@%,,,,,@@@@@,,,,,,,,,,@,,,,,,
+     ,,,,,,%,,,,,,,,,&@@@@@,,,%@@@@@@@@@(,,,@@@@@(,,,,,,,,*(,,,,,
+     ,,,,,,@,,,,,,,,@@@@@@/,,,@@@@@@@@@@@,,,#@@@@@@,,,,,,,.%,,,,,
+     ,,,,,,%,,,,,,#@@@@@@@@,,,@@@@@@@@@@@,,,@@@@@@@@*,,,,,*(,,,,,
+     ,,,,,,.@,,,,@@@@@@@*,,,,,,.@@@@@@@,,,,,,,/@@@@@@@,,,,@,,,,,,
+     ,,,,,,,%*,*@@@@.,,,.@@@@@,,,,,,,,,,.@@@@@,,,,.@@@@,,#*,,,,,,
+     ,,,,,,,,%@#,,,,*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@,,,,,%@/,,,,,,,
+     ,,,,,,,,,,,#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@/,,,,,,,,,,
+     ,,,,,,,,,,,#&,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,@,,,,,,,,,,,
+     ,,,,,,,,,,,,,,@.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,@,,,,,,,,,,,,,
+     ,,,,,,,,,,,,,,,,,@/,,,,,,,,,,,,,,,,,,,,,,,#@,,,,,,,,,,,,,,,,
+     ,,,,,,,,,,,,,,,,,,,,,(@@/.,,,,,,,,,.(@@/,,,,,,,,,,,,,,,,,,,,
+     ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+     ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
   <weaponBlueprint name="MODULAR_DRONE_WEAPON_LASER_BASE_LOCKDOWN">
     <type>LASER</type>
     <title>Drone Laser</title>

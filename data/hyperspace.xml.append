@@ -14,6 +14,57 @@
 
 <version>^1.8.0</version>
 
+<mod:findLike type="HS_LIST_SLUG" >
+    <mod-append:slug>slug_hektar_elite</mod-append:slug>
+</mod:findLike>
+
+<mod:findLike type="crew" limit="1">
+    <mod-append:race name="slug_hektar_elite">
+        <maxHealth>125</maxHealth>
+        <detectsLifeforms>true</detectsLifeforms>
+        <isTelepathic>true</isTelepathic>
+        <resistsMindControl>true</resistsMindControl>
+        <animBase>slug</animBase>
+        <passiveStatBoosts>  
+            <statBoost name="repairSpeed">
+                <boostType>MULT</boostType>
+                <amount>2</amount>
+                <shipTarget>CURRENT_ROOM</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+                <affectsSelf>false</affectsSelf>
+                <priority>0</priority>
+            </statBoost>
+            <statBoost name="damageMultiplier">
+                <boostType>MULT</boostType>
+                <amount>2</amount>
+                <shipTarget>CURRENT_ROOM</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+                <affectsSelf>false</affectsSelf>
+                <priority>0</priority>
+            </statBoost>
+        </passiveStatBoosts>
+        <powerEffect>
+            <cooldown>30</cooldown>
+            <req type="enemy">
+                <enemyInRoom/>
+            </req>
+            <jumpCooldown>continue</jumpCooldown>
+            <buttonText>MIND</buttonText>
+            <tooltip>[CD:30s  DURATION:10s] Mind control an enemy in the same room.</tooltip>
+            <cooldownColor r="58" g="27" b="129"/>
+            <statBoost name="controllable">
+                <boostType>SET</boostType>
+                <value>false</value>
+                <shipTarget>CURRENT_ROOM</shipTarget>
+                <crewTarget>ENEMIES</crewTarget>
+                <droneTarget>CREW</droneTarget>
+                <affectsSelf>false</affectsSelf>
+                <duration>1</duration>
+                <blackList load="LIST_CREW_MADNESS_IMMUNE"/>
+            </statBoost>
+        </powerEffect>
+    </mod-append:race>
+</mod:findLike>
 
 <mod:findLike type="ships" limit="1">
 
@@ -133,6 +184,30 @@
             </item>
             <item>
                 <blueprint>SHOP_ITEM_HEKTAR_DRONE_BASE</blueprint>
+            </item>
+        </mod-append:category>
+    </mod:findLike>
+    <mod:findLike type="customStore"><mod:selector id="STORE_ULTIMATE_SYLVAN" />
+		<mod-append:category type="WEAPONS">
+            <item>
+                <blueprint>MODULAR_FOCUS_BASE</blueprint>
+            </item>
+            <item>
+                <blueprint>MODULAR_SHOTGUN_BASE</blueprint>
+            </item>
+            <item>
+                <blueprint>MODULAR_BOMB_BASE</blueprint>
+            </item>
+        </mod-append:category>
+        <mod-append:category type="DRONES">
+            <item>
+                <blueprint>MODULAR_DRONE_LASER_BASE</blueprint>
+            </item>
+            <item>
+                <blueprint>MODULAR_DRONE_BEAM_BASE</blueprint>
+            </item>
+            <item>
+                <blueprint>MODULAR_DRONE_ION_BASE</blueprint>
             </item>
         </mod-append:category>
     </mod:findLike>

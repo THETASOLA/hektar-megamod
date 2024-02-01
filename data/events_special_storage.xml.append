@@ -58,15 +58,15 @@
 	</choice>
 
 	<choice req="ARTILLERY_MODULAR_LASER" lvl="1" blue="false" hidden="true">
-        <text>Check module Effects</text>
+        <text>Check module effects for the laser artillery</text>
         <event load="STORAGE_CHECK_MODULAR_ARTILLERY_LASER"/>
     </choice>
 	<choice req="ARTILLERY_MODULAR_BEAM" lvl="1" blue="false" hidden="true">
-        <text>Check module Effects</text>
+        <text>Check module effects for the beam artillery</text>
         <event load="STORAGE_CHECK_MODULAR_ARTILLERY_BEAM"/>
     </choice>
 	<choice req="ARTILLERY_MODULAR_MISSILE" lvl="1" blue="false" hidden="true">
-        <text>Check module Effects</text>
+        <text>Check module effects for the missile artillery</text>
         <event load="STORAGE_CHECK_MODULAR_ARTILLERY_MISSILE"/>
     </choice>
 
@@ -208,7 +208,7 @@
 </event>
 
 <event name="STORAGE_CHECK_MODULAR_ARTILLERY_LASER">
-    <text> Module effects:
+    <text>Module effects:
 - Power: +1 damage
 - Hull: +100% breach chance
 - Fire: +100% fire chance
@@ -221,12 +221,14 @@
 
     <choice hidden="true">
 		<text>Very Well.</text>
-		<event load="STORAGE_CHECK_MODULAR_ARTILLERY"/>
+		<event>
+			<loadEvent>STORAGE_CHECK_MODULAR_ARTILLERY</loadEvent>
+		</event>
 	</choice>
 </event>
 
 <event name="STORAGE_CHECK_MODULAR_ARTILLERY_BEAM">
-    <text> Module effects:
+    <text>Module effects:
 - Power: +2 damage
 - Hull: +100% breach chance
 - Fire: +100% fire chance
@@ -239,12 +241,14 @@
 
     <choice hidden="true">
 		<text>Very Well.</text>
-		<event load="STORAGE_CHECK_MODULAR_ARTILLERY"/>
+		<event>
+			<loadEvent>STORAGE_CHECK_MODULAR_ARTILLERY</loadEvent>
+		</event>
 	</choice>
 </event>
 
 <event name="STORAGE_CHECK_MODULAR_ARTILLERY_MISSILE">
-    <text> Module effects:
+    <text>Module effects:
 - Power: +2 system damage on room and adjacent rooms
 - Hull: +2 damage +100% breach chance on room and adjacent rooms
 - Fire: +100% fire chance on room and adjacent rooms
@@ -257,7 +261,9 @@
 
     <choice hidden="true">
 		<text>Very Well.</text>
-		<event load="STORAGE_CHECK_MODULAR_ARTILLERY"/>
+		<event>
+			<loadEvent>STORAGE_CHECK_MODULAR_ARTILLERY</loadEvent>
+		</event>
 	</choice>
 </event>
 
