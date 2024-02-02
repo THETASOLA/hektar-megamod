@@ -50,7 +50,7 @@
             </req>
             <jumpCooldown>continue</jumpCooldown>
             <buttonText>MIND</buttonText>
-            <tooltip>[CD:30s  DURATION:10s] Mind control an enemy in the same room.</tooltip>
+            <tooltip>[CD:30s  DURATION:10s] Bribe (Mind control) an enemy in the same room.</tooltip>
             <cooldownColor r="58" g="27" b="129"/>
             <statBoost name="controllable">
                 <boostType>SET</boostType>
@@ -159,6 +159,7 @@
             <item>
                 <blueprint>SHOP_ITEM_HEKTAR_DRONE_BASE</blueprint>
             </item>
+            <groupChance>50</groupChance>
         </mod-append:category>
     </mod:findLike>
     <mod:findLike type="customStore"><mod:selector id="STORE_HEKTAR_DEMO" />

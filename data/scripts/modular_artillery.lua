@@ -394,4 +394,4 @@ script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function()
             mods.hektar.mindcontrol[k] = nil
         end
     end
-  end)
+end)

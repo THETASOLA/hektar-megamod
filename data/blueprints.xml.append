@@ -98,7 +98,7 @@
         <power>Won't stop managing, reducing the movement speed of friendly crew to 0.85x</power>
       </powerList>
       <colorList>
-        <layer>
+        <layer> <!-- SKIN-->
           <color r="227" g="172" b="39" a="0.1"/>
           <color r="227" g="172" b="39" a="0.7"/>
           <color r="255" g="230" b="175" a="0.8" />
@@ -107,6 +107,13 @@
           <color r="255" g="170" b="0" a="1" />
           <color r="0" g="0" b="0" a="0" />
           <color r="140" g="140" b="200" a="0.5" />
+        </layer>
+        <layer> <!-- SUIT-->
+          <color r="0" g="40" b="110" a="0.7" /> <!--blue-->
+          <color r="105" g="13" b="13" a="0.7"/> <!--red-->
+          <color r="148" g="134" b="32" a="0.7"/> <!--Hektar orange-->
+          <color r="52" g="0" b="85" a="0.7"/> <!--Violet-->
+          <color r="20" g="20" b="20" a="0.7"/> <!--dark-->
         </layer>
       </colorList>
     </crewBlueprint>
