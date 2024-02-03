@@ -68,7 +68,24 @@
 
 <mod:findLike type="ships" limit="1">
 
-	<mod-append:ship name="PLAYER_SHIP_HEKTAR_MODULAR" b="true" c="true" secret="false">
+	<mod-append:ship name="PLAYER_SHIP_HEKTAR_MODULAR" b="true" c="true">
+        <unlock variant="a" silent="false">
+			<type>4</type>
+		</unlock>
+        <unlock variant="b" silent="false">
+            <type>1</type>
+            <shipReq>PLAYER_SHIP_HEKTAR_MODULAR</shipReq>
+            <value>5</value>
+        </unlock>
+        <unlock variant="c" silent="false">
+            <type>1</type>
+            <shipReq>PLAYER_SHIP_HEKTAR_MODULAR_2</shipReq>
+            <value>5</value>
+        </unlock>
+        <unlock variant="c" silent="false">
+            <type>2</type>
+            <shipReq>PLAYER_SHIP_HEKTAR_MODULAR</shipReq>
+        </unlock>
 	</mod-append:ship>
 
 	<mod-append:customShip name="PLAYER_SHIP_HEKTAR_MODULAR">
@@ -92,6 +109,7 @@
 		<hiddenAug>MODULAR_BASE</hiddenAug>
 		<hiddenAug>MODULAR_BASE_BASE</hiddenAug>
 		<crewLimit>8</crewLimit>
+        <systemLimit>8</systemLimit>
 	</mod-append:customShip>
 	
 </mod:findLike>

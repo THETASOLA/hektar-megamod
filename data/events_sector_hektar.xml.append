@@ -7,7 +7,7 @@
     <choice hidden="false">
         <text>Inquire about what they are selling.</text>
         <event>
-            <text>An Hektar manger greats you. "Greetingsss cussstomer, I am afraid Hektar Industriesss does not allow product to be bought from sssource, please refer to a licensssed Hektar Ssstore(tm) to acquire our productsss".</text>
+            <text>An Hektar manager anwsers to your hail. "Greetingsss cussstomer, I am afraid Hektar Industriesss(tm) does not permit product to be bought from sssource, please refer to a licensssed Hektar Ssstore(tm) to acquire our productsss".</text>
             <choice hidden="false">
                 <text>Maybe we could find an arrangment.</text>
                 <event>
@@ -66,14 +66,14 @@
                                         </event>
                                     </choice>
                                     <choice hidden="false">
-                                        <text>I am a Multiverse Renegade who've jumped from one universe to another, all that to be served to the most pathetic of product ever created in this Multiverse!.</text>
+                                        <text>I am a Renegade who've jumped from one universe to another, all that to be served to the most pathetic of product ever created in this Multiverse!.</text>
                                         <event>
-                                            <text>"FINE, I'm sssick of you, I propose a Cruissser and a complimentary modular weapon, but you gotta pay big buck for it!". Having no use for the Cruiser you just bought you set its auto pilot to the nearest federation outpost.</text>
+                                            <text>"FINE, I'm sssick of you, I propose a Cruissser and a complimentary modular weapon, but you gotta pay big buck for it!".</text>
                                             <choice hidden="false">
                                                 <text>Deal.</text>
                                                 <event>
-                                                    <text>"Here you go, now get out of my sssight."</text>
-                                                    <unlockCustomShip silent="false">PLAYER_SHIP_HEKTAR_MODU</unlockCustomShip>
+                                                    <text>"Here you go, now get out of my sssight.". Having no use for the Cruiser you just bought you set its auto pilot to the nearest federation outpost.</text>
+                                                    <unlockCustomShip silent="false">PLAYER_SHIP_HEKTAR_MODULAR</unlockCustomShip>
                                                     <weapon name="LIST_WEAPONS_MODULAR_HEKTAR"/>
                                                     <item_modify>
                                                         <item type="scrap" min="-300" max="-250"/>
@@ -84,11 +84,11 @@
                                                     </choice>
                                                 </event>
                                             </choice>
-                                            <choice hidden="false" blue="true">
+                                            <choice hidden="false" req="LIST_VARIANT_BILLY">
                                                 <text>(Billy) We're not paying for it.</text>
                                                 <event>
                                                     <text>"Of courssse director, anything you need!". Having no use for the Cruiser you just legally acquired by alternative mean you set its auto pilot to the nearest federation outpost.</text>
-                                                    <unlockCustomShip silent="false">PLAYER_SHIP_HEKTAR_MODU</unlockCustomShip>
+                                                    <unlockCustomShip silent="false">PLAYER_SHIP_HEKTAR_MODULAR</unlockCustomShip>
                                                     <reward type="WEAPON">MODULAR</reward>
                                                     <autoReward level="HIGH">standard</autoReward>
                                                     <weapon name="LIST_WEAPONS_MODULAR_HEKTAR"/>

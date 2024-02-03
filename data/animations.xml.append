@@ -117,7 +117,7 @@
 		<time>1</time>
 	</anim>
 
-	<animSheet name="modular_artillery_laser_chargeglow" w="360" h="58" fw="36" fh="63">modular_artillery/modular_artillery_laser_chargeglow.png</animSheet>
+	<animSheet name="modular_artillery_laser_chargeglow" w="360" h="58" fw="36" fh="58">modular_artillery/modular_artillery_laser_chargeglow.png</animSheet>
 	<anim name="modular_artillery_laser_chargeglow">
 		<sheet>modular_artillery_laser_chargeglow</sheet>
 		<desc length="4" x="0" y="0"/>
