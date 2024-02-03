@@ -84,6 +84,33 @@
                                                     </choice>
                                                 </event>
                                             </choice>
+                                            <choice hidden="false">
+                                                <text>I don't want the ship, I want your services.</text>
+                                                <event>
+                                                    <text>"I only accept becaussse you have a terrible sssenssse of negociation, and for the ssscrap too I guess." The Manager boards your ship with the promised weapons.</text>
+                                                    <weapon name="LIST_WEAPONS_MODULAR_HEKTAR"/>
+                                                    <crewMember amount="1" all_skills="2" class="slug_hektar_elite"/>
+                                                    <item_modify>
+                                                        <item type="scrap" min="-250" max="-200"/>
+                                                    </item_modify>
+                                                    <choice hidden="false">
+                                                        <text>Time to go.</text>
+                                                        <event/>
+                                                    </choice>
+                                                </event>
+                                            </choice>
+                                            <choice hidden="false" req="slug_hektar_elite">
+                                                <text>(Hektar Manager) "You truly are pathetic at busssinesss".</text>
+                                                <event>
+                                                    <text>"What the heck did you jussst flipping sssay about me, you little intern? I'll have you know I graduated top of my classssss in Busssinessssss Adminissstration, and I've been involved in numerousss sssecret marketing campaignsss, and I have over 300 confirmed sssuccessssssful pitchesss. I am trained in guerrilla advertisssing and I'm the top clossser in the entire sssalesssforce. You are nothing to me but jussst another potential lead. I will convert you..." While the Hektar Manager go on with its rant, your elite managed to steal a modular weapon and some supplies.</text>
+                                                    <autoReward level="HIGH">standard</autoReward>
+                                                    <weapon name="LIST_WEAPONS_MODULAR_HEKTAR"/>
+                                                    <choice hidden="false">
+                                                        <text>Let's get out of here before they realize.</text>
+                                                        <event/>
+                                                    </choice>
+                                                </event>
+                                            </choice>
                                             <choice hidden="false" req="LIST_VARIANT_BILLY">
                                                 <text>(Billy) We're not paying for it.</text>
                                                 <event>
