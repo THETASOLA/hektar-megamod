@@ -202,16 +202,7 @@ Flak Effects: +2 projectiles, +1 power, +10 radius</mod-append:desc>
         <title>Modular Laser Artillery</title>
         <short>Mod. Laser</short>
         <desc>[Base cooldown: 25/23/21/19/17] Fires a powerful barrage of 3 lasers that do 1 damage each.
-Affected by modules.
-Power: +1 damage
-Hull: +100% breach chance
-Fire: +100% fire chance
-Accuracy: +100% accuracy
-Cooldown: -5 cooldown
-Stun: +20 second stun
-Pierce: +2 shield pierce
-Lockdown: Lockdown room
-Bio: +150 crew damage, -1 damage, +1 shield pierce</desc>
+Affected by modules, check storage for stats</desc>
         <tooltip>Artillery: Fires a powerful barrage of 3 lasers that do 2 damage each.</tooltip>
         <damage>1</damage>
         <shots>3</shots>
@@ -251,16 +242,7 @@ Bio: +150 crew damage, -1 damage, +1 shield pierce</desc>
         <title>Modular Missile Artillery</title>
         <short>Mod. Missile</short>
         <desc>[Base cooldown: 35/32/29] Fires a powerful missiles dealing 2 damage.
-Affected by modules.
-Power: +2 system damage on room and adjacent rooms
-Hull: +2 damage +100% breach chance on room and adjacent rooms
-Fire: +100% fire chance on room and adjacent rooms
-Accuracy: +100% accuracy
-Cooldown: -5 cooldown
-Stun: +40 second stun on room and adjacent rooms
-Pierce: No effect
-Lockdown: Lockdown room and adjacent rooms
-Bio: +200 crew damage, -2 damage</desc>
+Affected by modules, check storage for stats</desc>
         <tooltip>Missile Artillery</tooltip>
         <damage>2</damage>
         <missiles>0</missiles>
@@ -302,16 +284,7 @@ Bio: +200 crew damage, -2 damage</desc>
         <title>Modular Missile Beam</title>
         <short>Mod. Beam</short>
         <desc>[Base cooldown: 26/24/22/20/18] Fires a powerful beam dealing 2 damage.
-Affected by modules.
-Power: +2 damage
-Hull: +100% breach chance
-Fire: +100% fire chance
-Accuracy: No effect
-Cooldown: -5 cooldown
-Stun: +25 second stun
-Pierce: + 1 shield pierce
-Lockdown: Lockdown room
-Bio: +100 crew damage, -2 damage, +2 shield pierce</desc>
+Affected by modules, check storage for stats</desc>
         <tooltip>Beam Artillery</tooltip>
         <damage>2</damage>
         <sp>0</sp>
