@@ -576,7 +576,7 @@ Incompatible with the accuracy and lockdown module.</desc>
   <title>Modular Pinpoint</title>
   <tip>tip_focus</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the accuracy and lockdown module.
 ----CURRENTLY INSTALLED MODULES----
 Status - Pierce</desc>
   <short>Mod. Pinpoint</short>
@@ -608,7 +608,7 @@ Status - Pierce</desc>
   <title>Modular Pinpoint</title>
   <tip>tip_focus</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the accuracy and lockdown module.
 ----CURRENTLY INSTALLED MODULES----
 Status - Bio</desc>
   <short>Mod. Pinpoint</short>
@@ -669,7 +669,7 @@ Status - Bio</desc>
   <title>Modular Pinpoint</title>
   <tip>tip_focus</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the accuracy and lockdown module.
 ----CURRENTLY INSTALLED MODULES----
 Status - Cooldown</desc>
   <short>Mod. Pinpoint</short>
@@ -701,7 +701,7 @@ Status - Cooldown</desc>
   <title>Modular Pinpoint</title>
   <tip>tip_focus</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the accuracy and lockdown module.
 ----CURRENTLY INSTALLED MODULES----
 Status - Stun</desc>
   <short>Mod. Pinpoint</short>
@@ -734,7 +734,7 @@ Status - Stun</desc>
   <title>Modular Pinpoint</title>
   <tip>tip_focus</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the accuracy and lockdown module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire</desc>
   <short>Mod. Pinpoint</short>
@@ -766,7 +766,7 @@ Attribute - Fire</desc>
   <title>Modular Pinpoint</title>
   <tip>tip_focus</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the accuracy and lockdown module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull</desc>
   <short>Mod. Pinpoint</short>
@@ -799,7 +799,7 @@ Attribute - Hull</desc>
   <title>Modular Pinpoint</title>
   <tip>tip_focus</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the accuracy and lockdown module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power</desc>
   <short>Mod. Pinpoint</short>
@@ -810,7 +810,7 @@ Attribute - Power</desc>
   <persDamage>0</persDamage>
   <fireChance>0</fireChance>
   <breachChance>2</breachChance>
-  <cooldown>16</cooldown>
+  <cooldown>20</cooldown>
   <speed>1</speed>
   <power>3</power>
   <cost>65</cost>
@@ -831,7 +831,7 @@ Attribute - Power</desc>
   <title>Modular Pinpoint</title>
   <tip>tip_focus</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the accuracy and lockdown module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
 Status - Pierce</desc>
@@ -842,7 +842,7 @@ Status - Pierce</desc>
   <sp>1</sp>
   <persDamage>0</persDamage>
   <fireChance>10</fireChance>
-  <breachChance>3</breachChance>
+  <breachChance>5</breachChance>
   <cooldown>16</cooldown>
   <speed>1</speed>
   <power>2</power>
@@ -864,7 +864,7 @@ Status - Pierce</desc>
   <title>Modular Pinpoint</title>
   <tip>tip_focus</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the accuracy and lockdown module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
 Status - Bio</desc>
@@ -872,7 +872,7 @@ Status - Bio</desc>
   <tooltip>One damage per room beam weapon</tooltip>
   <damage>0</damage>
   <sysDamage>3</sysDamage>
-  <sp>2</sp>
+  <sp>3</sp>
   <persDamage>6</persDamage>
   <fireChance>10</fireChance>
   <breachChance>2</breachChance>
@@ -926,7 +926,7 @@ Status - Bio</desc>
   <title>Modular Pinpoint</title>
   <tip>tip_focus</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the accuracy and lockdown module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
 Status - Cooldown</desc>
@@ -959,7 +959,7 @@ Status - Cooldown</desc>
   <title>Modular Pinpoint</title>
   <tip>tip_focus</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the accuracy and lockdown module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
 Status - Stun</desc>
@@ -993,7 +993,7 @@ Status - Stun</desc>
   <title>Modular Pinpoint</title>
   <tip>tip_focus</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the accuracy and lockdown module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
 Status - Pierce</desc>
@@ -1004,7 +1004,7 @@ Status - Pierce</desc>
   <sp>1</sp>
   <persDamage>0</persDamage>
   <fireChance>0</fireChance>
-  <breachChance>13</breachChance>
+  <breachChance>10</breachChance>
   <cooldown>16</cooldown>
   <speed>1</speed>
   <power>2</power>
@@ -1027,7 +1027,7 @@ Status - Pierce</desc>
   <title>Modular Pinpoint</title>
   <tip>tip_focus</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the accuracy and lockdown module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
 Status - Bio</desc>
@@ -1089,7 +1089,7 @@ Status - Bio</desc>
   <title>Modular Pinpoint</title>
   <tip>tip_focus</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the accuracy and lockdown module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
 Status - Cooldown</desc>
@@ -1123,7 +1123,7 @@ Status - Cooldown</desc>
   <title>Modular Pinpoint</title>
   <tip>tip_focus</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the accuracy and lockdown module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
 Status - Stun</desc>
@@ -1158,7 +1158,7 @@ Status - Stun</desc>
   <title>Modular Pinpoint</title>
   <tip>tip_focus</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the accuracy and lockdown module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power
 Status - Pierce</desc>
@@ -1169,8 +1169,8 @@ Status - Pierce</desc>
   <sp>1</sp>
   <persDamage>0</persDamage>
   <fireChance>0</fireChance>
-  <breachChance>2</breachChance>
-  <cooldown>16</cooldown>
+  <breachChance>5</breachChance>
+  <cooldown>20</cooldown>
   <speed>1</speed>
   <power>3</power>
   <cost>65</cost>
@@ -1191,7 +1191,7 @@ Status - Pierce</desc>
   <title>Modular Pinpoint</title>
   <tip>tip_focus</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the accuracy and lockdown module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power
 Status - Bio</desc>
@@ -1203,7 +1203,7 @@ Status - Bio</desc>
   <persDamage>6</persDamage>
   <fireChance>0</fireChance>
   <breachChance>2</breachChance>
-  <cooldown>16</cooldown>
+  <cooldown>20</cooldown>
   <speed>1</speed>
   <power>3</power>
   <cost>65</cost>
@@ -1253,7 +1253,7 @@ Status - Bio</desc>
   <title>Modular Pinpoint</title>
   <tip>tip_focus</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the accuracy and lockdown module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power
 Status - Cooldown</desc>
@@ -1265,7 +1265,7 @@ Status - Cooldown</desc>
   <persDamage>0</persDamage>
   <fireChance>0</fireChance>
   <breachChance>2</breachChance>
-  <cooldown>12</cooldown>
+  <cooldown>16</cooldown>
   <speed>1</speed>
   <power>3</power>
   <cost>65</cost>
@@ -1286,7 +1286,7 @@ Status - Cooldown</desc>
   <title>Modular Pinpoint</title>
   <tip>tip_focus</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the accuracy and lockdown module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power
 Status - Stun</desc>
@@ -1298,7 +1298,7 @@ Status - Stun</desc>
   <persDamage>0</persDamage>
   <fireChance>0</fireChance>
   <breachChance>2</breachChance>
-  <cooldown>16</cooldown>
+  <cooldown>20</cooldown>
   <speed>1</speed>
   <power>3</power>
   <cost>65</cost>
@@ -1458,7 +1458,7 @@ Status - Pierce</desc>
   <sp>1</sp>
   <spin>720</spin>
   <fireChance>0</fireChance>
-  <breachChance>3</breachChance>
+  <breachChance>4</breachChance>
   <cooldown>12</cooldown>
   <power>2</power>
   <cost>65</cost>
@@ -1935,7 +1935,7 @@ Status - Pierce</desc>
   <sp>1</sp>
   <spin>720</spin>
   <fireChance>4</fireChance>
-  <breachChance>3</breachChance>
+  <breachChance>4</breachChance>
   <cooldown>12</cooldown>
   <power>2</power>
   <cost>65</cost>
@@ -2218,7 +2218,7 @@ Status - Pierce</desc>
   <sp>1</sp>
   <spin>720</spin>
   <fireChance>0</fireChance>
-  <breachChance>3</breachChance>
+  <breachChance>4</breachChance>
   <cooldown>12</cooldown>
   <power>2</power>
   <cost>65</cost>
@@ -2482,7 +2482,6 @@ Status - Bio</desc>
       <duration>10</duration>
     </statBoost>
   </statBoosts>
-  <hullBust>1</hullBust>
   <persDamage>2</persDamage>
 </weaponBlueprint>
 
@@ -2505,7 +2504,7 @@ Status - Pierce</desc>
   <sp>1</sp>
   <spin>720</spin>
   <fireChance>0</fireChance>
-  <breachChance>4</breachChance>
+  <breachChance>5</breachChance>
   <cooldown>12</cooldown>
   <power>2</power>
   <cost>65</cost>
@@ -2791,7 +2790,7 @@ Status - Pierce</desc>
   <sp>1</sp>
   <spin>720</spin>
   <fireChance>0</fireChance>
-  <breachChance>1</breachChance>
+  <breachChance>4</breachChance>
   <cooldown>12</cooldown>
   <power>3</power>
   <cost>65</cost>
@@ -3014,7 +3013,7 @@ Incompatible with the piercing module.</desc>
   <title>Modular Bomb</title>
   <tip>tip_bombs</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the piercing module.
 ----CURRENTLY INSTALLED MODULES----
 Status - Bio</desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
@@ -3080,7 +3079,7 @@ Status - Bio</desc>
   <title>Modular Bomb</title>
   <tip>tip_bombs</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the piercing module.
 ----CURRENTLY INSTALLED MODULES----
 Status - Cooldown</desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
@@ -3117,7 +3116,7 @@ Status - Cooldown</desc>
   <title>Modular Bomb</title>
   <tip>tip_bombs</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the piercing module.
 ----CURRENTLY INSTALLED MODULES----
 Status - Lockdown</desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
@@ -3155,7 +3154,7 @@ Status - Lockdown</desc>
   <title>Modular Bomb</title>
   <tip>tip_bombs</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the piercing module.
 ----CURRENTLY INSTALLED MODULES----
 Status - Stun</desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
@@ -3194,7 +3193,7 @@ Status - Stun</desc>
   <title>Modular Bomb</title>
   <tip>tip_bombs</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the piercing module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire</desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
@@ -3231,7 +3230,7 @@ Attribute - Fire</desc>
   <title>Modular Bomb</title>
   <tip>tip_bombs</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the piercing module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy</desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
@@ -3269,7 +3268,7 @@ Attribute - Accuracy</desc>
   <title>Modular Bomb</title>
   <tip>tip_bombs</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the piercing module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull</desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
@@ -3306,7 +3305,7 @@ Attribute - Hull</desc>
   <title>Modular Bomb</title>
   <tip>tip_bombs</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the piercing module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power</desc>
   <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
@@ -3343,7 +3342,7 @@ Attribute - Power</desc>
   <title>Modular Bomb</title>
   <tip>tip_bombs</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the piercing module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
 Status - Bio</desc>
@@ -3410,7 +3409,7 @@ Status - Bio</desc>
   <title>Modular Bomb</title>
   <tip>tip_bombs</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the piercing module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
 Status - Cooldown</desc>
@@ -3448,7 +3447,7 @@ Status - Cooldown</desc>
   <title>Modular Bomb</title>
   <tip>tip_bombs</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the piercing module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
 Status - Lockdown</desc>
@@ -3487,7 +3486,7 @@ Status - Lockdown</desc>
   <title>Modular Bomb</title>
   <tip>tip_bombs</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the piercing module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
 Status - Stun</desc>
@@ -3527,7 +3526,7 @@ Status - Stun</desc>
   <title>Modular Bomb</title>
   <tip>tip_bombs</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the piercing module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy
 Status - Bio</desc>
@@ -3595,7 +3594,7 @@ Status - Bio</desc>
   <title>Modular Bomb</title>
   <tip>tip_bombs</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the piercing module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy
 Status - Cooldown</desc>
@@ -3634,7 +3633,7 @@ Status - Cooldown</desc>
   <title>Modular Bomb</title>
   <tip>tip_bombs</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the piercing module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy
 Status - Lockdown</desc>
@@ -3674,7 +3673,7 @@ Status - Lockdown</desc>
   <title>Modular Bomb</title>
   <tip>tip_bombs</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the piercing module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy
 Status - Stun</desc>
@@ -3715,7 +3714,7 @@ Status - Stun</desc>
   <title>Modular Bomb</title>
   <tip>tip_bombs</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the piercing module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
 Status - Bio</desc>
@@ -3782,7 +3781,7 @@ Status - Bio</desc>
   <title>Modular Bomb</title>
   <tip>tip_bombs</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the piercing module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
 Status - Cooldown</desc>
@@ -3820,7 +3819,7 @@ Status - Cooldown</desc>
   <title>Modular Bomb</title>
   <tip>tip_bombs</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the piercing module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
 Status - Lockdown</desc>
@@ -3859,7 +3858,7 @@ Status - Lockdown</desc>
   <title>Modular Bomb</title>
   <tip>tip_bombs</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the piercing module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
 Status - Stun</desc>
@@ -3899,7 +3898,7 @@ Status - Stun</desc>
   <title>Modular Bomb</title>
   <tip>tip_bombs</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the piercing module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power
 Status - Bio</desc>
@@ -3966,7 +3965,7 @@ Status - Bio</desc>
   <title>Modular Bomb</title>
   <tip>tip_bombs</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the piercing module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power
 Status - Cooldown</desc>
@@ -4004,7 +4003,7 @@ Status - Cooldown</desc>
   <title>Modular Bomb</title>
   <tip>tip_bombs</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the piercing module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power
 Status - Lockdown</desc>
@@ -4043,7 +4042,7 @@ Status - Lockdown</desc>
   <title>Modular Bomb</title>
   <tip>tip_bombs</tip>
   <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
+Incompatible with the piercing module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power
 Status - Stun</desc>
