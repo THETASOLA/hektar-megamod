@@ -42,6 +42,14 @@
                 <affectsSelf>false</affectsSelf>
                 <priority>0</priority>
             </statBoost>
+            <statBoost name="moveSpeedMultiplier">
+                <boostType>MULT</boostType>
+                <amount>0.85</amount>
+                <shipTarget>CURRENT_ROOM</shipTarget>
+                <crewTarget>ALLIES</crewTarget>
+                <affectsSelf>false</affectsSelf>
+                <priority>0</priority>
+            </statBoost>
         </passiveStatBoosts>
         <powerEffect>
             <cooldown>30</cooldown>
@@ -50,7 +58,7 @@
             </req>
             <jumpCooldown>continue</jumpCooldown>
             <buttonText>MIND</buttonText>
-            <tooltip>[CD:30s  DURATION:10s] Bribe (Mind control) an enemy in the same room.</tooltip>
+            <tooltip>[CD:30s  DURATION:10s] Bribe (Mind control) an enemy in the same room. Enemy immune to mind control halve the duration.</tooltip>
             <cooldownColor r="58" g="27" b="129"/>
             <statBoost name="controllable">
                 <boostType>SET</boostType>
