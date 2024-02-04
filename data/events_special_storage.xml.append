@@ -1,3 +1,15 @@
+<mod:findName type="event" name="STORAGE_CHECK_BUTTON">
+	<mod:findWithChildLike type="choice" child-type="text" panic="true">
+        <mod:selector>Modify a modular weapon.</mod:selector>
+        <mod:removeTag />
+    </mod:findWithChildLike>
+	<mod-append:choice req="HEKTAR_MODULAR_WEAPONS_STORAGE" hidden="true" blue="false">
+        <text>Modify a modular weapon.</text>
+        <event load="STORAGE_CHECK_MODULAR"/>
+    </mod-append:choice>
+
+</mod:findName>
+
 <mod:findName type="event" name="STORAGE_CHECK_MODULAR">
     <mod:findWithChildLike type="choice" child-type="text" panic="true">
         <mod:selector>Nevermind.</mod:selector>

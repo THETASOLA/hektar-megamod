@@ -86,7 +86,7 @@ Flak Effects: +2 projectiles, +1 power, +10 radius</mod-append:desc>
     <crewBlueprint name="slug_hektar_elite">
       <desc>A soulless overpaid manager working for the Hektar corporation.
       
-      Inherited Slug stats: telepathic powers, mind control immunity</desc>
+Inherited Slug stats: telepathic powers, mind control immunity</desc>
       <title>Hektar Manager</title>
       <short>Manager</short>
       <cost>110</cost>
@@ -4083,7 +4083,7 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.</desc>
+Has no incompatible modules.</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4103,9 +4103,9 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Status - Pierce</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Status - Pierce</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4125,9 +4125,9 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Status - Bio</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Status - Bio</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4147,9 +4147,9 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Status - Cooldown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Status - Cooldown</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4169,9 +4169,9 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Status - Lockdown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Status - Lockdown</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4191,9 +4191,9 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Status - Stun</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Status - Stun</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4213,9 +4213,9 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Accuracy</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4235,9 +4235,9 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Fire</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4257,9 +4257,9 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Hull</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4279,9 +4279,9 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Power</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power</desc>
     <power>3</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4301,10 +4301,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Accuracy
-  Status - Pierce</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+Status - Pierce</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4324,10 +4324,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Accuracy
-  Status - Bio</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+Status - Bio</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4347,10 +4347,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Accuracy
-  Status - Cooldown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+Status - Cooldown</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4370,10 +4370,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Accuracy
-  Status - Lockdown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+Status - Lockdown</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4393,10 +4393,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Accuracy
-  Status - Stun</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+Status - Stun</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4416,10 +4416,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Fire
-  Status - Pierce</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+Status - Pierce</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4439,10 +4439,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Fire
-  Status - Bio</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+Status - Bio</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4462,10 +4462,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Fire
-  Status - Cooldown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+Status - Cooldown</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4485,10 +4485,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Fire
-  Status - Lockdown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+Status - Lockdown</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4508,10 +4508,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Fire
-  Status - Stun</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+Status - Stun</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4531,10 +4531,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Hull
-  Status - Pierce</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+Status - Pierce</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4554,10 +4554,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Hull
-  Status - Bio</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+Status - Bio</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4577,10 +4577,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Hull
-  Status - Cooldown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+Status - Cooldown</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4600,10 +4600,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Hull
-  Status - Lockdown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+Status - Lockdown</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4623,10 +4623,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Hull
-  Status - Stun</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+Status - Stun</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4646,10 +4646,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Power
-  Status - Pierce</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+Status - Pierce</desc>
     <power>3</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4669,10 +4669,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Power
-  Status - Bio</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+Status - Bio</desc>
     <power>3</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4692,10 +4692,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Power
-  Status - Cooldown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+Status - Cooldown</desc>
     <power>3</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4715,10 +4715,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Power
-  Status - Lockdown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+Status - Lockdown</desc>
     <power>3</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4738,10 +4738,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Power
-  Status - Stun</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+Status - Stun</desc>
     <power>3</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4853,9 +4853,9 @@ Status - Stun</desc>
     <title>Modular Beam Drone</title>
     <short>Mod. Beam</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Status - Pierce</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Status - Pierce</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4874,9 +4874,9 @@ Status - Stun</desc>
     <title>Modular Beam Drone</title>
     <short>Mod. Beam</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Status - Bio</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Status - Bio</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4895,9 +4895,9 @@ Status - Stun</desc>
     <title>Modular Beam Drone</title>
     <short>Mod. Beam</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Status - Cooldown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Status - Cooldown</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4916,9 +4916,9 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Status - Lockdown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Status - Lockdown</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4938,9 +4938,9 @@ Status - Stun</desc>
     <title>Modular Beam Drone</title>
     <short>Mod. Beam</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Status - Stun</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Status - Stun</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4959,9 +4959,9 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Accuracy</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -4981,9 +4981,9 @@ Status - Stun</desc>
     <title>Modular Beam Drone</title>
     <short>Mod. Beam</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Fire</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5002,9 +5002,9 @@ Status - Stun</desc>
     <title>Modular Beam Drone</title>
     <short>Mod. Beam</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Hull</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5023,9 +5023,9 @@ Status - Stun</desc>
     <title>Modular Beam Drone</title>
     <short>Mod. Beam</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Power</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power</desc>
     <power>3</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5044,10 +5044,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Accuracy
-  Status - Pierce</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+Status - Pierce</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5067,10 +5067,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Accuracy
-  Status - Bio</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+Status - Bio</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5090,10 +5090,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Accuracy
-  Status - Cooldown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+Status - Cooldown</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5113,10 +5113,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Accuracy
-  Status - Lockdown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+Status - Lockdown</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5136,10 +5136,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Accuracy
-  Status - Stun</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+Status - Stun</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5159,10 +5159,10 @@ Status - Stun</desc>
     <title>Modular Beam Drone</title>
     <short>Mod. Beam</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Fire
-  Status - Pierce</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+Status - Pierce</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5181,10 +5181,10 @@ Status - Stun</desc>
     <title>Modular Beam Drone</title>
     <short>Mod. Beam</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Fire
-  Status - Bio</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+Status - Bio</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5203,10 +5203,10 @@ Status - Stun</desc>
     <title>Modular Beam Drone</title>
     <short>Mod. Beam</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Fire
-  Status - Cooldown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+Status - Cooldown</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5225,10 +5225,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Fire
-  Status - Lockdown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+Status - Lockdown</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5248,10 +5248,10 @@ Status - Stun</desc>
     <title>Modular Beam Drone</title>
     <short>Mod. Beam</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Fire
-  Status - Stun</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+Status - Stun</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5270,10 +5270,10 @@ Status - Stun</desc>
     <title>Modular Beam Drone</title>
     <short>Mod. Beam</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Hull
-  Status - Pierce</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+Status - Pierce</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5292,10 +5292,10 @@ Status - Stun</desc>
     <title>Modular Beam Drone</title>
     <short>Mod. Beam</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Hull
-  Status - Bio</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+Status - Bio</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5314,10 +5314,10 @@ Status - Stun</desc>
     <title>Modular Beam Drone</title>
     <short>Mod. Beam</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Hull
-  Status - Cooldown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+Status - Cooldown</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5336,10 +5336,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Hull
-  Status - Lockdown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+Status - Lockdown</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5359,10 +5359,10 @@ Status - Stun</desc>
     <title>Modular Beam Drone</title>
     <short>Mod. Beam</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Hull
-  Status - Stun</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+Status - Stun</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5381,10 +5381,10 @@ Status - Stun</desc>
     <title>Modular Beam Drone</title>
     <short>Mod. Beam</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Power
-  Status - Pierce</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+Status - Pierce</desc>
     <power>3</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5403,10 +5403,10 @@ Status - Stun</desc>
     <title>Modular Beam Drone</title>
     <short>Mod. Beam</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Power
-  Status - Bio</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+Status - Bio</desc>
     <power>3</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5425,10 +5425,10 @@ Status - Stun</desc>
     <title>Modular Beam Drone</title>
     <short>Mod. Beam</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Power
-  Status - Cooldown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+Status - Cooldown</desc>
     <power>3</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5447,10 +5447,10 @@ Status - Stun</desc>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Power
-  Status - Lockdown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+Status - Lockdown</desc>
     <power>3</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5470,10 +5470,10 @@ Status - Stun</desc>
     <title>Modular Beam Drone</title>
     <short>Mod. Beam</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Power
-  Status - Stun</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+Status - Stun</desc>
     <power>3</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5486,86 +5486,13 @@ Status - Stun</desc>
     <iconImage>combat</iconImage>
   </droneBlueprint>
   
-  
-  <mod:findName type="weaponBlueprint" name="MODULE_ACCURACY">
-      <mod-append:desc>Hektar Industries(TM) brand Attribute Accuracy Module. Ensure your weaponry stays on target on the battlefield!
-      Incompatible with the Modular Beam.
-      Laser/Ion Effects: +20% accuracy buff
-      Missile Effects: +100% accuracy buff</mod-append:desc>
-  </mod:findName>
-  
-  <mod:findName type="weaponBlueprint" name="MODULE_BIO">
-      <mod-append:desc>Hektar Industries(TM) brand Status RAD Module. Turn your modular weapons into the perfect anti-crew weaponry!
-      No incompatibilities. When combined with the Hullbuster Module, will restore hull and system damage, but will not have hull bust properties.
-      Laser Effects: 0 hull/system dmg, +30 crew damage (+60 for drone), +1 shield pierce
-      Beam Effects: 0 hull dmg (system dmg is preserved), +60 crew damage (+90 for drone), +1 shield pierce
-      Missile Effects: 0 hull/system dmg, +90 crew damage
-      Ion Effects: +60 crew damage (+90 for drone) (must be a direct hit)
-      Weapons and drones also gain standard Anti-Bio crew debuffs. (66% slowed speed and repairs, 75% increased stun duration)</mod-append:desc>
-  </mod:findName>
-  
-  <mod:findName type="weaponBlueprint" name="MODULE_COOLDOWN">
-      <mod-append:desc>Hektar Industries(TM) brand Status Cooldown Module. Turn your modular weapons into power efficient fast firing assault weaponry!
-      No incompatibilities.
-      Effects for all weapons: Reduces cooldown by 25%
-      Effects for all drones: Increase speed by 50%</mod-append:desc>
-  </mod:findName>
-  
-  <mod:findName type="weaponBlueprint" name="MODULE_LOCKDOWN">
-      <mod-append:desc>Hektar Industries(TM) brand Status Lockdown Module. Turn your modular weapons into the next generation of tech and cause chaos on the enemy ship with patented lockdown tech!
-      Incompatible with the Modular Beam.
-      Effects for all weapons: Applies lockdown on impact</mod-append:desc>
-  </mod:findName>
-  
-  <mod:findName type="weaponBlueprint" name="MODULE_PIERCE">
-      <mod-append:desc>Hektar Industries(TM) brand Status Pierce Module. Never deal with enemy fortifications ever again!
-      Incompatible with the Modular Missile.
-      Laser/Beam Effects: +1 shield pierce, +30% breach chance
-      Ion Effects: +3 (+10 for drone) shield pierce (affects shield as it passes through)</mod-append:desc>
-  </mod:findName>
-  
-  <mod:findName type="weaponBlueprint" name="MODULE_STUN">
-      <mod-append:desc>Hektar Industries(TM) brand Status Neural Module. Turn your modular weapons into crew disrupting neural weaponry!
-      No incompatibilities.
-      Laser Effects: Projectiles apply 12 seconds of stun (projectiles do not stack the duration)
-      Beam Effects: Beam applies 18 seconds of stun
-      Missile Effects: Missile applies 14 seconds of stun
-      Ion Effects: Ion applies stun equal to ion duration +2s (25s for drone)</mod-append:desc>
-  </mod:findName>
-  
-  <mod:findName type="weaponBlueprint" name="MODULE_FIRE">
-      <mod-append:desc>Hektar Industries(TM) brand Attribute Firestarter Module. Create devastating infernos with your modular weaponry!
-      No incompatibilities.
-      Laser Effects: +30% fire chance
-      Beam Effects: +40% fire chance
-      Missile Effects: +100% fire chance
-      Ion Effects: +100% fire chance (50% for drone)</mod-append:desc>
-  </mod:findName>
-  
-  <mod:findName type="weaponBlueprint" name="MODULE_HULL">
-      <mod-append:desc>Hektar Industries(TM) brand Attribute Hullbust Module. Decimate the enemy's hull with heavy hitting modular weaponry!
-      No incompatibilities. When combined with the RAD module, will return to default hull damage but will not have hull bust properties.
-      Laser/Beam/Missile Effects: x2 damage on systemless rooms, +10% breach chance. [Breach stacks with Pierce Module breach chance]
-      Missile Effects: Increases cooldown by 2s.
-      Ion Effects: Ion becomes Energy; hull damage equals ion damage (but no system/crew damage), +10% fire chance</mod-append:desc>
-  </mod:findName>
-  
-  <mod:findName type="weaponBlueprint" name="MODULE_POWER">
-      <mod-append:desc>Hektar Industries(TM) brand Attribute Power Module. Get more bang for your buck with your modular weaponry!
-      Laser Effects: +2 projectiles, +1 power cost, +4s cooldown (for drone: +1 damage, +1 power cost)
-      Beam Effects: +60 beam length, doubled beam speed, +30% breach chance, +1 power cost 
-      [Breach stacks with Pierce Module breach chance]
-      Missile Effects: +1 damage, +1 power cost
-      Ion Effects: +1 ion damage, +1 power cost</mod-append:desc>
-  </mod:findName>
-  
   <droneBlueprint name="MODULAR_DRONE_ION_BASE">
     <type>COMBAT</type>
     <tip>tip_combat</tip>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Ion. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.</desc>
+Has no incompatible modules.</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5584,9 +5511,9 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Status - Pierce</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Status - Pierce</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5605,9 +5532,9 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Status - Bio</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Status - Bio</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5626,9 +5553,9 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Status - Cooldown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Status - Cooldown</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5647,9 +5574,9 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Status - Lockdown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Status - Lockdown</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5668,9 +5595,9 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Status - Stun</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Status - Stun</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5689,9 +5616,9 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Accuracy</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5710,9 +5637,9 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Fire</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5731,9 +5658,9 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Hull</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5752,9 +5679,9 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Power</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power</desc>
     <power>3</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5773,10 +5700,10 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Accuracy
-  Status - Pierce</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+Status - Pierce</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5795,10 +5722,10 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Accuracy
-  Status - Bio</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+Status - Bio</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5817,10 +5744,10 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Accuracy
-  Status - Cooldown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+Status - Cooldown</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5839,10 +5766,10 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Accuracy
-  Status - Lockdown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+Status - Lockdown</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5861,10 +5788,10 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Accuracy
-  Status - Stun</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+Status - Stun</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5883,10 +5810,10 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Fire
-  Status - Pierce</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+Status - Pierce</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5905,10 +5832,10 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Fire
-  Status - Bio</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+Status - Bio</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5927,10 +5854,10 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Fire
-  Status - Cooldown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+Status - Cooldown</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5949,10 +5876,10 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Fire
-  Status - Lockdown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+Status - Lockdown</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5971,10 +5898,10 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Fire
-  Status - Stun</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+Status - Stun</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -5993,10 +5920,10 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Hull
-  Status - Pierce</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+Status - Pierce</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -6015,10 +5942,10 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Hull
-  Status - Bio</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+Status - Bio</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -6037,10 +5964,10 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Hull
-  Status - Cooldown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+Status - Cooldown</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -6059,10 +5986,10 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Hull
-  Status - Lockdown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+Status - Lockdown</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -6081,10 +6008,10 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Hull
-  Status - Stun</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+Status - Stun</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -6103,10 +6030,10 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Power
-  Status - Pierce</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+Status - Pierce</desc>
     <power>3</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -6125,10 +6052,10 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Power
-  Status - Bio</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+Status - Bio</desc>
     <power>3</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -6147,10 +6074,10 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Power
-  Status - Cooldown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+Status - Cooldown</desc>
     <power>3</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -6169,10 +6096,10 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Power
-  Status - Lockdown</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+Status - Lockdown</desc>
     <power>3</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -6191,10 +6118,10 @@ Status - Stun</desc>
     <title>Modular Ion Drone</title>
     <short>Mod. Ion</short>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-  Has no incompatible modules.
-  ----CURRENTLY INSTALLED MODULES----
-  Attribute - Power
-  Status - Stun</desc>
+Has no incompatible modules.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+Status - Stun</desc>
     <power>3</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
