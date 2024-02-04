@@ -463,10 +463,10 @@ Affected by modules, check storage for stats</desc>
     </shipBlueprint>
 
     <shipBlueprint name="PLAYER_SHIP_HEKTAR_MODULAR_3" layout="hektar_modular_3" img="hektar_modular_3">
-        <class>Hektar Cruiser(tm)</class>
+        <class>Hektar Modular Cruiser(tm)</class>
         <name>Profits(tm)</name>
         <unlock id="ship_PLAYER_SHIP_HEKTAR_MODULAR_3_unlock"/>
-        <desc>Hektar Cruiser(tm) commonly used by the Hektar Fidelisation Team(tm). It is built around around "acquiring" dissidents to the Hektar Fidelisation Program(tm), the Hektar Modular Beam Artillery(tm) is moslty used to sterilize evidence.</desc>
+        <desc>Hektar Modular Cruiser(tm) commonly used by the Hektar Fidelisation Team(tm). It is built around around "acquiring" dissidents to the Hektar Fidelisation Program(tm), the Hektar Modular Beam Artillery(tm) is moslty used to sterilize evidence.</desc>
         <systemList>
             <artillery power="1" room="2" start="true" weapon="ARTILLERY_MODULAR_BEAM" img="room_artillery_6" />
             <battery power="1" room="12" start="false" img="room_battery_2" />
