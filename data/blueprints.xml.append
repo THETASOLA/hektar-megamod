@@ -5,7 +5,8 @@
 Incompatible with the Modular Beam/Pinpoint.
 Laser/Ion Effects: +20% accuracy buff
 Missile/Bomb Effects: +100% accuracy buff
-Flak Effects: -10 spread, +10% accuracy buff</mod-append:desc>
+Flak Effects: -10 spread, +10% accuracy buff
+Boarding Drone: 2.1x damage, -25 hp</mod-append:desc>
   </mod:findName>
   
   <mod:findName type="weaponBlueprint" name="MODULE_BIO">
@@ -18,6 +19,7 @@ Missile Effects: 0 hull/system dmg, +90 crew damage
 Bomb Effects: +90 crew damage
 Ion Effects: +60 crew damage (+90 for drone) (must be a direct hit)
 Flak Effects: +30 crew damage
+Boarding Drone: Anti-Bio aura, Damaging aura (2hp/s)
 Weapons and drones also gain standard Anti-Bio crew debuffs. (66% slowed speed and repairs, 75% increased stun duration)</mod-append:desc>
   </mod:findName>
   
@@ -25,20 +27,22 @@ Weapons and drones also gain standard Anti-Bio crew debuffs. (66% slowed speed a
 <mod-append:desc>Hektar Industries(TM) brand Status Cooldown Module. Turn your modular weapons into power efficient fast firing assault weaponry!
 No incompatibilities.
 Effects for all weapons: Reduces cooldown by 25%
-Effects for all drones: Increase speed by 50%</mod-append:desc>
+Effects for all drones: Increase speed by 50% (2x attack speed for boarding drone)</mod-append:desc>
   </mod:findName>
   
   <mod:findName type="weaponBlueprint" name="MODULE_LOCKDOWN">
 <mod-append:desc>Hektar Industries(TM) brand Status Lockdown Module. Turn your modular weapons into the next generation of tech and cause chaos on the enemy ship with patented lockdown tech!
 Incompatible with the Modular Beam/Pinpoint.
-Effects for all weapons: Applies lockdown on impact</mod-append:desc>
+Effects for all weapons: Applies lockdown on impact
+Boarding Drone: Periodically lockdown the room</mod-append:desc>
   </mod:findName>
   
   <mod:findName type="weaponBlueprint" name="MODULE_PIERCE">
 <mod-append:desc>Hektar Industries(TM) brand Status Pierce Module. Never deal with enemy fortifications ever again!
 Incompatible with the Modular Missile/Bomb.
 Laser/Beam/Pinpoint/Flak Effects: +1 shield pierce, +30% breach chance
-Ion Effects: +3 (+10 for drone) shield pierce (affects shield as it passes through)</mod-append:desc>
+Ion Effects: +3 (+10 for drone) shield pierce (affects shield as it passes through)
+Boarding Drone: 3x sabotage damage, faster deployment, breaks down door faster</mod-append:desc>
   </mod:findName>
   
   <mod:findName type="weaponBlueprint" name="MODULE_STUN">
@@ -49,7 +53,8 @@ Beam Effects: Beam applies 18 seconds of stun
 Pinpoint Effects: Pinpoint applies 22 seconds of stun
 Missile Effects: Missile applies 14 seconds of stun
 Bomb Effects: 0 system dmg [Power Module gives back 2 system dmg], +6 ion, applies 20 seconds of stun
-Ion Effects: Ion applies stun equal to ion duration +2s (25s for drone)</mod-append:desc>
+Ion Effects: Ion applies stun equal to ion duration +2s (25s for drone)
+Boarding Drone: Periodically stun crew in the room</mod-append:desc>
   </mod:findName>
   
   <mod:findName type="weaponBlueprint" name="MODULE_FIRE">
@@ -58,7 +63,8 @@ No incompatibilities.
 Laser Effects: +30% fire chance
 Beam/Flak Effects: +40% fire chance
 Missile/Bomb/Pinpoint Effects: +100% fire chance
-Ion Effects: +100% fire chance (50% for drone)</mod-append:desc>
+Ion Effects: +100% fire chance (50% for drone)
+Boarding Drone: Periodically start a fire in the room, +1 power</mod-append:desc>
   </mod:findName>
   
   <mod:findName type="weaponBlueprint" name="MODULE_HULL">
@@ -68,7 +74,8 @@ Laser/Beam/Missile/Flak Effects: x2 damage on systemless rooms, +10% breach chan
 Pinpoint Effects: x2 damage on systemless rooms, +100% breach chance, +1 damage, -1 system damage
 Missile Effects: Increases cooldown by 2s
 Bomb Effects: +1 damage, +100% breach chance
-Ion Effects: Ion becomes Energy; hull damage equals ion damage (but no system/crew damage), +10% fire chance</mod-append:desc>
+Ion Effects: Ion becomes Energy; hull damage equals ion damage (but no system/crew damage), +10% fire chance
+Boarding Drone: gain +200 hp</mod-append:desc>
   </mod:findName>
   
   <mod:findName type="weaponBlueprint" name="MODULE_POWER">
@@ -80,7 +87,8 @@ Pinpoint Effects: +2 damage, +1 power cost
 Missile Effects: +1 damage, +1 power cost
 Bomb Effects: +2 system damage, +1 power cost
 Ion Effects: +1 ion damage, +1 power cost
-Flak Effects: +2 projectiles, +1 power, +10 radius</mod-append:desc>
+Flak Effects: +2 projectiles, +1 power, +10 radius
+Boarding Drone: Gain +50hp, 2.1x combat damage, +1 power</mod-append:desc>
   </mod:findName>
 
     <crewBlueprint name="slug_hektar_elite">
@@ -8980,3 +8988,1774 @@ Status - Stun</desc>
   </weaponBlueprint>
 
 </FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_base_base">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_BASE_BASE">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_BASE_BASE</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_BASE_BASE</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_BASE_BASE">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+
+-150 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_base_base</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_BASE_BASE">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+
+-150 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <speed>18</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_base_base</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_base_bio">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_BASE_BIO">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_BASE_BIO</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_BASE_BIO</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_BASE_BIO">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Status - Bio
+
+-Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 1hp/s
+-150 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_base_bio</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_BASE_BIO">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Status - Bio
+
+-Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 1hp/s
+-150 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <speed>18</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_base_bio</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_base_stun">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_BASE_STUN">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_BASE_STUN</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_BASE_STUN</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_BASE_STUN">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Status - Stun
+
+-Periodic Ability: Stun crews in the room
+-150 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_base_stun</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_BASE_STUN">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Status - Stun
+
+-Periodic Ability: Stun crews in the room
+-150 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <speed>18</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_base_stun</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_base_lockdown">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_BASE_LOCKDOWN">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_BASE_LOCKDOWN</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_BASE_LOCKDOWN</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_BASE_LOCKDOWN">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Status - Lockdown
+
+-Periodic Ability: Lock down the room
+-150 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_base_lockdown</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_BASE_LOCKDOWN">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Status - Lockdown
+
+-Periodic Ability: Lock down the room
+-150 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <speed>18</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_base_lockdown</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_base_pierce">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_BASE_PIERCE">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_BASE_PIERCE</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_BASE_PIERCE</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_BASE_PIERCE">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Status - Stun
+
+-Faster Deployement
+-Breaks down door faster
+-3x sabotage damage
+-150 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_base_pierce</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_BASE_PIERCE">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Status - Stun
+
+-Faster Deployement
+-Breaks down door faster
+-3x sabotage damage
+-150 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <speed>35</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_base_pierce</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_base_cooldown">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_BASE_COOLDOWN">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_BASE_COOLDOWN</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_BASE_COOLDOWN</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_BASE_COOLDOWN">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Status - Cooldown
+
+-2x attack speed
+-150 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_base_cooldown</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_BASE_COOLDOWN">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Status - Cooldown
+
+-2x attack speed
+-150 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <speed>18</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_base_cooldown</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_accuracy_base">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_ACCURACY_BASE">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_BASE</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BASE</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_BASE">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+
+-125 HP, 1.1x combat damage, 2.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_accuracy_base</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BASE">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+
+-125 HP, 1.1x combat damage, 2.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <speed>18</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_accuracy_base</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_accuracy_bio">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_ACCURACY_BIO">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_BIO</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BIO</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_BIO">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+Status - Bio
+
+-Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 1hp/s
+-125 HP, 1.1x combat damage, 2.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_accuracy_bio</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BIO">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+Status - Bio
+
+-Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 1hp/s
+-125 HP, 1.1x combat damage, 2.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <speed>18</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_accuracy_bio</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_accuracy_stun">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_ACCURACY_STUN">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_STUN</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_STUN</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_STUN">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+Status - Stun
+
+-Periodic Ability: Stun crews in the room
+-125 HP, 1.1x combat damage, 2.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_accuracy_stun</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_ACCURACY_STUN">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+Status - Stun
+
+-Periodic Ability: Stun crews in the room
+-125 HP, 1.1x combat damage, 2.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <speed>18</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_accuracy_stun</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_accuracy_lockdown">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_ACCURACY_LOCKDOWN">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_LOCKDOWN</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_LOCKDOWN</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_LOCKDOWN">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+Status - Lockdown
+
+-Periodic Ability: Lock down the room
+-125 HP, 1.1x combat damage, 2.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_accuracy_lockdown</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_ACCURACY_LOCKDOWN">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+Status - Lockdown
+
+-Periodic Ability: Lock down the room
+-125 HP, 1.1x combat damage, 2.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <speed>18</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_accuracy_lockdown</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_accuracy_pierce">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_ACCURACY_PIERCE">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_PIERCE</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_PIERCE</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_PIERCE">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+Status - Stun
+
+-Faster Deployement
+-Breaks down door faster
+-3x sabotage damage
+-125 HP, 1.1x combat damage, 2.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_accuracy_pierce</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_ACCURACY_PIERCE">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+Status - Stun
+
+-Faster Deployement
+-Breaks down door faster
+-3x sabotage damage
+-125 HP, 1.1x combat damage, 2.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <speed>35</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_accuracy_pierce</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_accuracy_cooldown">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_ACCURACY_COOLDOWN">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_COOLDOWN</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_COOLDOWN</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_COOLDOWN">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+Status - Cooldown
+
+-2x attack speed
+-125 HP, 1.1x combat damage, 2.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_accuracy_cooldown</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_ACCURACY_COOLDOWN">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Accuracy
+Status - Cooldown
+
+-2x attack speed
+-125 HP, 1.1x combat damage, 2.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <speed>18</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_accuracy_cooldown</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_fire_base">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_FIRE_BASE">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_BASE</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_FIRE_BASE</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_FIRE_BASE">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+
+-Periodic Ability: Light fires in the room
+-150 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>3</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_fire_base</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_FIRE_BASE">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+
+-Periodic Ability: Light fires in the room
+-150 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>3</power>
+    <speed>18</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_fire_base</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_fire_bio">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_FIRE_BIO">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_BIO</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_FIRE_BIO</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_FIRE_BIO">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+Status - Bio
+
+-Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 1hp/s
+-Periodic Ability: Light fires in the room
+-150 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>3</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_fire_bio</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_FIRE_BIO">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+Status - Bio
+
+-Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 1hp/s
+-Periodic Ability: Light fires in the room
+-150 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>3</power>
+    <speed>18</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_fire_bio</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_fire_stun">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_FIRE_STUN">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_STUN</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_FIRE_STUN</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_FIRE_STUN">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+Status - Stun
+
+-Periodic Ability: Stun crews in the room
+-Periodic Ability: Light fires in the room
+-150 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>3</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_fire_stun</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_FIRE_STUN">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+Status - Stun
+
+-Periodic Ability: Stun crews in the room
+-Periodic Ability: Light fires in the room
+-150 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>3</power>
+    <speed>18</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_fire_stun</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_fire_lockdown">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_FIRE_LOCKDOWN">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_LOCKDOWN</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_FIRE_LOCKDOWN</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_FIRE_LOCKDOWN">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+Status - Lockdown
+
+-Periodic Ability: Lock down the room
+-Periodic Ability: Light fires in the room
+-150 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>3</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_fire_lockdown</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_FIRE_LOCKDOWN">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+Status - Lockdown
+
+-Periodic Ability: Lock down the room
+-Periodic Ability: Light fires in the room
+-150 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>3</power>
+    <speed>18</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_fire_lockdown</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_fire_pierce">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_FIRE_PIERCE">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_PIERCE</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_FIRE_PIERCE</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_FIRE_PIERCE">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+Status - Stun
+
+-Faster Deployement
+-Breaks down door faster
+-3x sabotage damage
+-Periodic Ability: Light fires in the room
+-150 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>3</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_fire_pierce</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_FIRE_PIERCE">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+Status - Stun
+
+-Faster Deployement
+-Breaks down door faster
+-3x sabotage damage
+-Periodic Ability: Light fires in the room
+-150 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>3</power>
+    <speed>35</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_fire_pierce</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_fire_cooldown">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_FIRE_COOLDOWN">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_COOLDOWN</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_FIRE_COOLDOWN</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_FIRE_COOLDOWN">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+Status - Cooldown
+
+-2x attack speed
+-Periodic Ability: Light fires in the room
+-150 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>3</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_fire_cooldown</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_FIRE_COOLDOWN">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Fire
+Status - Cooldown
+
+-2x attack speed
+-Periodic Ability: Light fires in the room
+-150 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>3</power>
+    <speed>18</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_fire_cooldown</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_hull_base">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_HULL_BASE">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_HULL_BASE</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_HULL_BASE</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_HULL_BASE">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+
+-350 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_hull_base</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_HULL_BASE">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+
+-350 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <speed>18</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_hull_base</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_hull_bio">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_HULL_BIO">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_HULL_BIO</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_HULL_BIO</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_HULL_BIO">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+Status - Bio
+
+-Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 1hp/s
+-350 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_hull_bio</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_HULL_BIO">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+Status - Bio
+
+-Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 1hp/s
+-350 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <speed>18</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_hull_bio</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_hull_stun">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_HULL_STUN">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_HULL_STUN</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_HULL_STUN</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_HULL_STUN">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+Status - Stun
+
+-Periodic Ability: Stun crews in the room
+-350 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_hull_stun</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_HULL_STUN">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+Status - Stun
+
+-Periodic Ability: Stun crews in the room
+-350 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <speed>18</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_hull_stun</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_hull_lockdown">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_HULL_LOCKDOWN">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_HULL_LOCKDOWN</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_HULL_LOCKDOWN</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_HULL_LOCKDOWN">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+Status - Lockdown
+
+-Periodic Ability: Lock down the room
+-350 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_hull_lockdown</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_HULL_LOCKDOWN">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+Status - Lockdown
+
+-Periodic Ability: Lock down the room
+-350 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <speed>18</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_hull_lockdown</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_hull_pierce">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_HULL_PIERCE">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_HULL_PIERCE</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_HULL_PIERCE</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_HULL_PIERCE">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+Status - Stun
+
+-Faster Deployement
+-Breaks down door faster
+-3x sabotage damage
+-350 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_hull_pierce</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_HULL_PIERCE">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+Status - Stun
+
+-Faster Deployement
+-Breaks down door faster
+-3x sabotage damage
+-350 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <speed>35</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_hull_pierce</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_hull_cooldown">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_HULL_COOLDOWN">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_HULL_COOLDOWN</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_HULL_COOLDOWN</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_HULL_COOLDOWN">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+Status - Cooldown
+
+-2x attack speed
+-350 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_hull_cooldown</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_HULL_COOLDOWN">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Hull
+Status - Cooldown
+
+-2x attack speed
+-350 HP, 1.1x combat damage
+-0.8x movement speed</desc>
+    <power>2</power>
+    <speed>18</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_hull_cooldown</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_power_base">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_POWER_BASE">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_POWER_BASE</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_POWER_BASE</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_POWER_BASE">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+
+-200 HP, 2.1x combat damage
+-0.8x movement speed</desc>
+    <power>3</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_power_base</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_POWER_BASE">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+
+-200 HP, 2.1x combat damage
+-0.8x movement speed</desc>
+    <power>3</power>
+    <speed>18</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_power_base</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_power_bio">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_POWER_BIO">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_POWER_BIO</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_POWER_BIO</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_POWER_BIO">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+Status - Bio
+
+-Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 1hp/s
+-200 HP, 2.1x combat damage
+-0.8x movement speed</desc>
+    <power>3</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_power_bio</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_POWER_BIO">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+Status - Bio
+
+-Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 1hp/s
+-200 HP, 2.1x combat damage
+-0.8x movement speed</desc>
+    <power>3</power>
+    <speed>18</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_power_bio</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_power_stun">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_POWER_STUN">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_POWER_STUN</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_POWER_STUN</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_POWER_STUN">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+Status - Stun
+
+-Periodic Ability: Stun crews in the room
+-200 HP, 2.1x combat damage
+-0.8x movement speed</desc>
+    <power>3</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_power_stun</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_POWER_STUN">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+Status - Stun
+
+-Periodic Ability: Stun crews in the room
+-200 HP, 2.1x combat damage
+-0.8x movement speed</desc>
+    <power>3</power>
+    <speed>18</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_power_stun</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_power_lockdown">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_POWER_LOCKDOWN">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_POWER_LOCKDOWN</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_POWER_LOCKDOWN</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_POWER_LOCKDOWN">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+Status - Lockdown
+
+-Periodic Ability: Lock down the room
+-200 HP, 2.1x combat damage
+-0.8x movement speed</desc>
+    <power>3</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_power_lockdown</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_POWER_LOCKDOWN">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+Status - Lockdown
+
+-Periodic Ability: Lock down the room
+-200 HP, 2.1x combat damage
+-0.8x movement speed</desc>
+    <power>3</power>
+    <speed>18</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_power_lockdown</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_power_pierce">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_POWER_PIERCE">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_POWER_PIERCE</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_POWER_PIERCE</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_POWER_PIERCE">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+Status - Stun
+
+-Faster Deployement
+-Breaks down door faster
+-3x sabotage damage
+-200 HP, 2.1x combat damage
+-0.8x movement speed</desc>
+    <power>3</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_power_pierce</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_POWER_PIERCE">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+Status - Stun
+
+-Faster Deployement
+-Breaks down door faster
+-3x sabotage damage
+-200 HP, 2.1x combat damage
+-0.8x movement speed</desc>
+    <power>3</power>
+    <speed>35</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_power_pierce</iconImage>
+</droneBlueprint>
+</FTL>
+<FTL>
+<crewBlueprint name="modular_dronebattle_power_cooldown">
+  <title>Modular Battle</title>
+  <short>M. Battle</short>
+  <desc>YOU SHOULD NEVER SEE THIS.</desc>
+  <cost>0</cost>
+  <rarity>0</rarity>
+  <powerList>
+    <power>DRONE</power>
+  </powerList>
+</crewBlueprint>
+
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_POWER_COOLDOWN">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_POWER_COOLDOWN</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_POWER_COOLDOWN</name>
+</blueprintList>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_POWER_COOLDOWN">
+    <type>BATTLE</type>
+    <locked>1</locked>
+    <tip>tip_toggle_crew</tip>
+    <title>Modular Battle Drone [Anti-Pers]</title>
+    <short>M. Battle [DEF]</short>
+    <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+Status - Cooldown
+
+-2x attack speed
+-200 HP, 2.1x combat damage
+-0.8x movement speed</desc>
+    <power>3</power>
+    <cost>50</cost>
+    <bp>3</bp>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_power_cooldown</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_POWER_COOLDOWN">
+    <type>BOARDER</type>
+    <tip>tip_toggle_crew</tip>
+    <locked>1</locked>
+    <title>Modular Battle Drone [Boarding]</title>
+    <short>M. Battle [ATK]</short>
+    <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
+----CURRENTLY INSTALLED MODULES----
+Attribute - Power
+Status - Cooldown
+
+-2x attack speed
+-200 HP, 2.1x combat damage
+-0.8x movement speed</desc>
+    <power>3</power>
+    <speed>18</speed>
+    <cost>50</cost>
+    <rarity>0</rarity>
+    <iconImage>modular_dronebattle_power_cooldown</iconImage>
+</droneBlueprint>
+</FTL>
+  

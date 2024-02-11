@@ -1171,4 +1171,2253 @@
 		<mountPoint x="2" y="28"/>
 		<chargeImage>modular_weapon/modular_shotgun_power_stun_glow.png</chargeImage>
 	</weaponAnim>
+
+	<animSheet name="modular_dronebattle_base_base" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_base_base_base.png</animSheet>
+	<animSheet name="modular_dronebattle_base_base_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_base_base_death_right">
+		<sheet>modular_dronebattle_base_base_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_base_death_left">
+		<sheet>modular_dronebattle_base_base_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_base_walk_down">
+		<sheet>modular_dronebattle_base_base</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_base_walk_right">
+		<sheet>modular_dronebattle_base_base</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_base_walk_up">
+		<sheet>modular_dronebattle_base_base</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_base_walk_left">
+		<sheet>modular_dronebattle_base_base</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_base_shoot_down">
+		<sheet>modular_dronebattle_base_base</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_base_shoot_right">
+		<sheet>modular_dronebattle_base_base</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_base_shoot_up">
+		<sheet>modular_dronebattle_base_base</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_base_shoot_left">
+		<sheet>modular_dronebattle_base_base</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_base_power_down">
+		<sheet>modular_dronebattle_base_base</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_base_power_up">
+		<sheet>modular_dronebattle_base_base</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_base_fly">
+		<sheet>modular_dronebattle_base_base</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_base_base_portrait">
+		<sheet>modular_dronebattle_base_base</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_base_bio" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_base_bio_base.png</animSheet>
+	<animSheet name="modular_dronebattle_base_bio_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_base_bio_death_right">
+		<sheet>modular_dronebattle_base_bio_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_bio_death_left">
+		<sheet>modular_dronebattle_base_bio_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_bio_walk_down">
+		<sheet>modular_dronebattle_base_bio</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_bio_walk_right">
+		<sheet>modular_dronebattle_base_bio</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_bio_walk_up">
+		<sheet>modular_dronebattle_base_bio</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_bio_walk_left">
+		<sheet>modular_dronebattle_base_bio</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_bio_shoot_down">
+		<sheet>modular_dronebattle_base_bio</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_bio_shoot_right">
+		<sheet>modular_dronebattle_base_bio</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_bio_shoot_up">
+		<sheet>modular_dronebattle_base_bio</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_bio_shoot_left">
+		<sheet>modular_dronebattle_base_bio</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_bio_power_down">
+		<sheet>modular_dronebattle_base_bio</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_bio_power_up">
+		<sheet>modular_dronebattle_base_bio</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_bio_fly">
+		<sheet>modular_dronebattle_base_bio</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_base_bio_portrait">
+		<sheet>modular_dronebattle_base_bio</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_base_stun" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_base_stun_base.png</animSheet>
+	<animSheet name="modular_dronebattle_base_stun_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_base_stun_death_right">
+		<sheet>modular_dronebattle_base_stun_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_stun_death_left">
+		<sheet>modular_dronebattle_base_stun_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_stun_walk_down">
+		<sheet>modular_dronebattle_base_stun</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_stun_walk_right">
+		<sheet>modular_dronebattle_base_stun</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_stun_walk_up">
+		<sheet>modular_dronebattle_base_stun</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_stun_walk_left">
+		<sheet>modular_dronebattle_base_stun</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_stun_shoot_down">
+		<sheet>modular_dronebattle_base_stun</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_stun_shoot_right">
+		<sheet>modular_dronebattle_base_stun</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_stun_shoot_up">
+		<sheet>modular_dronebattle_base_stun</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_stun_shoot_left">
+		<sheet>modular_dronebattle_base_stun</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_stun_power_down">
+		<sheet>modular_dronebattle_base_stun</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_stun_power_up">
+		<sheet>modular_dronebattle_base_stun</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_stun_fly">
+		<sheet>modular_dronebattle_base_stun</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_base_stun_portrait">
+		<sheet>modular_dronebattle_base_stun</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_base_lockdown" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_base_lockdown_base.png</animSheet>
+	<animSheet name="modular_dronebattle_base_lockdown_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_base_lockdown_death_right">
+		<sheet>modular_dronebattle_base_lockdown_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_lockdown_death_left">
+		<sheet>modular_dronebattle_base_lockdown_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_lockdown_walk_down">
+		<sheet>modular_dronebattle_base_lockdown</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_lockdown_walk_right">
+		<sheet>modular_dronebattle_base_lockdown</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_lockdown_walk_up">
+		<sheet>modular_dronebattle_base_lockdown</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_lockdown_walk_left">
+		<sheet>modular_dronebattle_base_lockdown</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_lockdown_shoot_down">
+		<sheet>modular_dronebattle_base_lockdown</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_lockdown_shoot_right">
+		<sheet>modular_dronebattle_base_lockdown</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_lockdown_shoot_up">
+		<sheet>modular_dronebattle_base_lockdown</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_lockdown_shoot_left">
+		<sheet>modular_dronebattle_base_lockdown</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_lockdown_power_down">
+		<sheet>modular_dronebattle_base_lockdown</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_lockdown_power_up">
+		<sheet>modular_dronebattle_base_lockdown</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_lockdown_fly">
+		<sheet>modular_dronebattle_base_lockdown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_base_lockdown_portrait">
+		<sheet>modular_dronebattle_base_lockdown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_base_pierce" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_base_pierce_base.png</animSheet>
+	<animSheet name="modular_dronebattle_base_pierce_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_base_pierce_death_right">
+		<sheet>modular_dronebattle_base_pierce_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_pierce_death_left">
+		<sheet>modular_dronebattle_base_pierce_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_pierce_walk_down">
+		<sheet>modular_dronebattle_base_pierce</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_pierce_walk_right">
+		<sheet>modular_dronebattle_base_pierce</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_pierce_walk_up">
+		<sheet>modular_dronebattle_base_pierce</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_pierce_walk_left">
+		<sheet>modular_dronebattle_base_pierce</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_pierce_shoot_down">
+		<sheet>modular_dronebattle_base_pierce</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_pierce_shoot_right">
+		<sheet>modular_dronebattle_base_pierce</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_pierce_shoot_up">
+		<sheet>modular_dronebattle_base_pierce</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_pierce_shoot_left">
+		<sheet>modular_dronebattle_base_pierce</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_pierce_power_down">
+		<sheet>modular_dronebattle_base_pierce</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_pierce_power_up">
+		<sheet>modular_dronebattle_base_pierce</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_pierce_fly">
+		<sheet>modular_dronebattle_base_pierce</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_base_pierce_portrait">
+		<sheet>modular_dronebattle_base_pierce</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_base_cooldown" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_base_cooldown_base.png</animSheet>
+	<animSheet name="modular_dronebattle_base_cooldown_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_base_cooldown_death_right">
+		<sheet>modular_dronebattle_base_cooldown_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_cooldown_death_left">
+		<sheet>modular_dronebattle_base_cooldown_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_cooldown_walk_down">
+		<sheet>modular_dronebattle_base_cooldown</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_cooldown_walk_right">
+		<sheet>modular_dronebattle_base_cooldown</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_cooldown_walk_up">
+		<sheet>modular_dronebattle_base_cooldown</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_cooldown_walk_left">
+		<sheet>modular_dronebattle_base_cooldown</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_cooldown_shoot_down">
+		<sheet>modular_dronebattle_base_cooldown</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_cooldown_shoot_right">
+		<sheet>modular_dronebattle_base_cooldown</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_cooldown_shoot_up">
+		<sheet>modular_dronebattle_base_cooldown</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_cooldown_shoot_left">
+		<sheet>modular_dronebattle_base_cooldown</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_cooldown_power_down">
+		<sheet>modular_dronebattle_base_cooldown</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_cooldown_power_up">
+		<sheet>modular_dronebattle_base_cooldown</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_base_cooldown_fly">
+		<sheet>modular_dronebattle_base_cooldown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_base_cooldown_portrait">
+		<sheet>modular_dronebattle_base_cooldown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_accuracy_base" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_accuracy_base_base.png</animSheet>
+	<animSheet name="modular_dronebattle_accuracy_base_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_accuracy_base_death_right">
+		<sheet>modular_dronebattle_accuracy_base_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_base_death_left">
+		<sheet>modular_dronebattle_accuracy_base_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_base_walk_down">
+		<sheet>modular_dronebattle_accuracy_base</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_base_walk_right">
+		<sheet>modular_dronebattle_accuracy_base</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_base_walk_up">
+		<sheet>modular_dronebattle_accuracy_base</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_base_walk_left">
+		<sheet>modular_dronebattle_accuracy_base</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_base_shoot_down">
+		<sheet>modular_dronebattle_accuracy_base</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_base_shoot_right">
+		<sheet>modular_dronebattle_accuracy_base</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_base_shoot_up">
+		<sheet>modular_dronebattle_accuracy_base</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_base_shoot_left">
+		<sheet>modular_dronebattle_accuracy_base</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_base_power_down">
+		<sheet>modular_dronebattle_accuracy_base</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_base_power_up">
+		<sheet>modular_dronebattle_accuracy_base</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_base_fly">
+		<sheet>modular_dronebattle_accuracy_base</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_base_portrait">
+		<sheet>modular_dronebattle_accuracy_base</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_accuracy_bio" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_accuracy_bio_base.png</animSheet>
+	<animSheet name="modular_dronebattle_accuracy_bio_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_accuracy_bio_death_right">
+		<sheet>modular_dronebattle_accuracy_bio_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_bio_death_left">
+		<sheet>modular_dronebattle_accuracy_bio_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_bio_walk_down">
+		<sheet>modular_dronebattle_accuracy_bio</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_bio_walk_right">
+		<sheet>modular_dronebattle_accuracy_bio</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_bio_walk_up">
+		<sheet>modular_dronebattle_accuracy_bio</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_bio_walk_left">
+		<sheet>modular_dronebattle_accuracy_bio</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_bio_shoot_down">
+		<sheet>modular_dronebattle_accuracy_bio</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_bio_shoot_right">
+		<sheet>modular_dronebattle_accuracy_bio</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_bio_shoot_up">
+		<sheet>modular_dronebattle_accuracy_bio</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_bio_shoot_left">
+		<sheet>modular_dronebattle_accuracy_bio</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_bio_power_down">
+		<sheet>modular_dronebattle_accuracy_bio</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_bio_power_up">
+		<sheet>modular_dronebattle_accuracy_bio</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_bio_fly">
+		<sheet>modular_dronebattle_accuracy_bio</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_bio_portrait">
+		<sheet>modular_dronebattle_accuracy_bio</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_accuracy_stun" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_accuracy_stun_base.png</animSheet>
+	<animSheet name="modular_dronebattle_accuracy_stun_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_accuracy_stun_death_right">
+		<sheet>modular_dronebattle_accuracy_stun_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_stun_death_left">
+		<sheet>modular_dronebattle_accuracy_stun_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_stun_walk_down">
+		<sheet>modular_dronebattle_accuracy_stun</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_stun_walk_right">
+		<sheet>modular_dronebattle_accuracy_stun</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_stun_walk_up">
+		<sheet>modular_dronebattle_accuracy_stun</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_stun_walk_left">
+		<sheet>modular_dronebattle_accuracy_stun</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_stun_shoot_down">
+		<sheet>modular_dronebattle_accuracy_stun</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_stun_shoot_right">
+		<sheet>modular_dronebattle_accuracy_stun</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_stun_shoot_up">
+		<sheet>modular_dronebattle_accuracy_stun</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_stun_shoot_left">
+		<sheet>modular_dronebattle_accuracy_stun</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_stun_power_down">
+		<sheet>modular_dronebattle_accuracy_stun</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_stun_power_up">
+		<sheet>modular_dronebattle_accuracy_stun</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_stun_fly">
+		<sheet>modular_dronebattle_accuracy_stun</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_stun_portrait">
+		<sheet>modular_dronebattle_accuracy_stun</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_accuracy_lockdown" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_accuracy_lockdown_base.png</animSheet>
+	<animSheet name="modular_dronebattle_accuracy_lockdown_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_accuracy_lockdown_death_right">
+		<sheet>modular_dronebattle_accuracy_lockdown_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_lockdown_death_left">
+		<sheet>modular_dronebattle_accuracy_lockdown_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_lockdown_walk_down">
+		<sheet>modular_dronebattle_accuracy_lockdown</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_lockdown_walk_right">
+		<sheet>modular_dronebattle_accuracy_lockdown</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_lockdown_walk_up">
+		<sheet>modular_dronebattle_accuracy_lockdown</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_lockdown_walk_left">
+		<sheet>modular_dronebattle_accuracy_lockdown</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_lockdown_shoot_down">
+		<sheet>modular_dronebattle_accuracy_lockdown</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_lockdown_shoot_right">
+		<sheet>modular_dronebattle_accuracy_lockdown</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_lockdown_shoot_up">
+		<sheet>modular_dronebattle_accuracy_lockdown</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_lockdown_shoot_left">
+		<sheet>modular_dronebattle_accuracy_lockdown</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_lockdown_power_down">
+		<sheet>modular_dronebattle_accuracy_lockdown</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_lockdown_power_up">
+		<sheet>modular_dronebattle_accuracy_lockdown</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_lockdown_fly">
+		<sheet>modular_dronebattle_accuracy_lockdown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_lockdown_portrait">
+		<sheet>modular_dronebattle_accuracy_lockdown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_accuracy_pierce" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_accuracy_pierce_base.png</animSheet>
+	<animSheet name="modular_dronebattle_accuracy_pierce_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_accuracy_pierce_death_right">
+		<sheet>modular_dronebattle_accuracy_pierce_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_pierce_death_left">
+		<sheet>modular_dronebattle_accuracy_pierce_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_pierce_walk_down">
+		<sheet>modular_dronebattle_accuracy_pierce</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_pierce_walk_right">
+		<sheet>modular_dronebattle_accuracy_pierce</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_pierce_walk_up">
+		<sheet>modular_dronebattle_accuracy_pierce</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_pierce_walk_left">
+		<sheet>modular_dronebattle_accuracy_pierce</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_pierce_shoot_down">
+		<sheet>modular_dronebattle_accuracy_pierce</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_pierce_shoot_right">
+		<sheet>modular_dronebattle_accuracy_pierce</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_pierce_shoot_up">
+		<sheet>modular_dronebattle_accuracy_pierce</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_pierce_shoot_left">
+		<sheet>modular_dronebattle_accuracy_pierce</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_pierce_power_down">
+		<sheet>modular_dronebattle_accuracy_pierce</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_pierce_power_up">
+		<sheet>modular_dronebattle_accuracy_pierce</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_pierce_fly">
+		<sheet>modular_dronebattle_accuracy_pierce</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_pierce_portrait">
+		<sheet>modular_dronebattle_accuracy_pierce</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_accuracy_cooldown" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_accuracy_cooldown_base.png</animSheet>
+	<animSheet name="modular_dronebattle_accuracy_cooldown_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_accuracy_cooldown_death_right">
+		<sheet>modular_dronebattle_accuracy_cooldown_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_cooldown_death_left">
+		<sheet>modular_dronebattle_accuracy_cooldown_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_cooldown_walk_down">
+		<sheet>modular_dronebattle_accuracy_cooldown</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_cooldown_walk_right">
+		<sheet>modular_dronebattle_accuracy_cooldown</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_cooldown_walk_up">
+		<sheet>modular_dronebattle_accuracy_cooldown</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_cooldown_walk_left">
+		<sheet>modular_dronebattle_accuracy_cooldown</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_cooldown_shoot_down">
+		<sheet>modular_dronebattle_accuracy_cooldown</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_cooldown_shoot_right">
+		<sheet>modular_dronebattle_accuracy_cooldown</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_cooldown_shoot_up">
+		<sheet>modular_dronebattle_accuracy_cooldown</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_cooldown_shoot_left">
+		<sheet>modular_dronebattle_accuracy_cooldown</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_cooldown_power_down">
+		<sheet>modular_dronebattle_accuracy_cooldown</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_cooldown_power_up">
+		<sheet>modular_dronebattle_accuracy_cooldown</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_cooldown_fly">
+		<sheet>modular_dronebattle_accuracy_cooldown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_accuracy_cooldown_portrait">
+		<sheet>modular_dronebattle_accuracy_cooldown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_fire_base" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_fire_base_base.png</animSheet>
+	<animSheet name="modular_dronebattle_fire_base_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_fire_base_death_right">
+		<sheet>modular_dronebattle_fire_base_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_base_death_left">
+		<sheet>modular_dronebattle_fire_base_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_base_walk_down">
+		<sheet>modular_dronebattle_fire_base</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_base_walk_right">
+		<sheet>modular_dronebattle_fire_base</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_base_walk_up">
+		<sheet>modular_dronebattle_fire_base</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_base_walk_left">
+		<sheet>modular_dronebattle_fire_base</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_base_shoot_down">
+		<sheet>modular_dronebattle_fire_base</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_base_shoot_right">
+		<sheet>modular_dronebattle_fire_base</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_base_shoot_up">
+		<sheet>modular_dronebattle_fire_base</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_base_shoot_left">
+		<sheet>modular_dronebattle_fire_base</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_base_power_down">
+		<sheet>modular_dronebattle_fire_base</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_base_power_up">
+		<sheet>modular_dronebattle_fire_base</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_base_fly">
+		<sheet>modular_dronebattle_fire_base</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_base_portrait">
+		<sheet>modular_dronebattle_fire_base</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_fire_bio" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_fire_bio_base.png</animSheet>
+	<animSheet name="modular_dronebattle_fire_bio_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_fire_bio_death_right">
+		<sheet>modular_dronebattle_fire_bio_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_bio_death_left">
+		<sheet>modular_dronebattle_fire_bio_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_bio_walk_down">
+		<sheet>modular_dronebattle_fire_bio</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_bio_walk_right">
+		<sheet>modular_dronebattle_fire_bio</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_bio_walk_up">
+		<sheet>modular_dronebattle_fire_bio</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_bio_walk_left">
+		<sheet>modular_dronebattle_fire_bio</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_bio_shoot_down">
+		<sheet>modular_dronebattle_fire_bio</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_bio_shoot_right">
+		<sheet>modular_dronebattle_fire_bio</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_bio_shoot_up">
+		<sheet>modular_dronebattle_fire_bio</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_bio_shoot_left">
+		<sheet>modular_dronebattle_fire_bio</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_bio_power_down">
+		<sheet>modular_dronebattle_fire_bio</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_bio_power_up">
+		<sheet>modular_dronebattle_fire_bio</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_bio_fly">
+		<sheet>modular_dronebattle_fire_bio</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_bio_portrait">
+		<sheet>modular_dronebattle_fire_bio</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_fire_stun" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_fire_stun_base.png</animSheet>
+	<animSheet name="modular_dronebattle_fire_stun_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_fire_stun_death_right">
+		<sheet>modular_dronebattle_fire_stun_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_stun_death_left">
+		<sheet>modular_dronebattle_fire_stun_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_stun_walk_down">
+		<sheet>modular_dronebattle_fire_stun</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_stun_walk_right">
+		<sheet>modular_dronebattle_fire_stun</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_stun_walk_up">
+		<sheet>modular_dronebattle_fire_stun</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_stun_walk_left">
+		<sheet>modular_dronebattle_fire_stun</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_stun_shoot_down">
+		<sheet>modular_dronebattle_fire_stun</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_stun_shoot_right">
+		<sheet>modular_dronebattle_fire_stun</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_stun_shoot_up">
+		<sheet>modular_dronebattle_fire_stun</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_stun_shoot_left">
+		<sheet>modular_dronebattle_fire_stun</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_stun_power_down">
+		<sheet>modular_dronebattle_fire_stun</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_stun_power_up">
+		<sheet>modular_dronebattle_fire_stun</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_stun_fly">
+		<sheet>modular_dronebattle_fire_stun</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_stun_portrait">
+		<sheet>modular_dronebattle_fire_stun</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_fire_lockdown" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_fire_lockdown_base.png</animSheet>
+	<animSheet name="modular_dronebattle_fire_lockdown_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_fire_lockdown_death_right">
+		<sheet>modular_dronebattle_fire_lockdown_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_lockdown_death_left">
+		<sheet>modular_dronebattle_fire_lockdown_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_lockdown_walk_down">
+		<sheet>modular_dronebattle_fire_lockdown</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_lockdown_walk_right">
+		<sheet>modular_dronebattle_fire_lockdown</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_lockdown_walk_up">
+		<sheet>modular_dronebattle_fire_lockdown</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_lockdown_walk_left">
+		<sheet>modular_dronebattle_fire_lockdown</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_lockdown_shoot_down">
+		<sheet>modular_dronebattle_fire_lockdown</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_lockdown_shoot_right">
+		<sheet>modular_dronebattle_fire_lockdown</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_lockdown_shoot_up">
+		<sheet>modular_dronebattle_fire_lockdown</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_lockdown_shoot_left">
+		<sheet>modular_dronebattle_fire_lockdown</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_lockdown_power_down">
+		<sheet>modular_dronebattle_fire_lockdown</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_lockdown_power_up">
+		<sheet>modular_dronebattle_fire_lockdown</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_lockdown_fly">
+		<sheet>modular_dronebattle_fire_lockdown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_lockdown_portrait">
+		<sheet>modular_dronebattle_fire_lockdown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_fire_pierce" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_fire_pierce_base.png</animSheet>
+	<animSheet name="modular_dronebattle_fire_pierce_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_fire_pierce_death_right">
+		<sheet>modular_dronebattle_fire_pierce_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_pierce_death_left">
+		<sheet>modular_dronebattle_fire_pierce_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_pierce_walk_down">
+		<sheet>modular_dronebattle_fire_pierce</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_pierce_walk_right">
+		<sheet>modular_dronebattle_fire_pierce</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_pierce_walk_up">
+		<sheet>modular_dronebattle_fire_pierce</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_pierce_walk_left">
+		<sheet>modular_dronebattle_fire_pierce</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_pierce_shoot_down">
+		<sheet>modular_dronebattle_fire_pierce</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_pierce_shoot_right">
+		<sheet>modular_dronebattle_fire_pierce</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_pierce_shoot_up">
+		<sheet>modular_dronebattle_fire_pierce</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_pierce_shoot_left">
+		<sheet>modular_dronebattle_fire_pierce</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_pierce_power_down">
+		<sheet>modular_dronebattle_fire_pierce</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_pierce_power_up">
+		<sheet>modular_dronebattle_fire_pierce</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_pierce_fly">
+		<sheet>modular_dronebattle_fire_pierce</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_pierce_portrait">
+		<sheet>modular_dronebattle_fire_pierce</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_fire_cooldown" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_fire_cooldown_base.png</animSheet>
+	<animSheet name="modular_dronebattle_fire_cooldown_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_fire_cooldown_death_right">
+		<sheet>modular_dronebattle_fire_cooldown_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_cooldown_death_left">
+		<sheet>modular_dronebattle_fire_cooldown_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_cooldown_walk_down">
+		<sheet>modular_dronebattle_fire_cooldown</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_cooldown_walk_right">
+		<sheet>modular_dronebattle_fire_cooldown</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_cooldown_walk_up">
+		<sheet>modular_dronebattle_fire_cooldown</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_cooldown_walk_left">
+		<sheet>modular_dronebattle_fire_cooldown</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_cooldown_shoot_down">
+		<sheet>modular_dronebattle_fire_cooldown</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_cooldown_shoot_right">
+		<sheet>modular_dronebattle_fire_cooldown</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_cooldown_shoot_up">
+		<sheet>modular_dronebattle_fire_cooldown</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_cooldown_shoot_left">
+		<sheet>modular_dronebattle_fire_cooldown</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_cooldown_power_down">
+		<sheet>modular_dronebattle_fire_cooldown</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_cooldown_power_up">
+		<sheet>modular_dronebattle_fire_cooldown</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_cooldown_fly">
+		<sheet>modular_dronebattle_fire_cooldown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_fire_cooldown_portrait">
+		<sheet>modular_dronebattle_fire_cooldown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_hull_base" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_hull_base_base.png</animSheet>
+	<animSheet name="modular_dronebattle_hull_base_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_hull_base_death_right">
+		<sheet>modular_dronebattle_hull_base_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_base_death_left">
+		<sheet>modular_dronebattle_hull_base_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_base_walk_down">
+		<sheet>modular_dronebattle_hull_base</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_base_walk_right">
+		<sheet>modular_dronebattle_hull_base</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_base_walk_up">
+		<sheet>modular_dronebattle_hull_base</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_base_walk_left">
+		<sheet>modular_dronebattle_hull_base</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_base_shoot_down">
+		<sheet>modular_dronebattle_hull_base</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_base_shoot_right">
+		<sheet>modular_dronebattle_hull_base</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_base_shoot_up">
+		<sheet>modular_dronebattle_hull_base</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_base_shoot_left">
+		<sheet>modular_dronebattle_hull_base</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_base_power_down">
+		<sheet>modular_dronebattle_hull_base</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_base_power_up">
+		<sheet>modular_dronebattle_hull_base</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_base_fly">
+		<sheet>modular_dronebattle_hull_base</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_base_portrait">
+		<sheet>modular_dronebattle_hull_base</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_hull_bio" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_hull_bio_base.png</animSheet>
+	<animSheet name="modular_dronebattle_hull_bio_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_hull_bio_death_right">
+		<sheet>modular_dronebattle_hull_bio_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_bio_death_left">
+		<sheet>modular_dronebattle_hull_bio_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_bio_walk_down">
+		<sheet>modular_dronebattle_hull_bio</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_bio_walk_right">
+		<sheet>modular_dronebattle_hull_bio</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_bio_walk_up">
+		<sheet>modular_dronebattle_hull_bio</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_bio_walk_left">
+		<sheet>modular_dronebattle_hull_bio</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_bio_shoot_down">
+		<sheet>modular_dronebattle_hull_bio</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_bio_shoot_right">
+		<sheet>modular_dronebattle_hull_bio</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_bio_shoot_up">
+		<sheet>modular_dronebattle_hull_bio</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_bio_shoot_left">
+		<sheet>modular_dronebattle_hull_bio</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_bio_power_down">
+		<sheet>modular_dronebattle_hull_bio</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_bio_power_up">
+		<sheet>modular_dronebattle_hull_bio</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_bio_fly">
+		<sheet>modular_dronebattle_hull_bio</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_bio_portrait">
+		<sheet>modular_dronebattle_hull_bio</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_hull_stun" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_hull_stun_base.png</animSheet>
+	<animSheet name="modular_dronebattle_hull_stun_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_hull_stun_death_right">
+		<sheet>modular_dronebattle_hull_stun_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_stun_death_left">
+		<sheet>modular_dronebattle_hull_stun_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_stun_walk_down">
+		<sheet>modular_dronebattle_hull_stun</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_stun_walk_right">
+		<sheet>modular_dronebattle_hull_stun</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_stun_walk_up">
+		<sheet>modular_dronebattle_hull_stun</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_stun_walk_left">
+		<sheet>modular_dronebattle_hull_stun</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_stun_shoot_down">
+		<sheet>modular_dronebattle_hull_stun</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_stun_shoot_right">
+		<sheet>modular_dronebattle_hull_stun</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_stun_shoot_up">
+		<sheet>modular_dronebattle_hull_stun</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_stun_shoot_left">
+		<sheet>modular_dronebattle_hull_stun</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_stun_power_down">
+		<sheet>modular_dronebattle_hull_stun</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_stun_power_up">
+		<sheet>modular_dronebattle_hull_stun</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_stun_fly">
+		<sheet>modular_dronebattle_hull_stun</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_stun_portrait">
+		<sheet>modular_dronebattle_hull_stun</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_hull_lockdown" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_hull_lockdown_base.png</animSheet>
+	<animSheet name="modular_dronebattle_hull_lockdown_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_hull_lockdown_death_right">
+		<sheet>modular_dronebattle_hull_lockdown_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_lockdown_death_left">
+		<sheet>modular_dronebattle_hull_lockdown_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_lockdown_walk_down">
+		<sheet>modular_dronebattle_hull_lockdown</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_lockdown_walk_right">
+		<sheet>modular_dronebattle_hull_lockdown</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_lockdown_walk_up">
+		<sheet>modular_dronebattle_hull_lockdown</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_lockdown_walk_left">
+		<sheet>modular_dronebattle_hull_lockdown</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_lockdown_shoot_down">
+		<sheet>modular_dronebattle_hull_lockdown</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_lockdown_shoot_right">
+		<sheet>modular_dronebattle_hull_lockdown</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_lockdown_shoot_up">
+		<sheet>modular_dronebattle_hull_lockdown</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_lockdown_shoot_left">
+		<sheet>modular_dronebattle_hull_lockdown</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_lockdown_power_down">
+		<sheet>modular_dronebattle_hull_lockdown</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_lockdown_power_up">
+		<sheet>modular_dronebattle_hull_lockdown</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_lockdown_fly">
+		<sheet>modular_dronebattle_hull_lockdown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_lockdown_portrait">
+		<sheet>modular_dronebattle_hull_lockdown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_hull_pierce" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_hull_pierce_base.png</animSheet>
+	<animSheet name="modular_dronebattle_hull_pierce_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_hull_pierce_death_right">
+		<sheet>modular_dronebattle_hull_pierce_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_pierce_death_left">
+		<sheet>modular_dronebattle_hull_pierce_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_pierce_walk_down">
+		<sheet>modular_dronebattle_hull_pierce</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_pierce_walk_right">
+		<sheet>modular_dronebattle_hull_pierce</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_pierce_walk_up">
+		<sheet>modular_dronebattle_hull_pierce</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_pierce_walk_left">
+		<sheet>modular_dronebattle_hull_pierce</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_pierce_shoot_down">
+		<sheet>modular_dronebattle_hull_pierce</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_pierce_shoot_right">
+		<sheet>modular_dronebattle_hull_pierce</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_pierce_shoot_up">
+		<sheet>modular_dronebattle_hull_pierce</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_pierce_shoot_left">
+		<sheet>modular_dronebattle_hull_pierce</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_pierce_power_down">
+		<sheet>modular_dronebattle_hull_pierce</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_pierce_power_up">
+		<sheet>modular_dronebattle_hull_pierce</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_pierce_fly">
+		<sheet>modular_dronebattle_hull_pierce</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_pierce_portrait">
+		<sheet>modular_dronebattle_hull_pierce</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_hull_cooldown" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_hull_cooldown_base.png</animSheet>
+	<animSheet name="modular_dronebattle_hull_cooldown_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_hull_cooldown_death_right">
+		<sheet>modular_dronebattle_hull_cooldown_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_cooldown_death_left">
+		<sheet>modular_dronebattle_hull_cooldown_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_cooldown_walk_down">
+		<sheet>modular_dronebattle_hull_cooldown</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_cooldown_walk_right">
+		<sheet>modular_dronebattle_hull_cooldown</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_cooldown_walk_up">
+		<sheet>modular_dronebattle_hull_cooldown</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_cooldown_walk_left">
+		<sheet>modular_dronebattle_hull_cooldown</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_cooldown_shoot_down">
+		<sheet>modular_dronebattle_hull_cooldown</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_cooldown_shoot_right">
+		<sheet>modular_dronebattle_hull_cooldown</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_cooldown_shoot_up">
+		<sheet>modular_dronebattle_hull_cooldown</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_cooldown_shoot_left">
+		<sheet>modular_dronebattle_hull_cooldown</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_cooldown_power_down">
+		<sheet>modular_dronebattle_hull_cooldown</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_cooldown_power_up">
+		<sheet>modular_dronebattle_hull_cooldown</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_cooldown_fly">
+		<sheet>modular_dronebattle_hull_cooldown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_hull_cooldown_portrait">
+		<sheet>modular_dronebattle_hull_cooldown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_power_base" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_power_base_base.png</animSheet>
+	<animSheet name="modular_dronebattle_power_base_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_power_base_death_right">
+		<sheet>modular_dronebattle_power_base_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_base_death_left">
+		<sheet>modular_dronebattle_power_base_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_base_walk_down">
+		<sheet>modular_dronebattle_power_base</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_base_walk_right">
+		<sheet>modular_dronebattle_power_base</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_base_walk_up">
+		<sheet>modular_dronebattle_power_base</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_base_walk_left">
+		<sheet>modular_dronebattle_power_base</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_base_shoot_down">
+		<sheet>modular_dronebattle_power_base</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_base_shoot_right">
+		<sheet>modular_dronebattle_power_base</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_base_shoot_up">
+		<sheet>modular_dronebattle_power_base</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_base_shoot_left">
+		<sheet>modular_dronebattle_power_base</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_base_power_down">
+		<sheet>modular_dronebattle_power_base</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_base_power_up">
+		<sheet>modular_dronebattle_power_base</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_base_fly">
+		<sheet>modular_dronebattle_power_base</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_power_base_portrait">
+		<sheet>modular_dronebattle_power_base</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_power_bio" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_power_bio_base.png</animSheet>
+	<animSheet name="modular_dronebattle_power_bio_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_power_bio_death_right">
+		<sheet>modular_dronebattle_power_bio_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_bio_death_left">
+		<sheet>modular_dronebattle_power_bio_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_bio_walk_down">
+		<sheet>modular_dronebattle_power_bio</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_bio_walk_right">
+		<sheet>modular_dronebattle_power_bio</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_bio_walk_up">
+		<sheet>modular_dronebattle_power_bio</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_bio_walk_left">
+		<sheet>modular_dronebattle_power_bio</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_bio_shoot_down">
+		<sheet>modular_dronebattle_power_bio</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_bio_shoot_right">
+		<sheet>modular_dronebattle_power_bio</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_bio_shoot_up">
+		<sheet>modular_dronebattle_power_bio</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_bio_shoot_left">
+		<sheet>modular_dronebattle_power_bio</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_bio_power_down">
+		<sheet>modular_dronebattle_power_bio</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_bio_power_up">
+		<sheet>modular_dronebattle_power_bio</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_bio_fly">
+		<sheet>modular_dronebattle_power_bio</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_power_bio_portrait">
+		<sheet>modular_dronebattle_power_bio</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_power_stun" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_power_stun_base.png</animSheet>
+	<animSheet name="modular_dronebattle_power_stun_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_power_stun_death_right">
+		<sheet>modular_dronebattle_power_stun_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_stun_death_left">
+		<sheet>modular_dronebattle_power_stun_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_stun_walk_down">
+		<sheet>modular_dronebattle_power_stun</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_stun_walk_right">
+		<sheet>modular_dronebattle_power_stun</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_stun_walk_up">
+		<sheet>modular_dronebattle_power_stun</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_stun_walk_left">
+		<sheet>modular_dronebattle_power_stun</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_stun_shoot_down">
+		<sheet>modular_dronebattle_power_stun</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_stun_shoot_right">
+		<sheet>modular_dronebattle_power_stun</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_stun_shoot_up">
+		<sheet>modular_dronebattle_power_stun</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_stun_shoot_left">
+		<sheet>modular_dronebattle_power_stun</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_stun_power_down">
+		<sheet>modular_dronebattle_power_stun</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_stun_power_up">
+		<sheet>modular_dronebattle_power_stun</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_stun_fly">
+		<sheet>modular_dronebattle_power_stun</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_power_stun_portrait">
+		<sheet>modular_dronebattle_power_stun</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_power_lockdown" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_power_lockdown_base.png</animSheet>
+	<animSheet name="modular_dronebattle_power_lockdown_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_power_lockdown_death_right">
+		<sheet>modular_dronebattle_power_lockdown_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_lockdown_death_left">
+		<sheet>modular_dronebattle_power_lockdown_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_lockdown_walk_down">
+		<sheet>modular_dronebattle_power_lockdown</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_lockdown_walk_right">
+		<sheet>modular_dronebattle_power_lockdown</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_lockdown_walk_up">
+		<sheet>modular_dronebattle_power_lockdown</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_lockdown_walk_left">
+		<sheet>modular_dronebattle_power_lockdown</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_lockdown_shoot_down">
+		<sheet>modular_dronebattle_power_lockdown</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_lockdown_shoot_right">
+		<sheet>modular_dronebattle_power_lockdown</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_lockdown_shoot_up">
+		<sheet>modular_dronebattle_power_lockdown</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_lockdown_shoot_left">
+		<sheet>modular_dronebattle_power_lockdown</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_lockdown_power_down">
+		<sheet>modular_dronebattle_power_lockdown</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_lockdown_power_up">
+		<sheet>modular_dronebattle_power_lockdown</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_lockdown_fly">
+		<sheet>modular_dronebattle_power_lockdown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_power_lockdown_portrait">
+		<sheet>modular_dronebattle_power_lockdown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_power_pierce" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_power_pierce_base.png</animSheet>
+	<animSheet name="modular_dronebattle_power_pierce_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_power_pierce_death_right">
+		<sheet>modular_dronebattle_power_pierce_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_pierce_death_left">
+		<sheet>modular_dronebattle_power_pierce_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_pierce_walk_down">
+		<sheet>modular_dronebattle_power_pierce</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_pierce_walk_right">
+		<sheet>modular_dronebattle_power_pierce</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_pierce_walk_up">
+		<sheet>modular_dronebattle_power_pierce</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_pierce_walk_left">
+		<sheet>modular_dronebattle_power_pierce</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_pierce_shoot_down">
+		<sheet>modular_dronebattle_power_pierce</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_pierce_shoot_right">
+		<sheet>modular_dronebattle_power_pierce</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_pierce_shoot_up">
+		<sheet>modular_dronebattle_power_pierce</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_pierce_shoot_left">
+		<sheet>modular_dronebattle_power_pierce</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_pierce_power_down">
+		<sheet>modular_dronebattle_power_pierce</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_pierce_power_up">
+		<sheet>modular_dronebattle_power_pierce</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_pierce_fly">
+		<sheet>modular_dronebattle_power_pierce</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_power_pierce_portrait">
+		<sheet>modular_dronebattle_power_pierce</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	</FTL>
+	
+	<FTL>
+	<animSheet name="modular_dronebattle_power_cooldown" w="280" h="210" fw="35" fh="35">people/modular_dronebattle_power_cooldown_base.png</animSheet>
+	<animSheet name="modular_dronebattle_power_cooldown_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
+	<anim name="modular_dronebattle_power_cooldown_death_right">
+		<sheet>modular_dronebattle_power_cooldown_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_cooldown_death_left">
+		<sheet>modular_dronebattle_power_cooldown_death</sheet>
+		<desc length="10" x="0" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_cooldown_walk_down">
+		<sheet>modular_dronebattle_power_cooldown</sheet>
+		<desc length="4" x="0" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_cooldown_walk_right">
+		<sheet>modular_dronebattle_power_cooldown</sheet>
+		<desc length="4" x="4" y="5"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_cooldown_walk_up">
+		<sheet>modular_dronebattle_power_cooldown</sheet>
+		<desc length="4" x="0" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_cooldown_walk_left">
+		<sheet>modular_dronebattle_power_cooldown</sheet>
+		<desc length="4" x="4" y="4"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_cooldown_shoot_down">
+		<sheet>modular_dronebattle_power_cooldown</sheet>
+		<desc length="3" x="0" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_cooldown_shoot_right">
+		<sheet>modular_dronebattle_power_cooldown</sheet>
+		<desc length="3" x="3" y="3"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_cooldown_shoot_up">
+		<sheet>modular_dronebattle_power_cooldown</sheet>
+		<desc length="3" x="2" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_cooldown_shoot_left">
+		<sheet>modular_dronebattle_power_cooldown</sheet>
+		<desc length="3" x="5" y="0"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_cooldown_power_down">
+		<sheet>modular_dronebattle_power_cooldown</sheet>
+		<desc length="7" x="0" y="2"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_cooldown_power_up">
+		<sheet>modular_dronebattle_power_cooldown</sheet>
+		<desc length="7" x="0" y="1"/>
+		<time>1.0</time>
+	</anim>
+	<anim name="modular_dronebattle_power_cooldown_fly">
+		<sheet>modular_dronebattle_power_cooldown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+	<anim name="modular_dronebattle_power_cooldown_portrait">
+		<sheet>modular_dronebattle_power_cooldown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1</time>
+	</anim>
+
 </FTL>

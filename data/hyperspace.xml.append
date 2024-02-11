@@ -241,3 +241,1627 @@
 </mod:findLike>
 
 </FTL>
+<FTL>
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_base_base">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>150</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        
+        
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>1.1</damageMultiplier>
+        <fireDamageMultiplier>0.25</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_BASE_BASE">
+        <crewBlueprint>modular_dronebattle_base_base</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_BASE_BASE">
+        <crewBlueprint>modular_dronebattle_base_base</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_base_bio">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>150</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        
+        <passiveStatBoosts>  
+        <statBoost name="trueHealAmount">
+            <boostType>FLAT</boostType>
+            <amount>-2</amount>
+            <shipTarget>CURRENT_ROOM</shipTarget>
+            <crewTarget>ALL</crewTarget>
+            <droneTarget>ALL</droneTarget>
+            <affectsSelf>false</affectsSelf>
+            <priority>0</priority>
+            <boostAnim>bio_poison</boostAnim>
+        </statBoost>
+        <statBoost name="moveSpeedMultiplier">
+            <boostType>MULT</boostType>
+            <amount>0.33</amount>
+            <shipTarget>CURRENT_ROOM</shipTarget>
+            <crewTarget>ALL</crewTarget>
+            <droneTarget>CREW</droneTarget>
+            <affectsSelf>false</affectsSelf>
+            <maxStacks>1</maxStacks>
+            <duration>5</duration>
+            <boostAnim>bio_poison</boostAnim>
+        </statBoost>
+        <statBoost name="stunMultiplier">
+            <boostType>MULT</boostType>
+            <amount>1.75</amount>
+            <shipTarget>CURRENT_ROOM</shipTarget>
+            <crewTarget>ALL</crewTarget>
+            <droneTarget>CREW</droneTarget>
+            <affectsSelf>false</affectsSelf>
+            <maxStacks>1</maxStacks>
+            <duration>5</duration>
+        </statBoost>
+        <statBoost name="repairSpeed">
+            <boostType>MULT</boostType>
+            <amount>0.33</amount>
+            <shipTarget>CURRENT_ROOM</shipTarget>
+            <crewTarget>ALL</crewTarget>
+            <droneTarget>CREW</droneTarget>
+            <affectsSelf>false</affectsSelf>
+            <maxStacks>1</maxStacks>
+            <duration>5</duration>
+        </statBoost>
+    </passiveStatBoosts>
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>1.1</damageMultiplier>
+        <fireDamageMultiplier>0.25</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_BASE_BIO">
+        <crewBlueprint>modular_dronebattle_base_bio</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_BASE_BIO">
+        <crewBlueprint>modular_dronebattle_base_bio</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_base_stun">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>150</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        
+        <powerEffect>
+        <cooldown>17</cooldown>
+        <jumpCooldown>reset</jumpCooldown>
+        <powerSounds>
+            <powerSound>ionHit1</powerSound>
+            <powerSound>ionHit2</powerSound>
+            <powerSound>ionHit3</powerSound>
+            <powerSound>ionShields1</powerSound>
+            <powerSound>ionShields2</powerSound>
+            <powerSound>ionShields3</powerSound>
+        </powerSounds>
+        <req>
+            <enemyInRoom/>
+        </req>
+        <friendlyFire>true</friendlyFire>
+        <stun>7</stun>
+        <buttonText>STUN</buttonText>
+        <tooltip>Ready: Stun enemy crew</tooltip>
+        <cooldownColor r="255" g="95" b="220"/>
+        <effectAnim>explosion_stun_ion</effectAnim>
+        <activateWhenReady>true</activateWhenReady>
+    </powerEffect>
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>1.1</damageMultiplier>
+        <fireDamageMultiplier>0.25</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_BASE_STUN">
+        <crewBlueprint>modular_dronebattle_base_stun</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_BASE_STUN">
+        <crewBlueprint>modular_dronebattle_base_stun</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_base_lockdown">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>150</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        
+        <powerEffect>
+        <cooldown>17</cooldown>
+        <jumpCooldown>full</jumpCooldown>
+        <powerSounds>
+            <powerSound>lockdown1</powerSound>
+            <powerSound>lockdown2</powerSound>  
+        </powerSounds>
+        <req type="enemy">
+            <enemyInRoom/>
+        </req>
+        <lockdown>true</lockdown>
+        <friendlyFire>true</friendlyFire>
+        <shipFriendlyFire>true</shipFriendlyFire>
+        <buttonText>LOCK</buttonText>
+        <tooltip>Ready: Lock the current room.</tooltip>
+        <cooldownColor r="255" g="102" b="0"/>
+        <effectAnim>explosion_crystal</effectAnim>
+        <activateWhenReady>true</activateWhenReady>
+    </powerEffect>
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>1.1</damageMultiplier>
+        <fireDamageMultiplier>0.25</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_BASE_LOCKDOWN">
+        <crewBlueprint>modular_dronebattle_base_lockdown</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_BASE_LOCKDOWN">
+        <crewBlueprint>modular_dronebattle_base_lockdown</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_base_pierce">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>150</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        
+        <doorDamageMultiplier>10</doorDamageMultiplier>
+        <sabotageSpeedMultiplier>3</sabotageSpeedMultiplier>
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>1.1</damageMultiplier>
+        <fireDamageMultiplier>0.25</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_BASE_PIERCE">
+        <crewBlueprint>modular_dronebattle_base_pierce</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_BASE_PIERCE">
+        <crewBlueprint>modular_dronebattle_base_pierce</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_base_cooldown">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>150</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        
+        <shootTimer min="400" max="400"/>
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>1.1</damageMultiplier>
+        <fireDamageMultiplier>0.25</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_BASE_COOLDOWN">
+        <crewBlueprint>modular_dronebattle_base_cooldown</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_BASE_COOLDOWN">
+        <crewBlueprint>modular_dronebattle_base_cooldown</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_accuracy_base">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>125</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        <rangedDamageMultiplier>2.1</rangedDamageMultiplier>
+        
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>1.1</damageMultiplier>
+        <fireDamageMultiplier>0.25</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_BASE">
+        <crewBlueprint>modular_dronebattle_accuracy_base</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BASE">
+        <crewBlueprint>modular_dronebattle_accuracy_base</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_accuracy_bio">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>125</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        <rangedDamageMultiplier>2.1</rangedDamageMultiplier>
+        <passiveStatBoosts>  
+        <statBoost name="trueHealAmount">
+            <boostType>FLAT</boostType>
+            <amount>-2</amount>
+            <shipTarget>CURRENT_ROOM</shipTarget>
+            <crewTarget>ALL</crewTarget>
+            <droneTarget>ALL</droneTarget>
+            <affectsSelf>false</affectsSelf>
+            <priority>0</priority>
+            <boostAnim>bio_poison</boostAnim>
+        </statBoost>
+        <statBoost name="moveSpeedMultiplier">
+            <boostType>MULT</boostType>
+            <amount>0.33</amount>
+            <shipTarget>CURRENT_ROOM</shipTarget>
+            <crewTarget>ALL</crewTarget>
+            <droneTarget>CREW</droneTarget>
+            <affectsSelf>false</affectsSelf>
+            <maxStacks>1</maxStacks>
+            <duration>5</duration>
+            <boostAnim>bio_poison</boostAnim>
+        </statBoost>
+        <statBoost name="stunMultiplier">
+            <boostType>MULT</boostType>
+            <amount>1.75</amount>
+            <shipTarget>CURRENT_ROOM</shipTarget>
+            <crewTarget>ALL</crewTarget>
+            <droneTarget>CREW</droneTarget>
+            <affectsSelf>false</affectsSelf>
+            <maxStacks>1</maxStacks>
+            <duration>5</duration>
+        </statBoost>
+        <statBoost name="repairSpeed">
+            <boostType>MULT</boostType>
+            <amount>0.33</amount>
+            <shipTarget>CURRENT_ROOM</shipTarget>
+            <crewTarget>ALL</crewTarget>
+            <droneTarget>CREW</droneTarget>
+            <affectsSelf>false</affectsSelf>
+            <maxStacks>1</maxStacks>
+            <duration>5</duration>
+        </statBoost>
+    </passiveStatBoosts>
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>1.1</damageMultiplier>
+        <fireDamageMultiplier>0.25</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_BIO">
+        <crewBlueprint>modular_dronebattle_accuracy_bio</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BIO">
+        <crewBlueprint>modular_dronebattle_accuracy_bio</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_accuracy_stun">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>125</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        <rangedDamageMultiplier>2.1</rangedDamageMultiplier>
+        <powerEffect>
+        <cooldown>17</cooldown>
+        <jumpCooldown>reset</jumpCooldown>
+        <powerSounds>
+            <powerSound>ionHit1</powerSound>
+            <powerSound>ionHit2</powerSound>
+            <powerSound>ionHit3</powerSound>
+            <powerSound>ionShields1</powerSound>
+            <powerSound>ionShields2</powerSound>
+            <powerSound>ionShields3</powerSound>
+        </powerSounds>
+        <req>
+            <enemyInRoom/>
+        </req>
+        <friendlyFire>true</friendlyFire>
+        <stun>7</stun>
+        <buttonText>STUN</buttonText>
+        <tooltip>Ready: Stun enemy crew</tooltip>
+        <cooldownColor r="255" g="95" b="220"/>
+        <effectAnim>explosion_stun_ion</effectAnim>
+        <activateWhenReady>true</activateWhenReady>
+    </powerEffect>
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>1.1</damageMultiplier>
+        <fireDamageMultiplier>0.25</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_STUN">
+        <crewBlueprint>modular_dronebattle_accuracy_stun</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_ACCURACY_STUN">
+        <crewBlueprint>modular_dronebattle_accuracy_stun</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_accuracy_lockdown">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>125</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        <rangedDamageMultiplier>2.1</rangedDamageMultiplier>
+        <powerEffect>
+        <cooldown>17</cooldown>
+        <jumpCooldown>full</jumpCooldown>
+        <powerSounds>
+            <powerSound>lockdown1</powerSound>
+            <powerSound>lockdown2</powerSound>  
+        </powerSounds>
+        <req type="enemy">
+            <enemyInRoom/>
+        </req>
+        <lockdown>true</lockdown>
+        <friendlyFire>true</friendlyFire>
+        <shipFriendlyFire>true</shipFriendlyFire>
+        <buttonText>LOCK</buttonText>
+        <tooltip>Ready: Lock the current room.</tooltip>
+        <cooldownColor r="255" g="102" b="0"/>
+        <effectAnim>explosion_crystal</effectAnim>
+        <activateWhenReady>true</activateWhenReady>
+    </powerEffect>
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>1.1</damageMultiplier>
+        <fireDamageMultiplier>0.25</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_LOCKDOWN">
+        <crewBlueprint>modular_dronebattle_accuracy_lockdown</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_ACCURACY_LOCKDOWN">
+        <crewBlueprint>modular_dronebattle_accuracy_lockdown</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_accuracy_pierce">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>125</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        <rangedDamageMultiplier>2.1</rangedDamageMultiplier>
+        <doorDamageMultiplier>10</doorDamageMultiplier>
+        <sabotageSpeedMultiplier>3</sabotageSpeedMultiplier>
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>1.1</damageMultiplier>
+        <fireDamageMultiplier>0.25</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_PIERCE">
+        <crewBlueprint>modular_dronebattle_accuracy_pierce</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_ACCURACY_PIERCE">
+        <crewBlueprint>modular_dronebattle_accuracy_pierce</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_accuracy_cooldown">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>125</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        <rangedDamageMultiplier>2.1</rangedDamageMultiplier>
+        <shootTimer min="400" max="400"/>
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>1.1</damageMultiplier>
+        <fireDamageMultiplier>0.25</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_COOLDOWN">
+        <crewBlueprint>modular_dronebattle_accuracy_cooldown</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_ACCURACY_COOLDOWN">
+        <crewBlueprint>modular_dronebattle_accuracy_cooldown</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_fire_base">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>150</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        <powerEffect>
+        <cooldown>17</cooldown>
+        <jumpCooldown>full</jumpCooldown>
+        <powerSounds>
+            <powerSound>fireBomb</powerSound>
+        </powerSounds>
+        <req type="enemy">
+            <enemyInRoom/>
+        </req>
+        <fireChance>10</fireChance>
+        <friendlyFire>true</friendlyFire>
+        <shipFriendlyFire>true</shipFriendlyFire>
+        <buttonText>FLAME</buttonText>
+        <tooltip>Ready: Start fires in the occupied room.</tooltip>
+        <cooldownColor r="255" g="102" b="0"/>
+        <effectAnim>explosion_random</effectAnim>
+        <activateWhenReady>true</activateWhenReady>
+    </powerEffect>
+        
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>1.1</damageMultiplier>
+        <fireDamageMultiplier>0</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_FIRE_BASE">
+        <crewBlueprint>modular_dronebattle_fire_base</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_FIRE_BASE">
+        <crewBlueprint>modular_dronebattle_fire_base</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_fire_bio">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>150</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        <powerEffect>
+        <cooldown>17</cooldown>
+        <jumpCooldown>full</jumpCooldown>
+        <powerSounds>
+            <powerSound>fireBomb</powerSound>
+        </powerSounds>
+        <req type="enemy">
+            <enemyInRoom/>
+        </req>
+        <fireChance>10</fireChance>
+        <friendlyFire>true</friendlyFire>
+        <shipFriendlyFire>true</shipFriendlyFire>
+        <buttonText>FLAME</buttonText>
+        <tooltip>Ready: Start fires in the occupied room.</tooltip>
+        <cooldownColor r="255" g="102" b="0"/>
+        <effectAnim>explosion_random</effectAnim>
+        <activateWhenReady>true</activateWhenReady>
+    </powerEffect>
+        <passiveStatBoosts>  
+        <statBoost name="trueHealAmount">
+            <boostType>FLAT</boostType>
+            <amount>-2</amount>
+            <shipTarget>CURRENT_ROOM</shipTarget>
+            <crewTarget>ALL</crewTarget>
+            <droneTarget>ALL</droneTarget>
+            <affectsSelf>false</affectsSelf>
+            <priority>0</priority>
+            <boostAnim>bio_poison</boostAnim>
+        </statBoost>
+        <statBoost name="moveSpeedMultiplier">
+            <boostType>MULT</boostType>
+            <amount>0.33</amount>
+            <shipTarget>CURRENT_ROOM</shipTarget>
+            <crewTarget>ALL</crewTarget>
+            <droneTarget>CREW</droneTarget>
+            <affectsSelf>false</affectsSelf>
+            <maxStacks>1</maxStacks>
+            <duration>5</duration>
+            <boostAnim>bio_poison</boostAnim>
+        </statBoost>
+        <statBoost name="stunMultiplier">
+            <boostType>MULT</boostType>
+            <amount>1.75</amount>
+            <shipTarget>CURRENT_ROOM</shipTarget>
+            <crewTarget>ALL</crewTarget>
+            <droneTarget>CREW</droneTarget>
+            <affectsSelf>false</affectsSelf>
+            <maxStacks>1</maxStacks>
+            <duration>5</duration>
+        </statBoost>
+        <statBoost name="repairSpeed">
+            <boostType>MULT</boostType>
+            <amount>0.33</amount>
+            <shipTarget>CURRENT_ROOM</shipTarget>
+            <crewTarget>ALL</crewTarget>
+            <droneTarget>CREW</droneTarget>
+            <affectsSelf>false</affectsSelf>
+            <maxStacks>1</maxStacks>
+            <duration>5</duration>
+        </statBoost>
+    </passiveStatBoosts>
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>1.1</damageMultiplier>
+        <fireDamageMultiplier>0</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_FIRE_BIO">
+        <crewBlueprint>modular_dronebattle_fire_bio</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_FIRE_BIO">
+        <crewBlueprint>modular_dronebattle_fire_bio</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_fire_stun">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>150</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        <powerEffect>
+        <cooldown>17</cooldown>
+        <jumpCooldown>full</jumpCooldown>
+        <powerSounds>
+            <powerSound>fireBomb</powerSound>
+        </powerSounds>
+        <req type="enemy">
+            <enemyInRoom/>
+        </req>
+        <fireChance>10</fireChance>
+        <friendlyFire>true</friendlyFire>
+        <shipFriendlyFire>true</shipFriendlyFire>
+        <buttonText>FLAME</buttonText>
+        <tooltip>Ready: Start fires in the occupied room.</tooltip>
+        <cooldownColor r="255" g="102" b="0"/>
+        <effectAnim>explosion_random</effectAnim>
+        <activateWhenReady>true</activateWhenReady>
+    </powerEffect>
+        <powerEffect>
+        <cooldown>17</cooldown>
+        <jumpCooldown>reset</jumpCooldown>
+        <powerSounds>
+            <powerSound>ionHit1</powerSound>
+            <powerSound>ionHit2</powerSound>
+            <powerSound>ionHit3</powerSound>
+            <powerSound>ionShields1</powerSound>
+            <powerSound>ionShields2</powerSound>
+            <powerSound>ionShields3</powerSound>
+        </powerSounds>
+        <req>
+            <enemyInRoom/>
+        </req>
+        <friendlyFire>true</friendlyFire>
+        <stun>7</stun>
+        <buttonText>STUN</buttonText>
+        <tooltip>Ready: Stun enemy crew</tooltip>
+        <cooldownColor r="255" g="95" b="220"/>
+        <effectAnim>explosion_stun_ion</effectAnim>
+        <activateWhenReady>true</activateWhenReady>
+    </powerEffect>
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>1.1</damageMultiplier>
+        <fireDamageMultiplier>0</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_FIRE_STUN">
+        <crewBlueprint>modular_dronebattle_fire_stun</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_FIRE_STUN">
+        <crewBlueprint>modular_dronebattle_fire_stun</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_fire_lockdown">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>150</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        <powerEffect>
+        <cooldown>17</cooldown>
+        <jumpCooldown>full</jumpCooldown>
+        <powerSounds>
+            <powerSound>fireBomb</powerSound>
+        </powerSounds>
+        <req type="enemy">
+            <enemyInRoom/>
+        </req>
+        <fireChance>10</fireChance>
+        <friendlyFire>true</friendlyFire>
+        <shipFriendlyFire>true</shipFriendlyFire>
+        <buttonText>FLAME</buttonText>
+        <tooltip>Ready: Start fires in the occupied room.</tooltip>
+        <cooldownColor r="255" g="102" b="0"/>
+        <effectAnim>explosion_random</effectAnim>
+        <activateWhenReady>true</activateWhenReady>
+    </powerEffect>
+        <powerEffect>
+        <cooldown>17</cooldown>
+        <jumpCooldown>full</jumpCooldown>
+        <powerSounds>
+            <powerSound>lockdown1</powerSound>
+            <powerSound>lockdown2</powerSound>  
+        </powerSounds>
+        <req type="enemy">
+            <enemyInRoom/>
+        </req>
+        <lockdown>true</lockdown>
+        <friendlyFire>true</friendlyFire>
+        <shipFriendlyFire>true</shipFriendlyFire>
+        <buttonText>LOCK</buttonText>
+        <tooltip>Ready: Lock the current room.</tooltip>
+        <cooldownColor r="255" g="102" b="0"/>
+        <effectAnim>explosion_crystal</effectAnim>
+        <activateWhenReady>true</activateWhenReady>
+    </powerEffect>
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>1.1</damageMultiplier>
+        <fireDamageMultiplier>0</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_FIRE_LOCKDOWN">
+        <crewBlueprint>modular_dronebattle_fire_lockdown</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_FIRE_LOCKDOWN">
+        <crewBlueprint>modular_dronebattle_fire_lockdown</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_fire_pierce">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>150</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        <powerEffect>
+        <cooldown>17</cooldown>
+        <jumpCooldown>full</jumpCooldown>
+        <powerSounds>
+            <powerSound>fireBomb</powerSound>
+        </powerSounds>
+        <req type="enemy">
+            <enemyInRoom/>
+        </req>
+        <fireChance>10</fireChance>
+        <friendlyFire>true</friendlyFire>
+        <shipFriendlyFire>true</shipFriendlyFire>
+        <buttonText>FLAME</buttonText>
+        <tooltip>Ready: Start fires in the occupied room.</tooltip>
+        <cooldownColor r="255" g="102" b="0"/>
+        <effectAnim>explosion_random</effectAnim>
+        <activateWhenReady>true</activateWhenReady>
+    </powerEffect>
+        <doorDamageMultiplier>10</doorDamageMultiplier>
+        <sabotageSpeedMultiplier>3</sabotageSpeedMultiplier>
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>1.1</damageMultiplier>
+        <fireDamageMultiplier>0</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_FIRE_PIERCE">
+        <crewBlueprint>modular_dronebattle_fire_pierce</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_FIRE_PIERCE">
+        <crewBlueprint>modular_dronebattle_fire_pierce</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_fire_cooldown">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>150</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        <powerEffect>
+        <cooldown>17</cooldown>
+        <jumpCooldown>full</jumpCooldown>
+        <powerSounds>
+            <powerSound>fireBomb</powerSound>
+        </powerSounds>
+        <req type="enemy">
+            <enemyInRoom/>
+        </req>
+        <fireChance>10</fireChance>
+        <friendlyFire>true</friendlyFire>
+        <shipFriendlyFire>true</shipFriendlyFire>
+        <buttonText>FLAME</buttonText>
+        <tooltip>Ready: Start fires in the occupied room.</tooltip>
+        <cooldownColor r="255" g="102" b="0"/>
+        <effectAnim>explosion_random</effectAnim>
+        <activateWhenReady>true</activateWhenReady>
+    </powerEffect>
+        <shootTimer min="400" max="400"/>
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>1.1</damageMultiplier>
+        <fireDamageMultiplier>0</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_FIRE_COOLDOWN">
+        <crewBlueprint>modular_dronebattle_fire_cooldown</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_FIRE_COOLDOWN">
+        <crewBlueprint>modular_dronebattle_fire_cooldown</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_hull_base">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>350</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        
+        
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>1.1</damageMultiplier>
+        <fireDamageMultiplier>0.25</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_HULL_BASE">
+        <crewBlueprint>modular_dronebattle_hull_base</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_HULL_BASE">
+        <crewBlueprint>modular_dronebattle_hull_base</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_hull_bio">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>350</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        
+        <passiveStatBoosts>  
+        <statBoost name="trueHealAmount">
+            <boostType>FLAT</boostType>
+            <amount>-2</amount>
+            <shipTarget>CURRENT_ROOM</shipTarget>
+            <crewTarget>ALL</crewTarget>
+            <droneTarget>ALL</droneTarget>
+            <affectsSelf>false</affectsSelf>
+            <priority>0</priority>
+            <boostAnim>bio_poison</boostAnim>
+        </statBoost>
+        <statBoost name="moveSpeedMultiplier">
+            <boostType>MULT</boostType>
+            <amount>0.33</amount>
+            <shipTarget>CURRENT_ROOM</shipTarget>
+            <crewTarget>ALL</crewTarget>
+            <droneTarget>CREW</droneTarget>
+            <affectsSelf>false</affectsSelf>
+            <maxStacks>1</maxStacks>
+            <duration>5</duration>
+            <boostAnim>bio_poison</boostAnim>
+        </statBoost>
+        <statBoost name="stunMultiplier">
+            <boostType>MULT</boostType>
+            <amount>1.75</amount>
+            <shipTarget>CURRENT_ROOM</shipTarget>
+            <crewTarget>ALL</crewTarget>
+            <droneTarget>CREW</droneTarget>
+            <affectsSelf>false</affectsSelf>
+            <maxStacks>1</maxStacks>
+            <duration>5</duration>
+        </statBoost>
+        <statBoost name="repairSpeed">
+            <boostType>MULT</boostType>
+            <amount>0.33</amount>
+            <shipTarget>CURRENT_ROOM</shipTarget>
+            <crewTarget>ALL</crewTarget>
+            <droneTarget>CREW</droneTarget>
+            <affectsSelf>false</affectsSelf>
+            <maxStacks>1</maxStacks>
+            <duration>5</duration>
+        </statBoost>
+    </passiveStatBoosts>
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>1.1</damageMultiplier>
+        <fireDamageMultiplier>0.25</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_HULL_BIO">
+        <crewBlueprint>modular_dronebattle_hull_bio</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_HULL_BIO">
+        <crewBlueprint>modular_dronebattle_hull_bio</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_hull_stun">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>350</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        
+        <powerEffect>
+        <cooldown>17</cooldown>
+        <jumpCooldown>reset</jumpCooldown>
+        <powerSounds>
+            <powerSound>ionHit1</powerSound>
+            <powerSound>ionHit2</powerSound>
+            <powerSound>ionHit3</powerSound>
+            <powerSound>ionShields1</powerSound>
+            <powerSound>ionShields2</powerSound>
+            <powerSound>ionShields3</powerSound>
+        </powerSounds>
+        <req>
+            <enemyInRoom/>
+        </req>
+        <friendlyFire>true</friendlyFire>
+        <stun>7</stun>
+        <buttonText>STUN</buttonText>
+        <tooltip>Ready: Stun enemy crew</tooltip>
+        <cooldownColor r="255" g="95" b="220"/>
+        <effectAnim>explosion_stun_ion</effectAnim>
+        <activateWhenReady>true</activateWhenReady>
+    </powerEffect>
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>1.1</damageMultiplier>
+        <fireDamageMultiplier>0.25</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_HULL_STUN">
+        <crewBlueprint>modular_dronebattle_hull_stun</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_HULL_STUN">
+        <crewBlueprint>modular_dronebattle_hull_stun</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_hull_lockdown">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>350</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        
+        <powerEffect>
+        <cooldown>17</cooldown>
+        <jumpCooldown>full</jumpCooldown>
+        <powerSounds>
+            <powerSound>lockdown1</powerSound>
+            <powerSound>lockdown2</powerSound>  
+        </powerSounds>
+        <req type="enemy">
+            <enemyInRoom/>
+        </req>
+        <lockdown>true</lockdown>
+        <friendlyFire>true</friendlyFire>
+        <shipFriendlyFire>true</shipFriendlyFire>
+        <buttonText>LOCK</buttonText>
+        <tooltip>Ready: Lock the current room.</tooltip>
+        <cooldownColor r="255" g="102" b="0"/>
+        <effectAnim>explosion_crystal</effectAnim>
+        <activateWhenReady>true</activateWhenReady>
+    </powerEffect>
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>1.1</damageMultiplier>
+        <fireDamageMultiplier>0.25</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_HULL_LOCKDOWN">
+        <crewBlueprint>modular_dronebattle_hull_lockdown</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_HULL_LOCKDOWN">
+        <crewBlueprint>modular_dronebattle_hull_lockdown</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_hull_pierce">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>350</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        
+        <doorDamageMultiplier>10</doorDamageMultiplier>
+        <sabotageSpeedMultiplier>3</sabotageSpeedMultiplier>
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>1.1</damageMultiplier>
+        <fireDamageMultiplier>0.25</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_HULL_PIERCE">
+        <crewBlueprint>modular_dronebattle_hull_pierce</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_HULL_PIERCE">
+        <crewBlueprint>modular_dronebattle_hull_pierce</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_hull_cooldown">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>350</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        
+        <shootTimer min="400" max="400"/>
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>1.1</damageMultiplier>
+        <fireDamageMultiplier>0.25</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_HULL_COOLDOWN">
+        <crewBlueprint>modular_dronebattle_hull_cooldown</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_HULL_COOLDOWN">
+        <crewBlueprint>modular_dronebattle_hull_cooldown</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_power_base">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>200</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        
+        
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>2.1</damageMultiplier>
+        <fireDamageMultiplier>0.25</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_POWER_BASE">
+        <crewBlueprint>modular_dronebattle_power_base</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_POWER_BASE">
+        <crewBlueprint>modular_dronebattle_power_base</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_power_bio">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>200</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        
+        <passiveStatBoosts>  
+        <statBoost name="trueHealAmount">
+            <boostType>FLAT</boostType>
+            <amount>-2</amount>
+            <shipTarget>CURRENT_ROOM</shipTarget>
+            <crewTarget>ALL</crewTarget>
+            <droneTarget>ALL</droneTarget>
+            <affectsSelf>false</affectsSelf>
+            <priority>0</priority>
+            <boostAnim>bio_poison</boostAnim>
+        </statBoost>
+        <statBoost name="moveSpeedMultiplier">
+            <boostType>MULT</boostType>
+            <amount>0.33</amount>
+            <shipTarget>CURRENT_ROOM</shipTarget>
+            <crewTarget>ALL</crewTarget>
+            <droneTarget>CREW</droneTarget>
+            <affectsSelf>false</affectsSelf>
+            <maxStacks>1</maxStacks>
+            <duration>5</duration>
+            <boostAnim>bio_poison</boostAnim>
+        </statBoost>
+        <statBoost name="stunMultiplier">
+            <boostType>MULT</boostType>
+            <amount>1.75</amount>
+            <shipTarget>CURRENT_ROOM</shipTarget>
+            <crewTarget>ALL</crewTarget>
+            <droneTarget>CREW</droneTarget>
+            <affectsSelf>false</affectsSelf>
+            <maxStacks>1</maxStacks>
+            <duration>5</duration>
+        </statBoost>
+        <statBoost name="repairSpeed">
+            <boostType>MULT</boostType>
+            <amount>0.33</amount>
+            <shipTarget>CURRENT_ROOM</shipTarget>
+            <crewTarget>ALL</crewTarget>
+            <droneTarget>CREW</droneTarget>
+            <affectsSelf>false</affectsSelf>
+            <maxStacks>1</maxStacks>
+            <duration>5</duration>
+        </statBoost>
+    </passiveStatBoosts>
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>2.1</damageMultiplier>
+        <fireDamageMultiplier>0.25</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_POWER_BIO">
+        <crewBlueprint>modular_dronebattle_power_bio</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_POWER_BIO">
+        <crewBlueprint>modular_dronebattle_power_bio</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_power_stun">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>200</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        
+        <powerEffect>
+        <cooldown>17</cooldown>
+        <jumpCooldown>reset</jumpCooldown>
+        <powerSounds>
+            <powerSound>ionHit1</powerSound>
+            <powerSound>ionHit2</powerSound>
+            <powerSound>ionHit3</powerSound>
+            <powerSound>ionShields1</powerSound>
+            <powerSound>ionShields2</powerSound>
+            <powerSound>ionShields3</powerSound>
+        </powerSounds>
+        <req>
+            <enemyInRoom/>
+        </req>
+        <friendlyFire>true</friendlyFire>
+        <stun>7</stun>
+        <buttonText>STUN</buttonText>
+        <tooltip>Ready: Stun enemy crew</tooltip>
+        <cooldownColor r="255" g="95" b="220"/>
+        <effectAnim>explosion_stun_ion</effectAnim>
+        <activateWhenReady>true</activateWhenReady>
+    </powerEffect>
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>2.1</damageMultiplier>
+        <fireDamageMultiplier>0.25</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_POWER_STUN">
+        <crewBlueprint>modular_dronebattle_power_stun</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_POWER_STUN">
+        <crewBlueprint>modular_dronebattle_power_stun</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_power_lockdown">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>200</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        
+        <powerEffect>
+        <cooldown>17</cooldown>
+        <jumpCooldown>full</jumpCooldown>
+        <powerSounds>
+            <powerSound>lockdown1</powerSound>
+            <powerSound>lockdown2</powerSound>  
+        </powerSounds>
+        <req type="enemy">
+            <enemyInRoom/>
+        </req>
+        <lockdown>true</lockdown>
+        <friendlyFire>true</friendlyFire>
+        <shipFriendlyFire>true</shipFriendlyFire>
+        <buttonText>LOCK</buttonText>
+        <tooltip>Ready: Lock the current room.</tooltip>
+        <cooldownColor r="255" g="102" b="0"/>
+        <effectAnim>explosion_crystal</effectAnim>
+        <activateWhenReady>true</activateWhenReady>
+    </powerEffect>
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>2.1</damageMultiplier>
+        <fireDamageMultiplier>0.25</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_POWER_LOCKDOWN">
+        <crewBlueprint>modular_dronebattle_power_lockdown</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_POWER_LOCKDOWN">
+        <crewBlueprint>modular_dronebattle_power_lockdown</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_power_pierce">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>200</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        
+        <doorDamageMultiplier>10</doorDamageMultiplier>
+        <sabotageSpeedMultiplier>3</sabotageSpeedMultiplier>
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>2.1</damageMultiplier>
+        <fireDamageMultiplier>0.25</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_POWER_PIERCE">
+        <crewBlueprint>modular_dronebattle_power_pierce</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_POWER_PIERCE">
+        <crewBlueprint>modular_dronebattle_power_pierce</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    <mod:findLike type="crew" limit="1">
+    <mod-append:race name="modular_dronebattle_power_cooldown">
+        <selectable>true</selectable>
+        <canFight>true</canFight>
+        <canSabotage>true</canSabotage>
+        <canRepair>false</canRepair>
+        <canSuffocate>false</canSuffocate>
+        <canMan>false</canMan>
+        <maxHealth>200</maxHealth>
+        <stunMultiplier>0.25</stunMultiplier>
+        <canTeleport>false</canTeleport>
+        <resistsMindControl>true</resistsMindControl>
+        
+        <shootTimer min="400" max="400"/>
+        <droneAI>
+            <fightAI/>
+            <returnToDroneRoom/>
+        </droneAI>
+        <damageMultiplier>2.1</damageMultiplier>
+        <fireDamageMultiplier>0.25</fireDamageMultiplier>
+        <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
+        <controllable>true</controllable>
+    </mod-append:race>
+    </mod:findLike>
+    
+    <mod:findLike type="drones" limit="1">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_POWER_COOLDOWN">
+        <crewBlueprint>modular_dronebattle_power_cooldown</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_POWER_COOLDOWN">
+        <crewBlueprint>modular_dronebattle_power_cooldown</crewBlueprint>
+        <tooltipName>Modular Battle Drone</tooltipName>
+    </mod-append:drone>
+    </mod:findLike>
+    
+    
+    </FTL>
