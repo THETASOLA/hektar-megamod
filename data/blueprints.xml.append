@@ -9012,7 +9012,6 @@ Status - Stun</desc>
     <title>Modular Battle Drone [Anti-Pers]</title>
     <short>M. Battle [DEF]</short>
     <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
-----CURRENTLY INSTALLED MODULES----
 
 -150 HP, 1.1x combat damage
 -0.8x movement speed</desc>
@@ -9030,7 +9029,6 @@ Status - Stun</desc>
     <title>Modular Battle Drone [Boarding]</title>
     <short>M. Battle [ATK]</short>
     <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
-----CURRENTLY INSTALLED MODULES----
 
 -150 HP, 1.1x combat damage
 -0.8x movement speed</desc>
