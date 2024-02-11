@@ -9235,7 +9235,7 @@ Status - Lockdown
     <short>M. Battle [DEF]</short>
     <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
 ----CURRENTLY INSTALLED MODULES----
-Status - Stun
+Status - Pierce
 
 -Faster Deployement
 -Breaks down door faster
@@ -9257,7 +9257,7 @@ Status - Stun
     <short>M. Battle [ATK]</short>
     <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
 ----CURRENTLY INSTALLED MODULES----
-Status - Stun
+Status - Pierce
 
 -Faster Deployement
 -Breaks down door faster
@@ -9586,7 +9586,7 @@ Status - Lockdown
     <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy
-Status - Stun
+Status - Pierce
 
 -Faster Deployement
 -Breaks down door faster
@@ -9609,7 +9609,7 @@ Status - Stun
     <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy
-Status - Stun
+Status - Pierce
 
 -Faster Deployement
 -Breaks down door faster
@@ -9948,7 +9948,7 @@ Status - Lockdown
     <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
-Status - Stun
+Status - Pierce
 
 -Faster Deployement
 -Breaks down door faster
@@ -9972,7 +9972,7 @@ Status - Stun
     <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
-Status - Stun
+Status - Pierce
 
 -Faster Deployement
 -Breaks down door faster
@@ -10306,7 +10306,7 @@ Status - Lockdown
     <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
-Status - Stun
+Status - Pierce
 
 -Faster Deployement
 -Breaks down door faster
@@ -10329,7 +10329,7 @@ Status - Stun
     <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
-Status - Stun
+Status - Pierce
 
 -Faster Deployement
 -Breaks down door faster
@@ -10660,7 +10660,7 @@ Status - Lockdown
     <desc>[CURRENT MODE: Anti-Personnel] Produced by Hektar Industries(TM), this is the base for a Modular Defense Drone. It supports 1 attribute module and 1 status module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power
-Status - Stun
+Status - Pierce
 
 -Faster Deployement
 -Breaks down door faster
@@ -10683,7 +10683,7 @@ Status - Stun
     <desc>[CURRENT MODE: Boarding] Produced by Hektar Industries(TM), this is the base for a Modular Boarding Drone. It supports 1 attribute module and 1 status module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power
-Status - Stun
+Status - Pierce
 
 -Faster Deployement
 -Breaks down door faster
