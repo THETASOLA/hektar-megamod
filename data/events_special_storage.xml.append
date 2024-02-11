@@ -18141,31 +18141,31 @@
 	
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
-	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_BASE_BASE" blue="false">
+	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_BASE" blue="false">
 		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
-			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_BASE_BASE</loadEvent>
+			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_BASE</loadEvent>
 		</event>
 	</mod-append:choice>
-	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_BASE_BASE" blue="false">
+	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_BASE" blue="false">
 		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
-			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_BASE_BASE</loadEvent>
+			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_BASE</loadEvent>
 		</event>
 	</mod-append:choice>
 	</mod:findName>
-	<event name="COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_BASE_BASE">
+	<event name="COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_BASE">
 		<text>Are you sure you want to change the drone's settings?</text>
 		<choice hidden="true">
 			<text>Set the drone to Boarding Mode.</text>
 			<event>
 				<text>You start calibrating the drone...</text>
-				<remove name="MODULAR_DRONEBATTLE_DEFENSE_BASE_BASE"/>
+				<remove name="MODULAR_DRONEBATTLE_DEFENSE_BASE"/>
 				<choice hidden="true">
 					<text>Continue...</text>
 					<event>
 						<text>You finish calibrating the drone successfully.</text>
-						<drone name="MODULAR_DRONEBATTLE_BOARDER_BASE_BASE"/>
+						<drone name="MODULAR_DRONEBATTLE_BOARDER_BASE"/>
 						<choice hidden="true">
 							<text>Continue...</text>
 							<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
@@ -18179,18 +18179,18 @@
 			<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
 		</choice>
 	</event>
-	<event name="COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_BASE_BASE">
+	<event name="COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_BASE">
 		<text>Are you sure you want to change the drone's settings?</text>
 		<choice hidden="true">
 			<text>Set the drone to Defensive Mode.</text>
 			<event>
 				<text>You start calibrating the drone...</text>
-				<remove name="MODULAR_DRONEBATTLE_BOARDER_BASE_BASE"/>
+				<remove name="MODULAR_DRONEBATTLE_BOARDER_BASE"/>
 				<choice hidden="true">
 					<text>Continue...</text>
 					<event>
 						<text>You finish calibrating the drone successfully.</text>
-						<drone name="MODULAR_DRONEBATTLE_DEFENSE_BASE_BASE"/>
+						<drone name="MODULAR_DRONEBATTLE_DEFENSE_BASE"/>
 						<choice hidden="true">
 							<text>Continue...</text>
 							<event load="COMBAT_CHECK_TOGGLE_LOAD"/>

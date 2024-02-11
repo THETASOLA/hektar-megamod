@@ -9000,12 +9000,12 @@ Status - Stun</desc>
   </powerList>
 </crewBlueprint>
 
-<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_BASE_BASE">
-    <name>MODULAR_DRONEBATTLE_DEFENSE_BASE_BASE</name>
-    <name>MODULAR_DRONEBATTLE_BOARDER_BASE_BASE</name>
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_BASE">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_BASE</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_BASE</name>
 </blueprintList>
 
-<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_BASE_BASE">
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_BASE">
     <type>BATTLE</type>
     <locked>1</locked>
     <tip>tip_toggle_crew</tip>
@@ -9022,7 +9022,7 @@ Status - Stun</desc>
     <iconImage>modular_dronebattle_base_base</iconImage>
 </droneBlueprint>
 
-<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_BASE_BASE">
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_BASE">
     <type>BOARDER</type>
     <tip>tip_toggle_crew</tip>
     <locked>1</locked>

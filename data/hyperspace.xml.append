@@ -268,11 +268,11 @@
     </mod:findLike>
     
     <mod:findLike type="drones" limit="1">
-    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_BASE_BASE">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_DEFENSE_BASE">
         <crewBlueprint>modular_dronebattle_base_base</crewBlueprint>
         <tooltipName>Modular Battle Drone</tooltipName>
     </mod-append:drone>
-    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_BASE_BASE">
+    <mod-append:drone name="MODULAR_DRONEBATTLE_BOARDER_BASE">
         <crewBlueprint>modular_dronebattle_base_base</crewBlueprint>
         <tooltipName>Modular Battle Drone</tooltipName>
     </mod-append:drone>
