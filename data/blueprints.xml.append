@@ -9112,12 +9112,12 @@ Status - Cooldown
   </powerList>
 </crewBlueprint>
 
-<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_ACCURACY_BASE">
-    <name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_BASE</name>
-    <name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BASE</name>
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_ACCURACY">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY</name>
 </blueprintList>
 
-<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_BASE">
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_ACCURACY">
     <type>BATTLE</type>
     <locked>1</locked>
     <tip>tip_toggle_crew</tip>
@@ -9136,7 +9136,7 @@ Attribute - Accuracy
     <iconImage>modular_dronebattle_accuracy_base</iconImage>
 </droneBlueprint>
 
-<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BASE">
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_ACCURACY">
     <type>BOARDER</type>
     <tip>tip_toggle_crew</tip>
     <locked>1</locked>
@@ -9466,12 +9466,12 @@ Status - Cooldown
   </powerList>
 </crewBlueprint>
 
-<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_FIRE_BASE">
-    <name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_BASE</name>
-    <name>MODULAR_DRONEBATTLE_BOARDER_FIRE_BASE</name>
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_FIRE">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_FIRE</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_FIRE</name>
 </blueprintList>
 
-<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_FIRE_BASE">
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_FIRE">
     <type>BATTLE</type>
     <locked>1</locked>
     <tip>tip_toggle_crew</tip>
@@ -9491,7 +9491,7 @@ Attribute - Fire
     <iconImage>modular_dronebattle_fire_base</iconImage>
 </droneBlueprint>
 
-<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_FIRE_BASE">
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_FIRE">
     <type>BOARDER</type>
     <tip>tip_toggle_crew</tip>
     <locked>1</locked>
@@ -9832,12 +9832,12 @@ Status - Cooldown
   </powerList>
 </crewBlueprint>
 
-<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_HULL_BASE">
-    <name>MODULAR_DRONEBATTLE_DEFENSE_HULL_BASE</name>
-    <name>MODULAR_DRONEBATTLE_BOARDER_HULL_BASE</name>
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_HULL">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_HULL</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_HULL</name>
 </blueprintList>
 
-<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_HULL_BASE">
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_HULL">
     <type>BATTLE</type>
     <locked>1</locked>
     <tip>tip_toggle_crew</tip>
@@ -9856,7 +9856,7 @@ Attribute - Hull
     <iconImage>modular_dronebattle_hull_base</iconImage>
 </droneBlueprint>
 
-<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_HULL_BASE">
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_HULL">
     <type>BOARDER</type>
     <tip>tip_toggle_crew</tip>
     <locked>1</locked>
@@ -10186,12 +10186,12 @@ Status - Cooldown
   </powerList>
 </crewBlueprint>
 
-<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_POWER_BASE">
-    <name>MODULAR_DRONEBATTLE_DEFENSE_POWER_BASE</name>
-    <name>MODULAR_DRONEBATTLE_BOARDER_POWER_BASE</name>
+<blueprintList name="LIST_TOGGLE_MODULAR_DRONEBATTLE_POWER">
+    <name>MODULAR_DRONEBATTLE_DEFENSE_POWER</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_POWER</name>
 </blueprintList>
 
-<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_POWER_BASE">
+<droneBlueprint name="MODULAR_DRONEBATTLE_DEFENSE_POWER">
     <type>BATTLE</type>
     <locked>1</locked>
     <tip>tip_toggle_crew</tip>
@@ -10210,7 +10210,7 @@ Attribute - Power
     <iconImage>modular_dronebattle_power_base</iconImage>
 </droneBlueprint>
 
-<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_POWER_BASE">
+<droneBlueprint name="MODULAR_DRONEBATTLE_BOARDER_POWER">
     <type>BOARDER</type>
     <tip>tip_toggle_crew</tip>
     <locked>1</locked>

@@ -190,25 +190,25 @@
 	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_BASE_LOCKDOWN</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_BASE_PIERCE</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_BASE_COOLDOWN</mod-append:name>
-	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_BASE</mod-append:name>
+	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_BIO</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_STUN</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_LOCKDOWN</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_PIERCE</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_COOLDOWN</mod-append:name>
-	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_BASE</mod-append:name>
+	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_FIRE</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_BIO</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_STUN</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_LOCKDOWN</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_PIERCE</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_COOLDOWN</mod-append:name>
-	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_HULL_BASE</mod-append:name>
+	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_HULL</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_HULL_BIO</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_HULL_STUN</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_HULL_LOCKDOWN</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_HULL_PIERCE</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_HULL_COOLDOWN</mod-append:name>
-	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_POWER_BASE</mod-append:name>
+	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_POWER</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_POWER_BIO</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_POWER_STUN</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_POWER_LOCKDOWN</mod-append:name>
@@ -221,25 +221,25 @@
 	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_BASE_LOCKDOWN</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_BASE_PIERCE</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_BASE_COOLDOWN</mod-append:name>
-	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BASE</mod-append:name>
+	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BIO</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_STUN</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_LOCKDOWN</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_PIERCE</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_COOLDOWN</mod-append:name>
-	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_BASE</mod-append:name>
+	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_BIO</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_STUN</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_LOCKDOWN</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_PIERCE</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_COOLDOWN</mod-append:name>
-	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_BASE</mod-append:name>
+	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_BIO</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_STUN</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_LOCKDOWN</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_PIERCE</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_COOLDOWN</mod-append:name>
-	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_POWER_BASE</mod-append:name>
+	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_POWER</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_POWER_BIO</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_POWER_STUN</mod-append:name>
 	<mod-append:name>MODULAR_DRONEBATTLE_BOARDER_POWER_LOCKDOWN</mod-append:name>
@@ -559,25 +559,25 @@
     <name>MODULAR_DRONEBATTLE_DEFENSE_BASE_LOCKDOWN</name>
     <name>MODULAR_DRONEBATTLE_DEFENSE_BASE_PIERCE</name>
     <name>MODULAR_DRONEBATTLE_DEFENSE_BASE_COOLDOWN</name>
-    <name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_BASE</name>
+    <name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY</name>
     <name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_BIO</name>
     <name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_STUN</name>
     <name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_LOCKDOWN</name>
     <name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_PIERCE</name>
     <name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_COOLDOWN</name>
-    <name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_BASE</name>
+    <name>MODULAR_DRONEBATTLE_DEFENSE_FIRE</name>
     <name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_BIO</name>
     <name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_STUN</name>
     <name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_LOCKDOWN</name>
     <name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_PIERCE</name>
     <name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_COOLDOWN</name>
-    <name>MODULAR_DRONEBATTLE_DEFENSE_HULL_BASE</name>
+    <name>MODULAR_DRONEBATTLE_DEFENSE_HULL</name>
     <name>MODULAR_DRONEBATTLE_DEFENSE_HULL_BIO</name>
     <name>MODULAR_DRONEBATTLE_DEFENSE_HULL_STUN</name>
     <name>MODULAR_DRONEBATTLE_DEFENSE_HULL_LOCKDOWN</name>
     <name>MODULAR_DRONEBATTLE_DEFENSE_HULL_PIERCE</name>
     <name>MODULAR_DRONEBATTLE_DEFENSE_HULL_COOLDOWN</name>
-    <name>MODULAR_DRONEBATTLE_DEFENSE_POWER_BASE</name>
+    <name>MODULAR_DRONEBATTLE_DEFENSE_POWER</name>
     <name>MODULAR_DRONEBATTLE_DEFENSE_POWER_BIO</name>
     <name>MODULAR_DRONEBATTLE_DEFENSE_POWER_STUN</name>
     <name>MODULAR_DRONEBATTLE_DEFENSE_POWER_LOCKDOWN</name>
@@ -590,25 +590,25 @@
     <name>MODULAR_DRONEBATTLE_BOARDER_BASE_LOCKDOWN</name>
     <name>MODULAR_DRONEBATTLE_BOARDER_BASE_PIERCE</name>
     <name>MODULAR_DRONEBATTLE_BOARDER_BASE_COOLDOWN</name>
-    <name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BASE</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY</name>
     <name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BIO</name>
     <name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_STUN</name>
     <name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_LOCKDOWN</name>
     <name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_PIERCE</name>
     <name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_COOLDOWN</name>
-    <name>MODULAR_DRONEBATTLE_BOARDER_FIRE_BASE</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_FIRE</name>
     <name>MODULAR_DRONEBATTLE_BOARDER_FIRE_BIO</name>
     <name>MODULAR_DRONEBATTLE_BOARDER_FIRE_STUN</name>
     <name>MODULAR_DRONEBATTLE_BOARDER_FIRE_LOCKDOWN</name>
     <name>MODULAR_DRONEBATTLE_BOARDER_FIRE_PIERCE</name>
     <name>MODULAR_DRONEBATTLE_BOARDER_FIRE_COOLDOWN</name>
-    <name>MODULAR_DRONEBATTLE_BOARDER_HULL_BASE</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_HULL</name>
     <name>MODULAR_DRONEBATTLE_BOARDER_HULL_BIO</name>
     <name>MODULAR_DRONEBATTLE_BOARDER_HULL_STUN</name>
     <name>MODULAR_DRONEBATTLE_BOARDER_HULL_LOCKDOWN</name>
     <name>MODULAR_DRONEBATTLE_BOARDER_HULL_PIERCE</name>
     <name>MODULAR_DRONEBATTLE_BOARDER_HULL_COOLDOWN</name>
-    <name>MODULAR_DRONEBATTLE_BOARDER_POWER_BASE</name>
+    <name>MODULAR_DRONEBATTLE_BOARDER_POWER</name>
     <name>MODULAR_DRONEBATTLE_BOARDER_POWER_BIO</name>
     <name>MODULAR_DRONEBATTLE_BOARDER_POWER_STUN</name>
     <name>MODULAR_DRONEBATTLE_BOARDER_POWER_LOCKDOWN</name>
@@ -1072,25 +1072,25 @@
   <name>MODULAR_DRONEBATTLE_BOARDER_BASE_LOCKDOWN</name>
   <name>MODULAR_DRONEBATTLE_BOARDER_BASE_PIERCE</name>
   <name>MODULAR_DRONEBATTLE_BOARDER_BASE_COOLDOWN</name>
-  <name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BASE</name>
+  <name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY</name>
   <name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BIO</name>
   <name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_STUN</name>
   <name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_LOCKDOWN</name>
   <name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_PIERCE</name>
   <name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_COOLDOWN</name>
-  <name>MODULAR_DRONEBATTLE_BOARDER_FIRE_BASE</name>
+  <name>MODULAR_DRONEBATTLE_BOARDER_FIRE</name>
   <name>MODULAR_DRONEBATTLE_BOARDER_FIRE_BIO</name>
   <name>MODULAR_DRONEBATTLE_BOARDER_FIRE_STUN</name>
   <name>MODULAR_DRONEBATTLE_BOARDER_FIRE_LOCKDOWN</name>
   <name>MODULAR_DRONEBATTLE_BOARDER_FIRE_PIERCE</name>
   <name>MODULAR_DRONEBATTLE_BOARDER_FIRE_COOLDOWN</name>
-  <name>MODULAR_DRONEBATTLE_BOARDER_HULL_BASE</name>
+  <name>MODULAR_DRONEBATTLE_BOARDER_HULL</name>
   <name>MODULAR_DRONEBATTLE_BOARDER_HULL_BIO</name>
   <name>MODULAR_DRONEBATTLE_BOARDER_HULL_STUN</name>
   <name>MODULAR_DRONEBATTLE_BOARDER_HULL_LOCKDOWN</name>
   <name>MODULAR_DRONEBATTLE_BOARDER_HULL_PIERCE</name>
   <name>MODULAR_DRONEBATTLE_BOARDER_HULL_COOLDOWN</name>
-  <name>MODULAR_DRONEBATTLE_BOARDER_POWER_BASE</name>
+  <name>MODULAR_DRONEBATTLE_BOARDER_POWER</name>
   <name>MODULAR_DRONEBATTLE_BOARDER_POWER_BIO</name>
   <name>MODULAR_DRONEBATTLE_BOARDER_POWER_STUN</name>
   <name>MODULAR_DRONEBATTLE_BOARDER_POWER_LOCKDOWN</name>
@@ -1105,25 +1105,25 @@
 	<name>MODULAR_DRONEBATTLE_DEFENSE_BASE_LOCKDOWN</name>
 	<name>MODULAR_DRONEBATTLE_DEFENSE_BASE_PIERCE</name>
 	<name>MODULAR_DRONEBATTLE_DEFENSE_BASE_COOLDOWN</name>
-	<name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_BASE</name>
+	<name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY</name>
 	<name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_BIO</name>
 	<name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_STUN</name>
 	<name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_LOCKDOWN</name>
 	<name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_PIERCE</name>
 	<name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_COOLDOWN</name>
-	<name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_BASE</name>
+	<name>MODULAR_DRONEBATTLE_DEFENSE_FIRE</name>
 	<name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_BIO</name>
 	<name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_STUN</name>
 	<name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_LOCKDOWN</name>
 	<name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_PIERCE</name>
 	<name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_COOLDOWN</name>
-	<name>MODULAR_DRONEBATTLE_DEFENSE_HULL_BASE</name>
+	<name>MODULAR_DRONEBATTLE_DEFENSE_HULL</name>
 	<name>MODULAR_DRONEBATTLE_DEFENSE_HULL_BIO</name>
 	<name>MODULAR_DRONEBATTLE_DEFENSE_HULL_STUN</name>
 	<name>MODULAR_DRONEBATTLE_DEFENSE_HULL_LOCKDOWN</name>
 	<name>MODULAR_DRONEBATTLE_DEFENSE_HULL_PIERCE</name>
 	<name>MODULAR_DRONEBATTLE_DEFENSE_HULL_COOLDOWN</name>
-	<name>MODULAR_DRONEBATTLE_DEFENSE_POWER_BASE</name>
+	<name>MODULAR_DRONEBATTLE_DEFENSE_POWER</name>
 	<name>MODULAR_DRONEBATTLE_DEFENSE_POWER_BIO</name>
 	<name>MODULAR_DRONEBATTLE_DEFENSE_POWER_STUN</name>
 	<name>MODULAR_DRONEBATTLE_DEFENSE_POWER_LOCKDOWN</name>
@@ -1138,25 +1138,25 @@
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_BASE_LOCKDOWN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_BASE_PIERCE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_BASE_COOLDOWN</mod-append:name>
-  <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_BASE</mod-append:name>
+  <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_BIO</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_STUN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_LOCKDOWN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_PIERCE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_COOLDOWN</mod-append:name>
-  <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_BASE</mod-append:name>
+  <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_FIRE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_BIO</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_STUN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_LOCKDOWN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_PIERCE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_COOLDOWN</mod-append:name>
-  <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_HULL_BASE</mod-append:name>
+  <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_HULL</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_HULL_BIO</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_HULL_STUN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_HULL_LOCKDOWN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_HULL_PIERCE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_HULL_COOLDOWN</mod-append:name>
-  <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_POWER_BASE</mod-append:name>
+  <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_POWER</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_POWER_BIO</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_POWER_STUN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_POWER_LOCKDOWN</mod-append:name>
@@ -1169,25 +1169,25 @@
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_BASE_LOCKDOWN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_BASE_PIERCE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_BASE_COOLDOWN</mod-append:name>
-  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BASE</mod-append:name>
+  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BIO</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_STUN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_LOCKDOWN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_PIERCE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_COOLDOWN</mod-append:name>
-  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_BASE</mod-append:name>
+  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_BIO</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_STUN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_LOCKDOWN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_PIERCE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_COOLDOWN</mod-append:name>
-  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_BASE</mod-append:name>
+  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_BIO</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_STUN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_LOCKDOWN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_PIERCE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_COOLDOWN</mod-append:name>
-  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_POWER_BASE</mod-append:name>
+  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_POWER</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_POWER_BIO</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_POWER_STUN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_POWER_LOCKDOWN</mod-append:name>
@@ -1202,25 +1202,25 @@
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_BASE_LOCKDOWN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_BASE_PIERCE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_BASE_COOLDOWN</mod-append:name>
-  <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_BASE</mod-append:name>
+  <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_BIO</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_STUN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_LOCKDOWN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_PIERCE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_COOLDOWN</mod-append:name>
-  <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_BASE</mod-append:name>
+  <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_FIRE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_BIO</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_STUN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_LOCKDOWN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_PIERCE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_FIRE_COOLDOWN</mod-append:name>
-  <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_HULL_BASE</mod-append:name>
+  <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_HULL</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_HULL_BIO</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_HULL_STUN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_HULL_LOCKDOWN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_HULL_PIERCE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_HULL_COOLDOWN</mod-append:name>
-  <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_POWER_BASE</mod-append:name>
+  <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_POWER</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_POWER_BIO</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_POWER_STUN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_DEFENSE_POWER_LOCKDOWN</mod-append:name>
@@ -1235,25 +1235,25 @@
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_BASE_LOCKDOWN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_BASE_PIERCE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_BASE_COOLDOWN</mod-append:name>
-  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BASE</mod-append:name>
+  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BIO</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_STUN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_LOCKDOWN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_PIERCE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_COOLDOWN</mod-append:name>
-  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_BASE</mod-append:name>
+  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_BIO</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_STUN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_LOCKDOWN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_PIERCE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_COOLDOWN</mod-append:name>
-  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_BASE</mod-append:name>
+  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_BIO</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_STUN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_LOCKDOWN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_PIERCE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_COOLDOWN</mod-append:name>
-  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_POWER_BASE</mod-append:name>
+  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_POWER</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_POWER_BIO</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_POWER_STUN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_POWER_LOCKDOWN</mod-append:name>
@@ -1267,25 +1267,25 @@
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_BASE_LOCKDOWN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_BASE_PIERCE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_BASE_COOLDOWN</mod-append:name>
-  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BASE</mod-append:name>
+  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BIO</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_STUN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_LOCKDOWN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_PIERCE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_COOLDOWN</mod-append:name>
-  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_BASE</mod-append:name>
+  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_BIO</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_STUN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_LOCKDOWN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_PIERCE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_COOLDOWN</mod-append:name>
-  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_BASE</mod-append:name>
+  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_BIO</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_STUN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_LOCKDOWN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_PIERCE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_COOLDOWN</mod-append:name>
-  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_POWER_BASE</mod-append:name>
+  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_POWER</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_POWER_BIO</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_POWER_STUN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_POWER_LOCKDOWN</mod-append:name>
@@ -1299,25 +1299,25 @@
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_BASE_LOCKDOWN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_BASE_PIERCE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_BASE_COOLDOWN</mod-append:name>
-  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BASE</mod-append:name>
+  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BIO</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_STUN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_LOCKDOWN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_PIERCE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_ACCURACY_COOLDOWN</mod-append:name>
-  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_BASE</mod-append:name>
+  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_BIO</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_STUN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_LOCKDOWN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_PIERCE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_FIRE_COOLDOWN</mod-append:name>
-  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_BASE</mod-append:name>
+  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_BIO</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_STUN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_LOCKDOWN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_PIERCE</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_HULL_COOLDOWN</mod-append:name>
-  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_POWER_BASE</mod-append:name>
+  <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_POWER</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_POWER_BIO</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_POWER_STUN</mod-append:name>
   <mod-append:name>MODULAR_DRONEBATTLE_BOARDER_POWER_LOCKDOWN</mod-append:name>
