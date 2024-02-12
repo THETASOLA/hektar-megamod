@@ -1,15 +1,15 @@
 <FTL>
 
-  <mod:findName type="weaponBlueprint" name="MODULE_ACCURACY">
+<mod:findName type="weaponBlueprint" name="MODULE_ACCURACY">
     <mod-append:desc>Hektar Industries(TM) brand Attribute Accuracy Module. Ensure your weaponry stays on target on the battlefield!
 Incompatible with the Modular Beam/Pinpoint.
 Laser/Ion Effects: +20% accuracy buff
 Missile/Bomb Effects: +100% accuracy buff
 Flak Effects: -10 spread, +10% accuracy buff
 Boarding Drone: 2.1x damage, -25 hp</mod-append:desc>
-  </mod:findName>
+</mod:findName>
   
-  <mod:findName type="weaponBlueprint" name="MODULE_BIO">
+<mod:findName type="weaponBlueprint" name="MODULE_BIO">
 <mod-append:desc>Hektar Industries(TM) brand Status RAD Module. Turn your modular weapons into the perfect anti-crew weaponry!
 No incompatibilities. When combined with the Hullbuster Module, will restore hull and system damage, but will not have hull bust properties.
 Laser Effects: 0 hull/system dmg, +30 crew damage (+60 for drone), +1 shield pierce
@@ -21,31 +21,31 @@ Ion Effects: +60 crew damage (+90 for drone) (must be a direct hit)
 Flak Effects: +30 crew damage
 Boarding Drone: Anti-Bio aura, Damaging aura (2hp/s)
 Weapons and drones also gain standard Anti-Bio crew debuffs. (66% slowed speed and repairs, 75% increased stun duration)</mod-append:desc>
-  </mod:findName>
+</mod:findName>
   
-  <mod:findName type="weaponBlueprint" name="MODULE_COOLDOWN">
+<mod:findName type="weaponBlueprint" name="MODULE_COOLDOWN">
 <mod-append:desc>Hektar Industries(TM) brand Status Cooldown Module. Turn your modular weapons into power efficient fast firing assault weaponry!
 No incompatibilities.
 Effects for all weapons: Reduces cooldown by 25%
 Effects for all drones: Increase speed by 50% (2x attack speed for boarding drone)</mod-append:desc>
-  </mod:findName>
+</mod:findName>
   
-  <mod:findName type="weaponBlueprint" name="MODULE_LOCKDOWN">
+<mod:findName type="weaponBlueprint" name="MODULE_LOCKDOWN">
 <mod-append:desc>Hektar Industries(TM) brand Status Lockdown Module. Turn your modular weapons into the next generation of tech and cause chaos on the enemy ship with patented lockdown tech!
 Incompatible with the Modular Beam/Pinpoint.
 Effects for all weapons: Applies lockdown on impact
 Boarding Drone: Periodically lockdown the room</mod-append:desc>
-  </mod:findName>
+</mod:findName>
   
-  <mod:findName type="weaponBlueprint" name="MODULE_PIERCE">
+<mod:findName type="weaponBlueprint" name="MODULE_PIERCE">
 <mod-append:desc>Hektar Industries(TM) brand Status Pierce Module. Never deal with enemy fortifications ever again!
 Incompatible with the Modular Missile/Bomb.
 Laser/Beam/Pinpoint/Flak Effects: +1 shield pierce, +30% breach chance
 Ion Effects: +3 (+10 for drone) shield pierce (affects shield as it passes through)
 Boarding Drone: 3x sabotage damage, faster deployment, breaks down door faster</mod-append:desc>
-  </mod:findName>
+</mod:findName>
   
-  <mod:findName type="weaponBlueprint" name="MODULE_STUN">
+<mod:findName type="weaponBlueprint" name="MODULE_STUN">
 <mod-append:desc>Hektar Industries(TM) brand Status Neural Module. Turn your modular weapons into crew disrupting neural weaponry!
 No incompatibilities.
 Laser/Flak Effects: Projectiles apply 12 seconds of stun (projectiles do not stack the duration)
@@ -55,9 +55,9 @@ Missile Effects: Missile applies 14 seconds of stun
 Bomb Effects: 0 system dmg [Power Module gives back 2 system dmg], +6 ion, applies 20 seconds of stun
 Ion Effects: Ion applies stun equal to ion duration +2s (25s for drone)
 Boarding Drone: Periodically stun crew in the room</mod-append:desc>
-  </mod:findName>
+</mod:findName>
   
-  <mod:findName type="weaponBlueprint" name="MODULE_FIRE">
+<mod:findName type="weaponBlueprint" name="MODULE_FIRE">
 <mod-append:desc>Hektar Industries(TM) brand Attribute Firestarter Module. Create devastating infernos with your modular weaponry!
 No incompatibilities.
 Laser Effects: +30% fire chance
@@ -65,9 +65,9 @@ Beam/Flak Effects: +40% fire chance
 Missile/Bomb/Pinpoint Effects: +100% fire chance
 Ion Effects: +100% fire chance (50% for drone)
 Boarding Drone: Periodically start a fire in the room, +1 power</mod-append:desc>
-  </mod:findName>
+</mod:findName>
   
-  <mod:findName type="weaponBlueprint" name="MODULE_HULL">
+<mod:findName type="weaponBlueprint" name="MODULE_HULL">
 <mod-append:desc>Hektar Industries(TM) brand Attribute Hullbust Module. Decimate the enemy's hull with heavy hitting modular weaponry!
 No incompatibilities. When combined with the RAD module, will return to default hull damage but will not have hull bust properties.
 Laser/Beam/Missile/Flak Effects: x2 damage on systemless rooms, +10% breach chance. [Breach stacks with Pierce Module breach chance]
@@ -76,9 +76,9 @@ Missile Effects: Increases cooldown by 2s
 Bomb Effects: +1 damage, +100% breach chance
 Ion Effects: Ion becomes Energy; hull damage equals ion damage (but no system/crew damage), +10% fire chance
 Boarding Drone: gain +200 hp</mod-append:desc>
-  </mod:findName>
+</mod:findName>
   
-  <mod:findName type="weaponBlueprint" name="MODULE_POWER">
+<mod:findName type="weaponBlueprint" name="MODULE_POWER">
 <mod-append:desc>Hektar Industries(TM) brand Attribute Power Module. Get more bang for your buck with your modular weaponry!
 No incompatibilities.
 Laser Effects: +2 projectiles, +1 power cost, +4s cooldown (for drone: +1 damage, +1 power cost)
@@ -89,7 +89,7 @@ Bomb Effects: +2 system damage, +1 power cost
 Ion Effects: +1 ion damage, +1 power cost
 Flak Effects: +2 projectiles, +1 power, +10 radius
 Boarding Drone: Gain +50hp, 2.1x combat damage, +1 power</mod-append:desc>
-  </mod:findName>
+</mod:findName>
 
     <crewBlueprint name="slug_hektar_elite">
       <desc>A soulless overpaid manager working for the Hektar corporation.
@@ -289,7 +289,7 @@ Affected by modules, check storage for stats</desc>
     <weaponBlueprint name="ARTILLERY_MODULAR_BEAM">
         <type>BEAM</type>
         <tip>tip_beams</tip>
-        <title>Modular Missile Beam</title>
+        <title>Modular Beam Artillery</title>
         <short>Mod. Beam</short>
         <desc>[Base cooldown: 26/24/22/20/18] Fires a powerful beam dealing 2 damage.
 Affected by modules, check storage for stats</desc>
@@ -316,10 +316,10 @@ Affected by modules, check storage for stats</desc>
     </weaponBlueprint>
     
     <shipBlueprint name="PLAYER_SHIP_HEKTAR_MODULAR" layout="hektar_modular" img="hektar_modular">
-        <class>Hektar Modular Cruiser(tm)</class>
-        <name>Branding(tm)</name>
+        <class>Hektar Modular Cruiser(TM)</class>
+        <name>Branding(TM)</name>
         <unlock id="ship_PLAYER_SHIP_HEKTAR_MODULAR_unlock"/>
-        <desc>The Hektar Modular Cruiser(tm) represent the crowning jewel of the Hektar R&D Team(tm). Most of the manufacturing budget goes into its Modular Artillery, leaving not much for the actual ship itself. This cruiser boasting the latest Modular Laser Artillery(tm) is used by the Hektar Quality Assurance Team(tm) to test out new equipment on the field while promoting the Hekytar Brand(tm). </desc>
+        <desc>The Hektar Modular Cruiser(TM) represent the crowning jewel of the Hektar Research and Development Team(TM). Most of the manufacturing budget goes into its Modular Artillery, leaving not much for the actual ship itself. This cruiser boasting the latest Modular Laser Artillery(TM) is used by the Hektar Quality Assurance Team(TM) to test out new equipment on the field while promoting the Hekytar Brand(TM). </desc>
         <systemList>
             <artillery power="1" room="10" start="true" weapon="ARTILLERY_MODULAR_LASER" img="room_artillery_2" />
             <battery power="1" room="14" start="false" img="room_battery_5" />
@@ -395,10 +395,10 @@ Affected by modules, check storage for stats</desc>
     </shipBlueprint>
 
     <shipBlueprint name="PLAYER_SHIP_HEKTAR_MODULAR_2" layout="hektar_modular_2" img="hektar_modular_2">
-        <class>Hektar Modular Cruiser(tm)</class>
-        <name>Licensing(tm)</name>
+        <class>Hektar Modular Cruiser(TM)</class>
+        <name>Licensing(TM)</name>
         <unlock id="ship_PLAYER_SHIP_HEKTAR_MODULAR_2_unlock"/>
-        <desc>This ship is typically used by the Hektar Legal Team(tm) to handle negociation discreetly and swiftly. A Modular Missile Artillery(tm) was installed to ensure that they had the necessary argument to win their legal battle.</desc>
+        <desc>This ship is typically used by the Hektar Legal Team(TM) to handle negociation discreetly and swiftly. A Modular Missile Artillery(TM) was installed to ensure that they had the necessary argument to win their legal battle.</desc>
         <systemList>
             <artillery power="1" room="2" start="true" weapon="ARTILLERY_MODULAR_MISSILE" img="room_artillery_6" />
             <battery power="1" room="8" start="false" img="room_battery_6" />
@@ -471,10 +471,10 @@ Affected by modules, check storage for stats</desc>
     </shipBlueprint>
 
     <shipBlueprint name="PLAYER_SHIP_HEKTAR_MODULAR_3" layout="hektar_modular_3" img="hektar_modular_3">
-        <class>Hektar Modular Cruiser(tm)</class>
-        <name>Profits(tm)</name>
+        <class>Hektar Modular Cruiser(TM)</class>
+        <name>Profits(TM)</name>
         <unlock id="ship_PLAYER_SHIP_HEKTAR_MODULAR_3_unlock"/>
-        <desc>Hektar Modular Cruiser(tm) commonly used by the Hektar Fidelisation Team(tm). It is built around around "acquiring" dissidents to the Hektar Fidelisation Program(tm), the Hektar Modular Beam Artillery(tm) is moslty used to sterilize evidence.</desc>
+        <desc>Hektar Modular Cruiser(TM) commonly used by the Hektar Fidelisation Team(TM). It is built around around "acquiring" dissidents to the Hektar Fidelisation Program(TM), the Hektar Modular Beam Artillery(TM) is moslty used to sterilize evidence.</desc>
         <systemList>
             <artillery power="1" room="2" start="true" weapon="ARTILLERY_MODULAR_BEAM" img="room_artillery_6" />
             <battery power="1" room="12" start="false" img="room_battery_2" />
@@ -4090,7 +4090,7 @@ Status - Stun</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
@@ -4110,7 +4110,7 @@ Has no incompatible modules.</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Status - Pierce</desc>
@@ -4132,7 +4132,7 @@ Status - Pierce</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Status - Bio</desc>
@@ -4154,7 +4154,7 @@ Status - Bio</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Status - Cooldown</desc>
@@ -4176,7 +4176,7 @@ Status - Cooldown</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Status - Lockdown</desc>
@@ -4198,7 +4198,7 @@ Status - Lockdown</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Status - Stun</desc>
@@ -4220,7 +4220,7 @@ Status - Stun</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy</desc>
@@ -4242,7 +4242,7 @@ Attribute - Accuracy</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire</desc>
@@ -4264,7 +4264,7 @@ Attribute - Fire</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull</desc>
@@ -4286,7 +4286,7 @@ Attribute - Hull</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power</desc>
@@ -4308,7 +4308,7 @@ Attribute - Power</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy
@@ -4331,7 +4331,7 @@ Status - Pierce</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy
@@ -4354,7 +4354,7 @@ Status - Bio</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy
@@ -4377,7 +4377,7 @@ Status - Cooldown</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy
@@ -4400,7 +4400,7 @@ Status - Lockdown</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy
@@ -4423,7 +4423,7 @@ Status - Stun</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
@@ -4446,7 +4446,7 @@ Status - Pierce</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
@@ -4469,7 +4469,7 @@ Status - Bio</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
@@ -4492,7 +4492,7 @@ Status - Cooldown</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
@@ -4515,7 +4515,7 @@ Status - Lockdown</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
@@ -4538,7 +4538,7 @@ Status - Stun</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
@@ -4561,7 +4561,7 @@ Status - Pierce</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
@@ -4584,7 +4584,7 @@ Status - Bio</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
@@ -4607,7 +4607,7 @@ Status - Cooldown</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
@@ -4630,7 +4630,7 @@ Status - Lockdown</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
@@ -4653,7 +4653,7 @@ Status - Stun</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power
@@ -4676,7 +4676,7 @@ Status - Pierce</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power
@@ -4699,7 +4699,7 @@ Status - Bio</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power
@@ -4722,7 +4722,7 @@ Status - Cooldown</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power
@@ -4745,7 +4745,7 @@ Status - Lockdown</desc>
     <tip>tip_combat</tip>
     <title>Modular Laser Drone</title>
     <short>Mod. Laser</short>
-    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power
