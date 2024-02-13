@@ -18,6 +18,11 @@
     <mod-append:slug>slug_hektar_elite</mod-append:slug>
 </mod:findLike>
 
+<req name="LIST_CHECK_HEKTAR" type="any">
+	<req type="any" load="HEKTAR_MODULAR_WEAPONS"/>
+	<req type="any" load="HEKTAR_MODULAR_DRONES"/>
+</req>
+
 <mod:findLike type="crew" limit="1">
     <mod-append:race name="slug_hektar_elite">
         <maxHealth>125</maxHealth>
