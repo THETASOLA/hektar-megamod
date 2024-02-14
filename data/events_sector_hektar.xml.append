@@ -2,12 +2,13 @@
 
 <event name="HEKTAR_FACTORY" unique="true">
     <preventQuest/>
-    <text>You arrive at an impressive vista, an enormous factory churning out hektar product.</text>
+    <text>You reach a grand vista, you are beholding a vast factory tirelessly producing Hektar Industries(TM) goods.</text>
     <img back="BACK_EVENT_PHEROMONEFACTORY" planet="NONE"/>
+    <environment type="nebula"/>
     <choice hidden="false">
         <text>Inquire about what they are selling.</text>
         <event>
-            <text>An Hektar manager anwsers to your hail. "Greetingsss cussstomer, I am afraid Hektar Industriesss(tm) does not permit product to be bought from sssource, please refer to a licensssed Hektar Ssstore(tm) to acquire our productsss".</text>
+            <text>An Hektar manager anwsers to your hail. "Greetingsss cussstomer, I am afraid Hektar Industriesss(TM) does not permit product to be bought from sssource, please refer to a licensssed Hektar Ssstore(TM) to acquire our productsss".</text>
             <choice hidden="false">
                 <text>Maybe we could find an arrangment.</text>
                 <event>
@@ -166,7 +167,7 @@
             <choice hidden="false">
                 <text>Leave.</text>
                 <event>
-                    <text>"Hektar Industriesss(tm) wisssh you good luck in your venture".</text>
+                    <text>"Hektar Industriesss(TM) wisssh you good luck in your venture".</text>
                     <choice hidden="false">
                         <text>Time to go.</text>
                         <event/>

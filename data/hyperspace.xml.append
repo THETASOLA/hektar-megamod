@@ -148,7 +148,26 @@
 
 <mod:findLike type="store">
     <mod:findLike type="customStore"><mod:selector id="STORE_HEKTAR_VIRTUAL" />
+        <mod-append:category type="WEAPONS">
+            <customTitle>BASES</customTitle>
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_BASE</blueprint>
+                <modifier min="1.2" max="1.2" flat="false"/>
+                <price>-1</price>
+            </item>    
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_BASE</blueprint>
+                <modifier min="1.2" max="1.2" flat="false"/>
+                <price>-1</price>
+            </item>    
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_BASE</blueprint>
+                <modifier min="1.2" max="1.2" flat="false"/>
+                <price>-1</price>
+            </item>    
+        </mod-append:category>
         <mod-append:category type="DRONES">
+            <customTitle>BASES</customTitle>
             <item>
                 <blueprint>SHOP_ITEM_HEKTAR_DRONE_BASE</blueprint>
                 <modifier min="1.2" max="1.2" flat="false"/>
@@ -167,7 +186,20 @@
         </mod-append:category>
     </mod:findLike>
     <mod:findLike type="customStore"><mod:selector id="STORE_HEKTAR_DEFAULT" />
+        <mod-append:category type="WEAPONS">
+            <customTitle>BASES</customTitle>
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_BASE</blueprint>
+            </item>    
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_BASE</blueprint>
+            </item>    
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_BASE</blueprint>
+            </item>    
+        </mod-append:category>
         <mod-append:category type="DRONES">
+            <customTitle>BASES</customTitle>
             <item>
                 <blueprint>SHOP_ITEM_HEKTAR_DRONE_BASE</blueprint>
             </item>
@@ -180,7 +212,20 @@
         </mod-append:category>
     </mod:findLike>
     <mod:findLike type="customStore"><mod:selector id="STORE_TONY" />
+        <mod-append:category type="WEAPONS">
+            <customTitle>BASES</customTitle>
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_BASE</blueprint>
+            </item>    
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_BASE</blueprint>
+            </item>    
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_BASE</blueprint>
+            </item>    
+        </mod-append:category>
         <mod-append:category type="DRONES">
+            <customTitle>BASES</customTitle>
             <item>
                 <blueprint>SHOP_ITEM_HEKTAR_DRONE_BASE</blueprint>
             </item>
@@ -194,7 +239,20 @@
         </mod-append:category>
     </mod:findLike>
     <mod:findLike type="customStore"><mod:selector id="STORE_HEKTAR_DEMO" />
+        <mod-append:category type="WEAPONS">
+            <customTitle>BASES</customTitle>
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_BASE</blueprint>
+            </item>    
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_BASE</blueprint>
+            </item>    
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_BASE</blueprint>
+            </item>    
+        </mod-append:category>
         <mod-append:category type="DRONES">
+            <customTitle>BASES</customTitle>
             <item>
                 <blueprint>SHOP_ITEM_HEKTAR_DRONE_BASE</blueprint>
             </item>
@@ -207,7 +265,20 @@
         </mod-append:category>
     </mod:findLike>
     <mod:findLike type="customStore"><mod:selector id="STORE_SYLVAN_HEKTAR" />
+        <mod-append:category type="WEAPONS">
+            <customTitle>BASES</customTitle>
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_BASE</blueprint>
+            </item>    
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_BASE</blueprint>
+            </item>    
+            <item>
+                <blueprint>SHOP_ITEM_HEKTAR_BASE</blueprint>
+            </item>    
+        </mod-append:category>
         <mod-append:category type="DRONES">
+            <customTitle>BASES</customTitle>
             <item>
                 <blueprint>SHOP_ITEM_HEKTAR_DRONE_BASE</blueprint>
             </item>
@@ -221,6 +292,7 @@
     </mod:findLike>
     <mod:findLike type="customStore"><mod:selector id="STORE_ULTIMATE_SYLVAN" />
 		<mod-append:category type="WEAPONS">
+            <customTitle>BASES</customTitle>
             <item>
                 <blueprint>MODULAR_FOCUS_BASE</blueprint>
             </item>
@@ -232,6 +304,7 @@
             </item>
         </mod-append:category>
         <mod-append:category type="DRONES">
+            <customTitle>BASES</customTitle>
             <item>
                 <blueprint>MODULAR_DRONE_LASER_BASE</blueprint>
             </item>
