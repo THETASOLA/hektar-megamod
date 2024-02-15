@@ -81,7 +81,7 @@ Boarding Drone: gain +200 hp</mod-append:desc>
 <mod:findName type="weaponBlueprint" name="MODULE_POWER">
 <mod-append:desc>Hektar Industries(TM) brand Attribute Power Module. Get more bang for your buck with your modular weaponry!
 No incompatibilities.
-Laser Effects: +2 projectiles, +1 power cost, +4s cooldown (for drone: +1 damage, +1 power cost)
+Laser Effects: +2 projectiles, +1 power cost, +2s cooldown (for drone: +1 damage, +1 power cost)
 Beam Effects: +60 beam length, doubled beam speed, +30% breach chance, +1 power cost [Breach stacks with Pierce Module breach chance]
 Pinpoint Effects: +2 damage, +1 power cost
 Missile Effects: +1 damage, +1 power cost
@@ -423,6 +423,9 @@ Affected by modules, check storage for stats</desc>
             </engines>
             <hacking power="1" room="9" start="false" img="room_hacking_10" />
             <medbay power="1" room="12" start="true" img="room_medbay_13" />
+                <slot>
+                    <number>-1</number>
+                </slot>
             <mind power="1" room="18" start="false" img="room_mind_3" />
             <oxygen power="1" room="6" start="true" img="room_oxygen_7" />
             <pilot power="1" room="0" start="true" img="room_pilot">
