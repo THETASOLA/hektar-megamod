@@ -423,9 +423,6 @@ Affected by modules, check storage for stats</desc>
             </engines>
             <hacking power="1" room="9" start="false" img="room_hacking_10" />
             <medbay power="1" room="12" start="true" img="room_medbay_13" />
-                <slot>
-                    <number>-1</number>
-                </slot>
             <mind power="1" room="18" start="false" img="room_mind_3" />
             <oxygen power="1" room="6" start="true" img="room_oxygen_7" />
             <pilot power="1" room="0" start="true" img="room_pilot">
