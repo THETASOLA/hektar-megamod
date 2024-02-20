@@ -536,7 +536,7 @@
 <!--base-->
 <event name="STORAGE_CHECK_MODULAR_FOCUS_BASE">
 	<checkCargo/>
-	<text>Currently configuring Modular Focus. [no modules]</text>
+	<text>Currently configuring Modular Pinpoint. [no modules]</text>
 	<choice hidden="true" req="MODULE_BIO" blue="false">
 		<text>Install the Anti-Bio Module.</text>
 		<event>
@@ -720,7 +720,7 @@
 <!--base bio-->
 <event name="STORAGE_CHECK_MODULAR_FOCUS_BASE_BIO">
 	<checkCargo/>
-	<text>Currently configuring Modular Focus. [Anti-Bio Module]</text>
+	<text>Currently configuring Modular Pinpoint. [Anti-Bio Module]</text>
 	<choice hidden="true" req="MODULE_FIRE" blue="false">
 		<text>Install the Firestarter Module.</text>
 		<event>
@@ -829,7 +829,7 @@
 <!--base cooldown-->
 <event name="STORAGE_CHECK_MODULAR_FOCUS_BASE_COOLDOWN">
 	<checkCargo/>
-	<text>Currently configuring Modular Focus. [Cooldown Module]</text>
+	<text>Currently configuring Modular Pinpoint. [Cooldown Module]</text>
 	<choice hidden="true" req="MODULE_FIRE" blue="false">
 		<text>Install the Firestarter Module.</text>
 		<event>
@@ -938,7 +938,7 @@
 <!--base pierce-->
 <event name="STORAGE_CHECK_MODULAR_FOCUS_BASE_PIERCE">
 	<checkCargo/>
-	<text>Currently configuring Modular Focus. [Pierce Module]</text>
+	<text>Currently configuring Modular Pinpoint. [Pierce Module]</text>
 	<choice hidden="true" req="MODULE_FIRE" blue="false">
 		<text>Install the Firestarter Module.</text>
 		<event>
@@ -1047,7 +1047,7 @@
 <!--base stun-->
 <event name="STORAGE_CHECK_MODULAR_FOCUS_BASE_STUN">
 	<checkCargo/>
-	<text>Currently configuring Modular Focus. [Stun Module]</text>
+	<text>Currently configuring Modular Pinpoint. [Stun Module]</text>
 	<choice hidden="true" req="MODULE_FIRE" blue="false">
 		<text>Install the Firestarter Module.</text>
 		<event>
@@ -1156,7 +1156,7 @@
 <!--fire-->
 <event name="STORAGE_CHECK_MODULAR_FOCUS_FIRE">
 	<checkCargo/>
-	<text>Currently configuring Modular Focus. [Firestarter Module]</text>
+	<text>Currently configuring Modular Pinpoint. [Firestarter Module]</text>
 	<choice hidden="true" req="MODULE_BIO" blue="false">
 		<text>Install the Anti-Bio Module.</text>
 		<event>
@@ -1289,7 +1289,7 @@
 </event>
 <event name="STORAGE_CHECK_MODULAR_FOCUS_FIRE_BIO">
 	<checkCargo/>
-	<text>Currently configuring Modular Focus. [Firestarter Module, Anti-Bio Module]</text>
+	<text>Currently configuring Modular Pinpoint. [Firestarter Module, Anti-Bio Module]</text>
 	<choice hidden="true">
 		<text>Detach both modules.</text>
 		<event>
@@ -1329,7 +1329,7 @@
 </event>
 <event name="STORAGE_CHECK_MODULAR_FOCUS_FIRE_COOLDOWN">
 	<checkCargo/>
-	<text>Currently configuring Modular Focus. [Firestarter Module, Cooldown Module]</text>
+	<text>Currently configuring Modular Pinpoint. [Firestarter Module, Cooldown Module]</text>
 	<choice hidden="true">
 		<text>Detach both modules.</text>
 		<event>
@@ -1369,7 +1369,7 @@
 </event>
 <event name="STORAGE_CHECK_MODULAR_FOCUS_FIRE_PIERCE">
 	<checkCargo/>
-	<text>Currently configuring Modular Focus. [Firestarter Module, Pierce Module]</text>
+	<text>Currently configuring Modular Pinpoint. [Firestarter Module, Pierce Module]</text>
 	<choice hidden="true">
 		<text>Detach both modules.</text>
 		<event>
@@ -1409,7 +1409,7 @@
 </event>
 <event name="STORAGE_CHECK_MODULAR_FOCUS_FIRE_STUN">
 	<checkCargo/>
-	<text>Currently configuring Modular Focus. [Firestarter Module, Stun Module]</text>
+	<text>Currently configuring Modular Pinpoint. [Firestarter Module, Stun Module]</text>
 	<choice hidden="true">
 		<text>Detach both modules.</text>
 		<event>
@@ -1450,7 +1450,7 @@
 <!--hull-->
 <event name="STORAGE_CHECK_MODULAR_FOCUS_HULL">
 	<checkCargo/>
-	<text>Currently configuring Modular Focus. [Hullbuster Module]</text>
+	<text>Currently configuring Modular Pinpoint. [Hullbuster Module]</text>
 	<choice hidden="true" req="MODULE_BIO" blue="false">
 		<text>Install the Anti-Bio Module.</text>
 		<event>
@@ -1583,7 +1583,7 @@
 </event>
 <event name="STORAGE_CHECK_MODULAR_FOCUS_HULL_BIO">
 	<checkCargo/>
-	<text>Currently configuring Modular Focus. [Hullbuster Module, Anti-Bio Module]</text>
+	<text>Currently configuring Modular Pinpoint. [Hullbuster Module, Anti-Bio Module]</text>
 	<choice hidden="true">
 		<text>Detach both modules.</text>
 		<event>
@@ -1623,7 +1623,7 @@
 </event>
 <event name="STORAGE_CHECK_MODULAR_FOCUS_HULL_COOLDOWN">
 	<checkCargo/>
-	<text>Currently configuring Modular Focus. [Hullbuster Module, Cooldown Module]</text>
+	<text>Currently configuring Modular Pinpoint. [Hullbuster Module, Cooldown Module]</text>
 	<choice hidden="true">
 		<text>Detach both modules.</text>
 		<event>
@@ -1663,7 +1663,7 @@
 </event>
 <event name="STORAGE_CHECK_MODULAR_FOCUS_HULL_PIERCE">
 	<checkCargo/>
-	<text>Currently configuring Modular Focus. [Hullbuster Module, Pierce Module]</text>
+	<text>Currently configuring Modular Pinpoint. [Hullbuster Module, Pierce Module]</text>
 	<choice hidden="true">
 		<text>Detach both modules.</text>
 		<event>
@@ -1703,7 +1703,7 @@
 </event>
 <event name="STORAGE_CHECK_MODULAR_FOCUS_HULL_STUN">
 	<checkCargo/>
-	<text>Currently configuring Modular Focus. [Hullbuster Module, Stun Module]</text>
+	<text>Currently configuring Modular Pinpoint. [Hullbuster Module, Stun Module]</text>
 	<choice hidden="true">
 		<text>Detach both modules.</text>
 		<event>
@@ -1744,7 +1744,7 @@
 <!--power-->
 <event name="STORAGE_CHECK_MODULAR_FOCUS_POWER">
 	<checkCargo/>
-	<text>Currently configuring Modular Focus. [Power Module]</text>
+	<text>Currently configuring Modular Pinpoint. [Power Module]</text>
 	<choice hidden="true" req="MODULE_BIO" blue="false">
 		<text>Install the Anti-Bio Module.</text>
 		<event>
@@ -1877,7 +1877,7 @@
 </event>
 <event name="STORAGE_CHECK_MODULAR_FOCUS_POWER_BIO">
 	<checkCargo/>
-	<text>Currently configuring Modular Focus. [Power Module, Anti-Bio Module]</text>
+	<text>Currently configuring Modular Pinpoint. [Power Module, Anti-Bio Module]</text>
 	<choice hidden="true">
 		<text>Detach both modules.</text>
 		<event>
@@ -1917,7 +1917,7 @@
 </event>
 <event name="STORAGE_CHECK_MODULAR_FOCUS_POWER_COOLDOWN">
 	<checkCargo/>
-	<text>Currently configuring Modular Focus. [Power Module, Cooldown Module]</text>
+	<text>Currently configuring Modular Pinpoint. [Power Module, Cooldown Module]</text>
 	<choice hidden="true">
 		<text>Detach both modules.</text>
 		<event>
@@ -1957,7 +1957,7 @@
 </event>
 <event name="STORAGE_CHECK_MODULAR_FOCUS_POWER_PIERCE">
 	<checkCargo/>
-	<text>Currently configuring Modular Focus. [Power Module, Pierce Module]</text>
+	<text>Currently configuring Modular Pinpoint. [Power Module, Pierce Module]</text>
 	<choice hidden="true">
 		<text>Detach both modules.</text>
 		<event>
@@ -1997,7 +1997,7 @@
 </event>
 <event name="STORAGE_CHECK_MODULAR_FOCUS_POWER_STUN">
 	<checkCargo/>
-	<text>Currently configuring Modular Focus. [Power Module, Stun Module]</text>
+	<text>Currently configuring Modular Pinpoint. [Power Module, Stun Module]</text>
 	<choice hidden="true">
 		<text>Detach both modules.</text>
 		<event>
