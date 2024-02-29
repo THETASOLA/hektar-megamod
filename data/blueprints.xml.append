@@ -548,3541 +548,3087 @@ Affected by modules, check storage for stats</desc>
         <mv-mapImage>map_icon_hektar_modu</mv-mapImage>
     </shipBlueprint>
 
-<weaponBlueprint name="MODULAR_FOCUS_BASE">
-  <type>BEAM</type>
-  <flavorType>Pinpoint</flavorType>
-  <title>Modular Pinpoint</title>
-  <tip>tip_focus</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.</desc>
-  <short>Mod. Pinpoint</short>
-  <tooltip>One damage per room beam weapon</tooltip>
-  <damage>3</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <persDamage>0</persDamage>
-  <fireChance>0</fireChance>
-  <breachChance>2</breachChance>
-  <cooldown>16</cooldown>
-  <speed>1</speed>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>beam_contact</image>
-  <length>1</length>
-  <launchSounds>
-    <sound>focus_weak</sound>
-  </launchSounds>
-  <weaponArt>modular_focus_base_base</weaponArt>
-  <iconImage>beam</iconImage>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_FOCUS_BASE_PIERCE">
-  <type>BEAM</type>
-  <flavorType>Pinpoint</flavorType>
-  <title>Modular Pinpoint</title>
-  <tip>tip_focus</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
-----CURRENTLY INSTALLED MODULES----
-Status - Pierce</desc>
-  <short>Mod. Pinpoint</short>
-  <tooltip>One damage per room beam weapon</tooltip>
-  <damage>3</damage>
-  <sysDamage>0</sysDamage>
-  <sp>1</sp>
-  <persDamage>0</persDamage>
-  <fireChance>0</fireChance>
-  <breachChance>3</breachChance>
-  <cooldown>16</cooldown>
-  <speed>1</speed>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>beam_contact</image>
-  <length>1</length>
-  <launchSounds>
-    <sound>focus_weak</sound>
-  </launchSounds>
-  <weaponArt>modular_focus_base_pierce</weaponArt>
-  <iconImage>beam</iconImage>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_FOCUS_BASE_BIO">
-  <type>BEAM</type>
-  <flavorType>Pinpoint</flavorType>
-  <title>Modular Pinpoint</title>
-  <tip>tip_focus</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
-----CURRENTLY INSTALLED MODULES----
-Status - Bio</desc>
-  <short>Mod. Pinpoint</short>
-  <tooltip>One damage per room beam weapon</tooltip>
-  <damage>0</damage>
-  <sysDamage>3</sysDamage>
-  <sp>3</sp>
-  <persDamage>6</persDamage>
-  <fireChance>0</fireChance>
-  <breachChance>2</breachChance>
-  <cooldown>16</cooldown>
-  <speed>1</speed>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>beam_contact</image>
-  <length>1</length>
-  <launchSounds>
-    <sound>focus_weak</sound>
-  </launchSounds>
-  <weaponArt>modular_focus_base_bio</weaponArt>
-  <iconImage>beam</iconImage>
-  <statBoosts>
-    <statBoost name="moveSpeedMultiplier">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="stunMultiplier">
-      <boostType>MULT</boostType>
-      <amount>1.75</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="repairSpeed">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-  </statBoosts>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_FOCUS_BASE_COOLDOWN">
-  <type>BEAM</type>
-  <flavorType>Pinpoint</flavorType>
-  <title>Modular Pinpoint</title>
-  <tip>tip_focus</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
-----CURRENTLY INSTALLED MODULES----
-Status - Cooldown</desc>
-  <short>Mod. Pinpoint</short>
-  <tooltip>One damage per room beam weapon</tooltip>
-  <damage>3</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <persDamage>0</persDamage>
-  <fireChance>0</fireChance>
-  <breachChance>2</breachChance>
-  <cooldown>12</cooldown>
-  <speed>1</speed>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>beam_contact</image>
-  <length>1</length>
-  <launchSounds>
-    <sound>focus_weak</sound>
-  </launchSounds>
-  <weaponArt>modular_focus_base_cooldown</weaponArt>
-  <iconImage>beam</iconImage>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_FOCUS_BASE_STUN">
-  <type>BEAM</type>
-  <flavorType>Pinpoint</flavorType>
-  <title>Modular Pinpoint</title>
-  <tip>tip_focus</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
-----CURRENTLY INSTALLED MODULES----
-Status - Stun</desc>
-  <short>Mod. Pinpoint</short>
-  <tooltip>One damage per room beam weapon</tooltip>
-  <damage>3</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <persDamage>0</persDamage>
-  <fireChance>0</fireChance>
-  <breachChance>2</breachChance>
-  <cooldown>16</cooldown>
-  <speed>1</speed>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>beam_contact</image>
-  <length>1</length>
-  <launchSounds>
-    <sound>focus_weak</sound>
-  </launchSounds>
-  <weaponArt>modular_focus_base_stun</weaponArt>
-  <iconImage>beam</iconImage>
-  <stun>22</stun>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_FOCUS_FIRE">
-  <type>BEAM</type>
-  <flavorType>Pinpoint</flavorType>
-  <title>Modular Pinpoint</title>
-  <tip>tip_focus</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Fire</desc>
-  <short>Mod. Pinpoint</short>
-  <tooltip>One damage per room beam weapon</tooltip>
-  <damage>3</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <persDamage>0</persDamage>
-  <fireChance>10</fireChance>
-  <breachChance>2</breachChance>
-  <cooldown>16</cooldown>
-  <speed>1</speed>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>beam_contact</image>
-  <length>1</length>
-  <launchSounds>
-    <sound>focus_weak</sound>
-  </launchSounds>
-  <weaponArt>modular_focus_fire_base</weaponArt>
-  <iconImage>beam</iconImage>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_FOCUS_HULL">
-  <type>BEAM</type>
-  <flavorType>Pinpoint</flavorType>
-  <title>Modular Pinpoint</title>
-  <tip>tip_focus</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Hull</desc>
-  <short>Mod. Pinpoint</short>
-  <tooltip>One damage per room beam weapon</tooltip>
-  <damage>4</damage>
-  <sysDamage>-1</sysDamage>
-  <sp>0</sp>
-  <persDamage>0</persDamage>
-  <fireChance>0</fireChance>
-  <breachChance>10</breachChance>
-  <cooldown>16</cooldown>
-  <speed>1</speed>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>beam_contact</image>
-  <length>1</length>
-  <launchSounds>
-    <sound>focus_weak</sound>
-  </launchSounds>
-  <weaponArt>modular_focus_hull_base</weaponArt>
-  <iconImage>beam</iconImage>
-  <hullBust>1</hullBust>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_FOCUS_POWER">
-  <type>BEAM</type>
-  <flavorType>Pinpoint</flavorType>
-  <title>Modular Pinpoint</title>
-  <tip>tip_focus</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Power</desc>
-  <short>Mod. Pinpoint</short>
-  <tooltip>One damage per room beam weapon</tooltip>
-  <damage>5</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <persDamage>0</persDamage>
-  <fireChance>0</fireChance>
-  <breachChance>2</breachChance>
-  <cooldown>20</cooldown>
-  <speed>1</speed>
-  <power>3</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>beam_contact</image>
-  <length>1</length>
-  <launchSounds>
-    <sound>focus_weak</sound>
-  </launchSounds>
-  <weaponArt>modular_focus_power_base</weaponArt>
-  <iconImage>beam</iconImage>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_FOCUS_FIRE_PIERCE">
-  <type>BEAM</type>
-  <flavorType>Pinpoint</flavorType>
-  <title>Modular Pinpoint</title>
-  <tip>tip_focus</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Fire
-Status - Pierce</desc>
-  <short>Mod. Pinpoint</short>
-  <tooltip>One damage per room beam weapon</tooltip>
-  <damage>3</damage>
-  <sysDamage>0</sysDamage>
-  <sp>1</sp>
-  <persDamage>0</persDamage>
-  <fireChance>10</fireChance>
-  <breachChance>5</breachChance>
-  <cooldown>16</cooldown>
-  <speed>1</speed>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>beam_contact</image>
-  <length>1</length>
-  <launchSounds>
-    <sound>focus_weak</sound>
-  </launchSounds>
-  <weaponArt>modular_focus_fire_pierce</weaponArt>
-  <iconImage>beam</iconImage>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_FOCUS_FIRE_BIO">
-  <type>BEAM</type>
-  <flavorType>Pinpoint</flavorType>
-  <title>Modular Pinpoint</title>
-  <tip>tip_focus</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Fire
-Status - Bio</desc>
-  <short>Mod. Pinpoint</short>
-  <tooltip>One damage per room beam weapon</tooltip>
-  <damage>0</damage>
-  <sysDamage>3</sysDamage>
-  <sp>3</sp>
-  <persDamage>6</persDamage>
-  <fireChance>10</fireChance>
-  <breachChance>2</breachChance>
-  <cooldown>16</cooldown>
-  <speed>1</speed>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>beam_contact</image>
-  <length>1</length>
-  <launchSounds>
-    <sound>focus_weak</sound>
-  </launchSounds>
-  <weaponArt>modular_focus_fire_bio</weaponArt>
-  <iconImage>beam</iconImage>
-  <statBoosts>
-    <statBoost name="moveSpeedMultiplier">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="stunMultiplier">
-      <boostType>MULT</boostType>
-      <amount>1.75</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="repairSpeed">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-  </statBoosts>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_FOCUS_FIRE_COOLDOWN">
-  <type>BEAM</type>
-  <flavorType>Pinpoint</flavorType>
-  <title>Modular Pinpoint</title>
-  <tip>tip_focus</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Fire
-Status - Cooldown</desc>
-  <short>Mod. Pinpoint</short>
-  <tooltip>One damage per room beam weapon</tooltip>
-  <damage>3</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <persDamage>0</persDamage>
-  <fireChance>10</fireChance>
-  <breachChance>2</breachChance>
-  <cooldown>12</cooldown>
-  <speed>1</speed>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>beam_contact</image>
-  <length>1</length>
-  <launchSounds>
-    <sound>focus_weak</sound>
-  </launchSounds>
-  <weaponArt>modular_focus_fire_cooldown</weaponArt>
-  <iconImage>beam</iconImage>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_FOCUS_FIRE_STUN">
-  <type>BEAM</type>
-  <flavorType>Pinpoint</flavorType>
-  <title>Modular Pinpoint</title>
-  <tip>tip_focus</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Fire
-Status - Stun</desc>
-  <short>Mod. Pinpoint</short>
-  <tooltip>One damage per room beam weapon</tooltip>
-  <damage>3</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <persDamage>0</persDamage>
-  <fireChance>10</fireChance>
-  <breachChance>2</breachChance>
-  <cooldown>16</cooldown>
-  <speed>1</speed>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>beam_contact</image>
-  <length>1</length>
-  <launchSounds>
-    <sound>focus_weak</sound>
-  </launchSounds>
-  <weaponArt>modular_focus_fire_stun</weaponArt>
-  <iconImage>beam</iconImage>
-  <stun>22</stun>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_FOCUS_HULL_PIERCE">
-  <type>BEAM</type>
-  <flavorType>Pinpoint</flavorType>
-  <title>Modular Pinpoint</title>
-  <tip>tip_focus</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Hull
-Status - Pierce</desc>
-  <short>Mod. Pinpoint</short>
-  <tooltip>One damage per room beam weapon</tooltip>
-  <damage>4</damage>
-  <sysDamage>-1</sysDamage>
-  <sp>1</sp>
-  <persDamage>0</persDamage>
-  <fireChance>0</fireChance>
-  <breachChance>10</breachChance>
-  <cooldown>16</cooldown>
-  <speed>1</speed>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>beam_contact</image>
-  <length>1</length>
-  <launchSounds>
-    <sound>focus_weak</sound>
-  </launchSounds>
-  <weaponArt>modular_focus_hull_pierce</weaponArt>
-  <iconImage>beam</iconImage>
-  <hullBust>1</hullBust>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_FOCUS_HULL_BIO">
-  <type>BEAM</type>
-  <flavorType>Pinpoint</flavorType>
-  <title>Modular Pinpoint</title>
-  <tip>tip_focus</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Hull
-Status - Bio</desc>
-  <short>Mod. Pinpoint</short>
-  <tooltip>One damage per room beam weapon</tooltip>
-  <damage>3</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <persDamage>3</persDamage>
-  <fireChance>0</fireChance>
-  <breachChance>2</breachChance>
-  <cooldown>16</cooldown>
-  <speed>1</speed>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>beam_contact</image>
-  <length>1</length>
-  <launchSounds>
-    <sound>focus_weak</sound>
-  </launchSounds>
-  <weaponArt>modular_focus_hull_bio</weaponArt>
-  <iconImage>beam</iconImage>
-  <statBoosts>
-    <statBoost name="moveSpeedMultiplier">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="stunMultiplier">
-      <boostType>MULT</boostType>
-      <amount>1.75</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="repairSpeed">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-  </statBoosts>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_FOCUS_HULL_COOLDOWN">
-  <type>BEAM</type>
-  <flavorType>Pinpoint</flavorType>
-  <title>Modular Pinpoint</title>
-  <tip>tip_focus</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Hull
-Status - Cooldown</desc>
-  <short>Mod. Pinpoint</short>
-  <tooltip>One damage per room beam weapon</tooltip>
-  <damage>4</damage>
-  <sysDamage>-1</sysDamage>
-  <sp>0</sp>
-  <persDamage>0</persDamage>
-  <fireChance>0</fireChance>
-  <breachChance>2</breachChance>
-  <cooldown>12</cooldown>
-  <speed>1</speed>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>beam_contact</image>
-  <length>1</length>
-  <launchSounds>
-    <sound>focus_weak</sound>
-  </launchSounds>
-  <weaponArt>modular_focus_hull_cooldown</weaponArt>
-  <iconImage>beam</iconImage>
-  <hullBust>1</hullBust>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_FOCUS_HULL_STUN">
-  <type>BEAM</type>
-  <flavorType>Pinpoint</flavorType>
-  <title>Modular Pinpoint</title>
-  <tip>tip_focus</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Hull
-Status - Stun</desc>
-  <short>Mod. Pinpoint</short>
-  <tooltip>One damage per room beam weapon</tooltip>
-  <damage>4</damage>
-  <sysDamage>-1</sysDamage>
-  <sp>0</sp>
-  <persDamage>0</persDamage>
-  <fireChance>0</fireChance>
-  <breachChance>2</breachChance>
-  <cooldown>16</cooldown>
-  <speed>1</speed>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>beam_contact</image>
-  <length>1</length>
-  <launchSounds>
-    <sound>focus_weak</sound>
-  </launchSounds>
-  <weaponArt>modular_focus_hull_stun</weaponArt>
-  <iconImage>beam</iconImage>
-  <hullBust>1</hullBust>
-  <stun>22</stun>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_FOCUS_POWER_PIERCE">
-  <type>BEAM</type>
-  <flavorType>Pinpoint</flavorType>
-  <title>Modular Pinpoint</title>
-  <tip>tip_focus</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Power
-Status - Pierce</desc>
-  <short>Mod. Pinpoint</short>
-  <tooltip>One damage per room beam weapon</tooltip>
-  <damage>5</damage>
-  <sysDamage>0</sysDamage>
-  <sp>1</sp>
-  <persDamage>0</persDamage>
-  <fireChance>0</fireChance>
-  <breachChance>5</breachChance>
-  <cooldown>20</cooldown>
-  <speed>1</speed>
-  <power>3</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>beam_contact</image>
-  <length>1</length>
-  <launchSounds>
-    <sound>focus_weak</sound>
-  </launchSounds>
-  <weaponArt>modular_focus_power_pierce</weaponArt>
-  <iconImage>beam</iconImage>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_FOCUS_POWER_BIO">
-  <type>BEAM</type>
-  <flavorType>Pinpoint</flavorType>
-  <title>Modular Pinpoint</title>
-  <tip>tip_focus</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Power
-Status - Bio</desc>
-  <short>Mod. Pinpoint</short>
-  <tooltip>One damage per room beam weapon</tooltip>
-  <damage>0</damage>
-  <sysDamage>5</sysDamage>
-  <sp>3</sp>
-  <persDamage>6</persDamage>
-  <fireChance>0</fireChance>
-  <breachChance>2</breachChance>
-  <cooldown>20</cooldown>
-  <speed>1</speed>
-  <power>3</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>beam_contact</image>
-  <length>1</length>
-  <launchSounds>
-    <sound>focus_weak</sound>
-  </launchSounds>
-  <weaponArt>modular_focus_power_bio</weaponArt>
-  <iconImage>beam</iconImage>
-  <statBoosts>
-    <statBoost name="moveSpeedMultiplier">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="stunMultiplier">
-      <boostType>MULT</boostType>
-      <amount>1.75</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="repairSpeed">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-  </statBoosts>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_FOCUS_POWER_COOLDOWN">
-  <type>BEAM</type>
-  <flavorType>Pinpoint</flavorType>
-  <title>Modular Pinpoint</title>
-  <tip>tip_focus</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Power
-Status - Cooldown</desc>
-  <short>Mod. Pinpoint</short>
-  <tooltip>One damage per room beam weapon</tooltip>
-  <damage>5</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <persDamage>0</persDamage>
-  <fireChance>0</fireChance>
-  <breachChance>2</breachChance>
-  <cooldown>16</cooldown>
-  <speed>1</speed>
-  <power>3</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>beam_contact</image>
-  <length>1</length>
-  <launchSounds>
-    <sound>focus_weak</sound>
-  </launchSounds>
-  <weaponArt>modular_focus_power_cooldown</weaponArt>
-  <iconImage>beam</iconImage>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_FOCUS_POWER_STUN">
-  <type>BEAM</type>
-  <flavorType>Pinpoint</flavorType>
-  <title>Modular Pinpoint</title>
-  <tip>tip_focus</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Power
-Status - Stun</desc>
-  <short>Mod. Pinpoint</short>
-  <tooltip>One damage per room beam weapon</tooltip>
-  <damage>5</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <persDamage>0</persDamage>
-  <fireChance>0</fireChance>
-  <breachChance>2</breachChance>
-  <cooldown>20</cooldown>
-  <speed>1</speed>
-  <power>3</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>beam_contact</image>
-  <length>1</length>
-  <launchSounds>
-    <sound>focus_weak</sound>
-  </launchSounds>
-  <weaponArt>modular_focus_power_stun</weaponArt>
-  <iconImage>beam</iconImage>
-  <stun>22</stun>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_BASE">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatibilities.</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>42</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <spin>720</spin>
-  <fireChance>0</fireChance>
-  <breachChance>1</breachChance>
-  <cooldown>12</cooldown>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="3" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_base_base</weaponArt>
-  <iconImage>flak</iconImage>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_BASE_BIO">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Status - Bio</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>42</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <spin>720</spin>
-  <fireChance>0</fireChance>
-  <breachChance>1</breachChance>
-  <cooldown>12</cooldown>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="3" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_base_bio</weaponArt>
-  <iconImage>flak</iconImage>
-  <statBoosts>
-    <statBoost name="moveSpeedMultiplier">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="stunMultiplier">
-      <boostType>MULT</boostType>
-      <amount>1.75</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="repairSpeed">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-  </statBoosts>
-  <persDamage>2</persDamage>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_BASE_PIERCE">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Status - Pierce</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>42</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>1</sp>
-  <spin>720</spin>
-  <fireChance>0</fireChance>
-  <breachChance>4</breachChance>
-  <cooldown>12</cooldown>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="3" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_base_pierce</weaponArt>
-  <iconImage>flak</iconImage>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_BASE_COOLDOWN">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Status - Cooldown</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>42</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <spin>720</spin>
-  <fireChance>0</fireChance>
-  <breachChance>1</breachChance>
-  <cooldown>9</cooldown>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="3" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_base_cooldown</weaponArt>
-  <iconImage>flak</iconImage>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_BASE_LOCKDOWN">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Status - Lockdown</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>42</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <spin>720</spin>
-  <fireChance>0</fireChance>
-  <breachChance>1</breachChance>
-  <cooldown>12</cooldown>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="3" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_base_lockdown</weaponArt>
-  <iconImage>flak</iconImage>
-  <lockdown>1</lockdown>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_BASE_STUN">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Status - Stun</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>42</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <spin>720</spin>
-  <fireChance>0</fireChance>
-  <breachChance>1</breachChance>
-  <cooldown>12</cooldown>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="3" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_base_stun</weaponArt>
-  <iconImage>flak</iconImage>
-  <stun>12</stun>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_FIRE">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Fire</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>42</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <spin>720</spin>
-  <fireChance>4</fireChance>
-  <breachChance>1</breachChance>
-  <cooldown>12</cooldown>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="3" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_fire_base</weaponArt>
-  <iconImage>flak</iconImage>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_ACCURACY">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Accuracy</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>32</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <spin>720</spin>
-  <fireChance>0</fireChance>
-  <breachChance>1</breachChance>
-  <cooldown>12</cooldown>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="3" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_accuracy_base</weaponArt>
-  <iconImage>flak</iconImage>
-  <accuracyMod>10</accuracyMod>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_HULL">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Hull</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>42</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <spin>720</spin>
-  <fireChance>0</fireChance>
-  <breachChance>1</breachChance>
-  <cooldown>12</cooldown>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="3" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_hull_base</weaponArt>
-  <iconImage>flak</iconImage>
-  <hullBust>1</hullBust>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_POWER">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Power</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>52</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <spin>720</spin>
-  <fireChance>0</fireChance>
-  <breachChance>1</breachChance>
-  <cooldown>12</cooldown>
-  <power>3</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="5" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_power_base</weaponArt>
-  <iconImage>flak</iconImage>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_FIRE_BIO">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Fire
-Status - Bio</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>42</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <spin>720</spin>
-  <fireChance>4</fireChance>
-  <breachChance>1</breachChance>
-  <cooldown>12</cooldown>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="3" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_fire_bio</weaponArt>
-  <iconImage>flak</iconImage>
-  <statBoosts>
-    <statBoost name="moveSpeedMultiplier">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="stunMultiplier">
-      <boostType>MULT</boostType>
-      <amount>1.75</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="repairSpeed">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-  </statBoosts>
-  <persDamage>2</persDamage>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_FIRE_PIERCE">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Fire
-Status - Pierce</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>42</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>1</sp>
-  <spin>720</spin>
-  <fireChance>4</fireChance>
-  <breachChance>4</breachChance>
-  <cooldown>12</cooldown>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="3" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_fire_pierce</weaponArt>
-  <iconImage>flak</iconImage>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_FIRE_COOLDOWN">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Fire
-Status - Cooldown</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>42</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <spin>720</spin>
-  <fireChance>4</fireChance>
-  <breachChance>1</breachChance>
-  <cooldown>9</cooldown>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="3" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_fire_cooldown</weaponArt>
-  <iconImage>flak</iconImage>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_FIRE_LOCKDOWN">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Fire
-Status - Lockdown</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>42</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <spin>720</spin>
-  <fireChance>4</fireChance>
-  <breachChance>1</breachChance>
-  <cooldown>12</cooldown>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="3" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_fire_lockdown</weaponArt>
-  <iconImage>flak</iconImage>
-  <lockdown>1</lockdown>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_FIRE_STUN">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Fire
-Status - Stun</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>42</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <spin>720</spin>
-  <fireChance>4</fireChance>
-  <breachChance>1</breachChance>
-  <cooldown>12</cooldown>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="3" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_fire_stun</weaponArt>
-  <iconImage>flak</iconImage>
-  <stun>12</stun>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_ACCURACY_BIO">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Accuracy
-Status - Bio</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>32</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <spin>720</spin>
-  <fireChance>0</fireChance>
-  <breachChance>1</breachChance>
-  <cooldown>12</cooldown>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="3" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_accuracy_bio</weaponArt>
-  <iconImage>flak</iconImage>
-  <statBoosts>
-    <statBoost name="moveSpeedMultiplier">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="stunMultiplier">
-      <boostType>MULT</boostType>
-      <amount>1.75</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="repairSpeed">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-  </statBoosts>
-  <accuracyMod>10</accuracyMod>
-  <persDamage>2</persDamage>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_ACCURACY_PIERCE">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Accuracy
-Status - Pierce</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>32</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>1</sp>
-  <spin>720</spin>
-  <fireChance>0</fireChance>
-  <breachChance>4</breachChance>
-  <cooldown>12</cooldown>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="3" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_accuracy_pierce</weaponArt>
-  <iconImage>flak</iconImage>
-  <accuracyMod>10</accuracyMod>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_ACCURACY_COOLDOWN">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Accuracy
-Status - Cooldown</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>32</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <spin>720</spin>
-  <fireChance>0</fireChance>
-  <breachChance>1</breachChance>
-  <cooldown>9</cooldown>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="3" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_accuracy_cooldown</weaponArt>
-  <iconImage>flak</iconImage>
-  <accuracyMod>10</accuracyMod>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_ACCURACY_LOCKDOWN">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Accuracy
-Status - Lockdown</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>32</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <spin>720</spin>
-  <fireChance>0</fireChance>
-  <breachChance>1</breachChance>
-  <cooldown>12</cooldown>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="3" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_accuracy_lockdown</weaponArt>
-  <iconImage>flak</iconImage>
-  <accuracyMod>10</accuracyMod>
-  <lockdown>1</lockdown>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_ACCURACY_STUN">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Accuracy
-Status - Stun</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>32</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <spin>720</spin>
-  <fireChance>0</fireChance>
-  <breachChance>1</breachChance>
-  <cooldown>12</cooldown>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="3" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_accuracy_stun</weaponArt>
-  <iconImage>flak</iconImage>
-  <accuracyMod>10</accuracyMod>
-  <stun>12</stun>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_HULL_BIO">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Hull
-Status - Bio</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>42</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <spin>720</spin>
-  <fireChance>0</fireChance>
-  <breachChance>1</breachChance>
-  <cooldown>12</cooldown>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="3" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_hull_bio</weaponArt>
-  <iconImage>flak</iconImage>
-  <statBoosts>
-    <statBoost name="moveSpeedMultiplier">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="stunMultiplier">
-      <boostType>MULT</boostType>
-      <amount>1.75</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="repairSpeed">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-  </statBoosts>
-  <persDamage>2</persDamage>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_HULL_PIERCE">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Hull
-Status - Pierce</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>42</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>1</sp>
-  <spin>720</spin>
-  <fireChance>0</fireChance>
-  <breachChance>5</breachChance>
-  <cooldown>12</cooldown>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="3" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_hull_pierce</weaponArt>
-  <iconImage>flak</iconImage>
-  <hullBust>1</hullBust>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_HULL_COOLDOWN">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Hull
-Status - Cooldown</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>42</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <spin>720</spin>
-  <fireChance>0</fireChance>
-  <breachChance>1</breachChance>
-  <cooldown>9</cooldown>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="3" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_hull_cooldown</weaponArt>
-  <iconImage>flak</iconImage>
-  <hullBust>1</hullBust>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_HULL_LOCKDOWN">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Hull
-Status - Lockdown</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>42</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <spin>720</spin>
-  <fireChance>0</fireChance>
-  <breachChance>1</breachChance>
-  <cooldown>12</cooldown>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="3" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_hull_lockdown</weaponArt>
-  <iconImage>flak</iconImage>
-  <hullBust>1</hullBust>
-  <lockdown>1</lockdown>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_HULL_STUN">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Hull
-Status - Stun</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>42</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <spin>720</spin>
-  <fireChance>0</fireChance>
-  <breachChance>1</breachChance>
-  <cooldown>12</cooldown>
-  <power>2</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="3" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_hull_stun</weaponArt>
-  <iconImage>flak</iconImage>
-  <hullBust>1</hullBust>
-  <stun>12</stun>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_POWER_BIO">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Power
-Status - Bio</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>52</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <spin>720</spin>
-  <fireChance>0</fireChance>
-  <breachChance>1</breachChance>
-  <cooldown>12</cooldown>
-  <power>3</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="5" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_power_bio</weaponArt>
-  <iconImage>flak</iconImage>
-  <statBoosts>
-    <statBoost name="moveSpeedMultiplier">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="stunMultiplier">
-      <boostType>MULT</boostType>
-      <amount>1.75</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="repairSpeed">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-  </statBoosts>
-  <persDamage>2</persDamage>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_POWER_PIERCE">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Power
-Status - Pierce</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>52</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>1</sp>
-  <spin>720</spin>
-  <fireChance>0</fireChance>
-  <breachChance>4</breachChance>
-  <cooldown>12</cooldown>
-  <power>3</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="5" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_power_pierce</weaponArt>
-  <iconImage>flak</iconImage>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_POWER_COOLDOWN">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Power
-Status - Cooldown</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>52</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <spin>720</spin>
-  <fireChance>0</fireChance>
-  <breachChance>1</breachChance>
-  <cooldown>9</cooldown>
-  <power>3</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="5" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_power_cooldown</weaponArt>
-  <iconImage>flak</iconImage>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_POWER_LOCKDOWN">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Power
-Status - Lockdown</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>52</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <spin>720</spin>
-  <fireChance>0</fireChance>
-  <breachChance>1</breachChance>
-  <cooldown>12</cooldown>
-  <power>3</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="5" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_power_lockdown</weaponArt>
-  <iconImage>flak</iconImage>
-  <lockdown>1</lockdown>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_SHOTGUN_POWER_STUN">
-  <flavorType>Physical Projectile Blast</flavorType>
-  <type>BURST</type>
-  <title>Modular Flak</title>
-  <tip>tip_flak</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
-Has no incompatible modules.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Power
-Status - Stun</desc>
-  <short>Mod. Flak</short>
-  <drone_targetable>1</drone_targetable>
-  <radius>52</radius>
-  <shots>1</shots>
-  <damage>1</damage>
-  <sysDamage>0</sysDamage>
-  <sp>0</sp>
-  <spin>720</spin>
-  <fireChance>0</fireChance>
-  <breachChance>1</breachChance>
-  <cooldown>12</cooldown>
-  <power>3</power>
-  <cost>65</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <speed>28</speed>
-  <projectiles>
-    <projectile count="5" fake="false">debris_med</projectile>
-  </projectiles>
-  <launchSounds>
-    <sound>flak</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>flakImpact1</sound>
-    <sound>flakImpact2</sound>
-    <sound>flakImpact3</sound>
-    <sound>flakImpact4</sound>
-  </hitShipSounds>
-  <hitShieldSounds>
-    <sound>hitShield1</sound>
-    <sound>hitShield2</sound>
-    <sound>hitShield3</sound>
-  </hitShieldSounds>
-  <missSounds>
-    <sound>miss</sound>
-  </missSounds>
-  <weaponArt>modular_shotgun_power_stun</weaponArt>
-  <iconImage>flak</iconImage>
-  <stun>12</stun>
-</weaponBlueprint>
-
 <weaponBlueprint name="MODULAR_BOMB_BASE">
-  <type>BOMB</type>
-  <title>Modular Bomb</title>
-  <tip>tip_bombs</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Incompatible with the piercing module.</desc>
-  <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>Mod. Bomb</short>
-  <locked>1</locked>
-  <damage>0</damage>
-  <shots>1</shots>
-  <sysDamage>3</sysDamage>
-  <persDamage>3</persDamage>
-  <sp>0</sp>
-  <fireChance>1</fireChance>
-  <breachChance>1</breachChance>
-  <missiles>1</missiles>
-  <cooldown>17</cooldown>
-  <power>2</power>
-  <cost>70</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>modular_bomb_base_base</image>
-  <length>1</length>
-  <explosion>explosion_random</explosion>
-  <launchSounds>
-    <sound>bombTeleport</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>smallExplosion</sound>
-  </hitShipSounds>
-  <weaponArt>modular_bomb_launcher_base_base</weaponArt>
-  <iconImage>bomb</iconImage>
+	<type>BOMB</type>
+	<title>Modular Bomb</title>
+	<short>Mod. Bomb</short>
+	<tip>tip_bombs</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Pierce</desc>
+	<locked>1</locked>
+	<damage>0</damage>
+	<sysDamage>3</sysDamage>
+	<persDamage>3</persDamage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>1</breachChance>
+	<missiles>1</missiles>
+	<cooldown>17.0</cooldown>
+	<power>2</power>
+	<cost>70</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>modular_bomb_base</image>
+	<length>1</length>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>modular_bomb_launcher_base</weaponArt>
+	<iconImage>bomb</iconImage>
 </weaponBlueprint>
-
 <weaponBlueprint name="MODULAR_BOMB_BASE_BIO">
-  <type>BOMB</type>
-  <title>Modular Bomb</title>
-  <tip>tip_bombs</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Incompatible with the piercing module.
-----CURRENTLY INSTALLED MODULES----
-Status - Bio</desc>
-  <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>Mod. Bomb</short>
-  <locked>1</locked>
-  <damage>0</damage>
-  <shots>1</shots>
-  <sysDamage>3</sysDamage>
-  <persDamage>6</persDamage>
-  <sp>0</sp>
-  <fireChance>1</fireChance>
-  <breachChance>1</breachChance>
-  <missiles>1</missiles>
-  <cooldown>17</cooldown>
-  <power>2</power>
-  <cost>70</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>modular_bomb_base_bio</image>
-  <length>1</length>
-  <explosion>explosion_random</explosion>
-  <launchSounds>
-    <sound>bombTeleport</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>smallExplosion</sound>
-  </hitShipSounds>
-  <weaponArt>modular_bomb_launcher_base_bio</weaponArt>
-  <iconImage>bomb</iconImage>
-  <statBoosts>
-    <statBoost name="moveSpeedMultiplier">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="stunMultiplier">
-      <boostType>MULT</boostType>
-      <amount>1.75</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="repairSpeed">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-  </statBoosts>
+	<type>BOMB</type>
+	<title>Modular Bomb</title>
+	<short>Mod. Bomb</short>
+	<tip>tip_bombs</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Pierce
+	----CURRENTLY INSTALLED MODULES----
+	Status - Radiation</desc>
+	<locked>1</locked>
+	<damage>0</damage>
+	<sysDamage>3</sysDamage>
+	<persDamage>6</persDamage>
+	<statBoosts>
+		<statBoost name="moveSpeedMultiplier" load="RAD_MOVE"/>
+		<statBoost name="stunMultiplier" load="RAD_STUN"/>
+		<statBoost name="repairSpeed" load="RAD_REPAIR"/>
+	</statBoosts>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>1</breachChance>
+	<missiles>1</missiles>
+	<cooldown>17.0</cooldown>
+	<power>2</power>
+	<cost>85</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>modular_bomb_base_bio</image>
+	<length>1</length>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>modular_bomb_launcher_base_bio</weaponArt>
+	<iconImage>bomb</iconImage>
 </weaponBlueprint>
-
 <weaponBlueprint name="MODULAR_BOMB_BASE_COOLDOWN">
-  <type>BOMB</type>
-  <title>Modular Bomb</title>
-  <tip>tip_bombs</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Incompatible with the piercing module.
-----CURRENTLY INSTALLED MODULES----
-Status - Cooldown</desc>
-  <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>Mod. Bomb</short>
-  <locked>1</locked>
-  <damage>0</damage>
-  <shots>1</shots>
-  <sysDamage>3</sysDamage>
-  <persDamage>3</persDamage>
-  <sp>0</sp>
-  <fireChance>1</fireChance>
-  <breachChance>1</breachChance>
-  <missiles>1</missiles>
-  <cooldown>13</cooldown>
-  <power>2</power>
-  <cost>70</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>modular_bomb_base_cooldown</image>
-  <length>1</length>
-  <explosion>explosion_random</explosion>
-  <launchSounds>
-    <sound>bombTeleport</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>smallExplosion</sound>
-  </hitShipSounds>
-  <weaponArt>modular_bomb_launcher_base_cooldown</weaponArt>
-  <iconImage>bomb</iconImage>
+	<type>BOMB</type>
+	<title>Modular Bomb</title>
+	<short>Mod. Bomb</short>
+	<tip>tip_bombs</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Pierce
+	----CURRENTLY INSTALLED MODULES----
+	Status - Cooldown</desc>
+	<locked>1</locked>
+	<damage>0</damage>
+	<sysDamage>3</sysDamage>
+	<persDamage>3</persDamage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>1</breachChance>
+	<missiles>1</missiles>
+	<cooldown>12.75</cooldown>
+	<power>2</power>
+	<cost>110</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>modular_bomb_base_cooldown</image>
+	<length>1</length>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>modular_bomb_launcher_base_cooldown</weaponArt>
+	<iconImage>bomb</iconImage>
 </weaponBlueprint>
-
 <weaponBlueprint name="MODULAR_BOMB_BASE_LOCKDOWN">
-  <type>BOMB</type>
-  <title>Modular Bomb</title>
-  <tip>tip_bombs</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Incompatible with the piercing module.
-----CURRENTLY INSTALLED MODULES----
-Status - Lockdown</desc>
-  <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>Mod. Bomb</short>
-  <locked>1</locked>
-  <damage>0</damage>
-  <shots>1</shots>
-  <sysDamage>3</sysDamage>
-  <persDamage>3</persDamage>
-  <sp>0</sp>
-  <fireChance>1</fireChance>
-  <breachChance>1</breachChance>
-  <missiles>1</missiles>
-  <cooldown>17</cooldown>
-  <power>2</power>
-  <cost>70</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>modular_bomb_base_lockdown</image>
-  <length>1</length>
-  <explosion>explosion_random</explosion>
-  <launchSounds>
-    <sound>bombTeleport</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>smallExplosion</sound>
-  </hitShipSounds>
-  <weaponArt>modular_bomb_launcher_base_lockdown</weaponArt>
-  <iconImage>bomb</iconImage>
-  <lockdown>1</lockdown>
+	<type>BOMB</type>
+	<title>Modular Bomb</title>
+	<short>Mod. Bomb</short>
+	<tip>tip_bombs</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Pierce
+	----CURRENTLY INSTALLED MODULES----
+	Status - Lockdown</desc>
+	<locked>1</locked>
+	<damage>0</damage>
+	<sysDamage>3</sysDamage>
+	<persDamage>3</persDamage>
+	<shots>1</shots>
+	<lockdown>1</lockdown>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>1</breachChance>
+	<missiles>1</missiles>
+	<cooldown>17.0</cooldown>
+	<power>2</power>
+	<cost>100</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>modular_bomb_base_lockdown</image>
+	<length>1</length>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>modular_bomb_launcher_base_lockdown</weaponArt>
+	<iconImage>bomb</iconImage>
 </weaponBlueprint>
-
 <weaponBlueprint name="MODULAR_BOMB_BASE_STUN">
-  <type>BOMB</type>
-  <title>Modular Bomb</title>
-  <tip>tip_bombs</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Incompatible with the piercing module.
-----CURRENTLY INSTALLED MODULES----
-Status - Stun</desc>
-  <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>Mod. Bomb</short>
-  <locked>1</locked>
-  <damage>0</damage>
-  <shots>1</shots>
-  <sysDamage>0</sysDamage>
-  <persDamage>3</persDamage>
-  <sp>0</sp>
-  <fireChance>1</fireChance>
-  <breachChance>1</breachChance>
-  <missiles>1</missiles>
-  <cooldown>17</cooldown>
-  <power>2</power>
-  <cost>70</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>modular_bomb_base_stun</image>
-  <length>1</length>
-  <explosion>explosion_random</explosion>
-  <launchSounds>
-    <sound>bombTeleport</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>smallExplosion</sound>
-  </hitShipSounds>
-  <weaponArt>modular_bomb_launcher_base_stun</weaponArt>
-  <iconImage>bomb</iconImage>
-  <stun>20</stun>
-  <ion>6</ion>
+	<type>BOMB</type>
+	<title>Modular Bomb</title>
+	<short>Mod. Bomb</short>
+	<tip>tip_bombs</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Pierce
+	----CURRENTLY INSTALLED MODULES----
+	Status - Neural</desc>
+	<locked>1</locked>
+	<damage>0</damage>
+	<ion>6</ion>
+	<sysDamage>0</sysDamage>
+	<persDamage>3</persDamage>
+	<shots>1</shots>
+	<stun>20</stun>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>1</breachChance>
+	<missiles>1</missiles>
+	<cooldown>17.0</cooldown>
+	<power>2</power>
+	<cost>90</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>modular_bomb_base_stun</image>
+	<length>1</length>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>modular_bomb_launcher_base_stun</weaponArt>
+	<iconImage>bomb</iconImage>
 </weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_BOMB_FIRE">
-  <type>BOMB</type>
-  <title>Modular Bomb</title>
-  <tip>tip_bombs</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Incompatible with the piercing module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Fire</desc>
-  <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>Mod. Bomb</short>
-  <locked>1</locked>
-  <damage>0</damage>
-  <shots>1</shots>
-  <sysDamage>3</sysDamage>
-  <persDamage>3</persDamage>
-  <sp>0</sp>
-  <fireChance>10</fireChance>
-  <breachChance>1</breachChance>
-  <missiles>1</missiles>
-  <cooldown>17</cooldown>
-  <power>2</power>
-  <cost>70</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>modular_bomb_fire_base</image>
-  <length>1</length>
-  <explosion>explosion_random</explosion>
-  <launchSounds>
-    <sound>bombTeleport</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>smallExplosion</sound>
-  </hitShipSounds>
-  <weaponArt>modular_bomb_launcher_fire_base</weaponArt>
-  <iconImage>bomb</iconImage>
-</weaponBlueprint>
-
 <weaponBlueprint name="MODULAR_BOMB_ACCURACY">
-  <type>BOMB</type>
-  <title>Modular Bomb</title>
-  <tip>tip_bombs</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Incompatible with the piercing module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Accuracy</desc>
-  <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>Mod. Bomb</short>
-  <locked>1</locked>
-  <damage>0</damage>
-  <shots>1</shots>
-  <sysDamage>3</sysDamage>
-  <persDamage>3</persDamage>
-  <sp>0</sp>
-  <fireChance>1</fireChance>
-  <breachChance>1</breachChance>
-  <missiles>1</missiles>
-  <cooldown>17</cooldown>
-  <power>2</power>
-  <cost>70</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>modular_bomb_accuracy_base</image>
-  <length>1</length>
-  <explosion>explosion_random</explosion>
-  <launchSounds>
-    <sound>bombTeleport</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>smallExplosion</sound>
-  </hitShipSounds>
-  <weaponArt>modular_bomb_launcher_accuracy_base</weaponArt>
-  <iconImage>bomb</iconImage>
-  <accuracyMod>100</accuracyMod>
+	<type>BOMB</type>
+	<title>Modular Bomb</title>
+	<short>Mod. Bomb</short>
+	<tip>tip_bombs</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Pierce
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Accuracy</desc>
+	<locked>1</locked>
+	<damage>0</damage>
+	<sysDamage>3</sysDamage>
+	<persDamage>3</persDamage>
+	<shots>1</shots>
+	<accuracyMod>100</accuracyMod>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>1</breachChance>
+	<missiles>1</missiles>
+	<cooldown>17.0</cooldown>
+	<power>2</power>
+	<cost>85</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>modular_bomb_accuracy</image>
+	<length>1</length>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>modular_bomb_launcher_accuracy</weaponArt>
+	<iconImage>bomb</iconImage>
 </weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_BOMB_HULL">
-  <type>BOMB</type>
-  <title>Modular Bomb</title>
-  <tip>tip_bombs</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Incompatible with the piercing module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Hull</desc>
-  <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>Mod. Bomb</short>
-  <locked>1</locked>
-  <damage>1</damage>
-  <shots>1</shots>
-  <sysDamage>3</sysDamage>
-  <persDamage>3</persDamage>
-  <sp>0</sp>
-  <fireChance>1</fireChance>
-  <breachChance>10</breachChance>
-  <missiles>1</missiles>
-  <cooldown>17</cooldown>
-  <power>2</power>
-  <cost>70</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>modular_bomb_hull_base</image>
-  <length>1</length>
-  <explosion>explosion_random</explosion>
-  <launchSounds>
-    <sound>bombTeleport</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>smallExplosion</sound>
-  </hitShipSounds>
-  <weaponArt>modular_bomb_launcher_hull_base</weaponArt>
-  <iconImage>bomb</iconImage>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_BOMB_POWER">
-  <type>BOMB</type>
-  <title>Modular Bomb</title>
-  <tip>tip_bombs</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Incompatible with the piercing module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Power</desc>
-  <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>Mod. Bomb</short>
-  <locked>1</locked>
-  <damage>0</damage>
-  <shots>1</shots>
-  <sysDamage>5</sysDamage>
-  <persDamage>3</persDamage>
-  <sp>0</sp>
-  <fireChance>1</fireChance>
-  <breachChance>1</breachChance>
-  <missiles>1</missiles>
-  <cooldown>17</cooldown>
-  <power>3</power>
-  <cost>70</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>modular_bomb_power_base</image>
-  <length>1</length>
-  <explosion>explosion_random</explosion>
-  <launchSounds>
-    <sound>bombTeleport</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>smallExplosion</sound>
-  </hitShipSounds>
-  <weaponArt>modular_bomb_launcher_power_base</weaponArt>
-  <iconImage>bomb</iconImage>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_BOMB_FIRE_BIO">
-  <type>BOMB</type>
-  <title>Modular Bomb</title>
-  <tip>tip_bombs</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Incompatible with the piercing module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Fire
-Status - Bio</desc>
-  <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>Mod. Bomb</short>
-  <locked>1</locked>
-  <damage>0</damage>
-  <shots>1</shots>
-  <sysDamage>3</sysDamage>
-  <persDamage>6</persDamage>
-  <sp>0</sp>
-  <fireChance>10</fireChance>
-  <breachChance>1</breachChance>
-  <missiles>1</missiles>
-  <cooldown>17</cooldown>
-  <power>2</power>
-  <cost>70</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>modular_bomb_fire_bio</image>
-  <length>1</length>
-  <explosion>explosion_random</explosion>
-  <launchSounds>
-    <sound>bombTeleport</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>smallExplosion</sound>
-  </hitShipSounds>
-  <weaponArt>modular_bomb_launcher_fire_bio</weaponArt>
-  <iconImage>bomb</iconImage>
-  <statBoosts>
-    <statBoost name="moveSpeedMultiplier">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="stunMultiplier">
-      <boostType>MULT</boostType>
-      <amount>1.75</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="repairSpeed">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-  </statBoosts>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_BOMB_FIRE_COOLDOWN">
-  <type>BOMB</type>
-  <title>Modular Bomb</title>
-  <tip>tip_bombs</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Incompatible with the piercing module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Fire
-Status - Cooldown</desc>
-  <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>Mod. Bomb</short>
-  <locked>1</locked>
-  <damage>0</damage>
-  <shots>1</shots>
-  <sysDamage>3</sysDamage>
-  <persDamage>3</persDamage>
-  <sp>0</sp>
-  <fireChance>10</fireChance>
-  <breachChance>1</breachChance>
-  <missiles>1</missiles>
-  <cooldown>13</cooldown>
-  <power>2</power>
-  <cost>70</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>modular_bomb_fire_cooldown</image>
-  <length>1</length>
-  <explosion>explosion_random</explosion>
-  <launchSounds>
-    <sound>bombTeleport</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>smallExplosion</sound>
-  </hitShipSounds>
-  <weaponArt>modular_bomb_launcher_fire_cooldown</weaponArt>
-  <iconImage>bomb</iconImage>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_BOMB_FIRE_LOCKDOWN">
-  <type>BOMB</type>
-  <title>Modular Bomb</title>
-  <tip>tip_bombs</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Incompatible with the piercing module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Fire
-Status - Lockdown</desc>
-  <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>Mod. Bomb</short>
-  <locked>1</locked>
-  <damage>0</damage>
-  <shots>1</shots>
-  <sysDamage>3</sysDamage>
-  <persDamage>3</persDamage>
-  <sp>0</sp>
-  <fireChance>10</fireChance>
-  <breachChance>1</breachChance>
-  <missiles>1</missiles>
-  <cooldown>17</cooldown>
-  <power>2</power>
-  <cost>70</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>modular_bomb_fire_lockdown</image>
-  <length>1</length>
-  <explosion>explosion_random</explosion>
-  <launchSounds>
-    <sound>bombTeleport</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>smallExplosion</sound>
-  </hitShipSounds>
-  <weaponArt>modular_bomb_launcher_fire_lockdown</weaponArt>
-  <iconImage>bomb</iconImage>
-  <lockdown>1</lockdown>
-</weaponBlueprint>
-
-<weaponBlueprint name="MODULAR_BOMB_FIRE_STUN">
-  <type>BOMB</type>
-  <title>Modular Bomb</title>
-  <tip>tip_bombs</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Incompatible with the piercing module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Fire
-Status - Stun</desc>
-  <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>Mod. Bomb</short>
-  <locked>1</locked>
-  <damage>0</damage>
-  <shots>1</shots>
-  <sysDamage>0</sysDamage>
-  <persDamage>3</persDamage>
-  <sp>0</sp>
-  <fireChance>10</fireChance>
-  <breachChance>1</breachChance>
-  <missiles>1</missiles>
-  <cooldown>17</cooldown>
-  <power>2</power>
-  <cost>70</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>modular_bomb_fire_stun</image>
-  <length>1</length>
-  <explosion>explosion_random</explosion>
-  <launchSounds>
-    <sound>bombTeleport</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>smallExplosion</sound>
-  </hitShipSounds>
-  <weaponArt>modular_bomb_launcher_fire_stun</weaponArt>
-  <iconImage>bomb</iconImage>
-  <stun>20</stun>
-  <ion>6</ion>
-</weaponBlueprint>
-
 <weaponBlueprint name="MODULAR_BOMB_ACCURACY_BIO">
-  <type>BOMB</type>
-  <title>Modular Bomb</title>
-  <tip>tip_bombs</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Incompatible with the piercing module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Accuracy
-Status - Bio</desc>
-  <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>Mod. Bomb</short>
-  <locked>1</locked>
-  <damage>0</damage>
-  <shots>1</shots>
-  <sysDamage>3</sysDamage>
-  <persDamage>6</persDamage>
-  <sp>0</sp>
-  <fireChance>1</fireChance>
-  <breachChance>1</breachChance>
-  <missiles>1</missiles>
-  <cooldown>17</cooldown>
-  <power>2</power>
-  <cost>70</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>modular_bomb_accuracy_bio</image>
-  <length>1</length>
-  <explosion>explosion_random</explosion>
-  <launchSounds>
-    <sound>bombTeleport</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>smallExplosion</sound>
-  </hitShipSounds>
-  <weaponArt>modular_bomb_launcher_accuracy_bio</weaponArt>
-  <iconImage>bomb</iconImage>
-  <statBoosts>
-    <statBoost name="moveSpeedMultiplier">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="stunMultiplier">
-      <boostType>MULT</boostType>
-      <amount>1.75</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="repairSpeed">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-  </statBoosts>
-  <accuracyMod>100</accuracyMod>
+	<type>BOMB</type>
+	<title>Modular Bomb</title>
+	<short>Mod. Bomb</short>
+	<tip>tip_bombs</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Pierce
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Accuracy
+	Status - Radiation</desc>
+	<locked>1</locked>
+	<damage>0</damage>
+	<sysDamage>3</sysDamage>
+	<persDamage>6</persDamage>
+	<statBoosts>
+		<statBoost name="moveSpeedMultiplier" load="RAD_MOVE"/>
+		<statBoost name="stunMultiplier" load="RAD_STUN"/>
+		<statBoost name="repairSpeed" load="RAD_REPAIR"/>
+	</statBoosts>
+	<shots>1</shots>
+	<accuracyMod>100</accuracyMod>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>1</breachChance>
+	<missiles>1</missiles>
+	<cooldown>17.0</cooldown>
+	<power>2</power>
+	<cost>100</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>modular_bomb_accuracy_bio</image>
+	<length>1</length>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>modular_bomb_launcher_accuracy_bio</weaponArt>
+	<iconImage>bomb</iconImage>
 </weaponBlueprint>
-
 <weaponBlueprint name="MODULAR_BOMB_ACCURACY_COOLDOWN">
-  <type>BOMB</type>
-  <title>Modular Bomb</title>
-  <tip>tip_bombs</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Incompatible with the piercing module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Accuracy
-Status - Cooldown</desc>
-  <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>Mod. Bomb</short>
-  <locked>1</locked>
-  <damage>0</damage>
-  <shots>1</shots>
-  <sysDamage>3</sysDamage>
-  <persDamage>3</persDamage>
-  <sp>0</sp>
-  <fireChance>1</fireChance>
-  <breachChance>1</breachChance>
-  <missiles>1</missiles>
-  <cooldown>13</cooldown>
-  <power>2</power>
-  <cost>70</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>modular_bomb_accuracy_cooldown</image>
-  <length>1</length>
-  <explosion>explosion_random</explosion>
-  <launchSounds>
-    <sound>bombTeleport</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>smallExplosion</sound>
-  </hitShipSounds>
-  <weaponArt>modular_bomb_launcher_accuracy_cooldown</weaponArt>
-  <iconImage>bomb</iconImage>
-  <accuracyMod>100</accuracyMod>
+	<type>BOMB</type>
+	<title>Modular Bomb</title>
+	<short>Mod. Bomb</short>
+	<tip>tip_bombs</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Pierce
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Accuracy
+	Status - Cooldown</desc>
+	<locked>1</locked>
+	<damage>0</damage>
+	<sysDamage>3</sysDamage>
+	<persDamage>3</persDamage>
+	<shots>1</shots>
+	<accuracyMod>100</accuracyMod>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>1</breachChance>
+	<missiles>1</missiles>
+	<cooldown>12.75</cooldown>
+	<power>2</power>
+	<cost>125</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>modular_bomb_accuracy_cooldown</image>
+	<length>1</length>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>modular_bomb_launcher_accuracy_cooldown</weaponArt>
+	<iconImage>bomb</iconImage>
 </weaponBlueprint>
-
 <weaponBlueprint name="MODULAR_BOMB_ACCURACY_LOCKDOWN">
-  <type>BOMB</type>
-  <title>Modular Bomb</title>
-  <tip>tip_bombs</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Incompatible with the piercing module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Accuracy
-Status - Lockdown</desc>
-  <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>Mod. Bomb</short>
-  <locked>1</locked>
-  <damage>0</damage>
-  <shots>1</shots>
-  <sysDamage>3</sysDamage>
-  <persDamage>3</persDamage>
-  <sp>0</sp>
-  <fireChance>1</fireChance>
-  <breachChance>1</breachChance>
-  <missiles>1</missiles>
-  <cooldown>17</cooldown>
-  <power>2</power>
-  <cost>70</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>modular_bomb_accuracy_lockdown</image>
-  <length>1</length>
-  <explosion>explosion_random</explosion>
-  <launchSounds>
-    <sound>bombTeleport</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>smallExplosion</sound>
-  </hitShipSounds>
-  <weaponArt>modular_bomb_launcher_accuracy_lockdown</weaponArt>
-  <iconImage>bomb</iconImage>
-  <accuracyMod>100</accuracyMod>
-  <lockdown>1</lockdown>
+	<type>BOMB</type>
+	<title>Modular Bomb</title>
+	<short>Mod. Bomb</short>
+	<tip>tip_bombs</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Pierce
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Accuracy
+	Status - Lockdown</desc>
+	<locked>1</locked>
+	<damage>0</damage>
+	<sysDamage>3</sysDamage>
+	<persDamage>3</persDamage>
+	<shots>1</shots>
+	<accuracyMod>100</accuracyMod>
+	<lockdown>1</lockdown>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>1</breachChance>
+	<missiles>1</missiles>
+	<cooldown>17.0</cooldown>
+	<power>2</power>
+	<cost>115</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>modular_bomb_accuracy_lockdown</image>
+	<length>1</length>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>modular_bomb_launcher_accuracy_lockdown</weaponArt>
+	<iconImage>bomb</iconImage>
 </weaponBlueprint>
-
 <weaponBlueprint name="MODULAR_BOMB_ACCURACY_STUN">
-  <type>BOMB</type>
-  <title>Modular Bomb</title>
-  <tip>tip_bombs</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Incompatible with the piercing module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Accuracy
-Status - Stun</desc>
-  <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>Mod. Bomb</short>
-  <locked>1</locked>
-  <damage>0</damage>
-  <shots>1</shots>
-  <sysDamage>0</sysDamage>
-  <persDamage>3</persDamage>
-  <sp>0</sp>
-  <fireChance>1</fireChance>
-  <breachChance>1</breachChance>
-  <missiles>1</missiles>
-  <cooldown>17</cooldown>
-  <power>2</power>
-  <cost>70</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>modular_bomb_accuracy_stun</image>
-  <length>1</length>
-  <explosion>explosion_random</explosion>
-  <launchSounds>
-    <sound>bombTeleport</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>smallExplosion</sound>
-  </hitShipSounds>
-  <weaponArt>modular_bomb_launcher_accuracy_stun</weaponArt>
-  <iconImage>bomb</iconImage>
-  <accuracyMod>100</accuracyMod>
-  <stun>20</stun>
-  <ion>6</ion>
+	<type>BOMB</type>
+	<title>Modular Bomb</title>
+	<short>Mod. Bomb</short>
+	<tip>tip_bombs</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Pierce
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Accuracy
+	Status - Neural</desc>
+	<locked>1</locked>
+	<damage>0</damage>
+	<ion>6</ion>
+	<sysDamage>0</sysDamage>
+	<persDamage>3</persDamage>
+	<shots>1</shots>
+	<accuracyMod>100</accuracyMod>
+	<stun>20</stun>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>1</breachChance>
+	<missiles>1</missiles>
+	<cooldown>17.0</cooldown>
+	<power>2</power>
+	<cost>105</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>modular_bomb_accuracy_stun</image>
+	<length>1</length>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>modular_bomb_launcher_accuracy_stun</weaponArt>
+	<iconImage>bomb</iconImage>
 </weaponBlueprint>
-
+<weaponBlueprint name="MODULAR_BOMB_FIRE">
+	<type>BOMB</type>
+	<title>Modular Bomb</title>
+	<short>Mod. Bomb</short>
+	<tip>tip_bombs</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Pierce
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Firestarter</desc>
+	<locked>1</locked>
+	<damage>0</damage>
+	<sysDamage>3</sysDamage>
+	<persDamage>3</persDamage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>10</fireChance>
+	<breachChance>1</breachChance>
+	<missiles>1</missiles>
+	<cooldown>17.0</cooldown>
+	<power>2</power>
+	<cost>100</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>modular_bomb_fire</image>
+	<length>1</length>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>modular_bomb_launcher_fire</weaponArt>
+	<iconImage>bomb</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_BOMB_FIRE_BIO">
+	<type>BOMB</type>
+	<title>Modular Bomb</title>
+	<short>Mod. Bomb</short>
+	<tip>tip_bombs</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Pierce
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Firestarter
+	Status - Radiation</desc>
+	<locked>1</locked>
+	<damage>0</damage>
+	<sysDamage>3</sysDamage>
+	<persDamage>6</persDamage>
+	<statBoosts>
+		<statBoost name="moveSpeedMultiplier" load="RAD_MOVE"/>
+		<statBoost name="stunMultiplier" load="RAD_STUN"/>
+		<statBoost name="repairSpeed" load="RAD_REPAIR"/>
+	</statBoosts>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>10</fireChance>
+	<breachChance>1</breachChance>
+	<missiles>1</missiles>
+	<cooldown>17.0</cooldown>
+	<power>2</power>
+	<cost>115</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>modular_bomb_fire_bio</image>
+	<length>1</length>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>modular_bomb_launcher_fire_bio</weaponArt>
+	<iconImage>bomb</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_BOMB_FIRE_COOLDOWN">
+	<type>BOMB</type>
+	<title>Modular Bomb</title>
+	<short>Mod. Bomb</short>
+	<tip>tip_bombs</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Pierce
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Firestarter
+	Status - Cooldown</desc>
+	<locked>1</locked>
+	<damage>0</damage>
+	<sysDamage>3</sysDamage>
+	<persDamage>3</persDamage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>10</fireChance>
+	<breachChance>1</breachChance>
+	<missiles>1</missiles>
+	<cooldown>12.75</cooldown>
+	<power>2</power>
+	<cost>140</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>modular_bomb_fire_cooldown</image>
+	<length>1</length>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>modular_bomb_launcher_fire_cooldown</weaponArt>
+	<iconImage>bomb</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_BOMB_FIRE_LOCKDOWN">
+	<type>BOMB</type>
+	<title>Modular Bomb</title>
+	<short>Mod. Bomb</short>
+	<tip>tip_bombs</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Pierce
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Firestarter
+	Status - Lockdown</desc>
+	<locked>1</locked>
+	<damage>0</damage>
+	<sysDamage>3</sysDamage>
+	<persDamage>3</persDamage>
+	<shots>1</shots>
+	<lockdown>1</lockdown>
+	<sp>0</sp>
+	<fireChance>10</fireChance>
+	<breachChance>1</breachChance>
+	<missiles>1</missiles>
+	<cooldown>17.0</cooldown>
+	<power>2</power>
+	<cost>130</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>modular_bomb_fire_lockdown</image>
+	<length>1</length>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>modular_bomb_launcher_fire_lockdown</weaponArt>
+	<iconImage>bomb</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_BOMB_FIRE_STUN">
+	<type>BOMB</type>
+	<title>Modular Bomb</title>
+	<short>Mod. Bomb</short>
+	<tip>tip_bombs</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Pierce
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Firestarter
+	Status - Neural</desc>
+	<locked>1</locked>
+	<damage>0</damage>
+	<ion>6</ion>
+	<sysDamage>0</sysDamage>
+	<persDamage>3</persDamage>
+	<shots>1</shots>
+	<stun>20</stun>
+	<sp>0</sp>
+	<fireChance>10</fireChance>
+	<breachChance>1</breachChance>
+	<missiles>1</missiles>
+	<cooldown>17.0</cooldown>
+	<power>2</power>
+	<cost>120</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>modular_bomb_fire_stun</image>
+	<length>1</length>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>modular_bomb_launcher_fire_stun</weaponArt>
+	<iconImage>bomb</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_BOMB_HULL">
+	<type>BOMB</type>
+	<title>Modular Bomb</title>
+	<short>Mod. Bomb</short>
+	<tip>tip_bombs</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Pierce
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Hullbuster</desc>
+	<locked>1</locked>
+	<damage>1</damage>
+	<sysDamage>3</sysDamage>
+	<persDamage>3</persDamage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>10</breachChance>
+	<missiles>1</missiles>
+	<cooldown>17.0</cooldown>
+	<power>2</power>
+	<cost>105</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>modular_bomb_hull</image>
+	<length>1</length>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>modular_bomb_launcher_hull</weaponArt>
+	<iconImage>bomb</iconImage>
+</weaponBlueprint>
 <weaponBlueprint name="MODULAR_BOMB_HULL_BIO">
-  <type>BOMB</type>
-  <title>Modular Bomb</title>
-  <tip>tip_bombs</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Incompatible with the piercing module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Hull
-Status - Bio</desc>
-  <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>Mod. Bomb</short>
-  <locked>1</locked>
-  <damage>1</damage>
-  <shots>1</shots>
-  <sysDamage>3</sysDamage>
-  <persDamage>6</persDamage>
-  <sp>0</sp>
-  <fireChance>1</fireChance>
-  <breachChance>10</breachChance>
-  <missiles>1</missiles>
-  <cooldown>17</cooldown>
-  <power>2</power>
-  <cost>70</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>modular_bomb_hull_bio</image>
-  <length>1</length>
-  <explosion>explosion_random</explosion>
-  <launchSounds>
-    <sound>bombTeleport</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>smallExplosion</sound>
-  </hitShipSounds>
-  <weaponArt>modular_bomb_launcher_hull_bio</weaponArt>
-  <iconImage>bomb</iconImage>
-  <statBoosts>
-    <statBoost name="moveSpeedMultiplier">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="stunMultiplier">
-      <boostType>MULT</boostType>
-      <amount>1.75</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="repairSpeed">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-  </statBoosts>
+	<type>BOMB</type>
+	<title>Modular Bomb</title>
+	<short>Mod. Bomb</short>
+	<tip>tip_bombs</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Pierce
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Hullbuster
+	Status - Radiation</desc>
+	<locked>1</locked>
+	<damage>1</damage>
+	<sysDamage>3</sysDamage>
+	<persDamage>6</persDamage>
+	<statBoosts>
+		<statBoost name="moveSpeedMultiplier" load="RAD_MOVE"/>
+		<statBoost name="stunMultiplier" load="RAD_STUN"/>
+		<statBoost name="repairSpeed" load="RAD_REPAIR"/>
+	</statBoosts>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>10</breachChance>
+	<missiles>1</missiles>
+	<cooldown>17.0</cooldown>
+	<power>2</power>
+	<cost>120</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>modular_bomb_hull_bio</image>
+	<length>1</length>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>modular_bomb_launcher_hull_bio</weaponArt>
+	<iconImage>bomb</iconImage>
 </weaponBlueprint>
-
 <weaponBlueprint name="MODULAR_BOMB_HULL_COOLDOWN">
-  <type>BOMB</type>
-  <title>Modular Bomb</title>
-  <tip>tip_bombs</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Incompatible with the piercing module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Hull
-Status - Cooldown</desc>
-  <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>Mod. Bomb</short>
-  <locked>1</locked>
-  <damage>1</damage>
-  <shots>1</shots>
-  <sysDamage>3</sysDamage>
-  <persDamage>3</persDamage>
-  <sp>0</sp>
-  <fireChance>1</fireChance>
-  <breachChance>10</breachChance>
-  <missiles>1</missiles>
-  <cooldown>13</cooldown>
-  <power>2</power>
-  <cost>70</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>modular_bomb_hull_cooldown</image>
-  <length>1</length>
-  <explosion>explosion_random</explosion>
-  <launchSounds>
-    <sound>bombTeleport</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>smallExplosion</sound>
-  </hitShipSounds>
-  <weaponArt>modular_bomb_launcher_hull_cooldown</weaponArt>
-  <iconImage>bomb</iconImage>
+	<type>BOMB</type>
+	<title>Modular Bomb</title>
+	<short>Mod. Bomb</short>
+	<tip>tip_bombs</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Pierce
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Hullbuster
+	Status - Cooldown</desc>
+	<locked>1</locked>
+	<damage>1</damage>
+	<sysDamage>3</sysDamage>
+	<persDamage>3</persDamage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>10</breachChance>
+	<missiles>1</missiles>
+	<cooldown>12.75</cooldown>
+	<power>2</power>
+	<cost>145</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>modular_bomb_hull_cooldown</image>
+	<length>1</length>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>modular_bomb_launcher_hull_cooldown</weaponArt>
+	<iconImage>bomb</iconImage>
 </weaponBlueprint>
-
 <weaponBlueprint name="MODULAR_BOMB_HULL_LOCKDOWN">
-  <type>BOMB</type>
-  <title>Modular Bomb</title>
-  <tip>tip_bombs</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Incompatible with the piercing module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Hull
-Status - Lockdown</desc>
-  <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>Mod. Bomb</short>
-  <locked>1</locked>
-  <damage>1</damage>
-  <shots>1</shots>
-  <sysDamage>3</sysDamage>
-  <persDamage>3</persDamage>
-  <sp>0</sp>
-  <fireChance>1</fireChance>
-  <breachChance>10</breachChance>
-  <missiles>1</missiles>
-  <cooldown>17</cooldown>
-  <power>2</power>
-  <cost>70</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>modular_bomb_hull_lockdown</image>
-  <length>1</length>
-  <explosion>explosion_random</explosion>
-  <launchSounds>
-    <sound>bombTeleport</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>smallExplosion</sound>
-  </hitShipSounds>
-  <weaponArt>modular_bomb_launcher_hull_lockdown</weaponArt>
-  <iconImage>bomb</iconImage>
-  <lockdown>1</lockdown>
+	<type>BOMB</type>
+	<title>Modular Bomb</title>
+	<short>Mod. Bomb</short>
+	<tip>tip_bombs</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Pierce
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Hullbuster
+	Status - Lockdown</desc>
+	<locked>1</locked>
+	<damage>1</damage>
+	<sysDamage>3</sysDamage>
+	<persDamage>3</persDamage>
+	<shots>1</shots>
+	<lockdown>1</lockdown>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>10</breachChance>
+	<missiles>1</missiles>
+	<cooldown>17.0</cooldown>
+	<power>2</power>
+	<cost>135</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>modular_bomb_hull_lockdown</image>
+	<length>1</length>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>modular_bomb_launcher_hull_lockdown</weaponArt>
+	<iconImage>bomb</iconImage>
 </weaponBlueprint>
-
 <weaponBlueprint name="MODULAR_BOMB_HULL_STUN">
-  <type>BOMB</type>
-  <title>Modular Bomb</title>
-  <tip>tip_bombs</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Incompatible with the piercing module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Hull
-Status - Stun</desc>
-  <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>Mod. Bomb</short>
-  <locked>1</locked>
-  <damage>1</damage>
-  <shots>1</shots>
-  <sysDamage>0</sysDamage>
-  <persDamage>3</persDamage>
-  <sp>0</sp>
-  <fireChance>1</fireChance>
-  <breachChance>10</breachChance>
-  <missiles>1</missiles>
-  <cooldown>17</cooldown>
-  <power>2</power>
-  <cost>70</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>modular_bomb_hull_stun</image>
-  <length>1</length>
-  <explosion>explosion_random</explosion>
-  <launchSounds>
-    <sound>bombTeleport</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>smallExplosion</sound>
-  </hitShipSounds>
-  <weaponArt>modular_bomb_launcher_hull_stun</weaponArt>
-  <iconImage>bomb</iconImage>
-  <stun>20</stun>
-  <ion>6</ion>
+	<type>BOMB</type>
+	<title>Modular Bomb</title>
+	<short>Mod. Bomb</short>
+	<tip>tip_bombs</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Pierce
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Hullbuster
+	Status - Neural</desc>
+	<locked>1</locked>
+	<damage>1</damage>
+	<ion>6</ion>
+	<sysDamage>0</sysDamage>
+	<persDamage>3</persDamage>
+	<shots>1</shots>
+	<stun>20</stun>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>10</breachChance>
+	<missiles>1</missiles>
+	<cooldown>17.0</cooldown>
+	<power>2</power>
+	<cost>125</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>modular_bomb_hull_stun</image>
+	<length>1</length>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>modular_bomb_launcher_hull_stun</weaponArt>
+	<iconImage>bomb</iconImage>
 </weaponBlueprint>
-
+<weaponBlueprint name="MODULAR_BOMB_POWER">
+	<type>BOMB</type>
+	<title>Modular Bomb</title>
+	<short>Mod. Bomb</short>
+	<tip>tip_bombs</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Pierce
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Power</desc>
+	<locked>1</locked>
+	<damage>0</damage>
+	<sysDamage>5</sysDamage>
+	<persDamage>3</persDamage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>1</breachChance>
+	<missiles>1</missiles>
+	<cooldown>17.0</cooldown>
+	<power>3</power>
+	<cost>100</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>modular_bomb_power</image>
+	<length>1</length>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>modular_bomb_launcher_power</weaponArt>
+	<iconImage>bomb</iconImage>
+</weaponBlueprint>
 <weaponBlueprint name="MODULAR_BOMB_POWER_BIO">
-  <type>BOMB</type>
-  <title>Modular Bomb</title>
-  <tip>tip_bombs</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Incompatible with the piercing module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Power
-Status - Bio</desc>
-  <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>Mod. Bomb</short>
-  <locked>1</locked>
-  <damage>0</damage>
-  <shots>1</shots>
-  <sysDamage>5</sysDamage>
-  <persDamage>6</persDamage>
-  <sp>0</sp>
-  <fireChance>1</fireChance>
-  <breachChance>1</breachChance>
-  <missiles>1</missiles>
-  <cooldown>17</cooldown>
-  <power>3</power>
-  <cost>70</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>modular_bomb_power_bio</image>
-  <length>1</length>
-  <explosion>explosion_random</explosion>
-  <launchSounds>
-    <sound>bombTeleport</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>smallExplosion</sound>
-  </hitShipSounds>
-  <weaponArt>modular_bomb_launcher_power_bio</weaponArt>
-  <iconImage>bomb</iconImage>
-  <statBoosts>
-    <statBoost name="moveSpeedMultiplier">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="stunMultiplier">
-      <boostType>MULT</boostType>
-      <amount>1.75</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-    <statBoost name="repairSpeed">
-      <boostType>MULT</boostType>
-      <amount>0.33</amount>
-      <shipTarget>ALL</shipTarget>
-      <crewTarget>ALL</crewTarget>
-      <affectsSelf>true</affectsSelf>
-      <maxStacks>1</maxStacks>
-      <duration>10</duration>
-    </statBoost>
-  </statBoosts>
+	<type>BOMB</type>
+	<title>Modular Bomb</title>
+	<short>Mod. Bomb</short>
+	<tip>tip_bombs</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Pierce
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Power
+	Status - Radiation</desc>
+	<locked>1</locked>
+	<damage>0</damage>
+	<sysDamage>5</sysDamage>
+	<persDamage>6</persDamage>
+	<statBoosts>
+		<statBoost name="moveSpeedMultiplier" load="RAD_MOVE"/>
+		<statBoost name="stunMultiplier" load="RAD_STUN"/>
+		<statBoost name="repairSpeed" load="RAD_REPAIR"/>
+	</statBoosts>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>1</breachChance>
+	<missiles>1</missiles>
+	<cooldown>17.0</cooldown>
+	<power>3</power>
+	<cost>115</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>modular_bomb_power_bio</image>
+	<length>1</length>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>modular_bomb_launcher_power_bio</weaponArt>
+	<iconImage>bomb</iconImage>
 </weaponBlueprint>
-
 <weaponBlueprint name="MODULAR_BOMB_POWER_COOLDOWN">
-  <type>BOMB</type>
-  <title>Modular Bomb</title>
-  <tip>tip_bombs</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Incompatible with the piercing module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Power
-Status - Cooldown</desc>
-  <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>Mod. Bomb</short>
-  <locked>1</locked>
-  <damage>0</damage>
-  <shots>1</shots>
-  <sysDamage>5</sysDamage>
-  <persDamage>3</persDamage>
-  <sp>0</sp>
-  <fireChance>1</fireChance>
-  <breachChance>1</breachChance>
-  <missiles>1</missiles>
-  <cooldown>13</cooldown>
-  <power>3</power>
-  <cost>70</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>modular_bomb_power_cooldown</image>
-  <length>1</length>
-  <explosion>explosion_random</explosion>
-  <launchSounds>
-    <sound>bombTeleport</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>smallExplosion</sound>
-  </hitShipSounds>
-  <weaponArt>modular_bomb_launcher_power_cooldown</weaponArt>
-  <iconImage>bomb</iconImage>
+	<type>BOMB</type>
+	<title>Modular Bomb</title>
+	<short>Mod. Bomb</short>
+	<tip>tip_bombs</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Pierce
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Power
+	Status - Cooldown</desc>
+	<locked>1</locked>
+	<damage>0</damage>
+	<sysDamage>5</sysDamage>
+	<persDamage>3</persDamage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>1</breachChance>
+	<missiles>1</missiles>
+	<cooldown>12.75</cooldown>
+	<power>3</power>
+	<cost>140</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>modular_bomb_power_cooldown</image>
+	<length>1</length>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>modular_bomb_launcher_power_cooldown</weaponArt>
+	<iconImage>bomb</iconImage>
 </weaponBlueprint>
-
 <weaponBlueprint name="MODULAR_BOMB_POWER_LOCKDOWN">
-  <type>BOMB</type>
-  <title>Modular Bomb</title>
-  <tip>tip_bombs</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Incompatible with the piercing module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Power
-Status - Lockdown</desc>
-  <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>Mod. Bomb</short>
-  <locked>1</locked>
-  <damage>0</damage>
-  <shots>1</shots>
-  <sysDamage>5</sysDamage>
-  <persDamage>3</persDamage>
-  <sp>0</sp>
-  <fireChance>1</fireChance>
-  <breachChance>1</breachChance>
-  <missiles>1</missiles>
-  <cooldown>17</cooldown>
-  <power>3</power>
-  <cost>70</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>modular_bomb_power_lockdown</image>
-  <length>1</length>
-  <explosion>explosion_random</explosion>
-  <launchSounds>
-    <sound>bombTeleport</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>smallExplosion</sound>
-  </hitShipSounds>
-  <weaponArt>modular_bomb_launcher_power_lockdown</weaponArt>
-  <iconImage>bomb</iconImage>
-  <lockdown>1</lockdown>
+	<type>BOMB</type>
+	<title>Modular Bomb</title>
+	<short>Mod. Bomb</short>
+	<tip>tip_bombs</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Pierce
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Power
+	Status - Lockdown</desc>
+	<locked>1</locked>
+	<damage>0</damage>
+	<sysDamage>5</sysDamage>
+	<persDamage>3</persDamage>
+	<shots>1</shots>
+	<lockdown>1</lockdown>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>1</breachChance>
+	<missiles>1</missiles>
+	<cooldown>17.0</cooldown>
+	<power>3</power>
+	<cost>130</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>modular_bomb_power_lockdown</image>
+	<length>1</length>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>modular_bomb_launcher_power_lockdown</weaponArt>
+	<iconImage>bomb</iconImage>
 </weaponBlueprint>
-
 <weaponBlueprint name="MODULAR_BOMB_POWER_STUN">
-  <type>BOMB</type>
-  <title>Modular Bomb</title>
-  <tip>tip_bombs</tip>
-  <desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
-Incompatible with the piercing module.
-----CURRENTLY INSTALLED MODULES----
-Attribute - Power
-Status - Stun</desc>
-  <tooltip>Bomb weapon; requires a missile. Can target your own ship.</tooltip>
-  <short>Mod. Bomb</short>
-  <locked>1</locked>
-  <damage>0</damage>
-  <shots>1</shots>
-  <sysDamage>2</sysDamage>
-  <persDamage>3</persDamage>
-  <sp>0</sp>
-  <fireChance>1</fireChance>
-  <breachChance>1</breachChance>
-  <missiles>1</missiles>
-  <cooldown>17</cooldown>
-  <power>3</power>
-  <cost>70</cost>
-  <bp>2</bp>
-  <rarity>0</rarity>
-  <image>modular_bomb_power_stun</image>
-  <length>1</length>
-  <explosion>explosion_random</explosion>
-  <launchSounds>
-    <sound>bombTeleport</sound>
-  </launchSounds>
-  <hitShipSounds>
-    <sound>smallExplosion</sound>
-  </hitShipSounds>
-  <weaponArt>modular_bomb_launcher_power_stun</weaponArt>
-  <iconImage>bomb</iconImage>
-  <stun>20</stun>
-  <ion>6</ion>
+	<type>BOMB</type>
+	<title>Modular Bomb</title>
+	<short>Mod. Bomb</short>
+	<tip>tip_bombs</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Bomb. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Pierce
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Power
+	Status - Neural</desc>
+	<locked>1</locked>
+	<damage>0</damage>
+	<ion>6</ion>
+	<sysDamage>2</sysDamage>
+	<persDamage>3</persDamage>
+	<shots>1</shots>
+	<stun>20</stun>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>1</breachChance>
+	<missiles>1</missiles>
+	<cooldown>17.0</cooldown>
+	<power>3</power>
+	<cost>120</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>modular_bomb_power_stun</image>
+	<length>1</length>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>modular_bomb_launcher_power_stun</weaponArt>
+	<iconImage>bomb</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_BASE">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<shots>1</shots>
+	<radius>42</radius>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>1</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>2</power>
+	<cost>65</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_base</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_BASE_BIO">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Status - Radiation</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<persDamage>2</persDamage>
+	<statBoosts>
+		<statBoost name="moveSpeedMultiplier" load="RAD_MOVE"/>
+		<statBoost name="stunMultiplier" load="RAD_STUN"/>
+		<statBoost name="repairSpeed" load="RAD_REPAIR"/>
+	</statBoosts>
+	<shots>1</shots>
+	<radius>42</radius>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>1</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>2</power>
+	<cost>80</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_base_bio</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_BASE_COOLDOWN">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Status - Cooldown</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<shots>1</shots>
+	<radius>42</radius>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>1</breachChance>
+	<cooldown>9.0</cooldown>
+	<power>2</power>
+	<cost>105</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_base_cooldown</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_BASE_LOCKDOWN">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Status - Lockdown</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<shots>1</shots>
+	<radius>42</radius>
+	<lockdown>1</lockdown>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>1</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>2</power>
+	<cost>95</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_base_lockdown</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_BASE_PIERCE">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Status - Pierce</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<shots>1</shots>
+	<radius>42</radius>
+	<sp>1</sp>
+	<fireChance>0</fireChance>
+	<breachChance>4</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>2</power>
+	<cost>85</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_base_pierce</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_BASE_STUN">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Status - Neural</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<shots>1</shots>
+	<radius>42</radius>
+	<stun>12</stun>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>1</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>2</power>
+	<cost>85</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_base_stun</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_ACCURACY">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Accuracy</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<shots>1</shots>
+	<radius>32</radius>
+	<accuracyMod>10</accuracyMod>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>1</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>2</power>
+	<cost>80</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_accuracy</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_ACCURACY_BIO">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Accuracy
+	Status - Radiation</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<persDamage>2</persDamage>
+	<statBoosts>
+		<statBoost name="moveSpeedMultiplier" load="RAD_MOVE"/>
+		<statBoost name="stunMultiplier" load="RAD_STUN"/>
+		<statBoost name="repairSpeed" load="RAD_REPAIR"/>
+	</statBoosts>
+	<shots>1</shots>
+	<radius>32</radius>
+	<accuracyMod>10</accuracyMod>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>1</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>2</power>
+	<cost>95</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_accuracy_bio</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_ACCURACY_COOLDOWN">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Accuracy
+	Status - Cooldown</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<shots>1</shots>
+	<radius>32</radius>
+	<accuracyMod>10</accuracyMod>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>1</breachChance>
+	<cooldown>9.0</cooldown>
+	<power>2</power>
+	<cost>120</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_accuracy_cooldown</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_ACCURACY_LOCKDOWN">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Accuracy
+	Status - Lockdown</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<shots>1</shots>
+	<radius>32</radius>
+	<accuracyMod>10</accuracyMod>
+	<lockdown>1</lockdown>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>1</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>2</power>
+	<cost>110</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_accuracy_lockdown</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_ACCURACY_PIERCE">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Accuracy
+	Status - Pierce</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<shots>1</shots>
+	<radius>32</radius>
+	<accuracyMod>10</accuracyMod>
+	<sp>1</sp>
+	<fireChance>0</fireChance>
+	<breachChance>4</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>2</power>
+	<cost>100</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_accuracy_pierce</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_ACCURACY_STUN">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Accuracy
+	Status - Neural</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<shots>1</shots>
+	<radius>32</radius>
+	<accuracyMod>10</accuracyMod>
+	<stun>12</stun>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>1</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>2</power>
+	<cost>100</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_accuracy_stun</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_FIRE">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Firestarter</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<shots>1</shots>
+	<radius>42</radius>
+	<sp>0</sp>
+	<fireChance>4</fireChance>
+	<breachChance>1</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>2</power>
+	<cost>95</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_fire</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_FIRE_BIO">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Firestarter
+	Status - Radiation</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<persDamage>2</persDamage>
+	<statBoosts>
+		<statBoost name="moveSpeedMultiplier" load="RAD_MOVE"/>
+		<statBoost name="stunMultiplier" load="RAD_STUN"/>
+		<statBoost name="repairSpeed" load="RAD_REPAIR"/>
+	</statBoosts>
+	<shots>1</shots>
+	<radius>42</radius>
+	<sp>0</sp>
+	<fireChance>4</fireChance>
+	<breachChance>1</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>2</power>
+	<cost>110</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_fire_bio</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_FIRE_COOLDOWN">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Firestarter
+	Status - Cooldown</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<shots>1</shots>
+	<radius>42</radius>
+	<sp>0</sp>
+	<fireChance>4</fireChance>
+	<breachChance>1</breachChance>
+	<cooldown>9.0</cooldown>
+	<power>2</power>
+	<cost>135</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_fire_cooldown</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_FIRE_LOCKDOWN">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Firestarter
+	Status - Lockdown</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<shots>1</shots>
+	<radius>42</radius>
+	<lockdown>1</lockdown>
+	<sp>0</sp>
+	<fireChance>4</fireChance>
+	<breachChance>1</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>2</power>
+	<cost>125</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_fire_lockdown</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_FIRE_PIERCE">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Firestarter
+	Status - Pierce</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<shots>1</shots>
+	<radius>42</radius>
+	<sp>1</sp>
+	<fireChance>4</fireChance>
+	<breachChance>4</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>2</power>
+	<cost>115</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_fire_pierce</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_FIRE_STUN">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Firestarter
+	Status - Neural</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<shots>1</shots>
+	<radius>42</radius>
+	<stun>12</stun>
+	<sp>0</sp>
+	<fireChance>4</fireChance>
+	<breachChance>1</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>2</power>
+	<cost>115</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_fire_stun</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_HULL">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Hullbuster</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<shots>1</shots>
+	<radius>42</radius>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>2</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>2</power>
+	<cost>100</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_hull</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_HULL_BIO">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Hullbuster
+	Status - Radiation</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<persDamage>2</persDamage>
+	<statBoosts>
+		<statBoost name="moveSpeedMultiplier" load="RAD_MOVE"/>
+		<statBoost name="stunMultiplier" load="RAD_STUN"/>
+		<statBoost name="repairSpeed" load="RAD_REPAIR"/>
+	</statBoosts>
+	<shots>1</shots>
+	<radius>42</radius>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>2</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>2</power>
+	<cost>115</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_hull_bio</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_HULL_COOLDOWN">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Hullbuster
+	Status - Cooldown</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<shots>1</shots>
+	<radius>42</radius>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>2</breachChance>
+	<cooldown>9.0</cooldown>
+	<power>2</power>
+	<cost>140</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_hull_cooldown</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_HULL_LOCKDOWN">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Hullbuster
+	Status - Lockdown</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<shots>1</shots>
+	<radius>42</radius>
+	<lockdown>1</lockdown>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>2</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>2</power>
+	<cost>130</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_hull_lockdown</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_HULL_PIERCE">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Hullbuster
+	Status - Pierce</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<shots>1</shots>
+	<radius>42</radius>
+	<sp>1</sp>
+	<fireChance>0</fireChance>
+	<breachChance>5</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>2</power>
+	<cost>120</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_hull_pierce</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_HULL_STUN">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Hullbuster
+	Status - Neural</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<shots>1</shots>
+	<radius>42</radius>
+	<stun>12</stun>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>2</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>2</power>
+	<cost>120</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_hull_stun</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_POWER">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Power</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<shots>1</shots>
+	<radius>52</radius>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>1</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>3</power>
+	<cost>95</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="5" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_power</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_POWER_BIO">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Power
+	Status - Radiation</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<persDamage>2</persDamage>
+	<statBoosts>
+		<statBoost name="moveSpeedMultiplier" load="RAD_MOVE"/>
+		<statBoost name="stunMultiplier" load="RAD_STUN"/>
+		<statBoost name="repairSpeed" load="RAD_REPAIR"/>
+	</statBoosts>
+	<shots>1</shots>
+	<radius>52</radius>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>1</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>3</power>
+	<cost>110</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="5" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_power_bio</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_POWER_COOLDOWN">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Power
+	Status - Cooldown</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<shots>1</shots>
+	<radius>52</radius>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>1</breachChance>
+	<cooldown>9.0</cooldown>
+	<power>3</power>
+	<cost>135</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="5" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_power_cooldown</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_POWER_LOCKDOWN">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Power
+	Status - Lockdown</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<shots>1</shots>
+	<radius>52</radius>
+	<lockdown>1</lockdown>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>1</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>3</power>
+	<cost>125</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="5" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_power_lockdown</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_POWER_PIERCE">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Power
+	Status - Pierce</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<shots>1</shots>
+	<radius>52</radius>
+	<sp>1</sp>
+	<fireChance>0</fireChance>
+	<breachChance>4</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>3</power>
+	<cost>115</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="5" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_power_pierce</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_SHOTGUN_POWER_STUN">
+	<flavorType>Physical Projectile Blast</flavorType>
+	<type>BURST</type>
+	<title>Modular Flak</title>
+	<short>Mod. Flak</short>
+	<tip>tip_flak</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Power
+	Status - Neural</desc>
+	<damage>1</damage>
+	<spin>720</spin>
+	<drone_targetable>1</drone_targetable>
+	<speed>28</speed>
+	<shots>1</shots>
+	<radius>52</radius>
+	<stun>12</stun>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>1</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>3</power>
+	<cost>115</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="5" fake="false">debris_med</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>modular_shotgun_power_stun</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_FOCUS_BASE">
+	<flavorType>Pinpoint</flavorType>
+	<type>BEAM</type>
+	<title>Modular Pinpoint</title>
+	<short>Mod. Pinpoint</short>
+	<tip>tip_focus</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Accuracy
+	Lockdown</desc>
+	<damage>3</damage>
+	<speed>1</speed>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>2</breachChance>
+	<cooldown>16.0</cooldown>
+	<power>2</power>
+	<cost>65</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<length>1</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>focus_weak</sound>
+	</launchSounds>
+	<weaponArt>modular_focus_base</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_FOCUS_BASE_BIO">
+	<flavorType>Pinpoint</flavorType>
+	<type>BEAM</type>
+	<title>Modular Pinpoint</title>
+	<short>Mod. Pinpoint</short>
+	<tip>tip_focus</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Accuracy
+	Lockdown
+	----CURRENTLY INSTALLED MODULES----
+	Status - Radiation</desc>
+	<damage>0</damage>
+	<speed>1</speed>
+	<sysDamage>3</sysDamage>
+	<persDamage>6</persDamage>
+	<statBoosts>
+		<statBoost name="moveSpeedMultiplier" load="RAD_MOVE"/>
+		<statBoost name="stunMultiplier" load="RAD_STUN"/>
+		<statBoost name="repairSpeed" load="RAD_REPAIR"/>
+	</statBoosts>
+	<sp>3</sp>
+	<fireChance>0</fireChance>
+	<breachChance>2</breachChance>
+	<cooldown>16.0</cooldown>
+	<color r="255" g="8" b="200" a="1"/>
+	<power>2</power>
+	<cost>80</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<length>1</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>focus_weak</sound>
+	</launchSounds>
+	<weaponArt>modular_focus_base_bio</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_FOCUS_BASE_COOLDOWN">
+	<flavorType>Pinpoint</flavorType>
+	<type>BEAM</type>
+	<title>Modular Pinpoint</title>
+	<short>Mod. Pinpoint</short>
+	<tip>tip_focus</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Accuracy
+	Lockdown
+	----CURRENTLY INSTALLED MODULES----
+	Status - Cooldown</desc>
+	<damage>3</damage>
+	<speed>1</speed>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>2</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>2</power>
+	<cost>105</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<length>1</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>focus_weak</sound>
+	</launchSounds>
+	<weaponArt>modular_focus_base_cooldown</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_FOCUS_BASE_PIERCE">
+	<flavorType>Pinpoint</flavorType>
+	<type>BEAM</type>
+	<title>Modular Pinpoint</title>
+	<short>Mod. Pinpoint</short>
+	<tip>tip_focus</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Accuracy
+	Lockdown
+	----CURRENTLY INSTALLED MODULES----
+	Status - Pierce</desc>
+	<damage>3</damage>
+	<speed>1</speed>
+	<sp>1</sp>
+	<fireChance>0</fireChance>
+	<breachChance>5</breachChance>
+	<cooldown>16.0</cooldown>
+	<power>2</power>
+	<cost>85</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<length>1</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>focus_weak</sound>
+	</launchSounds>
+	<weaponArt>modular_focus_base_pierce</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_FOCUS_BASE_STUN">
+	<flavorType>Pinpoint</flavorType>
+	<type>BEAM</type>
+	<title>Modular Pinpoint</title>
+	<short>Mod. Pinpoint</short>
+	<tip>tip_focus</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Accuracy
+	Lockdown
+	----CURRENTLY INSTALLED MODULES----
+	Status - Neural</desc>
+	<damage>3</damage>
+	<speed>1</speed>
+	<stun>22</stun>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>2</breachChance>
+	<cooldown>16.0</cooldown>
+	<color r="255" g="230" b="94" a="1"/>
+	<power>2</power>
+	<cost>85</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<length>1</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>focus_weak</sound>
+	</launchSounds>
+	<weaponArt>modular_focus_base_stun</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_FOCUS_FIRE">
+	<flavorType>Pinpoint</flavorType>
+	<type>BEAM</type>
+	<title>Modular Pinpoint</title>
+	<short>Mod. Pinpoint</short>
+	<tip>tip_focus</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Accuracy
+	Lockdown
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Firestarter</desc>
+	<damage>3</damage>
+	<speed>1</speed>
+	<sp>0</sp>
+	<fireChance>10</fireChance>
+	<breachChance>2</breachChance>
+	<cooldown>16.0</cooldown>
+	<power>2</power>
+	<cost>95</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<length>1</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>focus_weak</sound>
+	</launchSounds>
+	<weaponArt>modular_focus_fire</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_FOCUS_FIRE_BIO">
+	<flavorType>Pinpoint</flavorType>
+	<type>BEAM</type>
+	<title>Modular Pinpoint</title>
+	<short>Mod. Pinpoint</short>
+	<tip>tip_focus</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Accuracy
+	Lockdown
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Firestarter
+	Status - Radiation</desc>
+	<damage>0</damage>
+	<speed>1</speed>
+	<sysDamage>3</sysDamage>
+	<persDamage>6</persDamage>
+	<statBoosts>
+		<statBoost name="moveSpeedMultiplier" load="RAD_MOVE"/>
+		<statBoost name="stunMultiplier" load="RAD_STUN"/>
+		<statBoost name="repairSpeed" load="RAD_REPAIR"/>
+	</statBoosts>
+	<sp>3</sp>
+	<fireChance>10</fireChance>
+	<breachChance>2</breachChance>
+	<cooldown>16.0</cooldown>
+	<color r="255" g="8" b="200" a="1"/>
+	<power>2</power>
+	<cost>110</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<length>1</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>focus_weak</sound>
+	</launchSounds>
+	<weaponArt>modular_focus_fire_bio</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_FOCUS_FIRE_COOLDOWN">
+	<flavorType>Pinpoint</flavorType>
+	<type>BEAM</type>
+	<title>Modular Pinpoint</title>
+	<short>Mod. Pinpoint</short>
+	<tip>tip_focus</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Accuracy
+	Lockdown
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Firestarter
+	Status - Cooldown</desc>
+	<damage>3</damage>
+	<speed>1</speed>
+	<sp>0</sp>
+	<fireChance>10</fireChance>
+	<breachChance>2</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>2</power>
+	<cost>135</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<length>1</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>focus_weak</sound>
+	</launchSounds>
+	<weaponArt>modular_focus_fire_cooldown</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_FOCUS_FIRE_PIERCE">
+	<flavorType>Pinpoint</flavorType>
+	<type>BEAM</type>
+	<title>Modular Pinpoint</title>
+	<short>Mod. Pinpoint</short>
+	<tip>tip_focus</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Accuracy
+	Lockdown
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Firestarter
+	Status - Pierce</desc>
+	<damage>3</damage>
+	<speed>1</speed>
+	<sp>1</sp>
+	<fireChance>10</fireChance>
+	<breachChance>5</breachChance>
+	<cooldown>16.0</cooldown>
+	<power>2</power>
+	<cost>115</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<length>1</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>focus_weak</sound>
+	</launchSounds>
+	<weaponArt>modular_focus_fire_pierce</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_FOCUS_FIRE_STUN">
+	<flavorType>Pinpoint</flavorType>
+	<type>BEAM</type>
+	<title>Modular Pinpoint</title>
+	<short>Mod. Pinpoint</short>
+	<tip>tip_focus</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Accuracy
+	Lockdown
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Firestarter
+	Status - Neural</desc>
+	<damage>3</damage>
+	<speed>1</speed>
+	<stun>22</stun>
+	<sp>0</sp>
+	<fireChance>10</fireChance>
+	<breachChance>2</breachChance>
+	<cooldown>16.0</cooldown>
+	<color r="255" g="230" b="94" a="1"/>
+	<power>2</power>
+	<cost>115</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<length>1</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>focus_weak</sound>
+	</launchSounds>
+	<weaponArt>modular_focus_fire_stun</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_FOCUS_HULL">
+	<flavorType>Pinpoint</flavorType>
+	<type>BEAM</type>
+	<title>Modular Pinpoint</title>
+	<short>Mod. Pinpoint</short>
+	<tip>tip_focus</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Accuracy
+	Lockdown
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Hullbuster</desc>
+	<damage>4</damage>
+	<speed>1</speed>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>10</breachChance>
+	<cooldown>16.0</cooldown>
+	<power>2</power>
+	<cost>100</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<length>1</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>focus_strong</sound>
+	</launchSounds>
+	<weaponArt>modular_focus_hull</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_FOCUS_HULL_BIO">
+	<flavorType>Pinpoint</flavorType>
+	<type>BEAM</type>
+	<title>Modular Pinpoint</title>
+	<short>Mod. Pinpoint</short>
+	<tip>tip_focus</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Accuracy
+	Lockdown
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Hullbuster
+	Status - Radiation</desc>
+	<damage>4</damage>
+	<speed>1</speed>
+	<persDamage>8</persDamage>
+	<statBoosts>
+		<statBoost name="moveSpeedMultiplier" load="RAD_MOVE"/>
+		<statBoost name="stunMultiplier" load="RAD_STUN"/>
+		<statBoost name="repairSpeed" load="RAD_REPAIR"/>
+	</statBoosts>
+	<sp>1</sp>
+	<fireChance>0</fireChance>
+	<breachChance>10</breachChance>
+	<cooldown>16.0</cooldown>
+	<color r="255" g="8" b="200" a="1"/>
+	<power>2</power>
+	<cost>115</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<length>1</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>focus_weak</sound>
+	</launchSounds>
+	<weaponArt>modular_focus_hull_bio</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_FOCUS_HULL_COOLDOWN">
+	<flavorType>Pinpoint</flavorType>
+	<type>BEAM</type>
+	<title>Modular Pinpoint</title>
+	<short>Mod. Pinpoint</short>
+	<tip>tip_focus</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Accuracy
+	Lockdown
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Hullbuster
+	Status - Cooldown</desc>
+	<damage>4</damage>
+	<speed>1</speed>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>10</breachChance>
+	<cooldown>12.0</cooldown>
+	<power>2</power>
+	<cost>140</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<length>1</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>focus_strong</sound>
+	</launchSounds>
+	<weaponArt>modular_focus_hull_cooldown</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_FOCUS_HULL_PIERCE">
+	<flavorType>Pinpoint</flavorType>
+	<type>BEAM</type>
+	<title>Modular Pinpoint</title>
+	<short>Mod. Pinpoint</short>
+	<tip>tip_focus</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Accuracy
+	Lockdown
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Hullbuster
+	Status - Pierce</desc>
+	<damage>4</damage>
+	<speed>1</speed>
+	<sp>1</sp>
+	<fireChance>0</fireChance>
+	<breachChance>5</breachChance>
+	<cooldown>16.0</cooldown>
+	<power>2</power>
+	<cost>120</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<length>1</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>focus_strong</sound>
+	</launchSounds>
+	<weaponArt>modular_focus_hull_pierce</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_FOCUS_HULL_STUN">
+	<flavorType>Pinpoint</flavorType>
+	<type>BEAM</type>
+	<title>Modular Pinpoint</title>
+	<short>Mod. Pinpoint</short>
+	<tip>tip_focus</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Accuracy
+	Lockdown
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Hullbuster
+	Status - Neural</desc>
+	<damage>4</damage>
+	<speed>1</speed>
+	<stun>22</stun>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>10</breachChance>
+	<cooldown>16.0</cooldown>
+	<color r="255" g="230" b="94" a="1"/>
+	<power>2</power>
+	<cost>120</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<length>1</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>focus_strong</sound>
+	</launchSounds>
+	<weaponArt>modular_focus_hull_stun</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_FOCUS_POWER">
+	<flavorType>Pinpoint</flavorType>
+	<type>BEAM</type>
+	<title>Modular Pinpoint</title>
+	<short>Mod. Pinpoint</short>
+	<tip>tip_focus</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Accuracy
+	Lockdown
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Power</desc>
+	<damage>5</damage>
+	<speed>1</speed>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>2</breachChance>
+	<cooldown>20.0</cooldown>
+	<power>3</power>
+	<cost>95</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<length>1</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>focus_strong</sound>
+	</launchSounds>
+	<weaponArt>modular_focus_power</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_FOCUS_POWER_BIO">
+	<flavorType>Pinpoint</flavorType>
+	<type>BEAM</type>
+	<title>Modular Pinpoint</title>
+	<short>Mod. Pinpoint</short>
+	<tip>tip_focus</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Accuracy
+	Lockdown
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Power
+	Status - Radiation</desc>
+	<damage>0</damage>
+	<speed>1</speed>
+	<sysDamage>5</sysDamage>
+	<persDamage>6</persDamage>
+	<statBoosts>
+		<statBoost name="moveSpeedMultiplier" load="RAD_MOVE"/>
+		<statBoost name="stunMultiplier" load="RAD_STUN"/>
+		<statBoost name="repairSpeed" load="RAD_REPAIR"/>
+	</statBoosts>
+	<sp>3</sp>
+	<fireChance>0</fireChance>
+	<breachChance>2</breachChance>
+	<cooldown>20.0</cooldown>
+	<color r="255" g="8" b="200" a="1"/>
+	<power>3</power>
+	<cost>110</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<length>1</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>focus_strong</sound>
+	</launchSounds>
+	<weaponArt>modular_focus_power_bio</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_FOCUS_POWER_COOLDOWN">
+	<flavorType>Pinpoint</flavorType>
+	<type>BEAM</type>
+	<title>Modular Pinpoint</title>
+	<short>Mod. Pinpoint</short>
+	<tip>tip_focus</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Accuracy
+	Lockdown
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Power
+	Status - Cooldown</desc>
+	<damage>5</damage>
+	<speed>1</speed>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>2</breachChance>
+	<cooldown>15.0</cooldown>
+	<power>3</power>
+	<cost>135</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<length>1</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>focus_strong</sound>
+	</launchSounds>
+	<weaponArt>modular_focus_power_cooldown</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_FOCUS_POWER_PIERCE">
+	<flavorType>Pinpoint</flavorType>
+	<type>BEAM</type>
+	<title>Modular Pinpoint</title>
+	<short>Mod. Pinpoint</short>
+	<tip>tip_focus</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Accuracy
+	Lockdown
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Power
+	Status - Pierce</desc>
+	<damage>5</damage>
+	<speed>1</speed>
+	<sp>1</sp>
+	<fireChance>0</fireChance>
+	<breachChance>5</breachChance>
+	<cooldown>20.0</cooldown>
+	<power>3</power>
+	<cost>115</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<length>1</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>focus_strong</sound>
+	</launchSounds>
+	<weaponArt>modular_focus_power_pierce</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>
+<weaponBlueprint name="MODULAR_FOCUS_POWER_STUN">
+	<flavorType>Pinpoint</flavorType>
+	<type>BEAM</type>
+	<title>Modular Pinpoint</title>
+	<short>Mod. Pinpoint</short>
+	<tip>tip_focus</tip>
+	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Pinpoint. It supports 1 attribute module and 1 status module.
+	incompatible with the following module(s):
+	Accuracy
+	Lockdown
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Power
+	Status - Neural</desc>
+	<damage>5</damage>
+	<speed>1</speed>
+	<stun>22</stun>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>2</breachChance>
+	<cooldown>20.0</cooldown>
+	<color r="255" g="230" b="94" a="1"/>
+	<power>3</power>
+	<cost>115</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<length>1</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>focus_strong</sound>
+	</launchSounds>
+	<weaponArt>modular_focus_power_stun</weaponArt>
+	<iconImage>beam</iconImage>
 </weaponBlueprint>
 
 <droneBlueprint name="MODULAR_DRONE_LASER_BASE">
