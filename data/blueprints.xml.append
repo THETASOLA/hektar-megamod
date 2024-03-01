@@ -402,7 +402,7 @@ Affected by modules, check storage for stats</desc>
         <systemList>
             <artillery power="1" room="2" start="true" weapon="ARTILLERY_MODULAR_MISSILE" img="room_artillery_6" />
             <battery power="1" room="8" start="false" img="room_battery_6" />
-            <cloaking power="1" room="11" start="true" img="room_cloaking" />
+            <cloaking power="2" room="11" start="true" img="room_cloaking" />
             <clonebay power="1" room="12" start="false">
                 <slot>
                     <number>1</number>
@@ -437,7 +437,7 @@ Affected by modules, check storage for stats</desc>
                     <number>1</number>
                 </slot>
             </sensors>
-            <shields power="1" max="8" room="3" start="false" img="room_shields_4">
+            <shields power="2" max="8" room="3" start="false" img="room_shields_4">
                 <slot>
                     <direction>left</direction>
                     <number>0</number>
