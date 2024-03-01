@@ -3624,7 +3624,7 @@ Affected by modules, check storage for stats</desc>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
 	<breachChance>2</breachChance>
-	<cooldown>20.0</cooldown>
+	<cooldown>16</cooldown>
 	<power>3</power>
 	<cost>95</cost>
 	<bp>2</bp>
@@ -3662,7 +3662,7 @@ Affected by modules, check storage for stats</desc>
 	<sp>3</sp>
 	<fireChance>0</fireChance>
 	<breachChance>2</breachChance>
-	<cooldown>20.0</cooldown>
+	<cooldown>16</cooldown>
 	<color><r>255</r> <g>8</g> <b>200</b></color>
 	<power>3</power>
 	<cost>110</cost>
@@ -3694,7 +3694,7 @@ Affected by modules, check storage for stats</desc>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
 	<breachChance>2</breachChance>
-	<cooldown>15.0</cooldown>
+	<cooldown>12</cooldown>
 	<power>3</power>
 	<cost>135</cost>
 	<bp>2</bp>
@@ -3725,7 +3725,7 @@ Affected by modules, check storage for stats</desc>
 	<sp>1</sp>
 	<fireChance>0</fireChance>
 	<breachChance>5</breachChance>
-	<cooldown>20.0</cooldown>
+	<cooldown>16</cooldown>
 	<power>3</power>
 	<cost>115</cost>
 	<bp>2</bp>
@@ -3757,7 +3757,7 @@ Affected by modules, check storage for stats</desc>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
 	<breachChance>2</breachChance>
-	<cooldown>20.0</cooldown>
+	<cooldown>16</cooldown>
 	<color><r>255</r><g>230</g><b>94</b></color>
 	<power>3</power>
 	<cost>115</cost>
