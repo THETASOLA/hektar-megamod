@@ -6598,31 +6598,6 @@ Status - Stun</desc>
     </statBoosts>
     <sysDamage>1</sysDamage>
   </weaponBlueprint>
-  <!-- Tri-Tach rules!
-     ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-     ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-     ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-     ,,,,,,,,,,,,,,,,,,,,,(@@/.,,@,,,@,,.(@@*,,,,,,,,,,,,,,,,,,,,
-     ,,,,,,,,,,,,,,,,,@(,,,,,,,%@@,,,@@*,,,,,,,#@,,,,,,,,,,,,,,,,
-     ,,,,,,,,,,,,,,@.,,,,,,,,,@@@@,,,@@@@,,,,,,,,,.@,,,,,,,,,,,,,
-     ,,,,,,,,,,,#&,,,,,,,,,,*@@@@@,,,@@@@@,,,,,,,,,,,@,,,,,,,,,,,
-     ,,,,,,,,,,@,,,,,,,,,,,@@@@@@@,,,@@@@@@@,,,,,,,,,,,@,,,,,,,,,
-     ,,,,,,,,%/,,,,,,,,,,,@@@@@@@@,,,@@@@@@@@,,,,,,,,,,,#/,,,,,,,
-     ,,,,,,,%*,,,,,,,,,,@@@@@@@.,,,,,,,.@@@@@@&,,,,,,,,,,#*,,,,,,
-     ,,,,,,.@,,,,,,,,,,@@@@@.,,,,&@@@%,,,,,@@@@@,,,,,,,,,,@,,,,,,
-     ,,,,,,%,,,,,,,,,&@@@@@,,,%@@@@@@@@@(,,,@@@@@(,,,,,,,,*(,,,,,
-     ,,,,,,@,,,,,,,,@@@@@@/,,,@@@@@@@@@@@,,,#@@@@@@,,,,,,,.%,,,,,
-     ,,,,,,%,,,,,,#@@@@@@@@,,,@@@@@@@@@@@,,,@@@@@@@@*,,,,,*(,,,,,
-     ,,,,,,.@,,,,@@@@@@@*,,,,,,.@@@@@@@,,,,,,,/@@@@@@@,,,,@,,,,,,
-     ,,,,,,,%*,*@@@@.,,,.@@@@@,,,,,,,,,,.@@@@@,,,,.@@@@,,#*,,,,,,
-     ,,,,,,,,%@#,,,,*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@,,,,,%@/,,,,,,,
-     ,,,,,,,,,,,#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@/,,,,,,,,,,
-     ,,,,,,,,,,,#&,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,@,,,,,,,,,,,
-     ,,,,,,,,,,,,,,@.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,@,,,,,,,,,,,,,
-     ,,,,,,,,,,,,,,,,,@/,,,,,,,,,,,,,,,,,,,,,,,#@,,,,,,,,,,,,,,,,
-     ,,,,,,,,,,,,,,,,,,,,,(@@/.,,,,,,,,,.(@@/,,,,,,,,,,,,,,,,,,,,
-     ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-     ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
   <weaponBlueprint name="MODULAR_DRONE_WEAPON_LASER_BASE_LOCKDOWN">
     <type>LASER</type>
     <title>Drone Laser</title>
@@ -7333,7 +7308,7 @@ Status - Stun</desc>
     <shots>1</shots>
     <accuracyMod>0</accuracyMod>
     <sysDamage>0</sysDamage>
-    <ion>1</ion>
+    <ion>2</ion>
     <persDamage>0</persDamage>
     <hullBust>0</hullBust>
     <lockdown>0</lockdown>
@@ -7372,7 +7347,7 @@ Status - Stun</desc>
     <shots>1</shots>
     <accuracyMod>0</accuracyMod>
     <sysDamage>0</sysDamage>
-    <ion>1</ion>
+    <ion>2</ion>
     <persDamage>0</persDamage>
     <hullBust>0</hullBust>
     <lockdown>0</lockdown>
@@ -7411,7 +7386,7 @@ Status - Stun</desc>
     <shots>1</shots>
     <accuracyMod>0</accuracyMod>
     <sysDamage>0</sysDamage>
-    <ion>1</ion>
+    <ion>2</ion>
     <persDamage>6</persDamage>
     <hullBust>0</hullBust>
     <lockdown>0</lockdown>
@@ -7479,7 +7454,7 @@ Status - Stun</desc>
     <shots>1</shots>
     <accuracyMod>0</accuracyMod>
     <sysDamage>0</sysDamage>
-    <ion>1</ion>
+    <ion>2</ion>
     <persDamage>0</persDamage>
     <hullBust>0</hullBust>
     <lockdown>1</lockdown>
@@ -7518,7 +7493,7 @@ Status - Stun</desc>
     <shots>1</shots>
     <accuracyMod>0</accuracyMod>
     <sysDamage>0</sysDamage>
-    <ion>1</ion>
+    <ion>2</ion>
     <persDamage>0</persDamage>
     <hullBust>0</hullBust>
     <lockdown>0</lockdown>
@@ -7557,7 +7532,7 @@ Status - Stun</desc>
     <shots>1</shots>
     <accuracyMod>20</accuracyMod>
     <sysDamage>0</sysDamage>
-    <ion>1</ion>
+    <ion>2</ion>
     <persDamage>0</persDamage>
     <hullBust>0</hullBust>
     <lockdown>0</lockdown>
@@ -7596,7 +7571,7 @@ Status - Stun</desc>
     <shots>1</shots>
     <accuracyMod>0</accuracyMod>
     <sysDamage>0</sysDamage>
-    <ion>1</ion>
+    <ion>2</ion>
     <persDamage>0</persDamage>
     <hullBust>0</hullBust>
     <lockdown>0</lockdown>
@@ -7635,7 +7610,7 @@ Status - Stun</desc>
     <shots>1</shots>
     <accuracyMod>0</accuracyMod>
     <sysDamage>-1</sysDamage>
-    <ion>1</ion>
+    <ion>2</ion>
     <persDamage>0</persDamage>
     <hullBust>0</hullBust>
     <lockdown>0</lockdown>
@@ -7713,7 +7688,7 @@ Status - Stun</desc>
     <shots>1</shots>
     <accuracyMod>20</accuracyMod>
     <sysDamage>0</sysDamage>
-    <ion>1</ion>
+    <ion>2</ion>
     <persDamage>0</persDamage>
     <hullBust>0</hullBust>
     <lockdown>0</lockdown>
@@ -7752,7 +7727,7 @@ Status - Stun</desc>
     <shots>1</shots>
     <accuracyMod>20</accuracyMod>
     <sysDamage>0</sysDamage>
-    <ion>1</ion>
+    <ion>2</ion>
     <persDamage>6</persDamage>
     <hullBust>0</hullBust>
     <lockdown>0</lockdown>
@@ -7820,7 +7795,7 @@ Status - Stun</desc>
     <shots>1</shots>
     <accuracyMod>20</accuracyMod>
     <sysDamage>0</sysDamage>
-    <ion>1</ion>
+    <ion>2</ion>
     <persDamage>0</persDamage>
     <hullBust>0</hullBust>
     <lockdown>1</lockdown>
@@ -7859,7 +7834,7 @@ Status - Stun</desc>
     <shots>1</shots>
     <accuracyMod>20</accuracyMod>
     <sysDamage>0</sysDamage>
-    <ion>1</ion>
+    <ion>2</ion>
     <persDamage>0</persDamage>
     <hullBust>0</hullBust>
     <lockdown>0</lockdown>
@@ -7898,7 +7873,7 @@ Status - Stun</desc>
     <shots>1</shots>
     <accuracyMod>0</accuracyMod>
     <sysDamage>0</sysDamage>
-    <ion>1</ion>
+    <ion>2</ion>
     <persDamage>0</persDamage>
     <hullBust>0</hullBust>
     <lockdown>0</lockdown>
@@ -7937,7 +7912,7 @@ Status - Stun</desc>
     <shots>1</shots>
     <accuracyMod>0</accuracyMod>
     <sysDamage>0</sysDamage>
-    <ion>1</ion>
+    <ion>2</ion>
     <persDamage>6</persDamage>
     <hullBust>0</hullBust>
     <lockdown>0</lockdown>
@@ -8005,7 +7980,7 @@ Status - Stun</desc>
     <shots>1</shots>
     <accuracyMod>0</accuracyMod>
     <sysDamage>0</sysDamage>
-    <ion>1</ion>
+    <ion>2</ion>
     <persDamage>0</persDamage>
     <hullBust>0</hullBust>
     <lockdown>1</lockdown>
@@ -8044,7 +8019,7 @@ Status - Stun</desc>
     <shots>1</shots>
     <accuracyMod>0</accuracyMod>
     <sysDamage>0</sysDamage>
-    <ion>1</ion>
+    <ion>2</ion>
     <persDamage>0</persDamage>
     <hullBust>0</hullBust>
     <lockdown>0</lockdown>
@@ -8083,7 +8058,7 @@ Status - Stun</desc>
     <shots>1</shots>
     <accuracyMod>0</accuracyMod>
     <sysDamage>-1</sysDamage>
-    <ion>1</ion>
+    <ion>2</ion>
     <persDamage>0</persDamage>
     <hullBust>0</hullBust>
     <lockdown>0</lockdown>
@@ -8122,7 +8097,7 @@ Status - Stun</desc>
     <shots>1</shots>
     <accuracyMod>0</accuracyMod>
     <sysDamage>-1</sysDamage>
-    <ion>1</ion>
+    <ion>2</ion>
     <persDamage>6</persDamage>
     <hullBust>0</hullBust>
     <lockdown>0</lockdown>
@@ -8190,7 +8165,7 @@ Status - Stun</desc>
     <shots>1</shots>
     <accuracyMod>0</accuracyMod>
     <sysDamage>-1</sysDamage>
-    <ion>1</ion>
+    <ion>2</ion>
     <persDamage>0</persDamage>
     <hullBust>0</hullBust>
     <lockdown>1</lockdown>
@@ -8229,7 +8204,7 @@ Status - Stun</desc>
     <shots>1</shots>
     <accuracyMod>0</accuracyMod>
     <sysDamage>-1</sysDamage>
-    <ion>1</ion>
+    <ion>2</ion>
     <persDamage>0</persDamage>
     <hullBust>0</hullBust>
     <lockdown>0</lockdown>
