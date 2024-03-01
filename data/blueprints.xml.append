@@ -1552,6 +1552,13 @@ Affected by modules, check storage for stats</desc>
 	<weaponArt>modular_shotgun_base</weaponArt>
 	<iconImage>flak</iconImage>
 </weaponBlueprint>
+<mod:findName type="weaponBlueprint" name="MODULAR_FLAK_BASE_ADAPT">
+	<mod-append:desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Status - Adaptive</mod-append:desc>
+	<mod-append:cost>105</mod-append:cost>
+</mod:findName>
 <weaponBlueprint name="MODULAR_SHOTGUN_BASE_BIO">
 	<flavorType>Physical Projectile Blast</flavorType>
 	<type>BURST</type>
@@ -1605,6 +1612,13 @@ Affected by modules, check storage for stats</desc>
 	<weaponArt>modular_shotgun_base_bio</weaponArt>
 	<iconImage>flak</iconImage>
 </weaponBlueprint>
+<mod:findName type="weaponBlueprint" name="MODULAR_FLAK_BASE_CHAIN">
+	<mod-append:desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Status - Chain</mod-append:desc>
+	<mod-append:cost>105</mod-append:cost>
+</mod:findName>
 <weaponBlueprint name="MODULAR_SHOTGUN_BASE_COOLDOWN">
 	<flavorType>Physical Projectile Blast</flavorType>
 	<type>BURST</type>
@@ -1843,6 +1857,14 @@ Affected by modules, check storage for stats</desc>
 	<weaponArt>modular_shotgun_accuracy</weaponArt>
 	<iconImage>flak</iconImage>
 </weaponBlueprint>
+<mod:findName type="weaponBlueprint" name="MODULAR_FLAK_ACCURACY_ADAPT">
+	<mod-append:desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Accuracy
+	Status - Adaptive</mod-append:desc>
+	<mod-append:cost>120</mod-append:cost>
+</mod:findName>
 <weaponBlueprint name="MODULAR_SHOTGUN_ACCURACY_BIO">
 	<flavorType>Physical Projectile Blast</flavorType>
 	<type>BURST</type>
@@ -1898,6 +1920,14 @@ Affected by modules, check storage for stats</desc>
 	<weaponArt>modular_shotgun_accuracy_bio</weaponArt>
 	<iconImage>flak</iconImage>
 </weaponBlueprint>
+<mod:findName type="weaponBlueprint" name="MODULAR_FLAK_ACCURACY_CHAIN">
+	<mod-append:desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Accuracy
+	Status - Chain</mod-append:desc>
+	<mod-append:cost>120</mod-append:cost>
+</mod:findName>
 <weaponBlueprint name="MODULAR_SHOTGUN_ACCURACY_COOLDOWN">
 	<flavorType>Physical Projectile Blast</flavorType>
 	<type>BURST</type>
@@ -2096,6 +2126,69 @@ Affected by modules, check storage for stats</desc>
 	<weaponArt>modular_shotgun_accuracy_stun</weaponArt>
 	<iconImage>flak</iconImage>
 </weaponBlueprint>
+<mod:findName type="weaponBlueprint" name="MODULAR_FLAK_CHARGE">
+	<mod-append:desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Charge</mod-append:desc>
+	<mod-append:cost>105</mod-append:cost>
+</mod:findName>
+<mod:findName type="weaponBlueprint" name="MODULAR_FLAK_CHARGE_ADAPT">
+	<mod-append:desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Charge
+	Status - Adaptive</mod-append:desc>
+	<mod-append:cost>145</mod-append:cost>
+</mod:findName>
+<mod:findName type="weaponBlueprint" name="MODULAR_FLAK_CHARGE_BIO">
+	<mod-append:desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Charge
+	Status - Radiation</mod-append:desc>
+	<mod-append:cost>120</mod-append:cost>
+</mod:findName>
+<mod:findName type="weaponBlueprint" name="MODULAR_FLAK_CHARGE_CHAIN">
+	<mod-append:desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Charge
+	Status - Chain</mod-append:desc>
+	<mod-append:cost>145</mod-append:cost>
+</mod:findName>
+<mod:findName type="weaponBlueprint" name="MODULAR_FLAK_CHARGE_COOLDOWN">
+	<mod-append:desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Charge
+	Status - Cooldown</mod-append:desc>
+	<mod-append:cost>145</mod-append:cost>
+</mod:findName>
+<mod:findName type="weaponBlueprint" name="MODULAR_FLAK_CHARGE_LOCKDOWN">
+	<mod-append:desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Charge
+	Status - Lockdown</mod-append:desc>
+	<mod-append:cost>135</mod-append:cost>
+</mod:findName>
+<mod:findName type="weaponBlueprint" name="MODULAR_FLAK_CHARGE_PIERCE">
+	<mod-append:desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Charge
+	Status - Pierce</mod-append:desc>
+	<mod-append:cost>125</mod-append:cost>
+</mod:findName>
+<mod:findName type="weaponBlueprint" name="MODULAR_FLAK_CHARGE_STUN">
+	<mod-append:desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Charge
+	Status - Neural</mod-append:desc>
+	<mod-append:cost>125</mod-append:cost>
+</mod:findName>
 <weaponBlueprint name="MODULAR_SHOTGUN_FIRE">
 	<flavorType>Physical Projectile Blast</flavorType>
 	<type>BURST</type>
@@ -2143,6 +2236,14 @@ Affected by modules, check storage for stats</desc>
 	<weaponArt>modular_shotgun_fire</weaponArt>
 	<iconImage>flak</iconImage>
 </weaponBlueprint>
+<mod:findName type="weaponBlueprint" name="MODULAR_FLAK_FIRE_ADAPT">
+	<mod-append:desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Firestarter
+	Status - Adaptive</mod-append:desc>
+	<mod-append:cost>135</mod-append:cost>
+</mod:findName>
 <weaponBlueprint name="MODULAR_SHOTGUN_FIRE_BIO">
 	<flavorType>Physical Projectile Blast</flavorType>
 	<type>BURST</type>
@@ -2197,6 +2298,14 @@ Affected by modules, check storage for stats</desc>
 	<weaponArt>modular_shotgun_fire_bio</weaponArt>
 	<iconImage>flak</iconImage>
 </weaponBlueprint>
+<mod:findName type="weaponBlueprint" name="MODULAR_FLAK_FIRE_CHAIN">
+	<mod-append:desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Firestarter
+	Status - Chain</mod-append:desc>
+	<mod-append:cost>135</mod-append:cost>
+</mod:findName>
 <weaponBlueprint name="MODULAR_SHOTGUN_FIRE_COOLDOWN">
 	<flavorType>Physical Projectile Blast</flavorType>
 	<type>BURST</type>
@@ -2438,6 +2547,14 @@ Affected by modules, check storage for stats</desc>
 	<weaponArt>modular_shotgun_hull</weaponArt>
 	<iconImage>flak</iconImage>
 </weaponBlueprint>
+<mod:findName type="weaponBlueprint" name="MODULAR_FLAK_HULL_ADAPT">
+	<mod-append:desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Hullbuster
+	Status - Adaptive</mod-append:desc>
+	<mod-append:cost>140</mod-append:cost>
+</mod:findName>
 <weaponBlueprint name="MODULAR_SHOTGUN_HULL_BIO">
 	<flavorType>Physical Projectile Blast</flavorType>
 	<type>BURST</type>
@@ -2492,6 +2609,14 @@ Affected by modules, check storage for stats</desc>
 	<weaponArt>modular_shotgun_hull_bio</weaponArt>
 	<iconImage>flak</iconImage>
 </weaponBlueprint>
+<mod:findName type="weaponBlueprint" name="MODULAR_FLAK_HULL_CHAIN">
+	<mod-append:desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Hullbuster
+	Status - Chain</mod-append:desc>
+	<mod-append:cost>140</mod-append:cost>
+</mod:findName>
 <weaponBlueprint name="MODULAR_SHOTGUN_HULL_COOLDOWN">
 	<flavorType>Physical Projectile Blast</flavorType>
 	<type>BURST</type>
@@ -2733,6 +2858,14 @@ Affected by modules, check storage for stats</desc>
 	<weaponArt>modular_shotgun_power</weaponArt>
 	<iconImage>flak</iconImage>
 </weaponBlueprint>
+<mod:findName type="weaponBlueprint" name="MODULAR_FLAK_POWER_ADAPT">
+	<mod-append:desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Power
+	Status - Adaptive</mod-append:desc>
+	<mod-append:cost>135</mod-append:cost>
+</mod:findName>
 <weaponBlueprint name="MODULAR_SHOTGUN_POWER_BIO">
 	<flavorType>Physical Projectile Blast</flavorType>
 	<type>BURST</type>
@@ -2787,6 +2920,14 @@ Affected by modules, check storage for stats</desc>
 	<weaponArt>modular_shotgun_power_bio</weaponArt>
 	<iconImage>flak</iconImage>
 </weaponBlueprint>
+<mod:findName type="weaponBlueprint" name="MODULAR_FLAK_POWER_CHAIN">
+	<mod-append:desc>Produced by Hektar Industries(TM), this is the base for a Modular Flak. It supports 1 attribute module and 1 status module.
+	Has no incompatible modules.
+	----CURRENTLY INSTALLED MODULES----
+	Attribute - Power
+	Status - Chain</mod-append:desc>
+	<mod-append:cost>135</mod-append:cost>
+</mod:findName>
 <weaponBlueprint name="MODULAR_SHOTGUN_POWER_COOLDOWN">
 	<flavorType>Physical Projectile Blast</flavorType>
 	<type>BURST</type>
@@ -3034,7 +3175,7 @@ Affected by modules, check storage for stats</desc>
 	<fireChance>0</fireChance>
 	<breachChance>2</breachChance>
 	<cooldown>16.0</cooldown>
-	<color r="255" g="8" b="200" a="1"/>
+	<color><r>255</r> <g>8</g> <b>200</b></color>
 	<power>2</power>
 	<cost>80</cost>
 	<bp>2</bp>
@@ -3126,7 +3267,7 @@ Affected by modules, check storage for stats</desc>
 	<fireChance>0</fireChance>
 	<breachChance>2</breachChance>
 	<cooldown>16.0</cooldown>
-	<color r="255" g="230" b="94" a="1"/>
+	<color><r>255</r><g>230</g><b>94</b></color>
 	<power>2</power>
 	<cost>85</cost>
 	<bp>2</bp>
@@ -3195,7 +3336,7 @@ Affected by modules, check storage for stats</desc>
 	<fireChance>10</fireChance>
 	<breachChance>2</breachChance>
 	<cooldown>16.0</cooldown>
-	<color r="255" g="8" b="200" a="1"/>
+	<color><r>255</r> <g>8</g> <b>200</b></color>
 	<power>2</power>
 	<cost>110</cost>
 	<bp>2</bp>
@@ -3290,7 +3431,7 @@ Affected by modules, check storage for stats</desc>
 	<fireChance>10</fireChance>
 	<breachChance>2</breachChance>
 	<cooldown>16.0</cooldown>
-	<color r="255" g="230" b="94" a="1"/>
+	<color><r>255</r><g>230</g><b>94</b></color>
 	<power>2</power>
 	<cost>115</cost>
 	<bp>2</bp>
@@ -3358,7 +3499,7 @@ Affected by modules, check storage for stats</desc>
 	<fireChance>0</fireChance>
 	<breachChance>10</breachChance>
 	<cooldown>16.0</cooldown>
-	<color r="255" g="8" b="200" a="1"/>
+	<color><r>255</r> <g>8</g> <b>200</b></color>
 	<power>2</power>
 	<cost>115</cost>
 	<bp>2</bp>
@@ -3453,7 +3594,7 @@ Affected by modules, check storage for stats</desc>
 	<fireChance>0</fireChance>
 	<breachChance>10</breachChance>
 	<cooldown>16.0</cooldown>
-	<color r="255" g="230" b="94" a="1"/>
+	<color><r>255</r><g>230</g><b>94</b></color>
 	<power>2</power>
 	<cost>120</cost>
 	<bp>2</bp>
@@ -3522,7 +3663,7 @@ Affected by modules, check storage for stats</desc>
 	<fireChance>0</fireChance>
 	<breachChance>2</breachChance>
 	<cooldown>20.0</cooldown>
-	<color r="255" g="8" b="200" a="1"/>
+	<color><r>255</r> <g>8</g> <b>200</b></color>
 	<power>3</power>
 	<cost>110</cost>
 	<bp>2</bp>
@@ -3617,7 +3758,7 @@ Affected by modules, check storage for stats</desc>
 	<fireChance>0</fireChance>
 	<breachChance>2</breachChance>
 	<cooldown>20.0</cooldown>
-	<color r="255" g="230" b="94" a="1"/>
+	<color><r>255</r><g>230</g><b>94</b></color>
 	<power>3</power>
 	<cost>115</cost>
 	<bp>2</bp>
