@@ -95,7 +95,7 @@ end
 
 --Missile Configuration
 hektar.arti.missile = {
-    MODULAR_BIO = { add = "modular_artillery/modules/bio.png", addOn = "modular_artillery/modules/bioOn.png", effect = function(weapon) weapon.blueprint.damage.iPersDamage = 13 weapon.blueprint.damage.iShieldPiercing = 1 weapon.blueprint.damage.iDamage = weapon.blueprint.damage.iDamage - 2 hektar.arti.missile.aoeStatus = function(damage) damage.iPersDamage = 3 end  end },
+    MODULAR_BIO = { add = "modular_artillery/modules/bio.png", addOn = "modular_artillery/modules/bioOn.png", effect = function(weapon) weapon.blueprint.damage.iPersDamage = 13 weapon.blueprint.damage.iDamage = weapon.blueprint.damage.iDamage - 2 hektar.arti.missile.aoeStatus = function(damage) damage.iPersDamage = 3 end  end },
     MODULAR_STUN = { add = "modular_artillery/modules/stun.png", addOn = "modular_artillery/modules/stunOn.png", effect = function(weapon) weapon.blueprint.damage.stunChance = 10 weapon.blueprint.damage.iStun = 40 hektar.arti.missile.aoeStatus = function(damage) damage.stunChance = 10 damage.iStun = 20 end end },
     MODULAR_LOCKDOWN = { add = "modular_artillery/modules/lockdown.png", addOn = "modular_artillery/modules/lockdownOn.png", effect = function(weapon) weapon.blueprint.damage.bLockdown = true hektar.arti.missile.aoeStatus = function(damage) damage.bLockdown = true end end },
     MODULAR_COOLDOWN = { add = "modular_artillery/modules/cooldown.png", addOn = "modular_artillery/modules/cooldownOn.png", effect = function(weapon) weapon.blueprint.cooldown = 30 end },
