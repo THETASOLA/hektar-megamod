@@ -818,7 +818,7 @@ Attribute - Power</desc>
   <persDamage>0</persDamage>
   <fireChance>0</fireChance>
   <breachChance>2</breachChance>
-  <cooldown>20</cooldown>
+  <cooldown>16</cooldown>
   <speed>1</speed>
   <power>3</power>
   <cost>65</cost>
@@ -1178,7 +1178,7 @@ Status - Pierce</desc>
   <persDamage>0</persDamage>
   <fireChance>0</fireChance>
   <breachChance>5</breachChance>
-  <cooldown>20</cooldown>
+  <cooldown>16</cooldown>
   <speed>1</speed>
   <power>3</power>
   <cost>65</cost>
@@ -1211,7 +1211,7 @@ Status - Bio</desc>
   <persDamage>6</persDamage>
   <fireChance>0</fireChance>
   <breachChance>2</breachChance>
-  <cooldown>20</cooldown>
+  <cooldown>16</cooldown>
   <speed>1</speed>
   <power>3</power>
   <cost>65</cost>
@@ -1273,7 +1273,7 @@ Status - Cooldown</desc>
   <persDamage>0</persDamage>
   <fireChance>0</fireChance>
   <breachChance>2</breachChance>
-  <cooldown>16</cooldown>
+  <cooldown>12</cooldown>
   <speed>1</speed>
   <power>3</power>
   <cost>65</cost>
@@ -1306,7 +1306,7 @@ Status - Stun</desc>
   <persDamage>0</persDamage>
   <fireChance>0</fireChance>
   <breachChance>2</breachChance>
-  <cooldown>20</cooldown>
+  <cooldown>16</cooldown>
   <speed>1</speed>
   <power>3</power>
   <cost>65</cost>
