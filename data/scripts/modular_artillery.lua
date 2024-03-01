@@ -132,7 +132,7 @@ hektar.arti.beam = {
     MODULAR_PIERCE = { add = "modular_artillery/modules/pierce.png", addOn = "modular_artillery/modules/pierceOn.png", effect = function(weapon) weapon.blueprint.damage.iShieldPiercing = 1 end },
     MODULAR_LOCKDOWN = { add = "modular_artillery/modules/lockdown.png", addOn = "modular_artillery/modules/lockdownOn.png", effect = function(weapon) hektar.arti.lockdown = true end },
     MODULAR_COOLDOWN = { add = "modular_artillery/modules/cooldown.png", addOn = "modular_artillery/modules/cooldownOn.png", effect = function(weapon) weapon.blueprint.cooldown = 21 end },
-    MODULAR_POWER = {add = "modular_artillery/modules/beam/power.png", effect = function(weapon) weapon.blueprint.damage.iDamage = 2 end },
+    MODULAR_POWER = {add = "modular_artillery/modules/beam/power.png", effect = function(weapon) weapon.blueprint.damage.iDamage = 4 end },
     MODULAR_HULL = {add = "modular_artillery/modules/beam/hull.png", effect = function(weapon) weapon.blueprint.damage.breachChance = 10 end },
     MODULAR_FIRE = {add = "modular_artillery/modules/beam/fire.png", effect = function(weapon) weapon.blueprint.damage.fireChance = 10 end }
 }
