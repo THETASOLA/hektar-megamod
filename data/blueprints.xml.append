@@ -5,6 +5,7 @@
 Incompatible with the Modular Beam/Pinpoint.
 Laser/Ion Effects: +20% accuracy buff
 Missile/Bomb Effects: +100% accuracy buff
+Mine Launcher Effects: +100% accuracy buff, -10 spread
 Flak Effects: -10 spread, +10% accuracy buff
 Boarding Drone: 2.1x damage, -25 hp</mod-append:desc>
 </mod:findName>
@@ -17,6 +18,7 @@ Beam Effects: 0 hull dmg (system dmg is preserved), +60 crew damage (+90 for dro
 Pinpoint Effects: 0 hull dmg (system dmg is preserved), +45 crew damage, +2 shield pierce (+1 if coupled with power module)
 Missile Effects: 0 hull/system dmg, +90 crew damage
 Bomb Effects: +90 crew damage
+Mine Launcher Effects: +45 crew damage
 Ion Effects: +60 crew damage (+90 for drone) (must be a direct hit)
 Flak Effects: +30 crew damage
 Boarding Drone: Anti-Bio aura, Damaging aura (2hp/s)
@@ -41,6 +43,7 @@ Boarding Drone: Periodically lockdown the room</mod-append:desc>
 <mod-append:desc>Hektar Industries(TM) brand Status Pierce Module. Never deal with enemy fortifications ever again!
 Incompatible with the Modular Missile/Bomb.
 Laser/Beam/Pinpoint/Flak Effects: +1 shield pierce, +30% breach chance
+Mine Launcher Effects: +30% breach chance, doubled projectile speed
 Ion Effects: +3 (+10 for drone) shield pierce (affects shield as it passes through)
 Boarding Drone: 3x sabotage damage, faster deployment, breaks down door faster</mod-append:desc>
 </mod:findName>
@@ -53,6 +56,7 @@ Beam Effects: Beam applies 18 seconds of stun
 Pinpoint Effects: Pinpoint applies 22 seconds of stun
 Missile Effects: Missile applies 14 seconds of stun
 Bomb Effects: 0 system dmg [Power Module gives back 2 system dmg], +6 ion, applies 20 seconds of stun
+Mine Launcher Effects: 7 seconds of stun
 Ion Effects: Ion applies stun equal to ion duration +2s (25s for drone)
 Boarding Drone: Periodically stun crew in the room</mod-append:desc>
 </mod:findName>
@@ -64,6 +68,7 @@ Laser Effects: +30% fire chance
 Beam/Flak Effects: +40% fire chance
 Missile/Bomb/Pinpoint Effects: +100% fire chance
 Ion Effects: +100% fire chance (50% for drone)
+Mine Launcher Effects: +50% fire chance
 Boarding Drone: Periodically start a fire in the room, +1 power</mod-append:desc>
 </mod:findName>
   
@@ -74,6 +79,7 @@ Laser/Beam/Missile/Flak Effects: x2 damage on systemless rooms, +10% breach chan
 Pinpoint Effects: x2 damage on systemless rooms, +100% breach chance, +1 damage, -1 system damage
 Missile Effects: Increases cooldown by 2s
 Bomb Effects: +1 damage, +100% breach chance
+Mine Launcher Effects: +30% breach chance
 Ion Effects: Ion becomes Energy; hull damage equals ion damage (but no system/crew damage), +10% fire chance
 Boarding Drone: gain +200 hp</mod-append:desc>
 </mod:findName>
@@ -86,6 +92,7 @@ Beam Effects: +60 beam length, doubled beam speed, +30% breach chance, +1 power 
 Pinpoint Effects: +2 damage, +1 power cost
 Missile Effects: +1 damage, +1 power cost
 Bomb Effects: +2 system damage, +1 power cost
+Mine Launcher Effects: +2 projectiles, +1 power cost
 Ion Effects: +1 ion damage, +1 power cost
 Flak Effects: +2 projectiles, +1 power, +10 radius
 Boarding Drone: Gain +50hp, 2.1x combat damage, +1 power</mod-append:desc>
