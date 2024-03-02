@@ -10191,3 +10191,1604 @@ Status - Cooldown
 </droneBlueprint>
 </FTL>
   
+<FTL>
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_BASE">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatibilities.</desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>45</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>2</fireChance>
+    <breachChance>2</breachChance>
+    <cooldown>9</cooldown>
+    <power>2</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>14</speed>
+    <projectiles>
+      <projectile count="3" fake="false">modular_mine_base_base</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_base_base</weaponArt>
+    <iconImage>missile</iconImage>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_BASE_BIO">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Status - Bio
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>45</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>2</fireChance>
+    <breachChance>2</breachChance>
+    <cooldown>9</cooldown>
+    <power>2</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>14</speed>
+    <projectiles>
+      <projectile count="3" fake="false">modular_mine_base_bio</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_base_bio</weaponArt>
+    <iconImage>missile</iconImage>
+    <statBoosts>
+      <statBoost name="moveSpeedMultiplier">
+        <boostType>MULT</boostType>
+        <amount>0.33</amount>
+        <shipTarget>ALL</shipTarget>
+        <crewTarget>ALL</crewTarget>
+        <affectsSelf>true</affectsSelf>
+        <maxStacks>1</maxStacks>
+        <duration>10</duration>
+      </statBoost>
+      <statBoost name="stunMultiplier">
+        <boostType>MULT</boostType>
+        <amount>1.75</amount>
+        <shipTarget>ALL</shipTarget>
+        <crewTarget>ALL</crewTarget>
+        <affectsSelf>true</affectsSelf>
+        <maxStacks>1</maxStacks>
+        <duration>10</duration>
+      </statBoost>
+      <statBoost name="repairSpeed">
+        <boostType>MULT</boostType>
+        <amount>0.33</amount>
+        <shipTarget>ALL</shipTarget>
+        <crewTarget>ALL</crewTarget>
+        <affectsSelf>true</affectsSelf>
+        <maxStacks>1</maxStacks>
+        <duration>10</duration>
+      </statBoost>
+    </statBoosts>
+    <persDamage>3</persDamage>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_BASE_PIERCE">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Status - Pierce
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>45</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>2</fireChance>
+    <breachChance>4</breachChance>
+    <cooldown>9</cooldown>
+    <power>2</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>30</speed>
+    <projectiles>
+      <projectile count="3" fake="false">modular_mine_base_pierce</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_base_pierce</weaponArt>
+    <iconImage>missile</iconImage>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_BASE_COOLDOWN">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Status - Cooldown
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>45</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>2</fireChance>
+    <breachChance>2</breachChance>
+    <cooldown>6</cooldown>
+    <power>2</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>14</speed>
+    <projectiles>
+      <projectile count="3" fake="false">modular_mine_base_cooldown</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_base_cooldown</weaponArt>
+    <iconImage>missile</iconImage>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_BASE_LOCKDOWN">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Status - Lockdown
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>45</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>2</fireChance>
+    <breachChance>2</breachChance>
+    <cooldown>9</cooldown>
+    <power>2</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>14</speed>
+    <projectiles>
+      <projectile count="3" fake="false">modular_mine_base_lockdown</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_base_lockdown</weaponArt>
+    <iconImage>missile</iconImage>
+    <lockdown>1</lockdown>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_BASE_STUN">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Status - Stun
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>45</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>2</fireChance>
+    <breachChance>2</breachChance>
+    <cooldown>9</cooldown>
+    <power>2</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>14</speed>
+    <projectiles>
+      <projectile count="3" fake="false">modular_mine_base_stun</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_base_stun</weaponArt>
+    <iconImage>missile</iconImage>
+    <stun>7</stun>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_FIRE">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Attribute - Fire
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>45</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>6</fireChance>
+    <breachChance>2</breachChance>
+    <cooldown>9</cooldown>
+    <power>2</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>14</speed>
+    <projectiles>
+      <projectile count="3" fake="false">modular_mine_fire_base</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_fire_base</weaponArt>
+    <iconImage>missile</iconImage>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_ACCURACY">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Attribute - Accuracy
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>35</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>2</fireChance>
+    <breachChance>2</breachChance>
+    <cooldown>9</cooldown>
+    <power>2</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>14</speed>
+    <projectiles>
+      <projectile count="3" fake="false">modular_mine_accuracy</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_accuracy_base</weaponArt>
+    <iconImage>missile</iconImage>
+    <accuracyMod>10</accuracyMod>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_HULL">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Attribute - Hull
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>45</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>2</fireChance>
+    <breachChance>3</breachChance>
+    <cooldown>9</cooldown>
+    <power>2</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>14</speed>
+    <projectiles>
+      <projectile count="3" fake="false">modular_mine_hull</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_hull_base</weaponArt>
+    <iconImage>missile</iconImage>
+    <hullBust>1</hullBust>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_POWER">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Attribute - Power
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>52</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>2</fireChance>
+    <breachChance>2</breachChance>
+    <cooldown>9</cooldown>
+    <power>3</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>14</speed>
+    <projectiles>
+      <projectile count="5" fake="false">modular_mine_power</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_power_base</weaponArt>
+    <iconImage>missile</iconImage>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_FIRE_BIO">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Attribute - Fire
+  Status - Bio
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>45</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>6</fireChance>
+    <breachChance>2</breachChance>
+    <cooldown>9</cooldown>
+    <power>2</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>14</speed>
+    <projectiles>
+      <projectile count="3" fake="false">modular_mine_fire_bio</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_fire_bio</weaponArt>
+    <iconImage>missile</iconImage>
+    <statBoosts>
+      <statBoost name="moveSpeedMultiplier">
+        <boostType>MULT</boostType>
+        <amount>0.33</amount>
+        <shipTarget>ALL</shipTarget>
+        <crewTarget>ALL</crewTarget>
+        <affectsSelf>true</affectsSelf>
+        <maxStacks>1</maxStacks>
+        <duration>10</duration>
+      </statBoost>
+      <statBoost name="stunMultiplier">
+        <boostType>MULT</boostType>
+        <amount>1.75</amount>
+        <shipTarget>ALL</shipTarget>
+        <crewTarget>ALL</crewTarget>
+        <affectsSelf>true</affectsSelf>
+        <maxStacks>1</maxStacks>
+        <duration>10</duration>
+      </statBoost>
+      <statBoost name="repairSpeed">
+        <boostType>MULT</boostType>
+        <amount>0.33</amount>
+        <shipTarget>ALL</shipTarget>
+        <crewTarget>ALL</crewTarget>
+        <affectsSelf>true</affectsSelf>
+        <maxStacks>1</maxStacks>
+        <duration>10</duration>
+      </statBoost>
+    </statBoosts>
+    <persDamage>3</persDamage>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_FIRE_PIERCE">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Attribute - Fire
+  Status - Pierce
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>45</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>6</fireChance>
+    <breachChance>4</breachChance>
+    <cooldown>9</cooldown>
+    <power>2</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>30</speed>
+    <projectiles>
+      <projectile count="3" fake="false">modular_mine_fire_pierce</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_fire_pierce</weaponArt>
+    <iconImage>missile</iconImage>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_FIRE_COOLDOWN">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Attribute - Fire
+  Status - Cooldown
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>45</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>6</fireChance>
+    <breachChance>2</breachChance>
+    <cooldown>6</cooldown>
+    <power>2</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>14</speed>
+    <projectiles>
+      <projectile count="3" fake="false">modular_mine_fire_cooldown</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_fire_cooldown</weaponArt>
+    <iconImage>missile</iconImage>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_FIRE_LOCKDOWN">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Attribute - Fire
+  Status - Lockdown
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>45</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>6</fireChance>
+    <breachChance>2</breachChance>
+    <cooldown>9</cooldown>
+    <power>2</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>14</speed>
+    <projectiles>
+      <projectile count="3" fake="false">modular_mine_fire_lockdown</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_fire_lockdown</weaponArt>
+    <iconImage>missile</iconImage>
+    <lockdown>1</lockdown>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_FIRE_STUN">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Attribute - Fire
+  Status - Stun
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>45</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>6</fireChance>
+    <breachChance>2</breachChance>
+    <cooldown>9</cooldown>
+    <power>2</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>14</speed>
+    <projectiles>
+      <projectile count="3" fake="false">modular_mine_fire_stun</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_fire_stun</weaponArt>
+    <iconImage>missile</iconImage>
+    <stun>7</stun>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_ACCURACY_BIO">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Attribute - Accuracy
+  Status - Bio
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>35</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>2</fireChance>
+    <breachChance>2</breachChance>
+    <cooldown>9</cooldown>
+    <power>2</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>14</speed>
+    <projectiles>
+      <projectile count="3" fake="false">modular_mine_accuracy_bio</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_accuracy_bio</weaponArt>
+    <iconImage>missile</iconImage>
+    <statBoosts>
+      <statBoost name="moveSpeedMultiplier">
+        <boostType>MULT</boostType>
+        <amount>0.33</amount>
+        <shipTarget>ALL</shipTarget>
+        <crewTarget>ALL</crewTarget>
+        <affectsSelf>true</affectsSelf>
+        <maxStacks>1</maxStacks>
+        <duration>10</duration>
+      </statBoost>
+      <statBoost name="stunMultiplier">
+        <boostType>MULT</boostType>
+        <amount>1.75</amount>
+        <shipTarget>ALL</shipTarget>
+        <crewTarget>ALL</crewTarget>
+        <affectsSelf>true</affectsSelf>
+        <maxStacks>1</maxStacks>
+        <duration>10</duration>
+      </statBoost>
+      <statBoost name="repairSpeed">
+        <boostType>MULT</boostType>
+        <amount>0.33</amount>
+        <shipTarget>ALL</shipTarget>
+        <crewTarget>ALL</crewTarget>
+        <affectsSelf>true</affectsSelf>
+        <maxStacks>1</maxStacks>
+        <duration>10</duration>
+      </statBoost>
+    </statBoosts>
+    <accuracyMod>10</accuracyMod>
+    <persDamage>3</persDamage>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_ACCURACY_PIERCE">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Attribute - Accuracy
+  Status - Pierce
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>35</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>2</fireChance>
+    <breachChance>4</breachChance>
+    <cooldown>9</cooldown>
+    <power>2</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>30</speed>
+    <projectiles>
+      <projectile count="3" fake="false">modular_mine_accuracy_pierce</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_accuracy_pierce</weaponArt>
+    <iconImage>missile</iconImage>
+    <accuracyMod>10</accuracyMod>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_ACCURACY_COOLDOWN">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Attribute - Accuracy
+  Status - Cooldown
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>35</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>2</fireChance>
+    <breachChance>2</breachChance>
+    <cooldown>6</cooldown>
+    <power>2</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>14</speed>
+    <projectiles>
+      <projectile count="3" fake="false">modular_mine_accuracy_cooldown</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_accuracy_cooldown</weaponArt>
+    <iconImage>missile</iconImage>
+    <accuracyMod>10</accuracyMod>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_ACCURACY_LOCKDOWN">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Attribute - Accuracy
+  Status - Lockdown
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>35</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>2</fireChance>
+    <breachChance>2</breachChance>
+    <cooldown>9</cooldown>
+    <power>2</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>14</speed>
+    <projectiles>
+      <projectile count="3" fake="false">modular_mine_accuracy_lockdown</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_accuracy_lockdown</weaponArt>
+    <iconImage>missile</iconImage>
+    <accuracyMod>10</accuracyMod>
+    <lockdown>1</lockdown>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_ACCURACY_STUN">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Attribute - Accuracy
+  Status - Stun
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>35</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>2</fireChance>
+    <breachChance>2</breachChance>
+    <cooldown>9</cooldown>
+    <power>2</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>14</speed>
+    <projectiles>
+      <projectile count="3" fake="false">modular_mine_accuracy_stun</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_accuracy_stun</weaponArt>
+    <iconImage>missile</iconImage>
+    <accuracyMod>10</accuracyMod>
+    <stun>7</stun>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_HULL_BIO">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Attribute - Hull
+  Status - Bio
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>45</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>2</fireChance>
+    <breachChance>3</breachChance>
+    <cooldown>9</cooldown>
+    <power>2</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>14</speed>
+    <projectiles>
+      <projectile count="3" fake="false">modular_mine_hull_bio</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_hull_bio</weaponArt>
+    <iconImage>missile</iconImage>
+    <statBoosts>
+      <statBoost name="moveSpeedMultiplier">
+        <boostType>MULT</boostType>
+        <amount>0.33</amount>
+        <shipTarget>ALL</shipTarget>
+        <crewTarget>ALL</crewTarget>
+        <affectsSelf>true</affectsSelf>
+        <maxStacks>1</maxStacks>
+        <duration>10</duration>
+      </statBoost>
+      <statBoost name="stunMultiplier">
+        <boostType>MULT</boostType>
+        <amount>1.75</amount>
+        <shipTarget>ALL</shipTarget>
+        <crewTarget>ALL</crewTarget>
+        <affectsSelf>true</affectsSelf>
+        <maxStacks>1</maxStacks>
+        <duration>10</duration>
+      </statBoost>
+      <statBoost name="repairSpeed">
+        <boostType>MULT</boostType>
+        <amount>0.33</amount>
+        <shipTarget>ALL</shipTarget>
+        <crewTarget>ALL</crewTarget>
+        <affectsSelf>true</affectsSelf>
+        <maxStacks>1</maxStacks>
+        <duration>10</duration>
+      </statBoost>
+    </statBoosts>
+    <hullBust>1</hullBust>
+    <persDamage>3</persDamage>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_HULL_PIERCE">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Attribute - Hull
+  Status - Pierce
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>45</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>2</fireChance>
+    <breachChance>7</breachChance>
+    <cooldown>9</cooldown>
+    <power>2</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>30</speed>
+    <projectiles>
+      <projectile count="3" fake="false">modular_mine_hull_pierce</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_hull_pierce</weaponArt>
+    <iconImage>missile</iconImage>
+    <hullBust>1</hullBust>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_HULL_COOLDOWN">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Attribute - Hull
+  Status - Cooldown
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>45</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>2</fireChance>
+    <breachChance>2</breachChance>
+    <cooldown>6</cooldown>
+    <power>2</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>14</speed>
+    <projectiles>
+      <projectile count="3" fake="false">modular_mine_hull_cooldown</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_hull_cooldown</weaponArt>
+    <iconImage>missile</iconImage>
+    <hullBust>1</hullBust>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_HULL_LOCKDOWN">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Attribute - Hull
+  Status - Lockdown
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>45</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>2</fireChance>
+    <breachChance>2</breachChance>
+    <cooldown>9</cooldown>
+    <power>2</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>14</speed>
+    <projectiles>
+      <projectile count="3" fake="false">modular_mine_hull_lockdown</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_hull_lockdown</weaponArt>
+    <iconImage>missile</iconImage>
+    <hullBust>1</hullBust>
+    <lockdown>1</lockdown>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_HULL_STUN">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Attribute - Hull
+  Status - Stun
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>45</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>2</fireChance>
+    <breachChance>2</breachChance>
+    <cooldown>9</cooldown>
+    <power>2</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>14</speed>
+    <projectiles>
+      <projectile count="3" fake="false">modular_mine_hull_stun</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_hull_stun</weaponArt>
+    <iconImage>missile</iconImage>
+    <hullBust>1</hullBust>
+    <stun>7</stun>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_POWER_BIO">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Attribute - Power
+  Status - Bio
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>52</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>2</fireChance>
+    <breachChance>2</breachChance>
+    <cooldown>9</cooldown>
+    <power>3</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>14</speed>
+    <projectiles>
+      <projectile count="5" fake="false">modular_mine_power_bio</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_power_bio</weaponArt>
+    <iconImage>missile</iconImage>
+    <statBoosts>
+      <statBoost name="moveSpeedMultiplier">
+        <boostType>MULT</boostType>
+        <amount>0.33</amount>
+        <shipTarget>ALL</shipTarget>
+        <crewTarget>ALL</crewTarget>
+        <affectsSelf>true</affectsSelf>
+        <maxStacks>1</maxStacks>
+        <duration>10</duration>
+      </statBoost>
+      <statBoost name="stunMultiplier">
+        <boostType>MULT</boostType>
+        <amount>1.75</amount>
+        <shipTarget>ALL</shipTarget>
+        <crewTarget>ALL</crewTarget>
+        <affectsSelf>true</affectsSelf>
+        <maxStacks>1</maxStacks>
+        <duration>10</duration>
+      </statBoost>
+      <statBoost name="repairSpeed">
+        <boostType>MULT</boostType>
+        <amount>0.33</amount>
+        <shipTarget>ALL</shipTarget>
+        <crewTarget>ALL</crewTarget>
+        <affectsSelf>true</affectsSelf>
+        <maxStacks>1</maxStacks>
+        <duration>10</duration>
+      </statBoost>
+    </statBoosts>
+    <persDamage>3</persDamage>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_POWER_PIERCE">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Attribute - Power
+  Status - Pierce
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>52</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>2</fireChance>
+    <breachChance>2</breachChance>
+    <cooldown>9</cooldown>
+    <power>3</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>30</speed>
+    <projectiles>
+      <projectile count="5" fake="false">modular_mine_power_pierce</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_power_pierce</weaponArt>
+    <iconImage>missile</iconImage>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_POWER_COOLDOWN">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Attribute - Power
+  Status - Cooldown
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>52</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>2</fireChance>
+    <breachChance>2</breachChance>
+    <cooldown>6</cooldown>
+    <power>3</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>14</speed>
+    <projectiles>
+      <projectile count="5" fake="false">modular_mine_power_cooldown</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_power_cooldown</weaponArt>
+    <iconImage>missile</iconImage>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_POWER_LOCKDOWN">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Attribute - Power
+  Status - Lockdown
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>52</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>2</fireChance>
+    <breachChance>2</breachChance>
+    <cooldown>9</cooldown>
+    <power>3</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>14</speed>
+    <projectiles>
+      <projectile count="5" fake="false">modular_mine_power_lockdown</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_power_lockdown</weaponArt>
+    <iconImage>missile</iconImage>
+    <lockdown>1</lockdown>
+  </weaponBlueprint>
+  
+  <weaponBlueprint name="MODULAR_MINELAUNCHER_POWER_STUN">
+    <type>BURST</type>
+    <title>Modular Mine Launcher</title>
+    <tip>tip_mine</tip>
+    <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
+  Has no incompatible modules.
+  ----CURRENTLY INSTALLED MODULES----
+  Attribute - Power
+  Status - Stun
+  </desc>
+    <short>M. Mine</short>
+    <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <drone_targetable>1</drone_targetable>
+    <radius>52</radius>
+    <shots>1</shots>
+    <damage>1</damage>
+    <noSysDamage>true</noSysDamage>
+    <sp>10</sp>
+    <fireChance>2</fireChance>
+    <breachChance>2</breachChance>
+    <cooldown>9</cooldown>
+    <power>3</power>
+    <cost>60</cost>
+    <bp>2</bp>
+    <rarity>0</rarity>
+    <speed>14</speed>
+    <projectiles>
+      <projectile count="5" fake="false">modular_mine_power_stun</projectile>
+    </projectiles>
+    <launchSounds>
+      <sound>smallMissile1</sound>
+      <sound>smallMissile2</sound>
+    </launchSounds>
+    <hitShipSounds>
+      <sound>smallExplosion</sound>
+    </hitShipSounds>
+    <hitShieldSounds>
+      <sound>hitShield1</sound>
+      <sound>hitShield2</sound>
+      <sound>hitShield3</sound>
+    </hitShieldSounds>
+    <missSounds>
+      <sound>miss</sound>
+    </missSounds>
+    <weaponArt>modular_minelauncher_power_stun</weaponArt>
+    <iconImage>missile</iconImage>
+    <stun>7</stun>
+  </weaponBlueprint>
+</FTL>
+  

@@ -3323,3 +3323,510 @@
 	</anim>
 
 </FTL>
+
+<FTL>
+	<animSheet name="modular_minelauncher_base_base" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_base_base.png</animSheet>
+	<weaponAnim name="modular_minelauncher_base_base">
+		<sheet>modular_minelauncher_base_base</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_base_bio" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_base_bio.png</animSheet>
+	<weaponAnim name="modular_minelauncher_base_bio">
+		<sheet>modular_minelauncher_base_bio</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow_bio.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_base_pierce" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_base_pierce.png</animSheet>
+	<weaponAnim name="modular_minelauncher_base_pierce">
+		<sheet>modular_minelauncher_base_pierce</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_base_cooldown" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_base_cooldown.png</animSheet>
+	<weaponAnim name="modular_minelauncher_base_cooldown">
+		<sheet>modular_minelauncher_base_cooldown</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_base_lockdown" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_base_lockdown.png</animSheet>
+	<weaponAnim name="modular_minelauncher_base_lockdown">
+		<sheet>modular_minelauncher_base_lockdown</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_base_stun" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_base_stun.png</animSheet>
+	<weaponAnim name="modular_minelauncher_base_stun">
+		<sheet>modular_minelauncher_base_stun</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow_stun.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_fire_base" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_fire_base.png</animSheet>
+	<weaponAnim name="modular_minelauncher_fire_base">
+		<sheet>modular_minelauncher_fire_base</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_fire_bio" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_fire_bio.png</animSheet>
+	<weaponAnim name="modular_minelauncher_fire_bio">
+		<sheet>modular_minelauncher_fire_bio</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow_bio.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_fire_pierce" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_fire_pierce.png</animSheet>
+	<weaponAnim name="modular_minelauncher_fire_pierce">
+		<sheet>modular_minelauncher_fire_pierce</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_fire_cooldown" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_fire_cooldown.png</animSheet>
+	<weaponAnim name="modular_minelauncher_fire_cooldown">
+		<sheet>modular_minelauncher_fire_cooldown</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_fire_lockdown" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_fire_lockdown.png</animSheet>
+	<weaponAnim name="modular_minelauncher_fire_lockdown">
+		<sheet>modular_minelauncher_fire_lockdown</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_fire_stun" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_fire_stun.png</animSheet>
+	<weaponAnim name="modular_minelauncher_fire_stun">
+		<sheet>modular_minelauncher_fire_stun</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow_stun.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_accuracy_base" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_accuracy_base.png</animSheet>
+	<weaponAnim name="modular_minelauncher_accuracy_base">
+		<sheet>modular_minelauncher_accuracy_base</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_accuracy_bio" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_accuracy_bio.png</animSheet>
+	<weaponAnim name="modular_minelauncher_accuracy_bio">
+		<sheet>modular_minelauncher_accuracy_bio</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow_bio.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_accuracy_pierce" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_accuracy_pierce.png</animSheet>
+	<weaponAnim name="modular_minelauncher_accuracy_pierce">
+		<sheet>modular_minelauncher_accuracy_pierce</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_accuracy_cooldown" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_accuracy_cooldown.png</animSheet>
+	<weaponAnim name="modular_minelauncher_accuracy_cooldown">
+		<sheet>modular_minelauncher_accuracy_cooldown</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_accuracy_lockdown" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_accuracy_lockdown.png</animSheet>
+	<weaponAnim name="modular_minelauncher_accuracy_lockdown">
+		<sheet>modular_minelauncher_accuracy_lockdown</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_accuracy_stun" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_accuracy_stun.png</animSheet>
+	<weaponAnim name="modular_minelauncher_accuracy_stun">
+		<sheet>modular_minelauncher_accuracy_stun</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow_stun.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_hull_base" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_hull_base.png</animSheet>
+	<weaponAnim name="modular_minelauncher_hull_base">
+		<sheet>modular_minelauncher_hull_base</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_hull_bio" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_hull_bio.png</animSheet>
+	<weaponAnim name="modular_minelauncher_hull_bio">
+		<sheet>modular_minelauncher_hull_bio</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow_bio.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_hull_pierce" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_hull_pierce.png</animSheet>
+	<weaponAnim name="modular_minelauncher_hull_pierce">
+		<sheet>modular_minelauncher_hull_pierce</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_hull_cooldown" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_hull_cooldown.png</animSheet>
+	<weaponAnim name="modular_minelauncher_hull_cooldown">
+		<sheet>modular_minelauncher_hull_cooldown</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_hull_lockdown" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_hull_lockdown.png</animSheet>
+	<weaponAnim name="modular_minelauncher_hull_lockdown">
+		<sheet>modular_minelauncher_hull_lockdown</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_hull_stun" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_hull_stun.png</animSheet>
+	<weaponAnim name="modular_minelauncher_hull_stun">
+		<sheet>modular_minelauncher_hull_stun</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow_stun.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_power_base" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_power_base.png</animSheet>
+	<weaponAnim name="modular_minelauncher_power_base">
+		<sheet>modular_minelauncher_power_base</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_power_bio" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_power_bio.png</animSheet>
+	<weaponAnim name="modular_minelauncher_power_bio">
+		<sheet>modular_minelauncher_power_bio</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow_bio.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_power_pierce" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_power_pierce.png</animSheet>
+	<weaponAnim name="modular_minelauncher_power_pierce">
+		<sheet>modular_minelauncher_power_pierce</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_power_cooldown" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_power_cooldown.png</animSheet>
+	<weaponAnim name="modular_minelauncher_power_cooldown">
+		<sheet>modular_minelauncher_power_cooldown</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_power_lockdown" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_power_lockdown.png</animSheet>
+	<weaponAnim name="modular_minelauncher_power_lockdown">
+		<sheet>modular_minelauncher_power_lockdown</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_minelauncher_power_stun" w="123" h="37" fw="41" fh="37">weapon_modular/modular_minelauncher_power_stun.png</animSheet>
+	<weaponAnim name="modular_minelauncher_power_stun">
+		<sheet>modular_minelauncher_power_stun</sheet>
+		<desc length="3" x="0" y="0"/>
+		<chargedFrame>1</chargedFrame>
+		<fireFrame>2</fireFrame>
+		<firePoint x="23" y="4" />
+		<mountPoint x="7" y="19" />
+		<chargeImage>weapon_modular/modular_minelauncher_glow_stun.png</chargeImage>
+	</weaponAnim>
+	
+	<animSheet name="modular_mine_base_base" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_base_base.png</animSheet>
+	<anim name="modular_mine_base_base">
+		<sheet>modular_mine_base_base</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+	
+	<animSheet name="modular_mine_base_bio" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_base_bio.png</animSheet>
+	<anim name="modular_mine_base_bio">
+		<sheet>modular_mine_base_bio</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+	
+	<animSheet name="modular_mine_base_cooldown" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_base_cooldown.png</animSheet>
+	<anim name="modular_mine_base_cooldown">
+		<sheet>modular_mine_base_cooldown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+	
+	<animSheet name="modular_mine_base_lockdown" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_base_lockdown.png</animSheet>
+	<anim name="modular_mine_base_lockdown">
+		<sheet>modular_mine_base_lockdown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+	
+	<animSheet name="modular_mine_base_stun" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_base_stun.png</animSheet>
+	<anim name="modular_mine_base_stun">
+		<sheet>modular_mine_base_stun</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+	
+	<animSheet name="modular_mine_accuracy_base" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_accuracy_base.png</animSheet>
+	<anim name="modular_mine_accuracy_base">
+		<sheet>modular_mine_accuracy_base</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+	
+	<animSheet name="modular_mine_accuracy_bio" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_accuracy_bio.png</animSheet>
+	<anim name="modular_mine_accuracy_bio">
+		<sheet>modular_mine_accuracy_bio</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+	
+	<animSheet name="modular_mine_accuracy_cooldown" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_accuracy_cooldown.png</animSheet>
+	<anim name="modular_mine_accuracy_cooldown">
+		<sheet>modular_mine_accuracy_cooldown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+	
+	<animSheet name="modular_mine_accuracy_lockdown" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_accuracy_lockdown.png</animSheet>
+	<anim name="modular_mine_accuracy_lockdown">
+		<sheet>modular_mine_accuracy_lockdown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+	
+	<animSheet name="modular_mine_accuracy_stun" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_accuracy_stun.png</animSheet>
+	<anim name="modular_mine_accuracy_stun">
+		<sheet>modular_mine_accuracy_stun</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+	
+	<animSheet name="modular_mine_fire_base" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_fire_base.png</animSheet>
+	<anim name="modular_mine_fire_base">
+		<sheet>modular_mine_fire_base</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+	
+	<animSheet name="modular_mine_fire_bio" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_fire_bio.png</animSheet>
+	<anim name="modular_mine_fire_bio">
+		<sheet>modular_mine_fire_bio</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+	
+	<animSheet name="modular_mine_fire_cooldown" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_fire_cooldown.png</animSheet>
+	<anim name="modular_mine_fire_cooldown">
+		<sheet>modular_mine_fire_cooldown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+	
+	<animSheet name="modular_mine_fire_lockdown" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_fire_lockdown.png</animSheet>
+	<anim name="modular_mine_fire_lockdown">
+		<sheet>modular_mine_fire_lockdown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+	
+	<animSheet name="modular_mine_fire_stun" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_fire_stun.png</animSheet>
+	<anim name="modular_mine_fire_stun">
+		<sheet>modular_mine_fire_stun</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+	
+	<animSheet name="modular_mine_hull_base" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_hull_base.png</animSheet>
+	<anim name="modular_mine_hull_base">
+		<sheet>modular_mine_hull_base</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+	
+	<animSheet name="modular_mine_hull_bio" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_hull_bio.png</animSheet>
+	<anim name="modular_mine_hull_bio">
+		<sheet>modular_mine_hull_bio</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+	
+	<animSheet name="modular_mine_hull_cooldown" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_hull_cooldown.png</animSheet>
+	<anim name="modular_mine_hull_cooldown">
+		<sheet>modular_mine_hull_cooldown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+	
+	<animSheet name="modular_mine_hull_lockdown" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_hull_lockdown.png</animSheet>
+	<anim name="modular_mine_hull_lockdown">
+		<sheet>modular_mine_hull_lockdown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+	
+	<animSheet name="modular_mine_hull_stun" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_hull_stun.png</animSheet>
+	<anim name="modular_mine_hull_stun">
+		<sheet>modular_mine_hull_stun</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+	
+	<animSheet name="modular_mine_power_base" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_power_base.png</animSheet>
+	<anim name="modular_mine_power_base">
+		<sheet>modular_mine_power_base</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+	
+	<animSheet name="modular_mine_power_bio" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_power_bio.png</animSheet>
+	<anim name="modular_mine_power_bio">
+		<sheet>modular_mine_power_bio</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+	
+	<animSheet name="modular_mine_power_cooldown" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_power_cooldown.png</animSheet>
+	<anim name="modular_mine_power_cooldown">
+		<sheet>modular_mine_power_cooldown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+	
+	<animSheet name="modular_mine_power_lockdown" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_power_lockdown.png</animSheet>
+	<anim name="modular_mine_power_lockdown">
+		<sheet>modular_mine_power_lockdown</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+	
+	<animSheet name="modular_mine_power_stun" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_power_stun.png</animSheet>
+	<anim name="modular_mine_power_stun">
+		<sheet>modular_mine_power_stun</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+	</FTL>

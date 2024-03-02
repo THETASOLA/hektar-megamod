@@ -10,6 +10,63 @@
 
 </mod:findName>
 
+<mod:findName type="event" name="STORAGE_CHECK_JOB_FLEET">
+
+	<mod-append:choice req="HEKTAR_MODULAR_MINELAUNCHER_DELAY" hidden="true" blue="false">
+        <text>Use your Modular Mine Launcher. [-13}, gives 2 delay]</text>
+        <event>
+			<text>You rig the ammunition and set a trap for the Rebels. It's definitely illegal to do, but you'll be gone before it matters.</text>
+		   <modifyPursuit amount="-2"/>
+		   <item_modify>
+			   <item type="missiles" min="-13" max="-13"/>
+		   </item_modify>
+		   <choice hidden="true" req="loc_mine_counter" max_group="0" lvl="0" blue="false">
+			   <text>Continue...</text>
+			   <event load="TRAP_WARNING_1"/>
+		   </choice>
+		   <choice hidden="true" req="loc_mine_counter" max_group="0" lvl="1" blue="false">
+			   <text>Continue...</text>
+			   <event load="TRAP_WARNING_2"/>
+		   </choice>
+		   <choice hidden="true" req="loc_mine_counter" max_group="0" lvl="2" blue="false">
+			   <text>Continue...</text>
+			   <event load="TRAP_WARNING_3"/>
+		   </choice>
+		   <choice hidden="true" req="loc_mine_counter" max_group="0" lvl="3" blue="false">
+			   <text>Continue...</text>
+			   <event load="MORALITY_UPDATE_GENERAL"/>
+		   </choice>
+	   </event>
+    </mod-append:choice>
+	<mod-append:choice req="HEKTAR_MODULAR_MINELAUNCHER_DELAY_POWER" hidden="true" blue="false">
+        <text>Use your Modular Mine Launcher (Power Module). [-10}, gives 2 delay]</text>
+        <event>
+			<text>You rig the ammunition and set a trap for the Rebels. It's definitely illegal to do, but you'll be gone before it matters.</text>
+		   <modifyPursuit amount="-2"/>
+		   <item_modify>
+			   <item type="missiles" min="-10" max="-10"/>
+		   </item_modify>
+		   <choice hidden="true" req="loc_mine_counter" max_group="0" lvl="0" blue="false">
+			   <text>Continue...</text>
+			   <event load="TRAP_WARNING_1"/>
+		   </choice>
+		   <choice hidden="true" req="loc_mine_counter" max_group="0" lvl="1" blue="false">
+			   <text>Continue...</text>
+			   <event load="TRAP_WARNING_2"/>
+		   </choice>
+		   <choice hidden="true" req="loc_mine_counter" max_group="0" lvl="2" blue="false">
+			   <text>Continue...</text>
+			   <event load="TRAP_WARNING_3"/>
+		   </choice>
+		   <choice hidden="true" req="loc_mine_counter" max_group="0" lvl="3" blue="false">
+			   <text>Continue...</text>
+			   <event load="MORALITY_UPDATE_GENERAL"/>
+		   </choice>
+	   </event>
+    </mod-append:choice>
+
+</mod:findName>
+
 <mod:findName type="event" name="STORAGE_CHECK_MODULAR">
     <mod:findWithChildLike type="choice" child-type="text" panic="true">
         <mod:selector>Nevermind.</mod:selector>
@@ -44,6 +101,10 @@
 	<mod-append:choice req="HEKTAR_MODULAR_BOMB" blue="false" hidden="true">
 		<text>Configure a Modular Bomb Launcher.</text>
 		<event load="STORAGE_CHECK_MODULAR_BOMB"/>
+	</mod-append:choice>
+	<mod-append:choice req="HEKTAR_MODULAR_MINELAUNCHER" blue="false" hidden="true">
+		<text>Configure a Modular Mine Launcher.</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER"/>
 	</mod-append:choice>
 
     <mod-append:choice req="HEKTAR_MODULAR_DRONES_LASERS" blue="false" hidden="true">																																							:choice req="HEKTAR_MODULAR_DRONE_LASERS" blue="false" hidden="true">
@@ -6508,6 +6569,2476 @@
 				<event>
 					<text>...</text>
 					<weapon name="MODULAR_SHOTGUN_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_POWER"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event>
+									<text>...</text>
+									<weapon name="MODULE_STUN"/>
+									<choice hidden="true">
+										<text>Continue...</text>
+										<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+
+<!--WEAPON_MINELAUNCHER-->
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER">
+	<text>Which weapon would you like to configure?</text>
+	<checkCargo/>
+	<choice req="MODULAR_MINELAUNCHER_BASE" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [No Modules]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_BASE"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_BASE_BIO" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Anti-Bio Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_BASE_BIO"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_BASE_COOLDOWN" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Cooldown Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_BASE_COOLDOWN"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_BASE_LOCKDOWN" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Lockdown Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_BASE_LOCKDOWN"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_BASE_PIERCE" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Pierce Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_BASE_PIERCE"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_BASE_STUN" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Stun Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_BASE_STUN"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_ACCURACY" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Accuracy Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_ACCURACY"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_ACCURACY_BIO" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Accuracy Module, Anti-Bio Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_ACCURACY_BIO"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_ACCURACY_COOLDOWN" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Accuracy Module, Cooldown Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_ACCURACY_COOLDOWN"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_ACCURACY_LOCKDOWN" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Accuracy Module, Lockdown Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_ACCURACY_LOCKDOWN"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_ACCURACY_PIERCE" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Accuracy Module, Pierce Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_ACCURACY_PIERCE"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_ACCURACY_STUN" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Accuracy Module, Stun Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_ACCURACY_STUN"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_FIRE" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Firestarter Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_FIRE"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_FIRE_BIO" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Firestarter Module, Anti-Bio Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_FIRE_BIO"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_FIRE_COOLDOWN" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Firestarter Module, Cooldown Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_FIRE_COOLDOWN"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_FIRE_LOCKDOWN" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Firestarter Module, Lockdown Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_FIRE_LOCKDOWN"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_FIRE_PIERCE" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Firestarter Module, Pierce Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_FIRE_PIERCE"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_FIRE_STUN" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Firestarter Module, Stun Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_FIRE_STUN"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_HULL" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Hullbuster Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_HULL"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_HULL_BIO" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Hullbuster Module, Anti-Bio Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_HULL_BIO"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_HULL_COOLDOWN" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Hullbuster Module, Cooldown Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_HULL_COOLDOWN"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_HULL_LOCKDOWN" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Hullbuster Module, Lockdown Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_HULL_LOCKDOWN"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_HULL_PIERCE" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Hullbuster Module, Pierce Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_HULL_PIERCE"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_HULL_STUN" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Hullbuster Module, Stun Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_HULL_STUN"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_POWER" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Power Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_POWER"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_POWER_BIO" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Power Module, Anti-Bio Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_POWER_BIO"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_POWER_COOLDOWN" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Power Module, Cooldown Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_POWER_COOLDOWN"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_POWER_LOCKDOWN" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Power Module, Lockdown Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_POWER_LOCKDOWN"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_POWER_PIERCE" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Power Module, Pierce Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_POWER_PIERCE"/>
+	</choice>
+	<choice req="MODULAR_MINELAUNCHER_POWER_STUN" blue="false" hidden="true">
+		<text>Configure your Mine Launcher [Power Module, Stun Module]</text>
+		<event load="STORAGE_CHECK_MODULAR_MINELAUNCHER_POWER_STUN"/>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<!--base-->
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_BASE">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [no modules]</text>
+	<choice hidden="true" req="MODULE_BIO" blue="false">
+		<text>Install the Anti-Bio Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_BIO"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_BASE_BIO"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_COOLDOWN" blue="false">
+		<text>Install the Cooldown Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_COOLDOWN"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_BASE_COOLDOWN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_LOCKDOWN" blue="false">
+		<text>Install the Lockdown Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_LOCKDOWN"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_BASE_LOCKDOWN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_PIERCE" blue="false">
+		<text>Install the Pierce Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_PIERCE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_BASE_PIERCE"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_STUN" blue="false">
+		<text>Install the Neural Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_STUN"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_BASE_STUN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_ACCURACY" blue="false">
+		<text>Install the Accuracy Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_ACCURACY"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_ACCURACY"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_FIRE" blue="false">
+		<text>Install the Firestarter Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_FIRE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_FIRE"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_HULL" blue="false">
+		<text>Install the Hullbuster Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_HULL"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_HULL"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_POWER" blue="false">
+		<text>Install the Power Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_POWER"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_POWER"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<!--base bio-->
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_BASE_BIO">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Anti-Bio Module]</text>
+	<choice hidden="true" req="MODULE_FIRE" blue="false">
+		<text>Install the Firestarter Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE_BIO"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_FIRE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_FIRE_BIO"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_HULL" blue="false">
+		<text>Install the Hullbuster Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE_BIO"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_HULL"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_HULL_BIO"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_ACCURACY" blue="false">
+		<text>Install the Accuracy Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE_BIO"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_ACCURACY"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_ACCURACY_BIO"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_POWER" blue="false">
+		<text>Install the Power Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE_BIO"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_POWER"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_POWER_BIO"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Detach the modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE_BIO"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_BIO"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<!--base cooldown-->
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_BASE_COOLDOWN">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Cooldown Module]</text>
+	<choice hidden="true" req="MODULE_FIRE" blue="false">
+		<text>Install the Firestarter Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE_COOLDOWN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_FIRE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_FIRE_COOLDOWN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_HULL" blue="false">
+		<text>Install the Hullbuster Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE_COOLDOWN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_HULL"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_HULL_COOLDOWN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_ACCURACY" blue="false">
+		<text>Install the Accuracy Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE_COOLDOWN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_ACCURACY"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_ACCURACY_COOLDOWN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_POWER" blue="false">
+		<text>Install the Power Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE_COOLDOWN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_POWER"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_POWER_COOLDOWN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Detach the modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE_COOLDOWN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_COOLDOWN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<!--base lockdown-->
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_BASE_LOCKDOWN">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Lockdown Module]</text>
+	<choice hidden="true" req="MODULE_FIRE" blue="false">
+		<text>Install the Firestarter Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE_LOCKDOWN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_FIRE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_FIRE_LOCKDOWN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_HULL" blue="false">
+		<text>Install the Hullbuster Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE_LOCKDOWN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_HULL"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_HULL_LOCKDOWN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_ACCURACY" blue="false">
+		<text>Install the Accuracy Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE_LOCKDOWN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_ACCURACY"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_ACCURACY_LOCKDOWN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_POWER" blue="false">
+		<text>Install the Power Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE_LOCKDOWN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_POWER"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_POWER_LOCKDOWN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Detach the modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE_LOCKDOWN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_LOCKDOWN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<!--base pierce-->
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_BASE_PIERCE">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Pierce Module]</text>
+	<choice hidden="true" req="MODULE_FIRE" blue="false">
+		<text>Install the Firestarter Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE_PIERCE"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_FIRE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_FIRE_PIERCE"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_HULL" blue="false">
+		<text>Install the Hullbuster Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE_PIERCE"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_HULL"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_HULL_PIERCE"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_ACCURACY" blue="false">
+		<text>Install the Accuracy Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE_PIERCE"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_ACCURACY"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_ACCURACY_PIERCE"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_POWER" blue="false">
+		<text>Install the Power Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE_PIERCE"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_POWER"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_POWER_PIERCE"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Detach the modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE_PIERCE"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_PIERCE"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<!--base stun-->
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_BASE_STUN">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Stun Module]</text>
+	<choice hidden="true" req="MODULE_FIRE" blue="false">
+		<text>Install the Firestarter Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE_STUN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_FIRE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_FIRE_STUN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_HULL" blue="false">
+		<text>Install the Hullbuster Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE_STUN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_HULL"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_HULL_STUN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_ACCURACY" blue="false">
+		<text>Install the Accuracy Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE_STUN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_ACCURACY"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_ACCURACY_STUN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_POWER" blue="false">
+		<text>Install the Power Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE_STUN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_POWER"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_POWER_STUN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Detach the modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_BASE_STUN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_STUN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<!--accuracy-->
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_ACCURACY">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Accuracy Module]</text>
+	<choice hidden="true" req="MODULE_BIO" blue="false">
+		<text>Install the Anti-Bio Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_ACCURACY"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_BIO"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_ACCURACY_BIO"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_COOLDOWN" blue="false">
+		<text>Install the Cooldown Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_ACCURACY"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_COOLDOWN"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_ACCURACY_COOLDOWN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_LOCKDOWN" blue="false">
+		<text>Install the Lockdown Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_ACCURACY"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_LOCKDOWN"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_ACCURACY_LOCKDOWN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_PIERCE" blue="false">
+		<text>Install the Pierce Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_ACCURACY"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_PIERCE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_ACCURACY_PIERCE"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_STUN" blue="false">
+		<text>Install the Neural Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_ACCURACY"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_STUN"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_ACCURACY_STUN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Detach the modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_ACCURACY"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_ACCURACY"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_ACCURACY_BIO">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Accuracy Module, Anti-Bio Module]</text>
+	<choice hidden="true">
+		<text>Detach both modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_ACCURACY_BIO"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_ACCURACY"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event>
+									<text>...</text>
+									<weapon name="MODULE_BIO"/>
+									<choice hidden="true">
+										<text>Continue...</text>
+										<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_ACCURACY_COOLDOWN">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Accuracy Module, Cooldown Module]</text>
+	<choice hidden="true">
+		<text>Detach both modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_ACCURACY_COOLDOWN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_ACCURACY"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event>
+									<text>...</text>
+									<weapon name="MODULE_COOLDOWN"/>
+									<choice hidden="true">
+										<text>Continue...</text>
+										<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_ACCURACY_LOCKDOWN">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Accuracy Module, Lockdown Module]</text>
+	<choice hidden="true">
+		<text>Detach both modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_ACCURACY_LOCKDOWN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_ACCURACY"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event>
+									<text>...</text>
+									<weapon name="MODULE_LOCKDOWN"/>
+									<choice hidden="true">
+										<text>Continue...</text>
+										<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_ACCURACY_PIERCE">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Accuracy Module, Pierce Module]</text>
+	<choice hidden="true">
+		<text>Detach both modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_ACCURACY_PIERCE"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_ACCURACY"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event>
+									<text>...</text>
+									<weapon name="MODULE_PIERCE"/>
+									<choice hidden="true">
+										<text>Continue...</text>
+										<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_ACCURACY_STUN">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Accuracy Module, Stun Module]</text>
+	<choice hidden="true">
+		<text>Detach both modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_ACCURACY_STUN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_ACCURACY"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event>
+									<text>...</text>
+									<weapon name="MODULE_STUN"/>
+									<choice hidden="true">
+										<text>Continue...</text>
+										<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<!--fire-->
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_FIRE">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Firestarter Module]</text>
+	<choice hidden="true" req="MODULE_BIO" blue="false">
+		<text>Install the Anti-Bio Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_FIRE"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_BIO"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_FIRE_BIO"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_COOLDOWN" blue="false">
+		<text>Install the Cooldown Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_FIRE"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_COOLDOWN"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_FIRE_COOLDOWN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_LOCKDOWN" blue="false">
+		<text>Install the Lockdown Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_FIRE"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_LOCKDOWN"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_FIRE_LOCKDOWN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_PIERCE" blue="false">
+		<text>Install the Pierce Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_FIRE"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_PIERCE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_FIRE_PIERCE"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_STUN" blue="false">
+		<text>Install the Neural Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_FIRE"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_STUN"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_FIRE_STUN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Detach the modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_FIRE"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_FIRE"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_FIRE_BIO">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Firestarter Module, Anti-Bio Module]</text>
+	<choice hidden="true">
+		<text>Detach both modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_FIRE_BIO"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_FIRE"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event>
+									<text>...</text>
+									<weapon name="MODULE_BIO"/>
+									<choice hidden="true">
+										<text>Continue...</text>
+										<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_FIRE_COOLDOWN">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Firestarter Module, Cooldown Module]</text>
+	<choice hidden="true">
+		<text>Detach both modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_FIRE_COOLDOWN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_FIRE"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event>
+									<text>...</text>
+									<weapon name="MODULE_COOLDOWN"/>
+									<choice hidden="true">
+										<text>Continue...</text>
+										<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_FIRE_LOCKDOWN">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Firestarter Module, Lockdown Module]</text>
+	<choice hidden="true">
+		<text>Detach both modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_FIRE_LOCKDOWN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_FIRE"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event>
+									<text>...</text>
+									<weapon name="MODULE_LOCKDOWN"/>
+									<choice hidden="true">
+										<text>Continue...</text>
+										<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_FIRE_PIERCE">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Firestarter Module, Pierce Module]</text>
+	<choice hidden="true">
+		<text>Detach both modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_FIRE_PIERCE"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_FIRE"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event>
+									<text>...</text>
+									<weapon name="MODULE_PIERCE"/>
+									<choice hidden="true">
+										<text>Continue...</text>
+										<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_FIRE_STUN">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Firestarter Module, Stun Module]</text>
+	<choice hidden="true">
+		<text>Detach both modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_FIRE_STUN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_FIRE"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event>
+									<text>...</text>
+									<weapon name="MODULE_STUN"/>
+									<choice hidden="true">
+										<text>Continue...</text>
+										<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<!--hull-->
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_HULL">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Hullbuster Module]</text>
+	<choice hidden="true" req="MODULE_BIO" blue="false">
+		<text>Install the Anti-Bio Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_HULL"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_BIO"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_HULL_BIO"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_COOLDOWN" blue="false">
+		<text>Install the Cooldown Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_HULL"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_COOLDOWN"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_HULL_COOLDOWN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_LOCKDOWN" blue="false">
+		<text>Install the Lockdown Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_HULL"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_LOCKDOWN"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_HULL_LOCKDOWN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_PIERCE" blue="false">
+		<text>Install the Pierce Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_HULL"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_PIERCE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_HULL_PIERCE"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_STUN" blue="false">
+		<text>Install the Neural Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_HULL"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_STUN"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_HULL_STUN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Detach the modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_HULL"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_HULL"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_HULL_BIO">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Hullbuster Module, Anti-Bio Module]</text>
+	<choice hidden="true">
+		<text>Detach both modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_HULL_BIO"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_HULL"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event>
+									<text>...</text>
+									<weapon name="MODULE_BIO"/>
+									<choice hidden="true">
+										<text>Continue...</text>
+										<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_HULL_COOLDOWN">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Hullbuster Module, Cooldown Module]</text>
+	<choice hidden="true">
+		<text>Detach both modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_HULL_COOLDOWN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_HULL"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event>
+									<text>...</text>
+									<weapon name="MODULE_COOLDOWN"/>
+									<choice hidden="true">
+										<text>Continue...</text>
+										<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_HULL_LOCKDOWN">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Hullbuster Module, Lockdown Module]</text>
+	<choice hidden="true">
+		<text>Detach both modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_HULL_LOCKDOWN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_HULL"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event>
+									<text>...</text>
+									<weapon name="MODULE_LOCKDOWN"/>
+									<choice hidden="true">
+										<text>Continue...</text>
+										<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_HULL_PIERCE">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Hullbuster Module, Pierce Module]</text>
+	<choice hidden="true">
+		<text>Detach both modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_HULL_PIERCE"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_HULL"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event>
+									<text>...</text>
+									<weapon name="MODULE_PIERCE"/>
+									<choice hidden="true">
+										<text>Continue...</text>
+										<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_HULL_STUN">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Hullbuster Module, Stun Module]</text>
+	<choice hidden="true">
+		<text>Detach both modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_HULL_STUN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_HULL"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event>
+									<text>...</text>
+									<weapon name="MODULE_STUN"/>
+									<choice hidden="true">
+										<text>Continue...</text>
+										<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<!--power-->
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_POWER">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Power Module]</text>
+	<choice hidden="true" req="MODULE_BIO" blue="false">
+		<text>Install the Anti-Bio Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_POWER"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_BIO"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_POWER_BIO"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_COOLDOWN" blue="false">
+		<text>Install the Cooldown Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_POWER"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_COOLDOWN"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_POWER_COOLDOWN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_LOCKDOWN" blue="false">
+		<text>Install the Lockdown Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_POWER"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_LOCKDOWN"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_POWER_LOCKDOWN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_PIERCE" blue="false">
+		<text>Install the Pierce Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_POWER"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_PIERCE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_POWER_PIERCE"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="MODULE_STUN" blue="false">
+		<text>Install the Neural Module.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_POWER"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<remove name="MODULE_STUN"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULAR_MINELAUNCHER_POWER_STUN"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Detach the modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_POWER"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_POWER"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_POWER_BIO">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Power Module, Anti-Bio Module]</text>
+	<choice hidden="true">
+		<text>Detach both modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_POWER_BIO"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_POWER"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event>
+									<text>...</text>
+									<weapon name="MODULE_BIO"/>
+									<choice hidden="true">
+										<text>Continue...</text>
+										<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_POWER_COOLDOWN">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Power Module, Cooldown Module]</text>
+	<choice hidden="true">
+		<text>Detach both modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_POWER_COOLDOWN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_POWER"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event>
+									<text>...</text>
+									<weapon name="MODULE_COOLDOWN"/>
+									<choice hidden="true">
+										<text>Continue...</text>
+										<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_POWER_LOCKDOWN">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Power Module, Lockdown Module]</text>
+	<choice hidden="true">
+		<text>Detach both modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_POWER_LOCKDOWN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_POWER"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event>
+									<text>...</text>
+									<weapon name="MODULE_LOCKDOWN"/>
+									<choice hidden="true">
+										<text>Continue...</text>
+										<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_POWER_PIERCE">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Power Module, Pierce Module]</text>
+	<choice hidden="true">
+		<text>Detach both modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_POWER_PIERCE"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>...</text>
+							<weapon name="MODULE_POWER"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event>
+									<text>...</text>
+									<weapon name="MODULE_PIERCE"/>
+									<choice hidden="true">
+										<text>Continue...</text>
+										<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK_MODULAR_LOAD"/>
+	</choice>
+</event>
+<event name="STORAGE_CHECK_MODULAR_MINELAUNCHER_POWER_STUN">
+	<checkCargo/>
+	<text>Currently configuring Modular Mine Launcher. [Power Module, Stun Module]</text>
+	<choice hidden="true">
+		<text>Detach both modules.</text>
+		<event>
+			<text>...</text>
+			<remove name="MODULAR_MINELAUNCHER_POWER_STUN"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>...</text>
+					<weapon name="MODULAR_MINELAUNCHER_BASE"/>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event>
