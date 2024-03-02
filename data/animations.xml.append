@@ -3829,4 +3829,39 @@
 		<desc length="1" x="0" y="0"/>
 		<time>1.00</time>
 	</anim>
-	</FTL>
+
+	<animSheet name="modular_mine_power_pierce" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_power_pierce.png</animSheet>
+	<anim name="modular_mine_power_pierce">
+		<sheet>modular_mine_power_pierce</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+
+	<animSheet name="modular_mine_hull_pierce" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_hull_pierce.png</animSheet>
+	<anim name="modular_mine_hull_pierce">
+		<sheet>modular_mine_hull_pierce</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+
+	<animSheet name="modular_mine_fire_pierce" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_fire_pierce.png</animSheet>
+	<anim name="modular_mine_fire_pierce">
+		<sheet>modular_mine_fire_pierce</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+
+	<animSheet name="modular_mine_accuracy_pierce" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_accuracy_pierce.png</animSheet>
+	<anim name="modular_mine_accuracy_pierce">
+		<sheet>modular_mine_accuracy_pierce</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+	
+	<animSheet name="modular_mine_base_pierce" w="22" h="22" fw="22" fh="22">weapon_modular/modular_mine_base_pierce.png</animSheet>
+	<anim name="modular_mine_base_pierce">
+		<sheet>modular_mine_base_pierce</sheet>
+		<desc length="1" x="0" y="0"/>
+		<time>1.00</time>
+	</anim>
+</FTL>
