@@ -1194,7 +1194,7 @@
   <name>MODULAR_MINELAUNCHER_POWER_STUN</name>
 </blueprintList>
 
-<mod:findName type="blueprintList" name="MINELAUNCHER_CHECK">
+<mod:findName type="blueprintList" name="BLUELIST_MINELAUNCHERS_ALL">
   <mod-append:name>MODULAR_MINELAUNCHER_BASE</mod-append:name>
   <mod-append:name>MODULAR_MINELAUNCHER_BASE_BIO</mod-append:name>
   <mod-append:name>MODULAR_MINELAUNCHER_BASE_PIERCE</mod-append:name>
