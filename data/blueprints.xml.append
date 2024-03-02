@@ -10200,6 +10200,7 @@ Status - Cooldown
   Has no incompatibilities.</desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>45</radius>
     <shots>1</shots>
@@ -10247,6 +10248,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>45</radius>
     <shots>1</shots>
@@ -10324,6 +10326,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>45</radius>
     <shots>1</shots>
@@ -10371,6 +10374,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>45</radius>
     <shots>1</shots>
@@ -10418,6 +10422,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>45</radius>
     <shots>1</shots>
@@ -10466,6 +10471,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>45</radius>
     <shots>1</shots>
@@ -10514,6 +10520,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>45</radius>
     <shots>1</shots>
@@ -10561,6 +10568,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>35</radius>
     <shots>1</shots>
@@ -10609,6 +10617,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>45</radius>
     <shots>1</shots>
@@ -10657,6 +10666,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>52</radius>
     <shots>1</shots>
@@ -10705,6 +10715,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>45</radius>
     <shots>1</shots>
@@ -10783,6 +10794,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>45</radius>
     <shots>1</shots>
@@ -10831,6 +10843,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>45</radius>
     <shots>1</shots>
@@ -10879,6 +10892,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>45</radius>
     <shots>1</shots>
@@ -10928,6 +10942,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>45</radius>
     <shots>1</shots>
@@ -10977,6 +10992,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>35</radius>
     <shots>1</shots>
@@ -11056,6 +11072,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>35</radius>
     <shots>1</shots>
@@ -11105,6 +11122,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>35</radius>
     <shots>1</shots>
@@ -11154,6 +11172,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>35</radius>
     <shots>1</shots>
@@ -11204,6 +11223,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>35</radius>
     <shots>1</shots>
@@ -11254,6 +11274,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>45</radius>
     <shots>1</shots>
@@ -11333,6 +11354,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>45</radius>
     <shots>1</shots>
@@ -11382,6 +11404,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>45</radius>
     <shots>1</shots>
@@ -11431,6 +11454,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>45</radius>
     <shots>1</shots>
@@ -11481,6 +11505,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>45</radius>
     <shots>1</shots>
@@ -11531,6 +11556,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>52</radius>
     <shots>1</shots>
@@ -11609,6 +11635,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>52</radius>
     <shots>1</shots>
@@ -11657,6 +11684,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>52</radius>
     <shots>1</shots>
@@ -11705,6 +11733,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>52</radius>
     <shots>1</shots>
@@ -11754,6 +11783,7 @@ Status - Cooldown
   </desc>
     <short>M. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+    <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
     <radius>52</radius>
     <shots>1</shots>
