@@ -1194,6 +1194,39 @@
   <name>MODULAR_MINELAUNCHER_POWER_STUN</name>
 </blueprintList>
 
+<mod:findName type="blueprintList" name="MINELAUNCHER_CHECK">
+  <mod-append:name>MODULAR_MINELAUNCHER_BASE</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_BASE_BIO</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_BASE_PIERCE</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_BASE_COOLDOWN</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_BASE_LOCKDOWN</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_BASE_STUN</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_FIRE</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_ACCURACY</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_HULL</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_FIRE_BIO</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_FIRE_PIERCE</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_FIRE_COOLDOWN</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_FIRE_LOCKDOWN</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_FIRE_STUN</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_ACCURACY_BIO</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_ACCURACY_PIERCE</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_ACCURACY_COOLDOWN</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_ACCURACY_LOCKDOWN</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_ACCURACY_STUN</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_HULL_BIO</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_HULL_PIERCE</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_HULL_COOLDOWN</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_HULL_LOCKDOWN</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_HULL_STUN</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_POWER</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_POWER_BIO</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_POWER_PIERCE</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_POWER_COOLDOWN</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_POWER_LOCKDOWN</mod-append:name>
+  <mod-append:name>MODULAR_MINELAUNCHER_POWER_STUN</mod-append:name>
+</mod:findName>
+
 <blueprintList name="HEKTAR_MODULAR_MINELAUNCHER_DELAY">
   <name>MODULAR_MINELAUNCHER_BASE</name>
   <name>MODULAR_MINELAUNCHER_BASE_BIO</name>
