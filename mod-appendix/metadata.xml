@@ -1,7 +1,7 @@
 <metadata>
   <title><![CDATA[ FTL: MULTIVERSE - HEKTAR COLLECTION ]]></title>
   <threadUrl><![CDATA[https://ftlmultiverse.boards.net/thread/62/mv-5-4-hektar-collection]]></threadUrl>
-  <author><![CDATA[ Pepson, Zenith, Chrono Vortex, RoadTrain ]]></author>
+  <author><![CDATA[ Pepson, DZenith, Chrono Vortex, RoadTrain ]]></author>
   <version><![CDATA[ 1.0 ]]></version>
   <description>
 <![CDATA[ 
@@ -12,6 +12,7 @@ Adds:
 - Modular Flak
 - Modular Pinpoint
 - Modular Bomb
+- Modular Mine Launcher
 
 - Modular Laser Drone
 - Modular ion Drone
@@ -29,7 +30,7 @@ All of those are capable of benefiting from Hektar Modules, their effectiveness 
 
 Credits:
 
-- Zenith: Modular Drone base Art, redraws of modular pinpoint and modular flak
+- DZenith: Modular Drone base Art, redraws of modular pinpoint and modular flak
 - Chrono Vortex: Code Recommendations, Starmap icon
 - Pepson: Code, Art, Design
 - RoadTrain: Space Optimization, xml tweaks
