@@ -10205,7 +10205,7 @@ Status - Cooldown
     <tip>tip_mine</tip>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Mine Launcher. It supports 1 attribute module and 1 status module.
   Has no incompatibilities.</desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -10253,7 +10253,7 @@ Status - Cooldown
   ----CURRENTLY INSTALLED MODULES----
   Status - Bio
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -10331,7 +10331,7 @@ Status - Cooldown
   ----CURRENTLY INSTALLED MODULES----
   Status - Pierce
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -10379,7 +10379,7 @@ Status - Cooldown
   ----CURRENTLY INSTALLED MODULES----
   Status - Cooldown
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -10427,7 +10427,7 @@ Status - Cooldown
   ----CURRENTLY INSTALLED MODULES----
   Status - Lockdown
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -10476,7 +10476,7 @@ Status - Cooldown
   ----CURRENTLY INSTALLED MODULES----
   Status - Stun
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -10525,7 +10525,7 @@ Status - Cooldown
   ----CURRENTLY INSTALLED MODULES----
   Attribute - Fire
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -10573,7 +10573,7 @@ Status - Cooldown
   ----CURRENTLY INSTALLED MODULES----
   Attribute - Accuracy
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -10622,7 +10622,7 @@ Status - Cooldown
   ----CURRENTLY INSTALLED MODULES----
   Attribute - Hull
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -10671,7 +10671,7 @@ Status - Cooldown
   ----CURRENTLY INSTALLED MODULES----
   Attribute - Power
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -10720,7 +10720,7 @@ Status - Cooldown
   Attribute - Fire
   Status - Bio
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -10799,7 +10799,7 @@ Status - Cooldown
   Attribute - Fire
   Status - Pierce
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -10848,7 +10848,7 @@ Status - Cooldown
   Attribute - Fire
   Status - Cooldown
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -10897,7 +10897,7 @@ Status - Cooldown
   Attribute - Fire
   Status - Lockdown
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -10947,7 +10947,7 @@ Status - Cooldown
   Attribute - Fire
   Status - Stun
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -10997,7 +10997,7 @@ Status - Cooldown
   Attribute - Accuracy
   Status - Bio
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -11077,7 +11077,7 @@ Status - Cooldown
   Attribute - Accuracy
   Status - Pierce
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -11127,7 +11127,7 @@ Status - Cooldown
   Attribute - Accuracy
   Status - Cooldown
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -11177,7 +11177,7 @@ Status - Cooldown
   Attribute - Accuracy
   Status - Lockdown
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -11228,7 +11228,7 @@ Status - Cooldown
   Attribute - Accuracy
   Status - Stun
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -11279,7 +11279,7 @@ Status - Cooldown
   Attribute - Hull
   Status - Bio
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -11359,7 +11359,7 @@ Status - Cooldown
   Attribute - Hull
   Status - Pierce
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -11409,7 +11409,7 @@ Status - Cooldown
   Attribute - Hull
   Status - Cooldown
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -11459,7 +11459,7 @@ Status - Cooldown
   Attribute - Hull
   Status - Lockdown
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -11510,7 +11510,7 @@ Status - Cooldown
   Attribute - Hull
   Status - Stun
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -11561,7 +11561,7 @@ Status - Cooldown
   Attribute - Power
   Status - Bio
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -11640,7 +11640,7 @@ Status - Cooldown
   Attribute - Power
   Status - Pierce
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -11689,7 +11689,7 @@ Status - Cooldown
   Attribute - Power
   Status - Cooldown
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -11738,7 +11738,7 @@ Status - Cooldown
   Attribute - Power
   Status - Lockdown
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
@@ -11788,7 +11788,7 @@ Status - Cooldown
   Attribute - Power
   Status - Stun
   </desc>
-    <short>M. Mine</short>
+    <short>Mod. Mine</short>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <missiles>1</missiles>
     <drone_targetable>1</drone_targetable>
