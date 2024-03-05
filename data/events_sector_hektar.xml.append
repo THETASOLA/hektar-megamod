@@ -1,6 +1,6 @@
 <FTL>
 
-<event name="HEKTAR_FACTORY" unique="true">
+<event name="NEBULA_HEKTAR_FACTORY" unique="true">
     <preventQuest/>
     <text>You reach a grand vista, you are beholding a vast factory tirelessly producing Hektar Industries(TM) goods.</text>
     <img back="BACK_EVENT_PHEROMONEFACTORY" planet="NONE"/>
