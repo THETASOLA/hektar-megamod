@@ -2412,6 +2412,7 @@ Affected by modules, check storage for stats</desc>
 	<spin>720</spin>
 	<drone_targetable>1</drone_targetable>
 	<speed>28</speed>
+  <hullBust>1</hullBust>
 	<shots>1</shots>
 	<radius>42</radius>
 	<sp>0</sp>
@@ -2460,6 +2461,7 @@ Affected by modules, check storage for stats</desc>
 	<spin>720</spin>
 	<drone_targetable>1</drone_targetable>
 	<speed>28</speed>
+  <hullBust>1</hullBust>
 	<persDamage>2</persDamage>
 	<statBoosts>
 		<statBoost name="moveSpeedMultiplier" load="RAD_MOVE"/>
@@ -2514,6 +2516,7 @@ Affected by modules, check storage for stats</desc>
 	<spin>720</spin>
 	<drone_targetable>1</drone_targetable>
 	<speed>28</speed>
+  <hullBust>1</hullBust>
 	<shots>1</shots>
 	<radius>42</radius>
 	<sp>0</sp>
@@ -2562,6 +2565,7 @@ Affected by modules, check storage for stats</desc>
 	<spin>720</spin>
 	<drone_targetable>1</drone_targetable>
 	<speed>28</speed>
+  <hullBust>1</hullBust>
 	<shots>1</shots>
 	<radius>42</radius>
 	<lockdown>1</lockdown>
@@ -2611,6 +2615,7 @@ Affected by modules, check storage for stats</desc>
 	<spin>720</spin>
 	<drone_targetable>1</drone_targetable>
 	<speed>28</speed>
+  <hullBust>1</hullBust>
 	<shots>1</shots>
 	<radius>42</radius>
 	<sp>1</sp>
@@ -2659,6 +2664,7 @@ Affected by modules, check storage for stats</desc>
 	<spin>720</spin>
 	<drone_targetable>1</drone_targetable>
 	<speed>28</speed>
+  <hullBust>1</hullBust>
 	<shots>1</shots>
 	<radius>42</radius>
 	<stun>12</stun>
@@ -3324,6 +3330,7 @@ Affected by modules, check storage for stats</desc>
 	Attribute - Hullbuster</desc>
 	<damage>4</damage>
 	<speed>1</speed>
+  <hullBust>1</hullBust>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
 	<breachChance>10</breachChance>
@@ -3355,6 +3362,7 @@ Affected by modules, check storage for stats</desc>
 	Status - Radiation</desc>
 	<damage>4</damage>
 	<speed>1</speed>
+  <hullBust>1</hullBust>
 	<persDamage>8</persDamage>
 	<statBoosts>
 		<statBoost name="moveSpeedMultiplier" load="RAD_MOVE"/>
@@ -3393,6 +3401,7 @@ Affected by modules, check storage for stats</desc>
 	Status - Cooldown</desc>
 	<damage>4</damage>
 	<speed>1</speed>
+  <hullBust>1</hullBust>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
 	<breachChance>10</breachChance>
@@ -3424,6 +3433,7 @@ Affected by modules, check storage for stats</desc>
 	Status - Pierce</desc>
 	<damage>4</damage>
 	<speed>1</speed>
+  <hullBust>1</hullBust>
 	<sp>1</sp>
 	<fireChance>0</fireChance>
 	<breachChance>5</breachChance>
@@ -3455,6 +3465,7 @@ Affected by modules, check storage for stats</desc>
 	Status - Neural</desc>
 	<damage>4</damage>
 	<speed>1</speed>
+  <hullBust>1</hullBust>
 	<stun>22</stun>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
