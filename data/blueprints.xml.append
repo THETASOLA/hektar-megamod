@@ -79,7 +79,7 @@ Laser/Beam/Missile/Flak Effects: x2 damage on systemless rooms, +10% breach chan
 Pinpoint Effects: x2 damage on systemless rooms, +100% breach chance, +1 damage, -1 system damage
 Missile Effects: Increases cooldown by 2s
 Bomb Effects: +1 damage, +100% breach chance
-Mine Launcher Effects: +30% breach chance
+Mine Launcher Effects: +50% breach chance
 Ion Effects: Ion becomes Energy; hull damage equals ion damage (but no system/crew damage), +10% fire chance
 Boarding Drone: gain +200 hp</mod-append:desc>
 </mod:findName>
@@ -11064,7 +11064,7 @@ Status - Cooldown
     <shots>1</shots>
     <sp>10</sp>
     <fireChance>2</fireChance>
-    <breachChance>5</breachChance>
+    <breachChance>7</breachChance>
     <cooldown>9.0</cooldown>
     <power>2</power>
     <cost>95</cost>
@@ -11116,7 +11116,7 @@ Status - Cooldown
     <shots>1</shots>
     <sp>10</sp>
     <fireChance>2</fireChance>
-    <breachChance>5</breachChance>
+    <breachChance>7</breachChance>
     <cooldown>9.0</cooldown>
     <power>2</power>
     <cost>110</cost>
@@ -11162,7 +11162,7 @@ Status - Cooldown
     <shots>1</shots>
     <sp>10</sp>
     <fireChance>2</fireChance>
-    <breachChance>5</breachChance>
+    <breachChance>7</breachChance>
     <cooldown>6.75</cooldown>
     <power>2</power>
     <cost>135</cost>
@@ -11208,7 +11208,7 @@ Status - Cooldown
     <shots>1</shots>
     <sp>10</sp>
     <fireChance>2</fireChance>
-    <breachChance>5</breachChance>
+    <breachChance>7</breachChance>
     <lockdown>1</lockdown>
     <cooldown>9.0</cooldown>
     <power>2</power>
@@ -11255,7 +11255,7 @@ Status - Cooldown
     <shots>1</shots>
     <sp>1</sp>
     <fireChance>2</fireChance>
-    <breachChance>8</breachChance>
+    <breachChance>10</breachChance>
     <cooldown>9.0</cooldown>
     <power>2</power>
     <cost>115</cost>
@@ -11301,7 +11301,7 @@ Status - Cooldown
     <shots>1</shots>
     <sp>10</sp>
     <fireChance>2</fireChance>
-    <breachChance>5</breachChance>
+    <breachChance>7</breachChance>
     <stun>7</stun>
     <cooldown>9.0</cooldown>
     <power>2</power>
