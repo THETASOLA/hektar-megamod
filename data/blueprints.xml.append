@@ -11139,7 +11139,7 @@ Status - Cooldown
     <fireChance>2</fireChance>
     <breachChance>2</breachChance>
     <cooldown>9.0</cooldown>
-    <cooldown>3</cooldown>
+    <power>3</power>
     <cost>90</cost>
     <bp>2</bp>
     <rarity>0</rarity>
@@ -11191,7 +11191,7 @@ Status - Cooldown
     <fireChance>2</fireChance>
     <breachChance>2</breachChance>
     <cooldown>9.0</cooldown>
-    <cooldown>3</cooldown>
+    <power>3</power>
     <cost>105</cost>
     <bp>2</bp>
     <rarity>0</rarity>
@@ -11237,7 +11237,7 @@ Status - Cooldown
     <fireChance>2</fireChance>
     <breachChance>2</breachChance>
     <cooldown>6.75</cooldown>
-    <cooldown>3</cooldown>
+    <power>3</power>
     <cost>130</cost>
     <bp>2</bp>
     <rarity>0</rarity>
@@ -11284,7 +11284,7 @@ Status - Cooldown
     <breachChance>2</breachChance>
     <lockdown>1</lockdown>
     <cooldown>9.0</cooldown>
-    <cooldown>3</cooldown>
+    <power>3</power>
     <cost>120</cost>
     <bp>2</bp>
     <rarity>0</rarity>
@@ -11330,7 +11330,7 @@ Status - Cooldown
     <fireChance>2</fireChance>
     <breachChance>5</breachChance>
     <cooldown>9.0</cooldown>
-    <cooldown>3</cooldown>
+    <power>3</power>
     <cost>110</cost>
     <bp>2</bp>
     <rarity>0</rarity>
@@ -11377,7 +11377,7 @@ Status - Cooldown
     <breachChance>2</breachChance>
     <stun>7</stun>
     <cooldown>9.0</cooldown>
-    <cooldown>3</cooldown>
+    <power>3</power>
     <cost>110</cost>
     <bp>2</bp>
     <rarity>0</rarity>
