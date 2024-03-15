@@ -3657,6 +3657,7 @@ Affected by modules, check storage for stats</desc>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Laser Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>14</speed>
     <cost>63</cost>
@@ -3678,6 +3679,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Status - Pierce</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>14</speed>
     <cost>63</cost>
@@ -3699,6 +3701,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Status - Bio</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>14</speed>
     <cost>63</cost>
@@ -3720,6 +3723,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Status - Cooldown</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>22</speed>
     <cost>63</cost>
@@ -3741,6 +3745,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Status - Lockdown</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>14</speed>
     <cost>63</cost>
@@ -3762,6 +3767,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Status - Stun</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>14</speed>
     <cost>63</cost>
@@ -3783,6 +3789,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>14</speed>
     <cost>63</cost>
@@ -3804,6 +3811,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>14</speed>
     <cost>63</cost>
@@ -3825,6 +3833,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>14</speed>
     <cost>63</cost>
@@ -3846,6 +3855,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power</desc>
     <power>3</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>14</speed>
     <cost>63</cost>
@@ -3868,6 +3878,7 @@ Has no incompatible modules.
 Attribute - Accuracy
 Status - Pierce</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>14</speed>
     <cost>63</cost>
@@ -3890,6 +3901,7 @@ Has no incompatible modules.
 Attribute - Accuracy
 Status - Bio</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>14</speed>
     <cost>63</cost>
@@ -3912,6 +3924,7 @@ Has no incompatible modules.
 Attribute - Accuracy
 Status - Cooldown</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>22</speed>
     <cost>63</cost>
@@ -3934,6 +3947,7 @@ Has no incompatible modules.
 Attribute - Accuracy
 Status - Lockdown</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>14</speed>
     <cost>63</cost>
@@ -3956,6 +3970,7 @@ Has no incompatible modules.
 Attribute - Accuracy
 Status - Stun</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>14</speed>
     <cost>63</cost>
@@ -3978,6 +3993,7 @@ Has no incompatible modules.
 Attribute - Fire
 Status - Pierce</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>14</speed>
     <cost>63</cost>
@@ -4000,6 +4016,7 @@ Has no incompatible modules.
 Attribute - Fire
 Status - Bio</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>14</speed>
     <cost>63</cost>
@@ -4022,6 +4039,7 @@ Has no incompatible modules.
 Attribute - Fire
 Status - Cooldown</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>22</speed>
     <cost>63</cost>
@@ -4044,6 +4062,7 @@ Has no incompatible modules.
 Attribute - Fire
 Status - Lockdown</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>14</speed>
     <cost>63</cost>
@@ -4066,6 +4085,7 @@ Has no incompatible modules.
 Attribute - Fire
 Status - Stun</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>14</speed>
     <cost>63</cost>
@@ -4088,6 +4108,7 @@ Has no incompatible modules.
 Attribute - Hull
 Status - Pierce</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>14</speed>
     <cost>63</cost>
@@ -4110,6 +4131,7 @@ Has no incompatible modules.
 Attribute - Hull
 Status - Bio</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>14</speed>
     <cost>63</cost>
@@ -4132,6 +4154,7 @@ Has no incompatible modules.
 Attribute - Hull
 Status - Cooldown</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>22</speed>
     <cost>63</cost>
@@ -4154,6 +4177,7 @@ Has no incompatible modules.
 Attribute - Hull
 Status - Lockdown</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>14</speed>
     <cost>63</cost>
@@ -4176,6 +4200,7 @@ Has no incompatible modules.
 Attribute - Hull
 Status - Stun</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>14</speed>
     <cost>63</cost>
@@ -4198,6 +4223,7 @@ Has no incompatible modules.
 Attribute - Power
 Status - Pierce</desc>
     <power>3</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>14</speed>
     <cost>63</cost>
@@ -4220,6 +4246,7 @@ Has no incompatible modules.
 Attribute - Power
 Status - Bio</desc>
     <power>3</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>14</speed>
     <cost>63</cost>
@@ -4242,6 +4269,7 @@ Has no incompatible modules.
 Attribute - Power
 Status - Cooldown</desc>
     <power>3</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>22</speed>
     <cost>63</cost>
@@ -4264,6 +4292,7 @@ Has no incompatible modules.
 Attribute - Power
 Status - Lockdown</desc>
     <power>3</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>14</speed>
     <cost>63</cost>
@@ -4286,6 +4315,7 @@ Has no incompatible modules.
 Attribute - Power
 Status - Stun</desc>
     <power>3</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>14</speed>
     <cost>63</cost>
@@ -4305,6 +4335,7 @@ Status - Stun</desc>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
 Incompatible with the accuracy and lockdown module.</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>12</speed>
     <cost>65</cost>
@@ -4325,6 +4356,7 @@ Incompatible with the accuracy and lockdown module.
 ----CURRENTLY INSTALLED MODULES----
 Status - Pierce</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>12</speed>
     <cost>65</cost>
@@ -4345,6 +4377,7 @@ Incompatible with the accuracy and lockdown module.
 ----CURRENTLY INSTALLED MODULES----
 Status - Bio</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>12</speed>
     <cost>65</cost>
@@ -4365,6 +4398,7 @@ Incompatible with the accuracy and lockdown module.
 ----CURRENTLY INSTALLED MODULES----
 Status - Cooldown</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>18</speed>
     <cost>65</cost>
@@ -4385,6 +4419,7 @@ Incompatible with the accuracy and lockdown module.
 ----CURRENTLY INSTALLED MODULES----
 Status - Stun</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>12</speed>
     <cost>65</cost>
@@ -4405,6 +4440,7 @@ Incompatible with the accuracy and lockdown module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>12</speed>
     <cost>65</cost>
@@ -4425,6 +4461,7 @@ Incompatible with the accuracy and lockdown module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>12</speed>
     <cost>65</cost>
@@ -4445,6 +4482,7 @@ Incompatible with the accuracy and lockdown module.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power</desc>
     <power>3</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>12</speed>
     <cost>65</cost>
@@ -4466,6 +4504,7 @@ Incompatible with the accuracy and lockdown module.
 Attribute - Fire
 Status - Pierce</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>12</speed>
     <cost>65</cost>
@@ -4487,6 +4526,7 @@ Incompatible with the accuracy and lockdown module.
 Attribute - Fire
 Status - Bio</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>12</speed>
     <cost>65</cost>
@@ -4508,6 +4548,7 @@ Incompatible with the accuracy and lockdown module.
 Attribute - Fire
 Status - Cooldown</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>18</speed>
     <cost>65</cost>
@@ -4529,6 +4570,7 @@ Incompatible with the accuracy and lockdown module.
 Attribute - Fire
 Status - Stun</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>12</speed>
     <cost>65</cost>
@@ -4550,6 +4592,7 @@ Incompatible with the accuracy and lockdown module.
 Attribute - Hull
 Status - Pierce</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>12</speed>
     <cost>65</cost>
@@ -4571,6 +4614,7 @@ Incompatible with the accuracy and lockdown module.
 Attribute - Hull
 Status - Bio</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>12</speed>
     <cost>65</cost>
@@ -4592,6 +4636,7 @@ Incompatible with the accuracy and lockdown module.
 Attribute - Hull
 Status - Cooldown</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>18</speed>
     <cost>65</cost>
@@ -4613,6 +4658,7 @@ Incompatible with the accuracy and lockdown module.
 Attribute - Hull
 Status - Stun</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>12</speed>
     <cost>65</cost>
@@ -4634,6 +4680,7 @@ Incompatible with the accuracy and lockdown module.
 Attribute - Power
 Status - Pierce</desc>
     <power>3</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>12</speed>
     <cost>65</cost>
@@ -4655,6 +4702,7 @@ Incompatible with the accuracy and lockdown module.
 Attribute - Power
 Status - Bio</desc>
     <power>3</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>12</speed>
     <cost>65</cost>
@@ -4676,6 +4724,7 @@ Incompatible with the accuracy and lockdown module.
 Attribute - Power
 Status - Cooldown</desc>
     <power>3</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>18</speed>
     <cost>65</cost>
@@ -4697,6 +4746,7 @@ Incompatible with the accuracy and lockdown module.
 Attribute - Power
 Status - Stun</desc>
     <power>3</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>12</speed>
     <cost>65</cost>
@@ -4715,6 +4765,7 @@ Status - Stun</desc>
     <desc>Produced by Hektar Industries(TM), this is the base for a Modular Ion Drone. It supports 1 attribute module and 1 status module.
 Has no incompatible modules.</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>8</speed>
     <cost>67</cost>
@@ -4735,6 +4786,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Status - Pierce</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>8</speed>
     <cost>67</cost>
@@ -4755,6 +4807,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Status - Bio</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>8</speed>
     <cost>67</cost>
@@ -4775,6 +4828,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Status - Cooldown</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>12</speed>
     <cost>67</cost>
@@ -4795,6 +4849,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Status - Lockdown</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>8</speed>
     <cost>67</cost>
@@ -4815,6 +4870,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Status - Stun</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>8</speed>
     <cost>67</cost>
@@ -4835,6 +4891,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>8</speed>
     <cost>67</cost>
@@ -4855,6 +4912,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>8</speed>
     <cost>67</cost>
@@ -4875,6 +4933,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>8</speed>
     <cost>67</cost>
@@ -4895,6 +4954,7 @@ Has no incompatible modules.
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power</desc>
     <power>3</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>8</speed>
     <cost>67</cost>
@@ -4916,6 +4976,7 @@ Has no incompatible modules.
 Attribute - Accuracy
 Status - Pierce</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>8</speed>
     <cost>67</cost>
@@ -4937,6 +4998,7 @@ Has no incompatible modules.
 Attribute - Accuracy
 Status - Bio</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>8</speed>
     <cost>67</cost>
@@ -4958,6 +5020,7 @@ Has no incompatible modules.
 Attribute - Accuracy
 Status - Cooldown</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>12</speed>
     <cost>67</cost>
@@ -4979,6 +5042,7 @@ Has no incompatible modules.
 Attribute - Accuracy
 Status - Lockdown</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>8</speed>
     <cost>67</cost>
@@ -5000,6 +5064,7 @@ Has no incompatible modules.
 Attribute - Accuracy
 Status - Stun</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>8</speed>
     <cost>67</cost>
@@ -5021,6 +5086,7 @@ Has no incompatible modules.
 Attribute - Fire
 Status - Pierce</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>8</speed>
     <cost>67</cost>
@@ -5042,6 +5108,7 @@ Has no incompatible modules.
 Attribute - Fire
 Status - Bio</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>8</speed>
     <cost>67</cost>
@@ -5063,6 +5130,7 @@ Has no incompatible modules.
 Attribute - Fire
 Status - Cooldown</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>12</speed>
     <cost>67</cost>
@@ -5084,6 +5152,7 @@ Has no incompatible modules.
 Attribute - Fire
 Status - Lockdown</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>8</speed>
     <cost>67</cost>
@@ -5105,6 +5174,7 @@ Has no incompatible modules.
 Attribute - Fire
 Status - Stun</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>8</speed>
     <cost>67</cost>
@@ -5126,6 +5196,7 @@ Has no incompatible modules.
 Attribute - Hull
 Status - Pierce</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>8</speed>
     <cost>67</cost>
@@ -5147,6 +5218,7 @@ Has no incompatible modules.
 Attribute - Hull
 Status - Bio</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>8</speed>
     <cost>67</cost>
@@ -5168,6 +5240,7 @@ Has no incompatible modules.
 Attribute - Hull
 Status - Cooldown</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>12</speed>
     <cost>67</cost>
@@ -5189,6 +5262,7 @@ Has no incompatible modules.
 Attribute - Hull
 Status - Lockdown</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>8</speed>
     <cost>67</cost>
@@ -5210,6 +5284,7 @@ Has no incompatible modules.
 Attribute - Hull
 Status - Stun</desc>
     <power>2</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>8</speed>
     <cost>67</cost>
@@ -5231,6 +5306,7 @@ Has no incompatible modules.
 Attribute - Power
 Status - Pierce</desc>
     <power>3</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>8</speed>
     <cost>67</cost>
@@ -5252,6 +5328,7 @@ Has no incompatible modules.
 Attribute - Power
 Status - Bio</desc>
     <power>3</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>8</speed>
     <cost>67</cost>
@@ -5273,6 +5350,7 @@ Has no incompatible modules.
 Attribute - Power
 Status - Cooldown</desc>
     <power>3</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>12</speed>
     <cost>67</cost>
@@ -5294,6 +5372,7 @@ Has no incompatible modules.
 Attribute - Power
 Status - Lockdown</desc>
     <power>3</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>8</speed>
     <cost>67</cost>
@@ -5315,6 +5394,7 @@ Has no incompatible modules.
 Attribute - Power
 Status - Stun</desc>
     <power>3</power>
+    <cooldown>1000</cooldown>
     <dodge>0</dodge>
     <speed>8</speed>
     <cost>67</cost>
