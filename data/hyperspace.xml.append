@@ -387,9 +387,6 @@
             <shipTarget>CURRENT_ROOM</shipTarget>
             <crewTarget>ALL</crewTarget>
             <droneTarget>CREW</droneTarget>
-            <affectsSelf>false</affectsSelf>
-            <maxStacks>1</maxStacks>
-            <duration>5</duration>
             <boostAnim>bio_poison</boostAnim>
         </statBoost>
         <statBoost name="stunMultiplier">
@@ -398,9 +395,6 @@
             <shipTarget>CURRENT_ROOM</shipTarget>
             <crewTarget>ALL</crewTarget>
             <droneTarget>CREW</droneTarget>
-            <affectsSelf>false</affectsSelf>
-            <maxStacks>1</maxStacks>
-            <duration>5</duration>
         </statBoost>
         <statBoost name="repairSpeed">
             <boostType>MULT</boostType>
@@ -408,9 +402,6 @@
             <shipTarget>CURRENT_ROOM</shipTarget>
             <crewTarget>ALL</crewTarget>
             <droneTarget>CREW</droneTarget>
-            <affectsSelf>false</affectsSelf>
-            <maxStacks>1</maxStacks>
-            <duration>5</duration>
         </statBoost>
     </passiveStatBoosts>
         <droneAI>
@@ -691,9 +682,6 @@
             <shipTarget>CURRENT_ROOM</shipTarget>
             <crewTarget>ALL</crewTarget>
             <droneTarget>CREW</droneTarget>
-            <affectsSelf>false</affectsSelf>
-            <maxStacks>1</maxStacks>
-            <duration>5</duration>
             <boostAnim>bio_poison</boostAnim>
         </statBoost>
         <statBoost name="stunMultiplier">
@@ -702,9 +690,6 @@
             <shipTarget>CURRENT_ROOM</shipTarget>
             <crewTarget>ALL</crewTarget>
             <droneTarget>CREW</droneTarget>
-            <affectsSelf>false</affectsSelf>
-            <maxStacks>1</maxStacks>
-            <duration>5</duration>
         </statBoost>
         <statBoost name="repairSpeed">
             <boostType>MULT</boostType>
@@ -712,9 +697,6 @@
             <shipTarget>CURRENT_ROOM</shipTarget>
             <crewTarget>ALL</crewTarget>
             <droneTarget>CREW</droneTarget>
-            <affectsSelf>false</affectsSelf>
-            <maxStacks>1</maxStacks>
-            <duration>5</duration>
         </statBoost>
     </passiveStatBoosts>
         <droneAI>
@@ -1029,9 +1011,6 @@
             <shipTarget>CURRENT_ROOM</shipTarget>
             <crewTarget>ALL</crewTarget>
             <droneTarget>CREW</droneTarget>
-            <affectsSelf>false</affectsSelf>
-            <maxStacks>1</maxStacks>
-            <duration>5</duration>
             <boostAnim>bio_poison</boostAnim>
         </statBoost>
         <statBoost name="stunMultiplier">
@@ -1040,9 +1019,6 @@
             <shipTarget>CURRENT_ROOM</shipTarget>
             <crewTarget>ALL</crewTarget>
             <droneTarget>CREW</droneTarget>
-            <affectsSelf>false</affectsSelf>
-            <maxStacks>1</maxStacks>
-            <duration>5</duration>
         </statBoost>
         <statBoost name="repairSpeed">
             <boostType>MULT</boostType>
@@ -1050,9 +1026,6 @@
             <shipTarget>CURRENT_ROOM</shipTarget>
             <crewTarget>ALL</crewTarget>
             <droneTarget>CREW</droneTarget>
-            <affectsSelf>false</affectsSelf>
-            <maxStacks>1</maxStacks>
-            <duration>5</duration>
         </statBoost>
     </passiveStatBoosts>
         <droneAI>
@@ -1401,9 +1374,6 @@
             <shipTarget>CURRENT_ROOM</shipTarget>
             <crewTarget>ALL</crewTarget>
             <droneTarget>CREW</droneTarget>
-            <affectsSelf>false</affectsSelf>
-            <maxStacks>1</maxStacks>
-            <duration>5</duration>
             <boostAnim>bio_poison</boostAnim>
         </statBoost>
         <statBoost name="stunMultiplier">
@@ -1412,9 +1382,6 @@
             <shipTarget>CURRENT_ROOM</shipTarget>
             <crewTarget>ALL</crewTarget>
             <droneTarget>CREW</droneTarget>
-            <affectsSelf>false</affectsSelf>
-            <maxStacks>1</maxStacks>
-            <duration>5</duration>
         </statBoost>
         <statBoost name="repairSpeed">
             <boostType>MULT</boostType>
@@ -1422,9 +1389,6 @@
             <shipTarget>CURRENT_ROOM</shipTarget>
             <crewTarget>ALL</crewTarget>
             <droneTarget>CREW</droneTarget>
-            <affectsSelf>false</affectsSelf>
-            <maxStacks>1</maxStacks>
-            <duration>5</duration>
         </statBoost>
     </passiveStatBoosts>
         <droneAI>
@@ -1705,9 +1669,6 @@
             <shipTarget>CURRENT_ROOM</shipTarget>
             <crewTarget>ALL</crewTarget>
             <droneTarget>CREW</droneTarget>
-            <affectsSelf>false</affectsSelf>
-            <maxStacks>1</maxStacks>
-            <duration>5</duration>
             <boostAnim>bio_poison</boostAnim>
         </statBoost>
         <statBoost name="stunMultiplier">
@@ -1716,9 +1677,6 @@
             <shipTarget>CURRENT_ROOM</shipTarget>
             <crewTarget>ALL</crewTarget>
             <droneTarget>CREW</droneTarget>
-            <affectsSelf>false</affectsSelf>
-            <maxStacks>1</maxStacks>
-            <duration>5</duration>
         </statBoost>
         <statBoost name="repairSpeed">
             <boostType>MULT</boostType>
@@ -1726,9 +1684,6 @@
             <shipTarget>CURRENT_ROOM</shipTarget>
             <crewTarget>ALL</crewTarget>
             <droneTarget>CREW</droneTarget>
-            <affectsSelf>false</affectsSelf>
-            <maxStacks>1</maxStacks>
-            <duration>5</duration>
         </statBoost>
     </passiveStatBoosts>
         <droneAI>
