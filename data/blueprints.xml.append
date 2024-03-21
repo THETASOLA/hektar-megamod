@@ -8377,7 +8377,7 @@ Status - Stun</desc>
 ----CURRENTLY INSTALLED MODULES----
 Status - Bio
 
--Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 1hp/s
+-Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 2hp/s
 -150 HP, 1.1x combat damage
 -0.8x movement speed</desc>
     <power>2</power>
@@ -8397,7 +8397,7 @@ Status - Bio
 ----CURRENTLY INSTALLED MODULES----
 Status - Bio
 
--Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 1hp/s
+-Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 2hp/s
 -150 HP, 1.1x combat damage
 -0.8x movement speed</desc>
     <power>2</power>
@@ -8722,7 +8722,7 @@ Attribute - Accuracy
 Attribute - Accuracy
 Status - Bio
 
--Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 1hp/s
+-Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 2hp/s
 -125 HP, 1.1x combat damage, 2.1x combat damage
 -0.8x movement speed</desc>
     <power>2</power>
@@ -8743,7 +8743,7 @@ Status - Bio
 Attribute - Accuracy
 Status - Bio
 
--Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 1hp/s
+-Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 2hp/s
 -125 HP, 1.1x combat damage, 2.1x combat damage
 -0.8x movement speed</desc>
     <power>2</power>
@@ -9078,7 +9078,7 @@ Attribute - Fire
 Attribute - Fire
 Status - Bio
 
--Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 1hp/s
+-Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 2hp/s
 -Periodic Ability: Light fires in the room
 -150 HP, 1.1x combat damage
 -0.8x movement speed</desc>
@@ -9100,7 +9100,7 @@ Status - Bio
 Attribute - Fire
 Status - Bio
 
--Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 1hp/s
+-Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 2hp/s
 -Periodic Ability: Light fires in the room
 -150 HP, 1.1x combat damage
 -0.8x movement speed</desc>
@@ -9442,7 +9442,7 @@ Attribute - Hull
 Attribute - Hull
 Status - Bio
 
--Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 1hp/s
+-Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 2hp/s
 -350 HP, 1.1x combat damage
 -0.8x movement speed</desc>
     <power>2</power>
@@ -9463,7 +9463,7 @@ Status - Bio
 Attribute - Hull
 Status - Bio
 
--Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 1hp/s
+-Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 2hp/s
 -350 HP, 1.1x combat damage
 -0.8x movement speed</desc>
     <power>2</power>
@@ -9796,7 +9796,7 @@ Attribute - Power
 Attribute - Power
 Status - Bio
 
--Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 1hp/s
+-Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 2hp/s
 -200 HP, 2.1x combat damage
 -0.8x movement speed</desc>
     <power>3</power>
@@ -9817,7 +9817,7 @@ Status - Bio
 Attribute - Power
 Status - Bio
 
--Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 1hp/s
+-Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 2hp/s
 -200 HP, 2.1x combat damage
 -0.8x movement speed</desc>
     <power>3</power>
