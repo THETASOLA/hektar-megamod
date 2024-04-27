@@ -86,19 +86,29 @@
 			<type>4</type>
 		</unlock>
         <unlock variant="b" silent="false">
-            <type>1</type>
-            <shipReq>PLAYER_SHIP_HEKTAR_MODULAR</shipReq>
-            <value>5</value>
+            <type>4</type>
         </unlock>
         <unlock variant="c" silent="false">
-            <type>1</type>
-            <shipReq>PLAYER_SHIP_HEKTAR_MODULAR_2</shipReq>
-            <value>5</value>
+            <type>4</type>
         </unlock>
-        <unlock variant="c" silent="false">
-            <type>2</type>
-            <shipReq>PLAYER_SHIP_HEKTAR_MODULAR</shipReq>
-        </unlock>
+        <achievement name="ACH_THC_NO_MONEY" layout="all">
+            <name>Budget Cuts</name>
+            <description>Whilst using the Hektar Cruiser(TM), reach sector 8 using only the Modular Artillery(TM), boarding is allowed.</description>
+            <icon>ach_thc_nm</icon>
+            <lockImage>ach_thc_nm_locked</lockImage>
+        </achievement>
+        <achievement name="ACH_THC_BRAND_LOYALTY" layout="all">
+            <name>Brand Loyalty</name>
+            <description>Whilst using the Hektar Cruiser(TM), have the ship manned by only Hektar Certified Employees(TM), and wield a full complement of Hektar Industries Weapons(TM) and Drones(TM).</description>
+            <icon>ach_thc_bl</icon>
+            <lockImage>ach_thc_bl_locked</lockImage>
+        </achievement>
+        <achievement name="ACH_THC_TAX_EVADE" layout="all">
+            <name>Tax Evasion</name>
+            <description>Whilst using the Hektar Cruiser(TM), take out the largest loan from Tony Sr and then defeat LaRoache.</description>
+            <icon>ach_thc_te</icon>
+            <lockImage>ach_thc_te_locked</lockImage>
+        </achievement>
 	</mod-append:ship>
 
 	<mod-append:customShip name="PLAYER_SHIP_HEKTAR_MODULAR">
@@ -143,6 +153,7 @@
 
 
 <mod:findLike type="scripts">
+    <mod-append:script>data/scripts/ach_hektar.lua</mod-append:script>
     <mod-append:script>data/scripts/modular_artillery.lua</mod-append:script>
 </mod:findLike>
 

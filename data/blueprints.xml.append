@@ -325,8 +325,8 @@ Affected by modules, check storage for stats</desc>
     <shipBlueprint name="PLAYER_SHIP_HEKTAR_MODULAR" layout="hektar_modular" img="hektar_modular">
         <class>Hektar Modular Cruiser(TM)</class>
         <name>Branding(TM)</name>
-        <unlock id="ship_PLAYER_SHIP_HEKTAR_MODULAR_unlock"/>
-        <desc>The Hektar Modular Cruiser(TM) represent the crowning jewel of the Hektar Research and Development Team(TM). Most of the manufacturing budget goes into its Modular Artillery, leaving not much for the actual ship itself. This cruiser boasting the latest Modular Laser Artillery(TM) is used by the Hektar Quality Assurance Team(TM) to test out new equipment on the field while promoting the Hekytar Brand(TM). </desc>
+        <unlock>Make a once in a lifetime deal with a Hektar Representative(tm) to unlock this ship.</unlock>
+        <desc>The Hektar Modular Cruiser(TM) represent the crowning jewel of the Hektar Research and Development Team(TM). Most of the manufacturing budget goes into its Modular Artillery, leaving not much for the actual ship itself. This cruiser is boasting the latest Modular Laser Artillery(TM).</desc>
         <systemList>
             <artillery power="1" room="10" start="true" weapon="ARTILLERY_MODULAR_LASER" img="room_artillery_2" />
             <battery power="1" room="14" start="false" img="room_battery_5" />
@@ -404,7 +404,7 @@ Affected by modules, check storage for stats</desc>
     <shipBlueprint name="PLAYER_SHIP_HEKTAR_MODULAR_2" layout="hektar_modular_2" img="hektar_modular_2">
         <class>Hektar Modular Cruiser(TM)</class>
         <name>Licensing(TM)</name>
-        <unlock id="ship_PLAYER_SHIP_HEKTAR_MODULAR_2_unlock"/>
+        <unlock>Complete 1/3 of the Hektar Modular Cruiser Achievements to unlock this ship.</unlock>
         <desc>This ship is typically used by the Hektar Legal Team(TM) to handle negociation discreetly and swiftly. A Modular Missile Artillery(TM) was installed to ensure that they had the necessary argument to win their legal battle.</desc>
         <systemList>
             <artillery power="1" room="2" start="true" weapon="ARTILLERY_MODULAR_MISSILE" img="room_artillery_6" />
@@ -480,7 +480,7 @@ Affected by modules, check storage for stats</desc>
     <shipBlueprint name="PLAYER_SHIP_HEKTAR_MODULAR_3" layout="hektar_modular_3" img="hektar_modular_3">
         <class>Hektar Modular Cruiser(TM)</class>
         <name>Profits(TM)</name>
-        <unlock id="ship_PLAYER_SHIP_HEKTAR_MODULAR_3_unlock"/>
+        <unlock>Complete 2/3 of the Hektar Modular Cruiser Achievements to unlock this ship.</unlock>
         <desc>Hektar Modular Cruiser(TM) commonly used by the Hektar Fidelisation Team(TM). It is built around around "acquiring" dissidents to the Hektar Fidelisation Program(TM), the Hektar Modular Beam Artillery(TM) is moslty used to sterilize evidence.</desc>
         <systemList>
             <artillery power="1" room="2" start="true" weapon="ARTILLERY_MODULAR_BEAM" img="room_artillery_6" />
