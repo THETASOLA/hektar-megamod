@@ -20,7 +20,8 @@ local hektarDrone = {
 local hektarCrew = {
     ["slug_hektar_elite"] = true,
     ["slug_hektar"] = true,
-    ["lizard"] = true
+    ["lizard"] = true,
+    ["unique_billy"] = true
 }
 
 local hektarArti = {
@@ -65,11 +66,9 @@ local function checkForLoyalty(playerShip)
             return
         end
 
-        print("slots verified")
         for weapon in vter(weapons) do
             local verify = false
             for k,_ in pairs(hektarWeapon) do
-                print("checking: "..weapon.blueprint.name.." "..k)
                 if string_starts(weapon.blueprint.name, k) then
                     verify = true
                     break
@@ -81,11 +80,9 @@ local function checkForLoyalty(playerShip)
             end
         end
 
-        print("weapons verified")
         for drone in vter(drones) do
             local verify = false
             for k,_ in pairs(hektarDrone) do
-                print("checking: "..drone.blueprint.name.." "..k)
                 if string_starts(drone.blueprint.name, k) then
                     verify = true
                     break
@@ -96,11 +93,9 @@ local function checkForLoyalty(playerShip)
             end
         end
 
-        print("drones verified")
         for crewMember in vter(crew) do
             local verify = false
             for k,_ in pairs(hektarCrew) do
-                print("checking: "..crewMember.blueprint.name.." "..k)
                 if string_starts(crewMember.blueprint.name, k) then
                     verify = true
                     break
@@ -111,7 +106,6 @@ local function checkForLoyalty(playerShip)
             end
         end
 
-        print("crew verified")
         Hyperspace.CustomAchievementTracker.instance:SetAchievement("ACH_THC_BRAND_LOYALTY", false)
     end
 end
