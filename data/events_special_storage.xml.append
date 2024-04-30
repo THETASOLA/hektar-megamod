@@ -9071,123 +9071,123 @@
 	<text>Which weapon would you like to configure?</text>
 	<checkCargo/>
 	<choice req="MODULAR_DRONE_LASER_BASE" blue="false" hidden="true">
-		<text>Configure your Laser [No Modules]</text>
+		<text>Configure your Laser Drone [No Modules]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_BASE"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_BASE_BIO" blue="false" hidden="true">
-		<text>Configure your Laser [Anti-Bio Module]</text>
+		<text>Configure your Laser Drone [Anti-Bio Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_BASE_BIO"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_BASE_COOLDOWN" blue="false" hidden="true">
-		<text>Configure your Laser [Cooldown Module]</text>
+		<text>Configure your Laser Drone [Cooldown Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_BASE_COOLDOWN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_BASE_LOCKDOWN" blue="false" hidden="true">
-		<text>Configure your Laser [Lockdown Module]</text>
+		<text>Configure your Laser Drone [Lockdown Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_BASE_LOCKDOWN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_BASE_PIERCE" blue="false" hidden="true">
-		<text>Configure your Laser [Pierce Module]</text>
+		<text>Configure your Laser Drone [Pierce Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_BASE_PIERCE"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_BASE_STUN" blue="false" hidden="true">
-		<text>Configure your Laser [Stun Module]</text>
+		<text>Configure your Laser Drone [Stun Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_BASE_STUN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_ACCURACY" blue="false" hidden="true">
-		<text>Configure your Laser [Accuracy Module]</text>
+		<text>Configure your Laser Drone [Accuracy Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_ACCURACY"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_ACCURACY_BIO" blue="false" hidden="true">
-		<text>Configure your Laser [Accuracy Module, Anti-Bio Module]</text>
+		<text>Configure your Laser Drone [Accuracy Module, Anti-Bio Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_ACCURACY_BIO"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_ACCURACY_COOLDOWN" blue="false" hidden="true">
-		<text>Configure your Laser [Accuracy Module, Cooldown Module]</text>
+		<text>Configure your Laser Drone [Accuracy Module, Cooldown Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_ACCURACY_COOLDOWN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_ACCURACY_LOCKDOWN" blue="false" hidden="true">
-		<text>Configure your Laser [Accuracy Module, Lockdown Module]</text>
+		<text>Configure your Laser Drone [Accuracy Module, Lockdown Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_ACCURACY_LOCKDOWN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_ACCURACY_PIERCE" blue="false" hidden="true">
-		<text>Configure your Laser [Accuracy Module, Pierce Module]</text>
+		<text>Configure your Laser Drone [Accuracy Module, Pierce Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_ACCURACY_PIERCE"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_ACCURACY_STUN" blue="false" hidden="true">
-		<text>Configure your Laser [Accuracy Module, Stun Module]</text>
+		<text>Configure your Laser Drone [Accuracy Module, Stun Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_ACCURACY_STUN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_FIRE" blue="false" hidden="true">
-		<text>Configure your Laser [Firestarter Module]</text>
+		<text>Configure your Laser Drone [Firestarter Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_FIRE"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_FIRE_BIO" blue="false" hidden="true">
-		<text>Configure your Laser [Firestarter Module, Anti-Bio Module]</text>
+		<text>Configure your Laser Drone [Firestarter Module, Anti-Bio Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_FIRE_BIO"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_FIRE_COOLDOWN" blue="false" hidden="true">
-		<text>Configure your Laser [Firestarter Module, Cooldown Module]</text>
+		<text>Configure your Laser Drone [Firestarter Module, Cooldown Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_FIRE_COOLDOWN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_FIRE_LOCKDOWN" blue="false" hidden="true">
-		<text>Configure your Laser [Firestarter Module, Lockdown Module]</text>
+		<text>Configure your Laser Drone [Firestarter Module, Lockdown Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_FIRE_LOCKDOWN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_FIRE_PIERCE" blue="false" hidden="true">
-		<text>Configure your Laser [Firestarter Module, Pierce Module]</text>
+		<text>Configure your Laser Drone [Firestarter Module, Pierce Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_FIRE_PIERCE"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_FIRE_STUN" blue="false" hidden="true">
-		<text>Configure your Laser [Firestarter Module, Stun Module]</text>
+		<text>Configure your Laser Drone [Firestarter Module, Stun Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_FIRE_STUN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_HULL" blue="false" hidden="true">
-		<text>Configure your Laser [Hullbuster Module]</text>
+		<text>Configure your Laser Drone [Hullbuster Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_HULL"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_HULL_BIO" blue="false" hidden="true">
-		<text>Configure your Laser [Hullbuster Module, Anti-Bio Module]</text>
+		<text>Configure your Laser Drone [Hullbuster Module, Anti-Bio Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_HULL_BIO"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_HULL_COOLDOWN" blue="false" hidden="true">
-		<text>Configure your Laser [Hullbuster Module, Cooldown Module]</text>
+		<text>Configure your Laser Drone [Hullbuster Module, Cooldown Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_HULL_COOLDOWN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_HULL_LOCKDOWN" blue="false" hidden="true">
-		<text>Configure your Laser [Hullbuster Module, Lockdown Module]</text>
+		<text>Configure your Laser Drone [Hullbuster Module, Lockdown Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_HULL_LOCKDOWN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_HULL_PIERCE" blue="false" hidden="true">
-		<text>Configure your Laser [Hullbuster Module, Pierce Module]</text>
+		<text>Configure your Laser Drone [Hullbuster Module, Pierce Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_HULL_PIERCE"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_HULL_STUN" blue="false" hidden="true">
-		<text>Configure your Laser [Hullbuster Module, Stun Module]</text>
+		<text>Configure your Laser Drone [Hullbuster Module, Stun Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_HULL_STUN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_POWER" blue="false" hidden="true">
-		<text>Configure your Laser [Power Module]</text>
+		<text>Configure your Laser Drone [Power Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_POWER"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_POWER_BIO" blue="false" hidden="true">
-		<text>Configure your Laser [Power Module, Anti-Bio Module]</text>
+		<text>Configure your Laser Drone [Power Module, Anti-Bio Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_POWER_BIO"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_POWER_COOLDOWN" blue="false" hidden="true">
-		<text>Configure your Laser [Power Module, Cooldown Module]</text>
+		<text>Configure your Laser Drone [Power Module, Cooldown Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_POWER_COOLDOWN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_POWER_LOCKDOWN" blue="false" hidden="true">
-		<text>Configure your Laser [Power Module, Lockdown Module]</text>
+		<text>Configure your Laser Drone [Power Module, Lockdown Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_POWER_LOCKDOWN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_POWER_PIERCE" blue="false" hidden="true">
-		<text>Configure your Laser [Power Module, Pierce Module]</text>
+		<text>Configure your Laser Drone [Power Module, Pierce Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_POWER_PIERCE"/>
 	</choice>
 	<choice req="MODULAR_DRONE_LASER_POWER_STUN" blue="false" hidden="true">
-		<text>Configure your Laser [Power Module, Stun Module]</text>
+		<text>Configure your Laser Drone [Power Module, Stun Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_LASER_POWER_STUN"/>
 	</choice>
 	<choice hidden="true">
@@ -11543,83 +11543,83 @@
 	<text>Which weapon would you like to configure?</text>
 	<checkCargo/>
 	<choice req="MODULAR_DRONE_BEAM_BASE" blue="false" hidden="true">
-		<text>Configure your Laser [No Modules]</text>
+		<text>Configure your Beam Drone [No Modules]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_BEAM_BASE"/>
 	</choice>
 	<choice req="MODULAR_DRONE_BEAM_BASE_BIO" blue="false" hidden="true">
-		<text>Configure your Laser [Anti-Bio Module]</text>
+		<text>Configure your Beam Drone [Anti-Bio Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_BEAM_BASE_BIO"/>
 	</choice>
 	<choice req="MODULAR_DRONE_BEAM_BASE_COOLDOWN" blue="false" hidden="true">
-		<text>Configure your Laser [Cooldown Module]</text>
+		<text>Configure your Beam Drone [Cooldown Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_BEAM_BASE_COOLDOWN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_BEAM_BASE_PIERCE" blue="false" hidden="true">
-		<text>Configure your Laser [Pierce Module]</text>
+		<text>Configure your Beam Drone [Pierce Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_BEAM_BASE_PIERCE"/>
 	</choice>
 	<choice req="MODULAR_DRONE_BEAM_BASE_STUN" blue="false" hidden="true">
-		<text>Configure your Laser [Stun Module]</text>
+		<text>Configure your Beam Drone [Stun Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_BEAM_BASE_STUN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_BEAM_FIRE" blue="false" hidden="true">
-		<text>Configure your Laser [Firestarter Module]</text>
+		<text>Configure your Beam Drone [Firestarter Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_BEAM_FIRE"/>
 	</choice>
 	<choice req="MODULAR_DRONE_BEAM_FIRE_BIO" blue="false" hidden="true">
-		<text>Configure your Laser [Firestarter Module, Anti-Bio Module]</text>
+		<text>Configure your Beam Drone [Firestarter Module, Anti-Bio Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_BEAM_FIRE_BIO"/>
 	</choice>
 	<choice req="MODULAR_DRONE_BEAM_FIRE_COOLDOWN" blue="false" hidden="true">
-		<text>Configure your Laser [Firestarter Module, Cooldown Module]</text>
+		<text>Configure your Beam Drone [Firestarter Module, Cooldown Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_BEAM_FIRE_COOLDOWN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_BEAM_FIRE_PIERCE" blue="false" hidden="true">
-		<text>Configure your Laser [Firestarter Module, Pierce Module]</text>
+		<text>Configure your Beam Drone [Firestarter Module, Pierce Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_BEAM_FIRE_PIERCE"/>
 	</choice>
 	<choice req="MODULAR_DRONE_BEAM_FIRE_STUN" blue="false" hidden="true">
-		<text>Configure your Laser [Firestarter Module, Stun Module]</text>
+		<text>Configure your Beam Drone [Firestarter Module, Stun Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_BEAM_FIRE_STUN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_BEAM_HULL" blue="false" hidden="true">
-		<text>Configure your Laser [Hullbuster Module]</text>
+		<text>Configure your Beam Drone [Hullbuster Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_BEAM_HULL"/>
 	</choice>
 	<choice req="MODULAR_DRONE_BEAM_HULL_BIO" blue="false" hidden="true">
-		<text>Configure your Laser [Hullbuster Module, Anti-Bio Module]</text>
+		<text>Configure your Beam Drone [Hullbuster Module, Anti-Bio Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_BEAM_HULL_BIO"/>
 	</choice>
 	<choice req="MODULAR_DRONE_BEAM_HULL_COOLDOWN" blue="false" hidden="true">
-		<text>Configure your Laser [Hullbuster Module, Cooldown Module]</text>
+		<text>Configure your Beam Drone [Hullbuster Module, Cooldown Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_BEAM_HULL_COOLDOWN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_BEAM_HULL_PIERCE" blue="false" hidden="true">
-		<text>Configure your Laser [Hullbuster Module, Pierce Module]</text>
+		<text>Configure your Beam Drone [Hullbuster Module, Pierce Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_BEAM_HULL_PIERCE"/>
 	</choice>
 	<choice req="MODULAR_DRONE_BEAM_HULL_STUN" blue="false" hidden="true">
-		<text>Configure your Laser [Hullbuster Module, Stun Module]</text>
+		<text>Configure your Beam Drone [Hullbuster Module, Stun Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_BEAM_HULL_STUN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_BEAM_POWER" blue="false" hidden="true">
-		<text>Configure your Laser [Power Module]</text>
+		<text>Configure your Beam Drone [Power Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_BEAM_POWER"/>
 	</choice>
 	<choice req="MODULAR_DRONE_BEAM_POWER_BIO" blue="false" hidden="true">
-		<text>Configure your Laser [Power Module, Anti-Bio Module]</text>
+		<text>Configure your Beam Drone [Power Module, Anti-Bio Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_BEAM_POWER_BIO"/>
 	</choice>
 	<choice req="MODULAR_DRONE_BEAM_POWER_COOLDOWN" blue="false" hidden="true">
-		<text>Configure your Laser [Power Module, Cooldown Module]</text>
+		<text>Configure your Beam Drone [Power Module, Cooldown Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_BEAM_POWER_COOLDOWN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_BEAM_POWER_PIERCE" blue="false" hidden="true">
-		<text>Configure your Laser [Power Module, Pierce Module]</text>
+		<text>Configure your Beam Drone [Power Module, Pierce Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_BEAM_POWER_PIERCE"/>
 	</choice>
 	<choice req="MODULAR_DRONE_BEAM_POWER_STUN" blue="false" hidden="true">
-		<text>Configure your Laser [Power Module, Stun Module]</text>
+		<text>Configure your Beam Drone [Power Module, Stun Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_BEAM_POWER_STUN"/>
 	</choice>
 	<choice hidden="true">
@@ -13262,123 +13262,123 @@
 	<text>Which weapon would you like to configure?</text>
 	<checkCargo/>
 	<choice req="MODULAR_DRONE_ION_BASE" blue="false" hidden="true">
-		<text>Configure your Laser [No Modules]</text>
+		<text>Configure your Ion Drone [No Modules]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_BASE"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_BASE_BIO" blue="false" hidden="true">
-		<text>Configure your Laser [Anti-Bio Module]</text>
+		<text>Configure your Ion Drone [Anti-Bio Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_BASE_BIO"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_BASE_COOLDOWN" blue="false" hidden="true">
-		<text>Configure your Laser [Cooldown Module]</text>
+		<text>Configure your Ion Drone [Cooldown Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_BASE_COOLDOWN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_BASE_LOCKDOWN" blue="false" hidden="true">
-		<text>Configure your Laser [Lockdown Module]</text>
+		<text>Configure your Ion Drone [Lockdown Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_BASE_LOCKDOWN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_BASE_PIERCE" blue="false" hidden="true">
-		<text>Configure your Laser [Pierce Module]</text>
+		<text>Configure your Ion Drone [Pierce Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_BASE_PIERCE"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_BASE_STUN" blue="false" hidden="true">
-		<text>Configure your Laser [Stun Module]</text>
+		<text>Configure your Ion Drone [Stun Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_BASE_STUN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_ACCURACY" blue="false" hidden="true">
-		<text>Configure your Laser [Accuracy Module]</text>
+		<text>Configure your Ion Drone [Accuracy Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_ACCURACY"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_ACCURACY_BIO" blue="false" hidden="true">
-		<text>Configure your Laser [Accuracy Module, Anti-Bio Module]</text>
+		<text>Configure your Ion Drone [Accuracy Module, Anti-Bio Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_ACCURACY_BIO"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_ACCURACY_COOLDOWN" blue="false" hidden="true">
-		<text>Configure your Laser [Accuracy Module, Cooldown Module]</text>
+		<text>Configure your Ion Drone [Accuracy Module, Cooldown Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_ACCURACY_COOLDOWN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_ACCURACY_LOCKDOWN" blue="false" hidden="true">
-		<text>Configure your Laser [Accuracy Module, Lockdown Module]</text>
+		<text>Configure your Ion Drone [Accuracy Module, Lockdown Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_ACCURACY_LOCKDOWN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_ACCURACY_PIERCE" blue="false" hidden="true">
-		<text>Configure your Laser [Accuracy Module, Pierce Module]</text>
+		<text>Configure your Ion Drone [Accuracy Module, Pierce Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_ACCURACY_PIERCE"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_ACCURACY_STUN" blue="false" hidden="true">
-		<text>Configure your Laser [Accuracy Module, Stun Module]</text>
+		<text>Configure your Ion Drone [Accuracy Module, Stun Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_ACCURACY_STUN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_FIRE" blue="false" hidden="true">
-		<text>Configure your Laser [Firestarter Module]</text>
+		<text>Configure your Ion Drone [Firestarter Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_FIRE"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_FIRE_BIO" blue="false" hidden="true">
-		<text>Configure your Laser [Firestarter Module, Anti-Bio Module]</text>
+		<text>Configure your Ion Drone [Firestarter Module, Anti-Bio Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_FIRE_BIO"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_FIRE_COOLDOWN" blue="false" hidden="true">
-		<text>Configure your Laser [Firestarter Module, Cooldown Module]</text>
+		<text>Configure your Ion Drone [Firestarter Module, Cooldown Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_FIRE_COOLDOWN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_FIRE_LOCKDOWN" blue="false" hidden="true">
-		<text>Configure your Laser [Firestarter Module, Lockdown Module]</text>
+		<text>Configure your Ion Drone [Firestarter Module, Lockdown Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_FIRE_LOCKDOWN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_FIRE_PIERCE" blue="false" hidden="true">
-		<text>Configure your Laser [Firestarter Module, Pierce Module]</text>
+		<text>Configure your Ion Drone [Firestarter Module, Pierce Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_FIRE_PIERCE"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_FIRE_STUN" blue="false" hidden="true">
-		<text>Configure your Laser [Firestarter Module, Stun Module]</text>
+		<text>Configure your Ion Drone [Firestarter Module, Stun Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_FIRE_STUN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_HULL" blue="false" hidden="true">
-		<text>Configure your Laser [Hullbuster Module]</text>
+		<text>Configure your Ion Drone [Hullbuster Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_HULL"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_HULL_BIO" blue="false" hidden="true">
-		<text>Configure your Laser [Hullbuster Module, Anti-Bio Module]</text>
+		<text>Configure your Ion Drone [Hullbuster Module, Anti-Bio Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_HULL_BIO"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_HULL_COOLDOWN" blue="false" hidden="true">
-		<text>Configure your Laser [Hullbuster Module, Cooldown Module]</text>
+		<text>Configure your Ion Drone [Hullbuster Module, Cooldown Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_HULL_COOLDOWN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_HULL_LOCKDOWN" blue="false" hidden="true">
-		<text>Configure your Laser [Hullbuster Module, Lockdown Module]</text>
+		<text>Configure your Ion Drone [Hullbuster Module, Lockdown Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_HULL_LOCKDOWN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_HULL_PIERCE" blue="false" hidden="true">
-		<text>Configure your Laser [Hullbuster Module, Pierce Module]</text>
+		<text>Configure your Ion Drone [Hullbuster Module, Pierce Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_HULL_PIERCE"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_HULL_STUN" blue="false" hidden="true">
-		<text>Configure your Laser [Hullbuster Module, Stun Module]</text>
+		<text>Configure your Ion Drone [Hullbuster Module, Stun Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_HULL_STUN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_POWER" blue="false" hidden="true">
-		<text>Configure your Laser [Power Module]</text>
+		<text>Configure your Ion Drone [Power Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_POWER"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_POWER_BIO" blue="false" hidden="true">
-		<text>Configure your Laser [Power Module, Anti-Bio Module]</text>
+		<text>Configure your Ion Drone [Power Module, Anti-Bio Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_POWER_BIO"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_POWER_COOLDOWN" blue="false" hidden="true">
-		<text>Configure your Laser [Power Module, Cooldown Module]</text>
+		<text>Configure your Ion Drone [Power Module, Cooldown Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_POWER_COOLDOWN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_POWER_LOCKDOWN" blue="false" hidden="true">
-		<text>Configure your Laser [Power Module, Lockdown Module]</text>
+		<text>Configure your Ion Drone [Power Module, Lockdown Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_POWER_LOCKDOWN"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_POWER_PIERCE" blue="false" hidden="true">
-		<text>Configure your Laser [Power Module, Pierce Module]</text>
+		<text>Configure your Ion Drone [Power Module, Pierce Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_POWER_PIERCE"/>
 	</choice>
 	<choice req="MODULAR_DRONE_ION_POWER_STUN" blue="false" hidden="true">
-		<text>Configure your Laser [Power Module, Stun Module]</text>
+		<text>Configure your Ion Drone [Power Module, Stun Module]</text>
 		<event load="STORAGE_CHECK_MODULAR_DRONE_ION_POWER_STUN"/>
 	</choice>
 	<choice hidden="true">
