@@ -21,7 +21,8 @@ local hektarCrew = {
     ["slug_hektar_elite"] = true,
     ["slug_hektar"] = true,
     ["lizard"] = true,
-    ["unique_billy"] = true
+    ["unique_billy"] = true,
+    ["unique_metyunt"] = true
 }
 
 local hektarArti = {
