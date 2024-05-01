@@ -180,7 +180,7 @@ end
 
 script.on_internal_event(Defines.InternalEvents.ON_TICK, function()
     local unlockTracker = Hyperspace.CustomShipUnlocks.instance
-    for ship, number in ipairs(achUnlock) do
+    for ship, number in pairs(achUnlock) do
         if not unlockTracker:GetCustomShipUnlocked(ship) and get_hektar_ach_count() >= number then
             unlockTracker:UnlockShip(ship, false)
         end
