@@ -170,7 +170,7 @@ local hektAch = {
 
 local function get_hektar_ach_count()
     local count = 0
-    for ach in hektAch do
+    for _, ach in ipairs(hektAch) do
         if Hyperspace.CustomAchievementTracker.instance:GetAchievementStatus(ach) > -1 then
             count = count + 1
         end
