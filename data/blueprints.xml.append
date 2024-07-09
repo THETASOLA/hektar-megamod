@@ -405,7 +405,7 @@ Affected by modules, check storage for stats</desc>
         <class>Hektar Modular Cruiser(TM)</class>
         <name>Licensing(TM)</name>
         <unlock>Complete 1/3 of the Hektar Modular Cruiser Achievements to unlock this ship.</unlock>
-        <desc>This ship is typically used by the Hektar Legal Team(TM) to handle negociation discreetly and swiftly. A Modular Missile Artillery(TM) was installed to ensure that they had the necessary argument to win their legal battle.</desc>
+        <desc>This ship is typically used by the Hektar Legal Team(TM) to handle negotiation discreetly and swiftly. A Modular Missile Artillery(TM) was installed to ensure that they had the necessary argument to win their legal battle.</desc>
         <systemList>
             <artillery power="1" room="2" start="true" weapon="ARTILLERY_MODULAR_MISSILE" img="room_artillery_6" />
             <battery power="1" room="8" start="false" img="room_battery_6" />
@@ -481,7 +481,7 @@ Affected by modules, check storage for stats</desc>
         <class>Hektar Modular Cruiser(TM)</class>
         <name>Profits(TM)</name>
         <unlock>Complete 2/3 of the Hektar Modular Cruiser Achievements to unlock this ship.</unlock>
-        <desc>Hektar Modular Cruiser(TM) commonly used by the Hektar Fidelisation Team(TM). It is built around around "acquiring" dissidents to the Hektar Fidelisation Program(TM), the Hektar Modular Beam Artillery(TM) is moslty used to sterilize evidence.</desc>
+        <desc>Hektar Modular Cruiser(TM) commonly used by the Hektar Fidelisation Team(TM). It is built around around "acquiring" dissidents to the Hektar Fidelisation Program(TM), the Hektar Modular Beam Artillery(TM) is mostly used to sterilize evidence.</desc>
         <systemList>
             <artillery power="1" room="2" start="true" weapon="ARTILLERY_MODULAR_BEAM" img="room_artillery_6" />
             <battery power="1" room="12" start="false" img="room_battery_2" />
@@ -8548,7 +8548,7 @@ Status - Lockdown
 ----CURRENTLY INSTALLED MODULES----
 Status - Pierce
 
--Faster Deployement
+-Faster Deployment
 -Breaks down door faster
 -3x sabotage damage
 -150 HP, 1.1x combat damage
@@ -8570,7 +8570,7 @@ Status - Pierce
 ----CURRENTLY INSTALLED MODULES----
 Status - Pierce
 
--Faster Deployement
+-Faster Deployment
 -Breaks down door faster
 -3x sabotage damage
 -150 HP, 1.1x combat damage
@@ -8899,7 +8899,7 @@ Status - Lockdown
 Attribute - Accuracy
 Status - Pierce
 
--Faster Deployement
+-Faster Deployment
 -Breaks down door faster
 -3x sabotage damage
 -125 HP, 1.1x combat damage, 2.1x combat damage
@@ -8922,7 +8922,7 @@ Status - Pierce
 Attribute - Accuracy
 Status - Pierce
 
--Faster Deployement
+-Faster Deployment
 -Breaks down door faster
 -3x sabotage damage
 -125 HP, 1.1x combat damage, 2.1x combat damage
@@ -9261,7 +9261,7 @@ Status - Lockdown
 Attribute - Fire
 Status - Pierce
 
--Faster Deployement
+-Faster Deployment
 -Breaks down door faster
 -3x sabotage damage
 -Periodic Ability: Light fires in the room
@@ -9285,7 +9285,7 @@ Status - Pierce
 Attribute - Fire
 Status - Pierce
 
--Faster Deployement
+-Faster Deployment
 -Breaks down door faster
 -3x sabotage damage
 -Periodic Ability: Light fires in the room
@@ -9619,7 +9619,7 @@ Status - Lockdown
 Attribute - Hull
 Status - Pierce
 
--Faster Deployement
+-Faster Deployment
 -Breaks down door faster
 -3x sabotage damage
 -350 HP, 1.1x combat damage
@@ -9642,7 +9642,7 @@ Status - Pierce
 Attribute - Hull
 Status - Pierce
 
--Faster Deployement
+-Faster Deployment
 -Breaks down door faster
 -3x sabotage damage
 -350 HP, 1.1x combat damage
@@ -9973,7 +9973,7 @@ Status - Lockdown
 Attribute - Power
 Status - Pierce
 
--Faster Deployement
+-Faster Deployment
 -Breaks down door faster
 -3x sabotage damage
 -200 HP, 2.1x combat damage
@@ -9996,7 +9996,7 @@ Status - Pierce
 Attribute - Power
 Status - Pierce
 
--Faster Deployement
+-Faster Deployment
 -Breaks down door faster
 -3x sabotage damage
 -200 HP, 2.1x combat damage
