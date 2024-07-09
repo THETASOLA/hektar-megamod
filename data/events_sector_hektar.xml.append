@@ -8,9 +8,9 @@
     <choice hidden="false">
         <text>Inquire about what they are selling.</text>
         <event>
-            <text>An Hektar manager anwsers to your hail. "Greetingsss cussstomer, I am afraid Hektar Industriesss(TM) does not permit product to be bought from sssource, please refer to a licensssed Hektar Ssstore(TM) to acquire our productsss".</text>
+            <text>An Hektar manager answers to your hail. "Greetingsss cussstomer, I am afraid Hektar Industriesss(TM) does not permit product to be bought from sssource, please refer to a licensssed Hektar Ssstore(TM) to acquire our productsss".</text>
             <choice hidden="false">
-                <text>Maybe we could find an arrangment.</text>
+                <text>Maybe we could find an arrangement.</text>
                 <event>
                     <text>"I guessss we could make an exception for the like of you".</text>
                     <item_modify>
@@ -88,7 +88,7 @@
                                             <choice hidden="false">
                                                 <text>I don't want the ship, I want your services.</text>
                                                 <event>
-                                                    <text>"I only accept becaussse you have a terrible sssenssse of negociation, and for the ssscrap too I guess." The Manager boards your ship with the promised weapons.</text>
+                                                    <text>"I only accept becaussse you have a terrible sssenssse of negotiation, and for the ssscrap too I guess." The Manager boards your ship with the promised weapons.</text>
                                                     <weapon name="LIST_WEAPONS_MODULAR_HEKTAR"/>
                                                     <crewMember amount="1" all_skills="2" class="slug_hektar_elite"/>
                                                     <item_modify>
